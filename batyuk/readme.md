@@ -1,0 +1,1 @@
+Ide kerülnek be a gép által előállított napi lelki batyu json fájlok ÉÉÉÉ-HH-NN.json formátumban.
