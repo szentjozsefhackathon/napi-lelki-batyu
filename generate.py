@@ -188,6 +188,7 @@ downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
+lelkiBatyuk = {}
 for calendarDay in breviarData['LHData']['CalendarDay']:
     lelkiBatyu = {}
     lelkiBatyu['date'] = {
@@ -216,6 +217,12 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         breviarDataFile.write(
             simplejson.dumps(lelkiBatyu, indent=4, sort_keys=True)
         )
+    lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
+with open("batyuk/2024.json", "w") as breviarDataFile:
+        # magic happens here to make it pretty-printed
+        breviarDataFile.write(
+            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=True)
+        )
 
 print("Hello World")
