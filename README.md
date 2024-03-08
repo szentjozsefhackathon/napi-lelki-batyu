@@ -1,4 +1,7 @@
 # napi-lelki-batyu
+
+https://szentjozsefhackathon.github.io/napi-lelki-batyu/
+
 Minden napra megadja a napi szenteket, olvasmányokat, liturgikus információkat
 
 A zsolozsma xml naptárát használja, mert az a legjobb.
