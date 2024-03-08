@@ -1,6 +1,4 @@
 requests
 xmltodict
 simplejson
-csv
-re
 Levenshtein
