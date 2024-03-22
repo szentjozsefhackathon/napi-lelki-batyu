@@ -21,6 +21,8 @@ katolikusData = loadKatolikusData()
 
 def partFromReading(text):
     
+    print(row["kod"])
+
     firstLine = text.split('\n', 1)[0]
     
 
@@ -46,7 +48,7 @@ def partFromReading(text):
         type = None
 
 
-    print(row["kod"])
+
 
     teaser = text.split('\n', 3)[2]
     if teaser.startswith('<i>'):        
@@ -117,7 +119,7 @@ def partFromPsalm(text):
     }
 
 
-sources = ["vasA", "vasB", "vasC"]
+sources = ["vasA", "vasB", "vasC","olvasmanyok"]
 for name in sources:        
     print("XXXX " + name)
     print("XXXX " + name)
@@ -131,17 +133,55 @@ for name in sources:
             'parts' : []
             }
 
-        part = partFromReading(row['elsoolv'])
-        part['ref'] = row['elsoolvhely']
-        data["parts"].append(part)
+        if name == "olvasmanyok":
+            
+            if row['masodikolv'] != '':
+                part1 = partFromReading(row['elsoolv'])
+                part1['ref'] = row['elsoolvhely']
+                part1['cause'] = "I. évben"
 
-        part = partFromPsalm(row['zsoltar'])
-        part['ref'] = row['zsoltarhely']
-        data["parts"].append(part)
+                part2 = partFromReading(row['masodikolv'])
+                part2['ref'] = row['masodikolvhely']
+                part2['cause'] = "II. évben"
 
-        part = partFromReading(row['masodikolv'])
-        part['ref'] = row['masodikolvhely']
-        data["parts"].append(part)    
+                data["parts"].append([part1, part2])
+
+            else:
+                part = partFromReading(row['elsoolv'])
+                part['ref'] = row['elsoolvhely']
+                data["parts"].append(part)
+            
+
+            if row['masodikzsoltar'] != '':
+                part1 = partFromPsalm(row['zsoltar'])
+                part1['ref'] = row['zsoltarhely']
+                part1['cause'] = "I. évben"
+                                
+
+                part2 = partFromPsalm(row['masodikzsoltar'])
+                part2['ref'] = row['masodikzsoltarhely']
+                part2['cause'] = "II. évben"
+                data["parts"].append([part1, part2])
+
+            
+            else:
+                part = partFromPsalm(row['zsoltar'])
+                part['ref'] = row['zsoltarhely']
+                data["parts"].append(part)                
+
+        if name == "vasA" or name == "vasB" or name == "vasC":
+            part = partFromReading(row['elsoolv'])
+            part['ref'] = row['elsoolvhely']
+            data["parts"].append(part)
+
+            part = partFromPsalm(row['zsoltar'])
+            part['ref'] = row['zsoltarhely']
+            data["parts"].append(part)
+
+            part = partFromReading(row['masodikolv'])
+            part['ref'] = row['masodikolvhely']
+            data["parts"].append(part)    
+
 
         part = {
             'type': None,
