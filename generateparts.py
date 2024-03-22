@@ -112,8 +112,7 @@ def partFromPsalm(text):
     return {
         "type" : "zsoltár",
         "ref" : None,
-        "teaser" : teaser,
-        "title" : title,
+        "teaser" : text.split('\n')[0],
         "text" : text        
     }
 
@@ -128,6 +127,7 @@ for name in sources:
 
         data = {
             'id' : row["kod"],
+            'name' : row["nev"],
             'parts' : []
             }
 
@@ -135,13 +135,25 @@ for name in sources:
         part['ref'] = row['elsoolvhely']
         data["parts"].append(part)
 
-        #part = partFromPsalm(row['zsoltar'])
-        #part['ref'] = row['zsoltarhely']
-        #data["parts"].append(part)
+        part = partFromPsalm(row['zsoltar'])
+        part['ref'] = row['zsoltarhely']
+        data["parts"].append(part)
 
         part = partFromReading(row['masodikolv'])
         part['ref'] = row['masodikolvhely']
         data["parts"].append(part)    
+
+        part = {
+            'type': None,
+            'ref' : None,
+            'teaser' : row['alleluja'],
+            'text' : row['alleluja']
+        }
+        if row["kod"].startswith("NAB"):
+            part['type'] = "evangélium előtti vers"
+        else:
+            part['type'] = "alleluja"
+        data["parts"].append(part)     
         
         part = partFromReading(row['evangelium'])
         part['ref'] = row['evhely']
@@ -149,7 +161,7 @@ for name in sources:
 
         datas.append(data)
 
-    #"azonosito","nev","kod","datum",zsoltarhely","zsoltar","","","alleluja","egyetemeskonyorgesek","idezet"
+    #"azonosito","nev","kod","datum","egyetemeskonyorgesek","idezet"
 
     with open(name + ".json", "w") as breviarDataFile:
             # magic happens here to make it pretty-printed
