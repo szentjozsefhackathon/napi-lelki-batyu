@@ -21,7 +21,30 @@ katolikusData = loadKatolikusData()
 
 def partFromReading(text):
     
-    print(row["kod"])
+    print(id)
+
+    #tOdO
+    if id == "08-06":
+        print("YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.")
+        return {
+            "type" : None,
+            "ref" : None,
+            "teaser" : None,
+            "title" : None,
+            "text" : text,
+            "ending" :  None
+        }
+
+    if id == "11-02":
+        print("YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.")
+        return {
+            "type" : None,
+            "ref" : None,
+            "teaser" : None,
+            "title" : None,
+            "text" : text,
+            "ending" :  None
+        }
 
     firstLine = text.split('\n', 1)[0]
     
@@ -30,6 +53,11 @@ def partFromReading(text):
         text = text.split('\n', 2)[2]
     elif firstLine == "<i>Hosszabb forma:</i><br>":
         text = text.split('\n', 1)[1]
+
+    if firstLine == "<i>Vagy:</i><br>" or firstLine == "<i>vagy</i><br>":
+        print("!!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni")
+        text = text.split('\n', 1)[1]
+
 
 
     title = text.split('\n', 1)[0]
@@ -48,9 +76,18 @@ def partFromReading(text):
         type = None
 
 
-
+    if len(text) < 300 and type == None:        
+        return {
+            "type" : None,
+            "ref" : None,
+            "teaser" : None,
+            "title" : None,
+            "text" : text,
+            "ending" :  None
+        }
 
     teaser = text.split('\n', 3)[2]
+    
     if teaser.startswith('<i>'):        
         if re.match(r'(.*)</i>(<br>|)$', teaser):
             teaser = teaser
@@ -119,16 +156,20 @@ def partFromPsalm(text):
     }
 
 
-sources = ["vasA", "vasB", "vasC","olvasmanyok"]
+sources = ["vasA", "vasB", "vasC","olvasmanyok","szentek"]
 for name in sources:        
     print("XXXX " + name)
     print("XXXX " + name)
     print("XXXX " + name)
     datas = []
     for row in katolikusData[name]:
+        if name == "szentek":
+            id = row["datum"]
+        else:
+            id = row["kod"]
 
         data = {
-            'id' : row["kod"],
+            'id' : id,
             'name' : row["nev"],
             'parts' : []
             }
@@ -169,18 +210,20 @@ for name in sources:
                 part['ref'] = row['zsoltarhely']
                 data["parts"].append(part)                
 
-        if name == "vasA" or name == "vasB" or name == "vasC":
-            part = partFromReading(row['elsoolv'])
-            part['ref'] = row['elsoolvhely']
-            data["parts"].append(part)
+        if name == "vasA" or name == "vasB" or name == "vasC" or "szentek":
+            if row['elsoolv'] != '':
+                part = partFromReading(row['elsoolv'])
+                part['ref'] = row['elsoolvhely']
+                data["parts"].append(part)
 
             part = partFromPsalm(row['zsoltar'])
             part['ref'] = row['zsoltarhely']
             data["parts"].append(part)
 
-            part = partFromReading(row['masodikolv'])
-            part['ref'] = row['masodikolvhely']
-            data["parts"].append(part)    
+            if row['masodikolv'] != '':
+                part = partFromReading(row['masodikolv'])
+                part['ref'] = row['masodikolvhely']
+                data["parts"].append(part)    
 
 
         part = {
@@ -189,15 +232,16 @@ for name in sources:
             'teaser' : row['alleluja'],
             'text' : row['alleluja']
         }
-        if row["kod"].startswith("NAB"):
+        if id.startswith("NAB"):
             part['type'] = "evangélium előtti vers"
         else:
             part['type'] = "alleluja"
         data["parts"].append(part)     
         
-        part = partFromReading(row['evangelium'])
-        part['ref'] = row['evhely']
-        data["parts"].append(part)   
+        if row['evangelium'] != '':
+            part = partFromReading(row['evangelium'])
+            part['ref'] = row['evhely']
+            data["parts"].append(part)   
 
         datas.append(data)
 
