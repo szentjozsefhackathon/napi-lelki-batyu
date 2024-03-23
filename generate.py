@@ -26,13 +26,11 @@ def loadBreviarData():
     return data
 
 def loadKatolikusData():
-    katolikusData = {}
-    sources = ["konyorgesek", "konyorgesekszentek", "olvasmanyok", "saint", "szentek", "vasA", "vasB", "vasC"]
+    katolikusData = {}    
     sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek"]
     for name in sources:
-        with open('sources/' + name + '.csv', 'r',encoding="utf8") as file:
-            csv_reader = csv.DictReader(file)
-            katolikusData[name] = [row for row in csv_reader]
+        with open('readings/' + name + '.json', 'r',encoding="utf8") as file:            
+            katolikusData[name] = simplejson.load(file)
     return katolikusData    
 
 def transformCelebration(celebration: dict):
@@ -74,11 +72,9 @@ def findReadings(celebration: dict):
     
     readingHasFound = False
 
-    if celebration['readingsBreviarId'] is None:
-        print(calendarDay['DateISO'])
-        print("ERROR: None")
+    if celebration['readingsBreviarId'] is None:        
+        print(str(calendarDay['DateISO']) + " ERROR: readingsBreviarId == None")
         return False
-    
     
     #
     # Évközi (C), húsvéti (V), nagyböjti (P), adventi (A),  idő vasárnapjai ill. napjai    
@@ -105,25 +101,21 @@ def findReadings(celebration: dict):
 
 
         #Megkeressük a megfelelő adatokat        
-        if not katolikusDataTable in katolikusData:
-            print(calendarDay['DateISO'])
-            print("ERROR: Nincs '" + katolikusDataTable + "'")
+        if katolikusDataTable in katolikusData:                    
+            if katolikusDataKod in katolikusData[katolikusDataTable]:              
+                if 'parts' in katolikusData[katolikusDataTable][katolikusDataKod]:
+                    celebration['parts'] = katolikusData[katolikusDataTable][katolikusDataKod]['parts']
+                    readingHasFound = True
+                else:
+                    print( str(calendarDay['DateISO']) + " ERROR: Nincs 'parts' in katolikusData['" + katolikusDataTable + "']['" + katolikusDataKod + "']")
+                    return False
+            else:
+                print( str(calendarDay['DateISO']) + " ERROR: Nincs '" + katolikusDataKod + "' in katolikusData['" + katolikusDataTable + "']")
+                return False
+        else:
+            print( str(calendarDay['DateISO']) + " ERROR: Nincs '" + katolikusDataTable + "' in katolikusData")
             return False
-        
-        rowFound = False
-        for row in katolikusData[katolikusDataTable]:
-            if row['kod'] == katolikusDataKod:
-                rowFound = True
-                readingHasFound = True
-                ## IDE JÖN BE A CUCC!
-                celebration['readings'] = row
-                return True
-                ## EDDIG
-        if not rowFound:
-            print(calendarDay['DateISO'])
-            print("ERROR: Nincs '" + katolikusDataKod + "' a '" + katolikusDataTable +"'-ban/ben")
-            return False
-        
+                    
     #
     # Egyes dátumokhoz tartozó ünnepek olvasmányainak kikeresése, figyelve arra, hogy egy napra több minden is juthat. Uuuupsz.
     # Dec 25 extra :D
@@ -132,59 +124,45 @@ def findReadings(celebration: dict):
     if result:
         datum = result.group(2).zfill(2) + "-" + result.group(1).zfill(2)
         
+
         #Megkeressük a megfelelő adatokat        
         if not "szentek" in katolikusData:
-            print(calendarDay['DateISO'])
-            print("ERROR: Nincs 'szentek'")
+            print(str(calendarDay['DateISO']) + " ERROR: Nincs 'szentek' in katolikusData")
             return False
 
-        possibilities = []
-        for row in katolikusData['szentek']:
-            if re.search("^" + datum,row['datum']):
-                possibilities.append(row)                                
-        if len(possibilities) < 1:
-            print(calendarDay['DateISO'])
-            print("ERROR: Nincs '" + datum + "'-hoz ( " + celebration['name'] + ") egyáltalán olvasmány")
+        if not datum in katolikusData['szentek']:
+            print( str(calendarDay['DateISO']) + " ERROR: Nincs '" + datum + "' in katolikusData['szentek']")
             return False
-        if len(possibilities) == 1:
-            ## IDE JÖN BE A CUCC!
-            celebration['readings'] = possibilities[0]
-            celebration['readingsId'] = possibilities[0]['datum']
-            readingHasFound = True
-            return True
-        
-        if len(possibilities) > 1 and datum == '12-25':
-            ## IDE JÖN BE A CUCC!
-            celebration['readings'] = possibilities
-            celebration['readingsId'] = '12-25'
-            readingHasFound = True
-            return True
 
-        for possibility in possibilities:
-            if Levenshtein.ratio(str(celebration['name']), possibility['nev']) > 0.8:
-                ## IDE JÖN BE A CUCC!
-                celebration['readings'] = possibility
-                celebration['readingsId'] = possibility['datum']
+        if  type(katolikusData['szentek'][datum]) == dict:
+            possibilities = [katolikusData['szentek'][datum]]
+        else:
+            possibilities = katolikusData['szentek'][datum]
+
+
+        for possibility in possibilities:        
+            #print(str(Levenshtein.ratio(str(celebration['name']), possibility['name'])) + " " + celebration['name'] + " ? " + possibility['name'])  
+            if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.5:
+                celebration['parts'] = possibility['parts']
                 readingHasFound = True
                 return True
-            
-        print(calendarDay['DateISO'])
+                    
         tmp = ""
         for row in possibilities:
             if celebration['name']:
                 tmp1 = celebration['name']
             else:
                 tmp1 = "névtelen"
-            tmp += row['nev'] + ", "            
-        print("ERROR: Nincs eléggé jól passzoló olvasmány. Amit keresünk: '" + tmp1 + "'. Amik vannak: " + tmp)
+            tmp += row['name'] + ", "            
+        print(str(calendarDay['DateISO']) + " ERROR: Nincs eléggé jól passzoló olvasmány. Amit keresünk: '" + tmp1 + "'. Amik vannak: " + tmp)
         
         return False
 
-    if not readingHasFound:
-        print(calendarDay['DateISO'])
-        print("ERROR: Nincs '" + celebration['readingsBreviarId'] + "'")
+    if not readingHasFound:        
+        print(str(calendarDay['DateISO']) + " ERROR: Nincs '" + celebration['readingsBreviarId'] + "'")
+        return False
 
-downloadBreviarData()
+#downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
@@ -215,14 +193,14 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
     with open("batyuk/" + calendarDay['DateISO'] + ".json", "w") as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
-            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=True)
+            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False)
         )
     lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
 with open("batyuk/2024.json", "w") as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
-            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=True)
+            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False)
         )
 
 print("Hello World")
