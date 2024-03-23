@@ -1,0 +1,155 @@
+2024-03-23 20:05:07.285137 -- generateparts.py hibaüzenete:
+vasA - KAR02: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ok közötti rész kihagyásával Jn 1,1-5.9-14</i>
+vasA - EVK03: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasA - EVK03: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
+vasA - EVK15: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
+vasA - EVK16: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig</i>
+vasA - EVK17: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasA - EVK17: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Mt 13,44-46</i>
+vasA - EVK26: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
+vasA - EVK28: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
+vasA - EVK32: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig </i>
+vasA - HUS02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Mondható a Szekvencia is, lásd 180.</i>
+vasB - KAR01: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma:</i> Lk 2,22.39-40
+vasB - KAR02: !!! Az evangéliumot kézzel át kell nézni! Jn 1,1-5.9-14
+vasB - EVK01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasB - HUS01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasB - HUS07: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma:</i> Ef 4,1-7.11-13<br>
+vasB - HUS07: !!! Az evangéliumot kézzel át kell nézni! 
+vasB - EVK09: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig (Mk 2,23-28)</i>
+vasB - NAB05: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasB - EVK13: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma:</i> Mk 5,21-24.35b-43 A két * közötti rész kimarad.
+vasB - EVK15: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <br><br><i>Vagy rövidebb forma:</i> Ef 1,3-10 a *-ig.
+vasB - EVK27: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma:</i> Mk 10,2-12 a *-ig.
+vasB - EVK28: !!! Az evangéliumot kézzel át kell nézni! Mk 10,17-27 a *-ig
+vasB - EVK29: !!! Az evangéliumot kézzel át kell nézni! 
+vasB - EVK32: !!! Az evangéliumot kézzel át kell nézni! 
+vasC - ADV01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasC - KAR02: !!! Az evangéliumot kézzel át kell nézni! Jn 1,1-5.9-14
+vasC - EVK02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+vasC - EVK11: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig (Lk 7,36-50)</i>
+vasC - EVK14: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig. Lk 10,1-9</i>
+vasC - EVK19: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Zsid 11,1-2.8-12</i>
+vasC - EVK19: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ok közötti rész kimarad Lk 12,35-40
+vasC - EVK24: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig.</i>
+vasC - EVK25: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-tól Lk 16,10-13</i>
+vasC - NAB02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Vagy rövidebb forma a *-ok közötti rész kimarad Fil 3,20–4,1</i>
+vasC - NAB03: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
+vasC - NAB04: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
+vasC - NAB05: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
+vasC - NAB06: !!! A teasert jól átkéne nézni, mert gond van itt majmócák! <i>Vágyva vágytam rá, hogy ezt a húsvéti vacsorát elköltsem veletek,
+vasC - HUS03: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Jn 21,1-14 </i>
+olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - EVK031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
+olvasmanyok - EVK031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
+olvasmanyok - EVK031Hetfo: !!! Az evangéliumot kézzel át kell nézni! Ez az Isten igéje.
+olvasmanyok - NAB013Szerda: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB013Szerda: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB032Kedd: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB032Kedd: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB051Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB051Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB051Hetfo: !!! Ez vajon mi lehet? <i>„A” és „B” évben: </i><br>
+olvasmanyok - NAB055Pentek: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB055Pentek: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+olvasmanyok - NAB064Csutortok: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB064Csutortok: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+olvasmanyok - NAB065Pentek: !!! A teasert jól átkéne nézni, mert gond van itt majmócák! <i>Elfogták Jézust és megkötözték. </i><br><br>
+olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? (1.) OLVASMÁNY Mózes első könyvéből 
+olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? (1.) OLVASMÁNY Mózes első könyvéből 
+olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? <!---<i>A évben</i><br>
+olvasmanyok - EVK156Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
+olvasmanyok - EVK156Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
+olvasmanyok - EVK181Hetfo: !!! Az evangéliumot kézzel át kell nézni! 
+olvasmanyok - EVK241Hetfo: !!! Az evangéliumot kézzel át kell nézni! 
+olvasmanyok - ADV011Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje.-->
+olvasmanyok - ADV011Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje.-->
+szentek - 01-22: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 01-25: !!! Ez vajon mi lehet? <i>Az első olvasmány helyett szabadon választható</i> <br>
+szentek - 01-26: !!! Ez vajon mi lehet? Ennek az emléknapnak saját olvasmányai vannak. <br><i>Vagy:</i><br>
+szentek - 02-02: !!! Ez vajon mi lehet? <i>Amikor ez az ünnep nem vasárnapra esik, az evangélium előtt csak egy olvasmány van; bármelyiket választhatjuk az alábbi kettő közül</i>
+szentek - 02-02: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
+szentek - 02-08: !!! Az evangéliumot kézzel át kell nézni! <i>* A rövidebb rész a *-ig</i>
+szentek - 02-14: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az isten igéje.
+szentek - 04-23: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 05-24: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak. </i><br><br>
+szentek - 05-30: !!! Az evangéliumot kézzel át kell nézni! EVANGÉLIUM Szent István király ünnepéről, augusztus 20-áról. </i>
+szentek - 06-16: !!! Ez vajon mi lehet? <i>"A" évben</i>
+szentek - 12-19: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+szentek - 12-21: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 12-24: !!! Ez vajon mi lehet? <i>A délelőtti misében</i><br>
+szentek - 12-25: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 12-25: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-tól (Mt 1,18-25)</i>
+szentek - 12-25: !!! Ez vajon mi lehet? <i>Karácsony napjának összes olvasmánya egyetlen fájlban letölthető az <a href="http://uj.katolikus.hu/csatolt/karacsonyi_miseolvasmanyok_2023.pdf">alábbi linkről</a> </i>.
+szentek - 12-31: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
+szentek - 12-30: !!! Ez vajon mi lehet? <i>Amennyiben nem vasárnap ünneplik csak egy olvasmányt kell venni az evangélium előtt. </i><br>
+szentek - 06-11: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak. </i><br><br>SZENTLECKE az Apostolok Cselekedeteiből 
+szentek - 06-08: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br> OLVASMÁNY Izajás próféta könyvéből	
+szentek - 07-02: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 07-02: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 07-21: !!! Az evangéliumot kézzel át kell nézni! 
+szentek - 07-22: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 07-22: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 07-26: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak.</i><br>OLVASMÁNY Sirák fiának könyvéből	
+szentek - 07-29: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br>SZENTLECKE Szent János apostol első leveléből	
+szentek - 07-29: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 07-29: !!! Az evangéliumot kézzel át kell nézni! 
+szentek - 08-06: YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.
+szentek - 08-06: YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.
+szentek - 08-06: YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.
+szentek - 08-09: !!! Ez vajon mi lehet? Újabb Szentek Olvasmányai<br>
+szentek - 08-09: !!! Ez vajon mi lehet? Újabb Szentek Olvasmányai<br>
+szentek - 08-14: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 08-22: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak.</i>
+szentek - 08-25: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma: *-tól </i>
+szentek - 08-29: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br>OLVASMÁNY Jeremiás próféta könyvéből	
+szentek - 09-05: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-05: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Rövidebb forma: a *-tól</i>
+szentek - 09-08: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-08: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-08: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma: a *-tól</i>
+szentek - 09-12: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak, saját olvasmányai vannak</i><br><i>vagy</i><br>
+szentek - 09-12: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-13: !!! Az evangéliumot kézzel át kell nézni! Rövidebb forma: a *-ig
+szentek - 09-14: !!! Ez vajon mi lehet? <i>Amikor ez az ünnep nem vasárnapra esik, az evangélium előtt csak egy olvasmány van; bármelyiket választhatjuk az alábbi kettő közül</i>
+szentek - 09-15: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br>
+szentek - 09-15: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-20: !!! Az olvasmányt/szentleckét kézzel át kell nézni! A Notitiae „liturgikus közlöny” 2015-ös száma szerint az olvasmány: Bölcs 3,1-9. A kék Szentek Olvasmányai könyvben viszont még a régi van benne.
+szentek - 09-28: !!! Az olvasmányt/szentleckét kézzel át kell nézni! A Notitiae „liturgikus közlöny” 2015-ös száma szerint az olvasmány: 2Mak 7,1-2.9-14. A kék Szentek Olvasmányai könyvben viszont még a régi van benne.
+szentek - 09-29: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 09-29: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 10-02: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br>OLVASMÁNY a Kivonulás könyvéből	
+szentek - 10-07: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br>
+szentek - 10-28: !!! Az evangéliumot kézzel át kell nézni! <i>A szent apostolokról mondott votív misében is a fenti olvasmányokat vesszük.</i>
+szentek - 11-02: YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.
+szentek - 11-02: YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.
+szentek - 11-02: YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.
+szentek - 11-05: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 11-05: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 11-09: !!! Ez vajon mi lehet? <i>Amikor ez az ünnep nem vasárnapra esik, az evangélium előtt csak egy olvasmányt olvasunk, bármelyiket választva az itt következők közül</i>
+szentek - 11-19: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 11-19: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 11-21: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br>OLVASMÁNY Zakariás próféta könyvéből	
+szentek - 11-24: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 12-04: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma: a *-ig</i>
+szentek - 12-08: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 12-14: !!! Az evangéliumot kézzel át kell nézni! 
+szentek - 12-21: !!! Az evangéliumot kézzel át kell nézni! Egyetemes könyörgések: 33. szám.
+szentek - 12-23: !!! Az evangéliumot kézzel át kell nézni! Egyetemes könyörgések: 32. vagy 36. szám.
+szentek - 06-07: !!! Ez vajon mi lehet? <i>"B" évben</i>
+szentek - 06-25: !!! Ez vajon mi lehet? <i>„C” évben</i>
+szentek - 01-20: !!! Az evangéliumot kézzel át kell nézni! 
+szentek - 05-20: !!! Ez vajon mi lehet? <i>Ennek az emléknapnak (pünkösdvasárnap utáni hétfő) saját olvasmányai vannak. </i><br><br>OLVASMÁNY a Teremtés könyvéből<br>
+szentek - 05-23: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 05-23: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 05-23: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
+szentek - 05-23: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
+szentek - 05-23: !!! Az evangéliumot kézzel át kell nézni! 
+szentek - 05-29: !!! Ez vajon mi lehet? 2019-től május 29-én emlékezik az Egyház Szent VI. Pál pápára<br>
+szentek - 10-21: !!! Ez vajon mi lehet? <i>Az Esztergom-Budapesti Főegyházmegyében</i><br><br>
+szentek - 05-04: !!! Ez vajon mi lehet? Olvasmányokat a vértanúk közös olvasmányaiból vehetjük. 
+szentek - 05-10: !!! Ez vajon mi lehet? Olvasmányok a lelkipásztorok közös olvasmányaiból vehetők.
+szentek - 09-17: !!! Az evangéliumot kézzel át kell nézni! 
