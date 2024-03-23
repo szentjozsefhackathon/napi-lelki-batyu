@@ -34,6 +34,7 @@ def loadKatolikusData():
     return katolikusData    
 
 def transformCelebration(celebration: dict):
+    print(celebration['LiturgicalCelebrationName'])
     transformedCelebration = {
         'yearLetter': celebration['LiturgicalYearLetter'],
         'week': celebration['LiturgicalWeek'],
@@ -43,13 +44,19 @@ def transformCelebration(celebration: dict):
         'typeLocal': celebration['LiturgicalCelebrationTypeLocal'],
         'level': celebration['LiturgicalCelebrationLevel'],
         'required': celebration['LiturgicalCelebrationRequired'],
-        'name': celebration['LiturgicalCelebrationName'],
+        'name': celebration['LiturgicalCelebrationName'],        
         'readingsBreviarId': celebration['LiturgicalReadingsId']    
     }
 
     # LiturgicalCelebrationName can contain HTML 
     if celebration['LiturgicalCelebrationName'] and "#text" in celebration['LiturgicalCelebrationName']:
         transformedCelebration['name'] = celebration['LiturgicalCelebrationName']['#text']
+
+    if transformedCelebration['name']:
+        transformedCelebration['title'] = transformedCelebration['name'] + " - " + celebration['LiturgicalCelebrationType']['#text']
+    else:
+        transformedCelebration['title'] = celebration['LiturgicalCelebrationType']['#text']
+
         
     # LiturgicalCelebrationColor can be without text if it's in special seasion
     transformedCelebration['colorId'] = celebration['LiturgicalCelebrationColor']['@Id']
