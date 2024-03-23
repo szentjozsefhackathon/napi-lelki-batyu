@@ -6,6 +6,9 @@ import re
 import Levenshtein
 
 
+def error(text):
+    print(name + " - " + id + ": " + text)
+
 def loadKatolikusData():
 
     katolikusData = {}
@@ -21,11 +24,9 @@ katolikusData = loadKatolikusData()
 
 def partFromReading(text):
     
-    print(id)
-
     #tOdO
     if id == "08-06":
-        print("YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.")
+        error("YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.")
         return {
             "type" : None,
             "ref" : None,
@@ -36,7 +37,7 @@ def partFromReading(text):
         }
 
     if id == "11-02":
-        print("YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.")
+        error("YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.")
         return {
             "type" : None,
             "ref" : None,
@@ -55,7 +56,7 @@ def partFromReading(text):
         text = text.split('\n', 1)[1]
 
     if firstLine == "<i>Vagy:</i><br>" or firstLine == "<i>vagy</i><br>":
-        print("!!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni")
+        error("!!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni")
         text = text.split('\n', 1)[1]
 
 
@@ -72,7 +73,7 @@ def partFromReading(text):
     elif title.startswith("A MI URUNK JÉZUS KRISZTUS KÍNSZENVEDÉSE"):
         type = "passió"
     else:
-        print("!!! Ez vajon mi lehet? " + title)
+        error("!!! Ez vajon mi lehet? " + title)
         type = None
 
 
@@ -106,7 +107,7 @@ def partFromReading(text):
         if re.match(pattern, teaser.strip()):
             teaser = re.sub(pattern, r'\1', teaser.strip())
         else:
-            print("!!! A teasert jól átkéne nézni, mert gond van itt majmócák! " + teaser)
+            error("!!! A teasert jól átkéne nézni, mert gond van itt majmócák! " + teaser)
         
     else:
         delete = 1
@@ -121,9 +122,9 @@ def partFromReading(text):
         ending = text[text.rfind('\n') + 1 :].strip()
 
     if type == "evangélium" and ending != "Ezek az evangélium igéi.":
-        print("!!! Az evangéliumot kézzel át kell nézni! " + ending)
+        error("!!! Az evangéliumot kézzel át kell nézni! " + ending)
     if ( type == "szentlecke" or type == "olvasmány" ) and ending != "Ez az Isten igéje.":
-        print("!!! Az olvasmányt/szentleckét kézzel át kell nézni! " + ending)
+        error("!!! Az olvasmányt/szentleckét kézzel át kell nézni! " + ending)
     else:        
         text = text[:text.rfind('\n')].strip()
 
@@ -158,21 +159,32 @@ def partFromPsalm(text):
 
 sources = ["vasA", "vasB", "vasC","olvasmanyok","szentek"]
 for name in sources:        
-    print("XXXX " + name)
-    print("XXXX " + name)
-    print("XXXX " + name)
-    datas = []
+   
+    datas = {}
     for row in katolikusData[name]:
         if name == "szentek":
-            id = row["datum"]
+            match = re.match(r'^(\d{2})\-(\d{2})([a-z]{0,1})$',row["datum"])
+            if match:                    
+                id = match[1] + "-" + match[2]
+            else:
+                id = row["datum"]
+                error("!!! Szentről van szó, de nem jó a dátum formátuma! " + id)
+
+            data = {
+                'igenaptarId' : row["datum"],
+                'name' : row["nev"],
+                'parts' : []
+                }
+                                
         else:
             id = row["kod"]
 
-        data = {
-            'id' : id,
-            'name' : row["nev"],
-            'parts' : []
-            }
+            data = {
+                'igenaptarId' : row["kod"],
+                'name' : row["nev"],
+                'parts' : []
+                }
+
 
         if name == "olvasmanyok":
             
@@ -225,26 +237,38 @@ for name in sources:
                 part['ref'] = row['masodikolvhely']
                 data["parts"].append(part)    
 
-
-        part = {
-            'type': None,
-            'ref' : None,
-            'teaser' : row['alleluja'],
-            'text' : row['alleluja']
-        }
-        if id.startswith("NAB"):
-            part['type'] = "evangélium előtti vers"
-        else:
-            part['type'] = "alleluja"
-        data["parts"].append(part)     
+        if row['alleluja'] != '':
+            part = {
+                'type': None,
+                'ref' : None,
+                'teaser' : row['alleluja'],
+                'text' : row['alleluja']
+            }
+            if id.startswith("NAB"):
+                part['type'] = "evangélium előtti vers"
+            else:
+                part['type'] = "alleluja"
+            data["parts"].append(part)     
         
         if row['evangelium'] != '':
             part = partFromReading(row['evangelium'])
             part['ref'] = row['evhely']
             data["parts"].append(part)   
 
-        datas.append(data)
+        if id in datas:
+            if(type(datas[id]) is dict):
+                tmp = datas[id]
+                datas[id] = []
+                datas[id].append(tmp)
+                datas[id].append(data)
+            else:
+                datas[id].append(data)
+            
+        else:
+            datas[id] = data
 
+
+    datas = dict(sorted(datas.items()))
     #"azonosito","nev","kod","datum","egyetemeskonyorgesek","idezet"
 
     with open(name + ".json", "w") as breviarDataFile:
