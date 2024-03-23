@@ -162,7 +162,7 @@ def findReadings(celebration: dict):
         print(str(calendarDay['DateISO']) + " ERROR: Nincs '" + celebration['readingsBreviarId'] + "'")
         return False
 
-#downloadBreviarData()
+downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
