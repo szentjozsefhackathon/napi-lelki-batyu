@@ -4,10 +4,17 @@ import simplejson
 import csv
 import re
 import Levenshtein
+import datetime
 
+
+with open('readings/errors.txt', 'w') as file:
+        file.write(str(datetime.datetime.now()) +  " -- generateparts.py hibaüzenete:" + '\n')
 
 def error(text):
-    print(name + " - " + id + ": " + text)
+    message = name + " - " + id + ": " + text
+    print(message)
+    with open('readings/errors.txt', 'a') as file:
+        file.write(message + '\n')
 
 def loadKatolikusData():
 
@@ -271,7 +278,7 @@ for name in sources:
     datas = dict(sorted(datas.items()))
     #"azonosito","nev","kod","datum","egyetemeskonyorgesek","idezet"
 
-    with open(name + ".json", "w") as breviarDataFile:
+    with open("readings/" + name + ".json", "w") as breviarDataFile:
             # magic happens here to make it pretty-printed
             breviarDataFile.write(
                 simplejson.dumps(datas, indent=4, sort_keys=False)
