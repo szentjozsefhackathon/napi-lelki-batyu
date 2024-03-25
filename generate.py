@@ -197,17 +197,17 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         findReadings(celebration)
 
     # now write output to a file
-    with open("batyuk/" + calendarDay['DateISO'] + ".json", "w") as breviarDataFile:
+    with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
-            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False)
+            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False, ensure_ascii=False)
         )
     lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
-with open("batyuk/2024.json", "w") as breviarDataFile:
+with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
-            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False)
+            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
         )
 
 print("Hello World")
