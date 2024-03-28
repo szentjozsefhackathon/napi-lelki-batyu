@@ -7,13 +7,13 @@ import Levenshtein
 import datetime
 
 
-with open('readings/errors.txt', 'w') as file:
+with open('readings/errors.txt', 'w', encoding='utf8') as file:
         file.write(str(datetime.datetime.now()) +  " -- generateparts.py hibaüzenete:" + '\n')
 
 def error(text):
     message = name + " - " + id + ": " + text
     print(message)
-    with open('readings/errors.txt', 'a') as file:
+    with open('readings/errors.txt', 'a', encoding='utf8') as file:
         file.write(message + '\n')
 
 def loadKatolikusData():
@@ -35,7 +35,7 @@ def partFromReading(text):
     if id == "08-06":
         error("YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.")
         return {
-            "type" : None,
+            "header" : None,
             "ref" : None,
             "teaser" : None,
             "title" : None,
@@ -46,7 +46,7 @@ def partFromReading(text):
     if id == "11-02":
         error("YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.")
         return {
-            "type" : None,
+            "header" : None,
             "ref" : None,
             "teaser" : None,
             "title" : None,
@@ -72,21 +72,21 @@ def partFromReading(text):
     
     
     if title.split(' ', 1)[0] == "SZENTLECKE":
-        type = "szentlecke"
+        header = "szentlecke"
     elif title.split(' ', 1)[0] == "OLVASMÁNY":
-        type = "olvasmány"
+        header = "olvasmány"
     elif title.split(' ', 2)[1] == "EVANGÉLIUM":
-        type = "evangélium"
+        header = "evangélium"
     elif title.startswith("A MI URUNK JÉZUS KRISZTUS KÍNSZENVEDÉSE"):
-        type = "passió"
+        header = "passió"
     else:
         error("!!! Ez vajon mi lehet? " + title)
-        type = None
+        header = None
 
 
-    if len(text) < 300 and type == None:        
+    if len(text) < 300 and header == None:        
         return {
-            "type" : None,
+            "header" : None,
             "ref" : None,
             "teaser" : None,
             "title" : None,
@@ -123,14 +123,14 @@ def partFromReading(text):
     text = text.split("\n",delete + 1)[delete + 1 ]
 
     # Amikor van hosszabb - rövidebb forma, akkor megzakkanunk, ha nem így csináljuk
-    if( type == "passió" ):
+    if( header == "passió" ):
         ending = None    
     else:
         ending = text[text.rfind('\n') + 1 :].strip()
 
-    if type == "evangélium" and ending != "Ezek az evangélium igéi.":
+    if header == "evangélium" and ending != "Ezek az evangélium igéi.":
         error("!!! Az evangéliumot kézzel át kell nézni! " + ending)
-    if ( type == "szentlecke" or type == "olvasmány" ) and ending != "Ez az Isten igéje.":
+    if ( header == "szentlecke" or header == "olvasmány" ) and ending != "Ez az Isten igéje.":
         error("!!! Az olvasmányt/szentleckét kézzel át kell nézni! " + ending)
     else:        
         text = text[:text.rfind('\n')].strip()
@@ -141,7 +141,7 @@ def partFromReading(text):
     text = re.sub(r'<br>$',r'',text)
    
     return {
-        "type" : type,
+        "header" : header,
         "ref" : None,
         "teaser" : teaser,
         "title" : title,
@@ -157,7 +157,7 @@ def partFromPsalm(text):
 
 
     return {
-        "type" : "zsoltár",
+        "header" : "zsoltár",
         "ref" : None,
         "teaser" : text.split('\n')[0],
         "text" : text        
@@ -246,15 +246,15 @@ for name in sources:
 
         if row['alleluja'] != '':
             part = {
-                'type': None,
+                'header': None,
                 'ref' : None,
                 'teaser' : row['alleluja'],
                 'text' : row['alleluja']
             }
             if id.startswith("NAB"):
-                part['type'] = "evangélium előtti vers"
+                part['header'] = "evangélium előtti vers"
             else:
-                part['type'] = "alleluja"
+                part['header'] = "alleluja"
             data["parts"].append(part)     
         
         if row['evangelium'] != '':
@@ -278,10 +278,10 @@ for name in sources:
     datas = dict(sorted(datas.items()))
     #"azonosito","nev","kod","datum","egyetemeskonyorgesek","idezet"
 
-    with open("readings/" + name + ".json", "w") as breviarDataFile:
+    with open("readings/" + name + ".json", "w", encoding='utf8') as breviarDataFile:
             # magic happens here to make it pretty-printed
             breviarDataFile.write(
-                simplejson.dumps(datas, indent=4, sort_keys=False)
+                simplejson.dumps(datas, indent=4, sort_keys=False, ensure_ascii=False)
             )
 
 
