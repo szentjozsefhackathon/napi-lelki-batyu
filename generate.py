@@ -204,10 +204,38 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         )
     lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
-with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
+with open("batyuk/2024_simple.json", "w", encoding='utf8') as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
             simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
         )
 
+
+lelkiBatyukComplex = lelkiBatyuk
+# print(lelkiBatyuk['2024-03-31'])
+
+for day in lelkiBatyukComplex:     
+    for cid, celebration in enumerate(lelkiBatyukComplex[day]['celebration']):        
+        if 'parts' in lelkiBatyukComplex[day]['celebration'][cid]:
+            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts']):
+                # lista 
+                if type(part) == dict:                    
+                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid]['type'] = 'object'
+                else:
+                    tmp = {}
+                    tmp['type'] = 'array'
+                    tmp['content'] = part
+                    
+                    for contentid, cont in enumerate(tmp['content']):
+                        tmp['content'][contentid]['type'] = 'object'
+                    
+                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid] = tmp
+                    
+
+with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
+        # magic happens here to make it pretty-printed
+        breviarDataFile.write(
+            simplejson.dumps(lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
+        )                
+    
 print("Hello World")
