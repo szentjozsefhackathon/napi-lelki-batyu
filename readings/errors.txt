@@ -1,4 +1,4 @@
-2024-03-28 11:17:33.985857 -- generateparts.py hibaüzenete:
+2024-03-28 11:29:25.520791 -- generateparts.py hibaüzenete:
 vasA - KAR02: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ok közötti rész kihagyásával Jn 1,1-5.9-14</i>
 vasA - EVK03: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
 vasA - EVK03: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>

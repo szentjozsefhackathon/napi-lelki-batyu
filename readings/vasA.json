@@ -4,7 +4,7 @@
         "name": "Advent 1. vasárnapja (A év)",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 2,1-5",
                 "teaser": "Egybegyűjti az Úr a nemzeteket Isten országának örök békéjére.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -12,13 +12,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 121,1-2.3-4a.(4b-5; 6-7).8-9 ",
                 "teaser": "Válasz: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b> (7b. tónus.)",
                 "text": "Válasz: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b> (7b. tónus.)\n<br>\nElőénekes: Örvendeztem, mikor <u>azt</u> mondták nekem, * az Úr <u>há</u>zába megyünk.<br>\nÍme, itt állunk már <u>ka</u>puid előtt, * ó <u>Je</u>ruzsálem.<br>\nHívek: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b><br>\n\nE: Jeruzsálem városa <u>jól</u> megépült, * részei <u>egy</u>máshoz illenek.<br>\nOda járnak <u>föl</u> a törzsek, * az Úr <u>né</u>pének törzsei.<br>\nH: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b>\n<br>\nE: Az Úr Izraelnek <u>tör</u>vénybe adta, * hogy ott nevére <u>ál</u>dást mondjanak.<br>\nMert ott állnak az <u>í</u>télőszékek, * Dávid <u>há</u>zának székei.<br>\nH: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b>\n<br>\nE: Jeruzsálemre <u>bé</u>két esdjetek, * biztonságban éljen, aki <u>sze</u>ret téged.<br>\nBéke lakozzék <u>fa</u>laid között, * és nyugalom <u>bás</u>tyáid tövében.<br>\nH: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b>\n<br>\nE: Testvéreim és barátaim miatt <u>így</u> könyörgök, * legyen <u>bé</u>kesség teveled.<br>\nIstenünk és Urunk <u>há</u>za miatt * kívánok <u>ál</u>dást néked.<br>\nH: <b>Isten <u>há</u>zába indulunk, * örömtől <u>dob</u>ban a szívünk.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 13,11-14",
                 "teaser": "Üdvösségünk közel van.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -26,13 +26,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Urunk, mutasd meg nékünk irgalmas szívedet, * és az üdvösséget add meg\nnékünk. Zsolt 84,8 – 1 D<sup><small>2</small></sup> tónus.",
                 "text": "Urunk, mutasd meg nékünk irgalmas szívedet, * és az üdvösséget add meg\nnékünk. Zsolt 84,8 – 1 D<sup><small>2</small></sup> tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 24,37-44",
                 "teaser": "Virrasszatok, hogy készen álljatok!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -46,7 +46,7 @@
         "name": "Advent 2. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 11,1-10",
                 "teaser": "Igazságot szolgáltat az alacsony sorsúaknak.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -54,13 +54,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 71,2.7-8.12-13.17",
                 "teaser": "Válasz: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b> (5. tónus.)",
                 "text": "Válasz: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b> (5. tónus.)\n<br>\nElőénekes: Istenem, ítéletedet add át a <u>ki</u>rálynak, * és igazságodat a\n<u>ki</u>rály fiának,<br>\nhogy igazságosan ítélkezzék <u>né</u>peden, * és méltányosan <u>min</u>den szegényen.<br>\nHívek: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b><br>\n\nE: Napjaiban virágzik az igazság és a teljes <u>bé</u>ke, * míg csak a hold <u>meg</u> nem szűnik.<br>\nUralkodik tengertől <u>ten</u>gerig, * a Folyótól a földkerekség <u>ha</u>táráig.<br>\nH: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b><br>\n\nE: Megszabadítja a szegényt, aki hozzá <u>ki</u>ált, * a nyomorultat, akin <u>nem</u> segít senki.<br>\nKíméli a kicsinyt és a <u>gyen</u>gét, * a szűkölködőt <u>meg</u>segíti.<br>\nH: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b>\n<br>\nE: Legyen áldott a neve <u>ö</u>rökké, * amíg csak világít a nap, neve <u>fenn</u>maradjon.<br>\nÁldott legyen benne a föld minden <u>né</u>pe, * magasztalja őt <u>min</u>den nemzet.<br>\nH: <b>Napjaiban az igazság virága <u>nyíl</u>jék, * és teljes béke legyen a <u>vi</u>lág végéig.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 15,4-9",
                 "teaser": "Üdvösségünk közel van!",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -68,13 +68,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Készítsétek elő az Úr útját! † Egyengessétek ösvényét, * és minden\nember meglátja az Üdvözítőt, akit elküld az Isten. Lk 3,4.6 – 5. tónus.",
                 "text": "Készítsétek elő az Úr útját! † Egyengessétek ösvényét, * és minden\nember meglátja az Üdvözítőt, akit elküld az Isten. Lk 3,4.6 – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 3,1-12",
                 "teaser": "Tartsatok bűnbánatot, elközelgett a mennyek országa.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -88,7 +88,7 @@
         "name": "Advent 3. vasárnapja – Gaudete-vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 35,1-6a.10",
                 "teaser": "Maga az Isten jön el, hogy szabadulást hozzon nekünk.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -96,13 +96,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 145,7.8-9a.9bc-19",
                 "teaser": "Válasz: <b>Jöjj el, <u>U</u>runk, Istenünk: * üdvözíts min<u>ket</u>.</b> (4. tónus.)<br>",
                 "text": "Válasz: <b>Jöjj el, <u>U</u>runk, Istenünk: * üdvözíts min<u>ket</u>.</b> (4. tónus.)<br>\nVagy: <b>Alleluja.</b><br>\n\nElőénekes: Isten igaz <u>ma</u>rad örökké, * az elnyomottnak igazságot szol<u>gál</u>tat.<br>\nAz éhezőnek <u>ő</u> ad kenyeret, * kiszabadítja az Úr a fog<u>lyo</u>kat.<br>\nHívek: <b>Jöjj el, <u>U</u>runk, Istenünk: * üdvözíts min<u>ket</u>.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Az Úr megnyitja a <u>va</u>kok szemét, * és fölemeli azt, aki el<u>e</u>sett.<br>\nAz Úr szereti az <u>i</u>gaz embert, * a jövevényt meg<u>vé</u>di.<br>\nH: <b>Jöjj el, <u>U</u>runk, Istenünk: * üdvözíts min<u>ket</u>.</b><br>\nVagy: <b>Alleluja.</b>\n<br>\nE: Az Úr támogatja az ár<u>vát</u>, és özvegyet, * és elpusztítja a gonoszok <u>út</u>ját.<br>\nAz Úr ural<u>ko</u>dik örökké, * a te Istened, ó Sion, nemzedékről nemze<u>dék</u>re.<br>\nH: <b>Jöjj el, <u>U</u>runk, Istenünk: * üdvözíts min<u>ket</u>.</b><br>\nVagy: <b>Alleluja.</b>\n"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Jak 5,7-10",
                 "teaser": "Legyetek állhatatosak, mert az Úr e jövetelének ideje közel van!",
                 "title": "SZENTLECKE Szent Jakab apostol leveléből",
@@ -110,13 +110,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Az Úr lelke van rajtam: * elküldött, hogy a szegényeknek örömhírt\nvigyek. Iz 61,1 – 7b. tónus.",
                 "text": "Az Úr lelke van rajtam: * elküldött, hogy a szegényeknek örömhírt\nvigyek. Iz 61,1 – 7b. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 11,2-11",
                 "teaser": "Te vagy-e az, akinek jönnie kelt, vagy valaki mást várjunk?",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -130,7 +130,7 @@
         "name": "Advent 4. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 7,10-14",
                 "teaser": "Íme, a szűz fogan.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -138,13 +138,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 23,1-2.3-4ab.5-6",
                 "teaser": "Válasz: <b>Urunk, Istenünk <u>ér</u>kezik: * ő a <u>di</u>csőség királya.</b> (5. tónus.)",
                 "text": "Válasz: <b>Urunk, Istenünk <u>ér</u>kezik: * ő a <u>di</u>csőség királya.</b> (5. tónus.)\n<br>\nElőénekes: Az Úré a föld és ami <u>be</u>tölti, * a földkerekség és <u>min</u>den lakója.<br>\nAlapjait ő ágyazta tengerek <u>mé</u>lyébe, * s a vizek árján <u>ő</u> tartja szilárdan.<br>\nHívek: <b>Urunk, Istenünk <u>ér</u>kezik: * ő a <u>di</u>csőség királya.</b>\n<br>\nE: Ki mehet föl az Úr <u>he</u>gyére, * ki állhat meg az <u>ő</u> szent helyén?<br>\nAki ártatlan kezű, tiszta <u>szí</u>vű, * akinek az esze <u>nem</u> jár csaláson.<br>\nH: <b>Urunk, Istenünk <u>ér</u>kezik: * ő a <u>di</u>csőség királya.</b>\n<br>\nE: Az nyer áldást az <u>Úr</u>tól, * és megigazulást üdvözítő <u>Is</u>tenétől.<br>\nEz az istenkeresők <u>né</u>pe, * amely arcát kutatja Jákob <u>Is</u>tenének.<br>\nH: <b>Urunk, Istenünk <u>ér</u>kezik: * ő a <u>di</u>csőség királya.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 1,1-7",
                 "teaser": "Jézus Krisztus, aki Dávid nemzetségéből származott. az Isten Fia.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -152,13 +152,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Íme, anya lesz a Szűz, és fia születik. * Fiának neve Emmánuel, vagyis\n„Velünk az Isten”. Mt 1,23 – 5. tónus.",
                 "text": "Íme, anya lesz a Szűz, és fia születik. * Fiának neve Emmánuel, vagyis\n„Velünk az Isten”. Mt 1,23 – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 1,18-24",
                 "teaser": "Jézus megszületik Máriától, aki jegyese Józsefnek, Dávid fiának.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -172,7 +172,7 @@
         "name": "Urunk megkeresztelkedése",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 42,1-4;6-7",
                 "teaser": "Íme az én szolgám, akiben kedvem telik.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -180,13 +180,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 28,1a és 2.3ac-4.3b és 9b-10",
                 "teaser": "Válasz: <b>Áldja meg Isten <u>az</u> ő népét, * adjon neki békessé<u>get</u>.</b> (4g. tónus.)",
                 "text": "Válasz: <b>Áldja meg Isten <u>az</u> ő népét, * adjon neki békessé<u>get</u>.</b> (4g. tónus.)\n<br>\nElőénekes: Adjátok <u>meg</u> az Úrnak, * Isten gyermeke<u>i</u>,<br>\nadjátok meg az Úrnak a nevét megillető <u>di</u>csőséget, * imádjátok az Urat szent ünnepi dísz<u>ben</u>!<br>\nHívek: <b>Áldja meg Isten <u>az</u> ő népét, * adjon neki békessé<u>get</u>.</b><br>\n\nE: Az Úr szava zúg a <u>vi</u>zek árján, * az Úr lebeg a nagy vizek fö<u>lött</u>.<br>\nAz Úr szava <u>tel</u>ve erővel, * az Úr szava telve fönség<u>gel</u>.<br>\nH: <b>Áldja meg Isten <u>az</u> ő népét, * adjon neki békessé<u>get</u>.</b><br>\n\nE: A dicsőség Is<u>te</u>ne mennydörög, * templomában mindenek az ő dicséretét zen<u>gik</u>.<br>\nAz Úr trónol a víz<u>ö</u>zön fölött, * az Úr király örök<u>ké</u>.<br>\nH: <b>Áldja meg Isten <u>az</u> ő népét, * adjon neki békessé<u>get</u>.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "ApCsel 10,34-38",
                 "teaser": "Az Úr fölkente őt Szentlélekkel.",
                 "title": "SZENTLECKE az Apostolok Cselekedeteiből",
@@ -194,13 +194,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Megnyílt az ég és az Atya szózata hallatszott * „Ez az én\nszeretett Fiam, öt hallgassátok!” Mk 9,6 – 3a. tónus.",
                 "text": "Megnyílt az ég és az Atya szózata hallatszott * „Ez az én\nszeretett Fiam, öt hallgassátok!” Mk 9,6 – 3a. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 3,13-17",
                 "teaser": "Amikor Jézus megkeresztelkedett, látta, hogy leszáll rá a Szentlélek.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -214,7 +214,7 @@
         "name": "Évközi 2. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 49,3.5-6",
                 "teaser": "A nemzetek világosságává teszlek, hogy üdvösségem légy.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -222,13 +222,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 39,2 és 4ab.7-8a.8b-9.10",
                 "teaser": "Válasz: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> ",
                 "text": "Válasz: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> \n(7b. tónus.)\n<br>\nElőénekes: Várva <u>vár</u>tam az Urat, * és ő <u>le</u>hajolt hozzám.<br>\nÚj éneket <u>a</u>dott az ajkamra, * Istenünknek <u>zen</u>gő éneket.<br>\nHívek: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> \n<br>\nE: Sem véres, sem ételáldozat <u>nem</u> kellett neked, * fülemet azonban <u>meg</u>nyitottad.<br>\nNem követeltél égő- és engesztelő <u>ál</u>dozatot, * így szóltam akkor: „<u>Í</u>me, eljövök.”<br>\nH: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> \n<br>\nE: A könyvtekercsben <u>ró</u>lam írva áll, * hogy akaratodat <u>tel</u>jesítsem.<br>\nErre <u>vá</u>gyom, Istenem, * törvényed szívemet <u>ö</u>römmel tölti el.<br>\nH: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> \n<br>\nE: Igazságodat hirdetem a nagy <u>kö</u>zösségben, * ajkam el nem hallgat, <u>U</u>ram, jól tudod.<br>\nH: <b>Íme, <u>el</u>jövök, Uram, * hogy teljesítsem <u>azt</u>, amit kívánsz.</b> "
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 1,1-3",
                 "teaser": "Kegyelem nektek és békesség Atyánktól, az Istentől, és az Úr JézusKrisztustól!",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -236,13 +236,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Az Ige emberré lett, és itt élt köztünk. * Befogadóinak megadta, hogy\nIsten fiai legyenek. Jn 1,14.12b – 4g. tónus.",
                 "text": "Az Ige emberré lett, és itt élt köztünk. * Befogadóinak megadta, hogy\nIsten fiai legyenek. Jn 1,14.12b – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 1,29-34",
                 "teaser": "Íme, az Isten Báránya, aki elveszi a világ bűneit!",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -256,7 +256,7 @@
         "name": "Évközi 3. vasárnap – Isten igéjének vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 8,23b–9,3",
                 "teaser": "A pogány nemzetek területén a nép nagy fényességet lát.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -264,13 +264,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 26,1.4.13-14",
                 "teaser": "Válasz: <b>Világosságom az <u>Is</u>ten, * üdvö<u>zít</u> engem.</b> ",
                 "text": "Válasz: <b>Világosságom az <u>Is</u>ten, * üdvö<u>zít</u> engem.</b> \n(2. tónus.)<br>\n\nElőénekes: Világosságom és üdvösségem <u>az</u> Úr, * ki<u>től</u> félnék?<br>\nÉletem oltalmazója <u>az</u> Úr, * kitől <u>ret</u>tegnék?<br>\nHívek: <b>Világosságom az <u>Is</u>ten, * üdvö<u>zít</u> engem.</b> \n<br>\nE: Egyet kérek az Úr<u>tól</u>, † csak egy a <u>vá</u>gyam, * hogy az Úr házában lakjam életem min<u>den</u> napján,<br>\nhogy élvezhessem az Úr <u>ö</u>römét, * és hogy szemlélhessem <u>szent</u> templomát.<br>\nH: <b>Világosságom az <u>Is</u>ten, * üdvö<u>zít</u> engem.</b> \n<br>\nE: Hiszem, hogy meglátom az Úr <u>ja</u>vait * az é<u>lők</u> földjén.<br>\nRemélj az Úrban, bátran <u>cse</u>lekedj, * szíved legyen erős, és bízzál <u>az</u> Úrban.<br>\nH: <b>Világosságom az <u>Is</u>ten, * üdvö<u>zít</u> engem.</b> "
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 1,10-13.17",
                 "teaser": "Éjetek mindnyájan egyetértésben, és ne szakadjatok pártokra!",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -278,13 +278,13 @@
                 "ending": ""
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus.",
                 "text": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 4,12-23 rövidebb: Mt 4,12-17",
                 "teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -298,7 +298,7 @@
         "name": "Évközi 4. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Szof 2,3;3,12-13",
                 "teaser": "Meghagyom közöttetek a szegényeket és alázatosakat.",
                 "title": "OLVASMÁNY Szofoniás próféta könyvéből",
@@ -306,13 +306,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 145,7.8-9a.9bc-10",
                 "teaser": "Válasz: <b>Boldogok, akik lel<u>kük</u>ben szegények: * övék a mennyek orszá<u>ga</u>.</b>  ",
                 "text": "Válasz: <b>Boldogok, akik lel<u>kük</u>ben szegények: * övék a mennyek orszá<u>ga</u>.</b>  \n4g. tónus.<br>\nVagy: <b>Alleluja.</b> 4. szám.<br>\n\nElőénekes: Isten igaz <u>ma</u>rad örökké, * az elnyomottnak igazságot szol<u>gál</u>tat.<br>\nAz éhezőnek <u>ő</u> ad kenyeret, * kiszabadítja az Úr a fog<u>lyo</u>kat.<br>\nHívek: <b>Boldogok, akik lel<u>kük</u>ben szegények: * övék a mennyek orszá<u>ga</u>.</b>\n<br>\nVagy: <b>Alleluja.</b><br>\n\nE: Az Úr megnyitja a <u>va</u>kok szemét, * és fölemeli azt, aki el<u>e</u>sett.<br>\nAz Úr szereti az <u>i</u>gaz embert, * a jövevényt meg<u>vé</u>di.<br>\nH: <b>Boldogok, akik lel<u>kük</u>ben szegények: * övék a mennyek orszá<u>ga</u>.</b>\n<br>\nVagy: <b>Alleluja.</b><br>\n\nE: Az Úr támogatja az ár<u>vát</u> és özvegyet, * és elpusztítja a gonoszok út<u>ját</u>.<br>\nAz Úr ural<u>ko</u>dik örökké, * a te Istened, ó Sion, nemzedékről nemzedék<u>re</u>.<br>\nH: <b>Boldogok, akik lel<u>kük</u>ben szegények: * övék a mennyek orszá<u>ga</u>.</b><br>\nVagy: <b>Alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 1,26-31",
                 "teaser": "Isten azt választotta ki, ami a világ szemében gyönge.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -320,13 +320,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Örüljetek és vigadjatok: * jutalmatok a mennyben bőséges lesz! Vö. Mt\n5,12a – 7b. tónus.",
                 "text": "Örüljetek és vigadjatok: * jutalmatok a mennyben bőséges lesz! Vö. Mt\n5,12a – 7b. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 5,1-12a",
                 "teaser": "Boldogok a lélekben szegények.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -340,7 +340,7 @@
         "name": "Évközi 5. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 58,7-10",
                 "teaser": "Ha segítesz a rászorulókon, akkor majd felragyog világosságod.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -348,13 +348,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 111,4-5.6-7.8a és 9",
                 "teaser": "Válasz: <b>Az igaz em<u>ber</u> világít, * mint fény <u>a</u> sötétségben.</b> ",
                 "text": "Válasz: <b>Az igaz em<u>ber</u> világít, * mint fény <u>a</u> sötétségben.</b> \n(6. tónus.)<br>\n\nElőénekes: Az igaz világít, mint fény a sö<u>tét</u>ségben, * igazságos, jósá<u>gos</u> és irgalmas.<br>\nBoldog ember, aki ir<u>gal</u>mas, † és szívesen <u>ad</u> kölcsön, * aki a törvény szerint inté<u>zi</u> minden dolgát.<br>\nHívek: <b>Az igaz em<u>ber</u> világít, * mint fény <u>a</u> sötétségben.</b><br>\n\nE: Nem tántorodik <u>meg</u> soha, * az igaz emléke <u>ö</u>rökké megmarad.<br>\nRossz hírtől nem <u>kell</u> félnie, * szíve nyugodt, mert <u>az</u> Úrban bízik.<br>\nH: <b>Az igaz em<u>ber</u> világít, * mint fény <u>a</u> sötétségben.</b><br>\n\nE: Szíve erős, nem is<u>mer</u> félelmet, * bőséges ado<u>mányt</u> oszt a szegénynek. <br>\nIgazsága megma<u>rad</u> örökre, * feje dicsősége<u>sen</u> felemelkedik.<br>\nH: <b>Az igaz em<u>ber</u> világít, * mint fény <u>a</u> sötétségben.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 2,1-5",
                 "teaser": "Jézus Krisztust, a megfeszítettet hirdetem nektek.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -362,13 +362,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "„Én a világ világossága vagyok”, mondja a mi Urunk. * „Aki engem\nkövet, övé lesz az élet világossága.” Jn 8,12 – 4g. tónus.",
                 "text": "„Én a világ világossága vagyok”, mondja a mi Urunk. * „Aki engem\nkövet, övé lesz az élet világossága.” Jn 8,12 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 5,13-16",
                 "teaser": "Ti vagytok a világ világossága.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -382,7 +382,7 @@
         "name": "Évközi 6. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Sir 15,15-20",
                 "teaser": "Isten senkinek sem adott parancsot a rosszra.",
                 "title": "OLVASMÁNY Sirák fia könyvéből",
@@ -390,13 +390,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 118,1-2.4-5.17-18.33-34",
                 "teaser": "Válasz: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b> ",
                 "text": "Válasz: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b> \n(4g. tónus.)<br>\n\nElőénekes: Boldogok, akiknek <u>út</u>ja szeplőtlen, * akik az Úr törvényét kö<u>ve</u>tik.<br>\nBoldogok, akik rende<u>lé</u>sét megtartják, * őt keresik teljes szív<u>vel</u>.<br>\nHívek: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b><br>\n\nE: Azt <u>pa</u>rancsoltad, * hogy hűségesen megtartsuk törvénye<u>det</u>.<br>\nBárcsak arra vezet<u>né</u>nek útjaim, * hogy megtartsam, amit parancsol<u>tál</u>.<br>\nH: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b><br>\n\nE: Tégy jót szolgáddal és <u>él</u>ni fogok, * tanításodat meg<u>tar</u>tom.<br>\nNyisd meg szeme<u>met</u>, hogy meglássam * törvényeid cso<u>dá</u>it.<br>\nH: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b><br>\n\nE: Uram, igaz utadra ta<u>níts</u> meg engem, * törvényedet mindig meg<u>tar</u>tom.<br>\nAdj belátást, hogy törvé<u>nye</u>det, megtartsam, * és követem egész szí<u>vem</u>mel.<br>\nH: <b>Boldogok, akik Isten <u>út</u>ján járnak, * és törvényét kö<u>ve</u>tik.</b>\n"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 2,6-10",
                 "teaser": "Isten a bölcsességet öröktől fogva megdicsőülésünkre rendelte.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -404,13 +404,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a\nkicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus.",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a\nkicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 5,17-37 rövidebb: Mt 5,20-22a.27-28.33-34a.37",
                 "teaser": "Jézus tökéletessé teszi az Ószövetség tanításait és parancsait.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -424,7 +424,7 @@
         "name": "Évközi 7. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Lev 19,1-2.17-18",
                 "teaser": "Szeresd embertársadat úgy, mint magadat!",
                 "title": "OLVASMÁNY Mózes harmadik könyvéből",
@@ -432,13 +432,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 102,1-2.3-4.8 és 10.12-13",
                 "teaser": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> ",
                 "text": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> \n(11. tónus.)<br>\n\nElőénekes: Áldjad, lelkem, az <u>U</u>rat, * egész bensőm az ő <u>szent</u> nevét áldja.<br>\nÁldjad, lelkem, az <u>U</u>rat, * és ne feledd, hogy hoz<u>zád</u> milyen jó volt.<br>\nHívek: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b><br>\n\nE: Megbocsátja minden <u>vét</u>ked, * meggyógyítja min<u>den</u> gyengeséged.<br>\nA pusztulástól megmenti <u>é</u>leted, * kegyelmében és irgalmában meg <u>is</u> koronázza.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b><br>\n\nE: Irgalmas és kegyes a mi <u>Is</u>tenünk: * nagy irgalmú <u>és</u> hosszan tűrő.<br>\nNem bűneink szerint bánik <u>ve</u>lünk, * és nem gonoszságunk szerint fi<u>zet</u> vissza nekünk.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b><br>\n\nE: Amilyen messze van napkelettől a nap<u>nyu</u>gat, * bűneinket olyan mes<u>sze</u> dobja tőlünk.<br>\nAhogyan az atya megkönyörül <u>fi</u>ain, * úgy könyörül meg az Úr <u>az</u> istenfélőn.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 3,16-23",
                 "teaser": "Minden a tiétek, ti Krisztusé vagytok, Krisztus pedig az Istené.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -446,13 +446,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Aki megtartja Krisztus igéjét, * az valóban szereti az Istent. 1Jn 2,5 – 4g. tónus.",
                 "text": "Aki megtartja Krisztus igéjét, * az valóban szereti az Istent. 1Jn 2,5 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 5,38-48",
                 "teaser": "Szeressétek ellenségeiteket!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -466,7 +466,7 @@
         "name": "Évközi 8. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 49,14-15",
                 "teaser": "Nem feledkezem meg rólad.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -474,13 +474,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 61,2-3.6–7.8-9ab",
                 "teaser": "Válasz: <b>Lelkem, <u>bíz</u>zál Istenben: * megnyugvá<u>sod</u> tőle várjad!</b> (3a. tónus.)",
                 "text": "Válasz: <b>Lelkem, <u>bíz</u>zál Istenben: * megnyugvá<u>sod</u> tőle várjad!</b> (3a. tónus.)\n<br>\n\nElőénekes: Csak Istenben keress <u>meg</u>nyugvást, lelkem, * csak tőle <u>jön</u> üdvösségem.<br>\nMert ő az üdvösségem, <u>ő</u> az oltalmam, * ő a sziklaváram, nem fogok töb<u>bé</u> meginogni.<br>\nHívek: <b>Lelkem, <u>bíz</u>zál Istenben: * megnyugvá<u>sod</u> tőle várjad!</b>\n<br>\nE: Lelkem, nyugodj meg <u>tel</u>jesen Istenben, * hagyatkozz <u>rá</u> türelemmel.<br>\nMert ő az én üdvösségem, <u>ő</u> az én Istenem, * ő a sziklaváram, nem fo<u>gok</u> meginogni.<br>\nH: <b>Lelkem, <u>bíz</u>zál Istenben: * megnyugvá<u>sod</u> tőle várjad!</b><br>\n\nE: Szabadulásomat és üdvösségemet <u>Is</u>tentől várom, * ő az én erősségem, Istennél talá<u>lok</u> menedéket.<br>\nMinden népek, <u>ben</u>ne bízzatok, * tárjátok fel szívete<u>ket</u> őelőtte.<br>\nH: <b>Lelkem, <u>bíz</u>zál Istenben: * megnyugvá<u>sod</u> tőle várjad!</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 4,1-5",
                 "teaser": "Feltárja az Úr a szívek szándékait.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -488,13 +488,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Isten szava élő és átható: * megítéli a gondolatokat és a szándékot\nszívünk mélyén. Zsid 4,12 – 9. tónus.",
                 "text": "Isten szava élő és átható: * megítéli a gondolatokat és a szándékot\nszívünk mélyén. Zsid 4,12 – 9. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 6,24-34",
                 "teaser": "Ne aggódjatok a holnap miatt!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -508,7 +508,7 @@
         "name": "Évközi 9. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Mtörv 11,18.26-28.32",
                 "teaser": "Íme, áldást és átkot ajánlok fel ma nektek.",
                 "title": "OLVASMÁNY Mózes ötödik könyvéből",
@@ -516,13 +516,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 30,2-3a.3b-4.17 és 25",
                 "teaser": "Válasz: <b>Légy oltalmazó <u>szik</u>lám, * én U<u>ram</u>, Istenem!</b> ",
                 "text": "Válasz: <b>Légy oltalmazó <u>szik</u>lám, * én U<u>ram</u>, Istenem!</b> \n(2. tónus.)\n<br>\nElőénekes: Te vagy, Uram, az én remé<u>nyem</u>, † ne hagyj soha szégyent <u>ér</u>nem, * igaz voltodban szabadíts <u>meg</u> engem!<br>\nFordítsd felém <u>fü</u>ledet, * siess, ments <u>meg</u> engem.<br>\nHívek: <b>Légy oltalmazó <u>szik</u>lám, * én U<u>ram</u>, Istenem!</b> <br>\n\nE: Légy oltalmazó sziklaváram és megerősített <u>há</u>zam, * hogy megszaba<u>díts</u> engem!<br>\nErősségem és menedékem te vagy <u>né</u>kem, * nevedért vezess és irá<u>nyíts</u> engem!<br>\nH: <b>Légy oltalmazó <u>szik</u>lám, * én U<u>ram</u>, Istenem!</b> <br>\n\nE: Ragyogjon föl arcod szolgád <u>fö</u>lött, * irgalmasságodban szabadíts <u>meg</u> engem!<br>\nLegyetek bátrak és erős <u>szí</u>vűek, * mind, akik reménykedtek <u>az</u> Úrban.<br>\nH: <b>Légy oltalmazó <u>szik</u>lám, * én U<u>ram</u>, Istenem!</b> "
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 3,21-25a.28",
                 "teaser": "Az ember a hit által válik igazzá, nem a mózesi törvény teljesítése által.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -530,13 +530,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok a szőlőtő, ti pedig a szőlővesszők. * Aki\nénbennem marad, és én őbenne, az bő termést hoz”. Vö. Jn 15,5 – 9. tónus.",
                 "text": "Jézus mondja: † „Én vagyok a szőlőtő, ti pedig a szőlővesszők. * Aki\nénbennem marad, és én őbenne, az bő termést hoz”. Vö. Jn 15,5 – 9. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 7,21-27",
                 "teaser": "A sziklára és a homokra épített ház.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -550,7 +550,7 @@
         "name": "Évközi 10. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Oz 6,3-6",
                 "teaser": "Nem az áldozat kell nekem, hanem a szeretet.",
                 "title": "OLVASMÁNY Ozeás próféta könyvéből",
@@ -558,13 +558,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 49,1 és 8.12-13.14-15",
                 "teaser": "Válasz: <b>Boldog, akinek út<u>ja</u> szeplőtelen, * megmutatom ne<u>ki</u> üdvösségem.</b> (9. tónus.)",
                 "text": "Válasz: <b>Boldog, akinek út<u>ja</u> szeplőtelen, * megmutatom ne<u>ki</u> üdvösségem.</b> (9. tónus.)\n<br>\n\nElőénekes: Szólott az Úr, <u>az</u> istenek Istene, * hívta a földet napkelet<u>től</u> napnyugatig.<br>\n„Nem áldozataid mi<u>att</u> feddlek meg, * égőáldozatai<u>dat</u> mindig látom.<br>\nHívek: <b>Boldog, akinek út<u>ja</u> szeplőtelen, * megmutatom ne<u>ki</u> üdvösségem.</b><br>\n\nE: Ha éheznék, <u>nem</u> szólnék neked, * mert enyém a föld és <u>e</u>gész teljessége.<br>\nMegeszem talán <u>a</u> bikák húsát, * vagy a ba<u>kok</u> vérét iszom?<br>\nH: <b>Boldog, akinek út<u>ja</u> szeplőtelen, * megmutatom ne<u>ki</u> üdvösségem.</b><br>\n\nE: Ajánld föl Istennek a dicsé<u>ret</u> áldozatát, * és teljesítsd a Fölséges e<u>lőtt</u> fogadalmad!<br>\nA gyötrelem nap<u>ján</u> engem hívjál, * megmentelek <u>és</u> áldasz engem.<br>\nH: <b>Boldog, akinek út<u>ja</u> szeplőtelen, * megmutatom ne<u>ki</u> üdvösségem.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 4,18-25",
                 "teaser": "Ábrahám erőt merített hitéből, és magasztalta Istent.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -572,13 +572,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "„Én a világ világossága vagyok”, mondja a mi Urunk. * „Aki engem\nkövet, övé lesz az élet világossága.” Jn 8,12 – 4g. tónus.",
                 "text": "„Én a világ világossága vagyok”, mondja a mi Urunk. * „Aki engem\nkövet, övé lesz az élet világossága.” Jn 8,12 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 9,9-13",
                 "teaser": "Nem azért jöttem, hogy az igazakat hívjam, hanem a bűnösöket.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -592,7 +592,7 @@
         "name": "Évközi 11. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Kiv 19,2-6a",
                 "teaser": "Papi királyságom és szent népem lesztek.",
                 "title": "OLVASMÁNY Mózes második könyvéből",
@@ -600,13 +600,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 99,2.3.5",
                 "teaser": "Válasz: <b>Mi vagyunk <u>az</u> Isten népe, * jó Pásztorunk <u>táp</u>lál minket.</b> (1. tónus.)",
                 "text": "Válasz: <b>Mi vagyunk <u>az</u> Isten népe, * jó Pásztorunk <u>táp</u>lál minket.</b> (1. tónus.)\n<br>\n\nElőénekes: Ujjongjatok az Úrnak, <u>min</u>den földek, * szolgáljatok az Úrnak <u>vi</u>gassággal.<br>\nJáruljatok <u>szí</u>ne elé, * vidám <u>é</u>nekszóval.<br>\nHívek: <b>Mi vagyunk <u>az</u> Isten népe, * jó Pásztorunk <u>táp</u>lál minket.</b><br>\n\nE: Tudjátok meg, hogy az <u>Úr</u> az Isten, * övé vagyunk, ő al<u>ko</u>tott minket.<br>\nAz ő <u>né</u>pe vagyunk, * legelő<u>jé</u>nek nyája.<br>\nH: <b>Mi vagyunk <u>az</u> Isten népe, * jó Pásztorunk <u>táp</u>lál minket.</b><br>\n\nE: Valóban jó az <u>Úr</u>, † irgalma <u>ö</u>rökké megmarad, * és hűsége nemzedékről <u>nem</u>zedékre.<br>\nH: <b>Mi vagyunk <u>az</u> Isten népe, * jó Pásztorunk <u>táp</u>lál minket.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 5,6-11",
                 "teaser": "Ha Fia halála által kiengesztelődött velünk az Isten, mennyivelinkább megszabadulunk most, az ő életébe oltva.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -614,13 +614,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Közel van az Isten országa, * tartsatok bűnbánatot, és higgyetek az\nevangéliumban. Mt 1,15 – 8 G. tónus.",
                 "text": "Közel van az Isten országa, * tartsatok bűnbánatot, és higgyetek az\nevangéliumban. Mt 1,15 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 9,36–10,8",
                 "teaser": "Jézus összehívta tizenkét tanítványát, és téríteni küldte őket.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -634,7 +634,7 @@
         "name": "Évközi 12. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Jer 20,10-13",
                 "teaser": "Megszabadította a szegénynek lelkét a gonoszok kezéből.",
                 "title": "OLVASMÁNY Jeremiás próféta könyvéből",
@@ -642,13 +642,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 68,8-10.14 és 17.33-35",
                 "teaser": "Válasz: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b> (2. tónus.)<br>",
                 "text": "Válasz: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b> (2. tónus.)<br>\n\nElőénekes: A gyalázatot érted <u>vi</u>selem, * arcomat érted borít<u>ja</u> szégyen.<br>\nTestvéreim előtt idegenné <u>let</u>tem, * anyám fiai sem ismer<u>nek</u> reám.<br>\nHívek: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b><br>\n\nE: A házadért való buzgóság emészt <u>en</u>gem, * rám hull a gyalázat, ha té<u>ged</u> gyaláznak.<br>\nDe én hozzád imádkozom, <u>U</u>ram, * kegyelmed ide<u>jén</u>, Istenem.<br>\nH: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b><br>\n\nE: Mérhetetlen jóságodban <u>hal</u>lgass meg, * hűséged szerint se<u>gíts</u> rajtam.<br>\nHallgass meg, Uram, hisz kegyelmed <u>jó</u>ságos, * irgalmad bőségében te<u>kints</u> reám.<br>\nH: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b><br>\n\nE: Az alázatosak látják ezt és <u>ö</u>rülnek, * keressétek Istent, és szívetek új<u>ra</u> éled.<br>\nMert az Úr meghallgat minden <u>sze</u>gényt, * és foglyait nem hagy<u>ja</u> magukra.<br>\nH: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b><br>\n\nE: Dicsérje őt az ég, a föld és a <u>ten</u>ger, * és bennük min<u>den</u> élőlény.<br>\nH: <b>Uram, hallgass meg <u>en</u>gem, * nagy irgalmassá<u>god</u> szerint.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 5,12-15",
                 "teaser": "A kegyelem hatása nem olyan, mint a bűnbeesésé.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -656,13 +656,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "„Az igazság Lelke majd tanúságot tesz rólam”, mondja az Úr, * „és ti\nis tanúságot tesztek rólam”. Jn 15,26b és 27a – 7b. tónus.",
                 "text": "„Az igazság Lelke majd tanúságot tesz rólam”, mondja az Úr, * „és ti\nis tanúságot tesztek rólam”. Jn 15,26b és 27a – 7b. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 10,26-33",
                 "teaser": "Ne féljetek azoktól, akik a testet ölik meg!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -676,7 +676,7 @@
         "name": "Évközi 13. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "2Kir 4,8-11.14-16a",
                 "teaser": "Isten megjutalmazza a sunemi asszonyt, aki segíti az Isten emberét.",
                 "title": "OLVASMÁNY a Királyok második könyvéből",
@@ -684,13 +684,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 88,2-3.16-17.18-19",
                 "teaser": "Válasz: <b>Hadd énekel<u>jem</u> örökké * Urunknak <u>ir</u>galmas jóságát.</b> (6. tónus.<)br>",
                 "text": "Válasz: <b>Hadd énekel<u>jem</u> örökké * Urunknak <u>ir</u>galmas jóságát.</b> (6. tónus.<)br>\n\nElőénekes: Az Úr irgalmáról énekelek örök<u>kön</u> örökké, * hűségedet nemzedékről nemzedékre <u>hir</u>deti ajkam.<br>\nÍgy szól<u>tál</u>: † „Irgalmam szilárdan áll <u>mind</u>örökké.” * Valóban, a te hűséged erős, <u>mi</u>ként a mennybolt.<br>\nHívek: <b>Hadd énekel<u>jem</u> örökké * Urunknak <u>ir</u>galmas jóságát.</b><br>\n\nE: Boldog a nép, amely tud ün<u>ne</u>pelni, * az ilyen arcod fényé<u>ben</u> járhat, Uram.<br> \nEgész nap örvendez<u>nek</u> nevednek, * és igazságod felma<u>gasz</u>talja őket.<br>\nH: <b>Hadd énekel<u>jem</u> örökké * Urunknak <u>ir</u>galmas jóságát.</b><br>\n\nE: Te vagy néped er<u>ős</u>sége, * és jóvoltodból e<u>mel</u>jük fel fejünket.<br>\nMert a mi pajzsunk <u>az</u> Úrtól van, * és királyunk <u>Iz</u>rael Szentjétől.<br>\nH: <b>Hadd énekel<u>jem</u> örökké * Urunknak <u>ir</u>galmas jóságát.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 6,3-4.8-11",
                 "teaser": "A keresztségben eltemetkeztünk Krisztussal együtt a halálba, hogy újéletre keljünk.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -698,13 +698,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Ti mindnyájan választott nemzetség, királyi papság, szent nemzet vagytok. * Hirdessétek annak erejét, aki a sötétségből csodálatos világosságára hívott meg titeket. 1Pét 2,9 – 8 G. tónus.",
                 "text": "Ti mindnyájan választott nemzetség, királyi papság, szent nemzet vagytok. * Hirdessétek annak erejét, aki a sötétségből csodálatos világosságára hívott meg titeket. 1Pét 2,9 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 10,37-42",
                 "teaser": "Aki a keresztjét föl nem veszi, nem méltó hozzám.<br>Aki titeket befogad, engem fogad be.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -718,7 +718,7 @@
         "name": "Évközi 14. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Zak 9,9-10",
                 "teaser": "Íme, közeleg királyod.",
                 "title": "OLVASMÁNY Zakariás próféta könyvéből",
@@ -726,13 +726,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 144,1-2.8-9.10-11.13cd-14",
                 "teaser": "Válasz: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b> (5. tónus.)<br>",
                 "text": "Válasz: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b> (5. tónus.)<br>\nVagy: <b>Alleluja.</b> 5. szám.<br>\n\nElőénekes: Magasztallak téged, Istenem, <u>Ki</u>rályom, * és áldom nevedet <u>ö</u>rökkön örökké.<br>\nMindennap áldalak <u>té</u>ged, * és dicsőítem nevedet <u>ö</u>rökkön örökké.<br>\nHívek: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b><br>\nVagy: Alleluja.<br>\n\nE: Irgalmas az Úr és <u>ke</u>gyelmes, * nagy irgalmú és <u>hos</u>szan tűrő.<br>\nAz Úr mindenkihez <u>jó</u>ságos, * és irgalmas <u>min</u>den művéhez.<br>\nH: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b><br>\nVagy: Alleluja.<br>\n\nE: Magasztaljon téged, Uram, minden <u>mű</u>ved, * szentjeid <u>ál</u>dást mondjanak.<br>\nOrszágod dicsőségéről <u>szól</u>janak, * és hatalmadat <u>min</u>denek hirdessék.<br>\nH: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b><br>\nVagy: Alleluja.<br>\n\nE: Hűséges az Úr minden <u>sza</u>vában, * és tettei <u>szent</u>nek hirdetik.<br>\nAz Úr a botladozót <u>fenn</u>tartja, * és fölemeli, akit <u>meg</u>aláztak.<br>\nH: <b>Istenem és királyom, magasztallak <u>té</u>ged: * szent nevedet áldom <u>ö</u>rökkön örökké.</b><br>\nVagy: Alleluja."
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,9.11-13",
                 "teaser": "Ha lélekkel elfojtjátok a test szerinti tetteket, élni fogtok.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -740,13 +740,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Mt 11,25 – 8 G. tónus.",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Mt 11,25 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 11,25-30",
                 "teaser": "Én szelíd vagyok és alázatos szívű – mondja az Úr.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -760,7 +760,7 @@
         "name": "Évközi 15. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 55,10-11",
                 "teaser": "Az eső megöntözi a földet, és termővé teszi.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -768,13 +768,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 64,10abcd.10e-11.12-13.14",
                 "teaser": "Válasz: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b> (5. tónus.)",
                 "text": "Válasz: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b> (5. tónus.)\n<br>\nElőénekes: Meglátogattad és megöntözted a <u>föl</u>det, * elhalmoztad <u>bő</u>séges áldással.<br>\nAz egek csatornái megteltek <u>víz</u>zel; * gabonát <u>ne</u>velsz az embernek.<br>\nHívek: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b><br>\n\nE: Előkészíted a <u>föl</u>det: † barázdáit <u>ön</u>tözöd, * göröngyeit <u>el</u>simítod.<br>\nFellazítod áztató <u>e</u>sőkkel, * és megáldod <u>sar</u>jadó vetését.<br>\nH: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b><br>\n\nE: Jóságoddal koronázod az <u>esz</u>tendőt * jólét és bőség jár <u>lá</u>bad nyomában.<br>\nEső csepeg a puszták <u>fü</u>vére, * a dombok <u>víg</u>ságba öltöznek.<br>\nH: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b><br>\n\nE: Nyájak lepik el a ré<u>te</u>ket, † bőven nő a gabona a <u>völ</u>gyekben, * és minden ujjong és <u>him</u>nuszt énekel.<br>\nH: <b>Jó földbe hullott a tanítás <u>mag</u>ja, * és <u>ter</u>mést érlelt.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,18-23",
                 "teaser": "A természet sóvárogva várja Isten fiainak megnyilvánulását.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -782,13 +782,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "A jó mag az Isten igéje, Krisztus a magvető, * aki reátalál örökké élni fog. – 8 G. tónus.",
                 "text": "A jó mag az Isten igéje, Krisztus a magvető, * aki reátalál örökké élni fog. – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 13,1-23 rövidebb: Mt 13,1-9",
                 "teaser": "Kiment a magvető vetni.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -802,7 +802,7 @@
         "name": "Évközi 16. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Bölcs 12,13.16-19",
                 "teaser": "Isten alkalmat ad a bűnök megbánására.",
                 "title": "OLVASMÁNY a Bölcsesség könyvéből",
@@ -810,13 +810,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 85,5-6.9-10.15-16a",
                 "teaser": "Válasz: <b>Urunk, <u>é</u>des Istenünk, * mennyire <u>jó</u> vagy hozzánk!</b> (1 D<sup><small>2</small></sup>. tónus.)",
                 "text": "Válasz: <b>Urunk, <u>é</u>des Istenünk, * mennyire <u>jó</u> vagy hozzánk!</b> (1 D<sup><small>2</small></sup>. tónus.)\n<br>\nElőénekes: Uram, te szelíd és <u>jó</u>ságos vagy, * nagy irgalmú mindazokhoz, akik <u>hív</u>nak téged.<br>\nHallgasd meg, Uram, <u>i</u>mádságom, * figyelj könyör<u>gé</u>sem szavára.<br>\nHívek: <b>Urunk, <u>é</u>des Istenünk, * mennyire <u>jó</u> vagy hozzánk!</b><br>\n\nE: Eljön minden nemzet, <u>me</u>lyet csak alkottál, * imádva borulnak le előtted, Uram, és <u>ne</u>vedet áldják.<br>\nMert nagy vagy és <u>cso</u>dákat művelsz, * egyedül te <u>vagy</u> az Isten.<br>\nH: <b>Urunk, <u>é</u>des Istenünk, * mennyire <u>jó</u> vagy hozzánk!</b>\n<br>\nE: Uram, Istenem, te irgalmas és <u>jó</u>ságos vagy, * hosszan tűrő, könyörü<u>lő</u> és hűséges.<br>\nTekints rám, és <u>szánj</u> meg engem, * adj <u>e</u>rőt szolgádnak.<br>\nH: <b>Urunk, <u>é</u>des Istenünk, * mennyire <u>jó</u> vagy hozzánk!</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,26-27",
                 "teaser": "A Szentlélek könyörög bennünk, emberi szóval ki nem fejezhetőfohászkodással.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -824,13 +824,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8G. tónus.",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 13,24-43 rövidebb: Mt 13,24-30",
                 "teaser": "A jók és a rosszak szétválasztása az ítélet napján következik be.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -844,7 +844,7 @@
         "name": "Évközi 17. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "1Kir 3.5.7-12",
                 "teaser": "Trónra léptekor Salamon bölcsességért könyörög.",
                 "title": "OLVASMÁNY a Királyok első könyvéből",
@@ -852,13 +852,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 118,57.72.76-77.127-128.129-130",
                 "teaser": "Válasz: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b> (4. tónus.)",
                 "text": "Válasz: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b> (4. tónus.)\n<br>\nElőénekes: Hittel val<u>lom</u>: † Az az én osztály<u>ré</u>szem, Uram, * hogy igéidet meg<u>tart</u>sam.<br>\nDrágább nekem <u>aj</u>kad törvénye * sok ezer aranynál, e<u>züst</u>nél.<br>\nHívek: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b><br>\n\nE: Vigasztalásomra <u>le</u>gyen irgalmad, * amint szolgádnak megígér<u>ted</u>.<br>\nIrgalmasságod <u>él</u>tessen engem, * mivel törvényed az én gyönyörűsé<u>gem</u>.<br>\nH: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b><br>\n\nE: Parancsaidat többre tar<u>tom</u> az aranynál, * kedvesebb nekem, mint a szín<u>a</u>rany.<br>\nEzért parancsaidhoz <u>tar</u>tom magamat, * gyűlölöm a hazugság minden út<u>ját</u>.<br>\nH: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b><br>\n\nE: Minden rendelésed csodá<u>lat</u>raméltó, * lelkem ezért megtartja ő<u>ket</u>.<br>\nRagyogva világít <u>sza</u>vad fénye, * okossá teszi a kicsinye<u>ket</u>.<br>\nH: <b>Törvényedet <u>szív</u>ből szeretem, * én Uram, Is<u>te</u>nem.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,28-30",
                 "teaser": "Isten eleve arra rendelt minket, hogy Fiának képmását öltsük magunkra.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -866,13 +866,13 @@
                 "ending": ""
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus. ",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus. "
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 13,44-52",
                 "teaser": "Isten országa többet ér minden földi kincsnél.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -886,7 +886,7 @@
         "name": "Évközi 18. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 55,1-3",
                 "teaser": "Jöjjetek és egyetek.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -894,13 +894,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 144,8-9.15-16.17-18",
                 "teaser": "Válasz: <b>Megnyitod kezedet, <u>Is</u>tenem, * és <u>táp</u>lálsz minket.</b> (5. tónus.)<br>",
                 "text": "Válasz: <b>Megnyitod kezedet, <u>Is</u>tenem, * és <u>táp</u>lálsz minket.</b> (5. tónus.)<br>\n\nElőénekes: Irgalmas az Úr és <u>ke</u>gyelmes, * nagy irgalmú és <u>hos</u>szan tűrő.<br>\nAz Úr mindenkihez <u>jó</u>ságos, * és irgalmas <u>min</u>den művéhez.<br>\nHívek: <b>Megnyitod kezedet, <u>Is</u>tenem, * és <u>táp</u>lálsz minket.</b><br>\n\nE: Mindenek szeme bízón <u>rád</u> tekint, * és te enni adsz nekik <u>kel</u>lő időben.<br>\nMegnyitod <u>ke</u>zedet, * és javaiddal eltöltesz <u>min</u>den élőt.<br>\nH: <b>Megnyitod kezedet, <u>Is</u>tenem, * és <u>táp</u>lálsz minket.</b><br>\n\nE: Igazságos az Úr minden <u>út</u>ján, * és szent <u>min</u>den művében.<br>\nKözel az Úr mindazokhoz, akik őt <u>hív</u>ják, * akik hozzá kiáltanak <u>i</u>gaz szívvel.<br>\nH: <b>Megnyitod kezedet, <u>Is</u>tenem, * és <u>táp</u>lálsz minket.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,35.37-39",
                 "teaser": "Semmiféle teremtmény el nem szakíthat bennünket Isten szeretetétől.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -908,13 +908,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten ajkáról való. Mt 4,4b – 8 G. tónus.",
                 "text": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten ajkáról való. Mt 4,4b – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 14,13-21",
                 "teaser": "Mindannyian ettek és jól is laktak.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -928,7 +928,7 @@
         "name": "Évközi 19. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "1Kir 19,9a.11-13a",
                 "teaser": "A hegyen járulj az Úr színe elé!",
                 "title": "OLVASMÁNY a Királyok első könyvéből",
@@ -936,13 +936,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 84,9ab-10.11-12.13-14",
                 "teaser": "Válasz: <b>Urunk, mutasd meg nekünk <u>ir</u>galmas szívedet, * és üdvösségünket <u>add</u> meg nékünk!</b> (1 D<sup><small>2</small></sup>. tónus.)<br>",
                 "text": "Válasz: <b>Urunk, mutasd meg nekünk <u>ir</u>galmas szívedet, * és üdvösségünket <u>add</u> meg nékünk!</b> (1 D<sup><small>2</small></sup>. tónus.)<br>\n\nElőénekes: Hadd halljam, mit mond az én <u>U</u>ram, Istenem, * mert népének és szentjeinek <u>bé</u>két ígér.<br>\nAz istenfélőkhöz valóban <u>kö</u>zel az üdvösség, * hogy országukba di<u>cső</u>ség költözzék.<br>\nHívek: <b>Urunk, mutasd meg nekünk <u>ir</u>galmas szívedet, * és üdvösségünket <u>add</u> meg nékünk!</b><br>\n\nE: Irgalom és hűség majd <u>egy</u>másra lelnek, * csókot vált az igazság <u>és</u> a béke.<br>\nA földből a <u>hű</u>ség kisarjad, * és az igazságosság tekint <u>le</u> az égből.<br>\nH: <b>Urunk, mutasd meg nekünk <u>ir</u>galmas szívedet, * és üdvösségünket <u>add</u> meg nékünk!</b><br>\n\nE: Az Úr jóságát <u>meg</u>mutatja, * földünk is meg<u>hoz</u>za termését. <br>\nIgazság jár az <u>Úr</u> előtt, * és béke a <u>lá</u>ba nyomában.<br>\nH: <b>Urunk, mutasd meg nekünk <u>ir</u>galmas szívedet, * és üdvösségünket <u>add</u> meg nékünk!</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 9,1-5",
                 "teaser": "Inkább azt kívánnám, hogy magam legyek átok alatt testvéreimért.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -950,13 +950,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Az Úrban remélek, * igéjében bízom. Zsolt 129,5 – 4g. tónus.",
                 "text": "Az Úrban remélek, * igéjében bízom. Zsolt 129,5 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 14,22-33",
                 "teaser": "Parancsold meg, hogy a vízen hozzád menjek!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -970,7 +970,7 @@
         "name": "Évközi 20. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "OLVASMÁNY Iz 56,1.6-7",
                 "teaser": "Az idegenek fiait elvezetem szent hegyemre.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -978,13 +978,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 66,2-3.5.6 és 8",
                 "teaser": "Válasz: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b> (5. tónus.)",
                 "text": "Válasz: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b> (5. tónus.)\n<br>\nElőénekes: Könyörüljön rajtunk az Isten, és áldjon meg <u>min</u>ket, * ragyogtassa fel <u>ar</u>cát fölöttünk,<br>\nhogy megismerjék a földön <u>u</u>tadat, * és üdvösségedet az <u>ös</u>szes nemzetek.<br>\nHívek: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b><br>\n\nE: Örvendjenek és ujjongjanak a nem<u>ze</u>tek, † mert igazságosan ítéled a <u>né</u>peket,* és te vezérled <u>ő</u>ket a földön.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b><br>\n\nE: Magasztaljanak téged a népek, <u>Is</u>tenünk, * dicsőítsenek az <u>ös</u>szes nemzetek.<br>\nÁldjon meg minket az <u>Is</u>ten, * félve tisztelje őt a föld <u>min</u>den határa.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 11,13-15.29-32",
                 "teaser": "Isten nem bánja meg kegyelmi adományait és meghívását.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -992,13 +992,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok az út, az igazság és az élet, * senki sem jut Atyámhoz, csak általam.” Jn 14,23 – 4g. tónus.",
                 "text": "Jézus mondja: † „Én vagyok az út, az igazság és az élet, * senki sem jut Atyámhoz, csak általam.” Jn 14,23 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 15,21-28",
                 "teaser": "Asszony, nagy a te hited!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1012,7 +1012,7 @@
         "name": "Évközi 21. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 22,19-23",
                 "teaser": "Az Úr az ő szolgájának, a Messiásnak a vállára teszi le Dávid házának kulcsát.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -1020,13 +1020,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 137,1-2a.2bc-3.6 és 8bc",
                 "teaser": "Válasz: <b>Örökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait!</b> (12. tónus.)<br>",
                 "text": "Válasz: <b>Örökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait!</b> (12. tónus.)<br>\n\nElőénekes: Ünnepellek, Uram, szí<u>vem</u> mélyéből, * mert meghallgattad aj<u>kam</u> igéit.<br>\nAngyalaid előtt zsol<u>tárt</u> éneklek, * szent templomodban arc<u>ra</u> borulok.<br>\nHívek: <b>Örökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait!</b>\n<br>\n\nE: Szent nevedet min<u>dig</u> megvallom, * irgalmadért és i<u>gaz</u> voltodért.<br>\nmely napon hozzád kiáltok, hall<u>gass</u> meg engem, * gyarapítsd az e<u>rőt</u> lelkemben.<br>\nH: <b>Örökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait!</b>\n<br>\n\nE: Valóban fölséges az <u>Úr</u>: † az alázatosnak gond<u>ját</u> viseli, * messziről felismeri, kik <u>a</u> gőgösök.<br>\nÖrökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait.<br>\nH: <b>Örökké tart, Uram, a <u>te</u> irgalmad: * ne vesd meg kezed al<u>ko</u>tásait!</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 11,33-36",
                 "teaser": "Őbelőle, őáltala és őérte van minden!",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -1034,13 +1034,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Te Péter vagy, azaz kőszikla, † \nés én erre a sziklára építem Egyházamat, * és a pokol kapui nem vesznek erőt rajta. Mt 16,18 – 8 G. tónus.",
                 "text": "Te Péter vagy, azaz kőszikla, † \nés én erre a sziklára építem Egyházamat, * és a pokol kapui nem vesznek erőt rajta. Mt 16,18 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 16,13-20",
                 "teaser": "Te Péter vagy, és én neked adom a mennyek országának kulcsait.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1054,7 +1054,7 @@
         "name": "Évközi 22. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Jer 20,7-9",
                 "teaser": "Az Úr szava gyalázatomra vált.",
                 "title": "OLVASMÁNY Jeremiás próféta könyvéből",
@@ -1062,13 +1062,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 62,2.3-4.5-6.8-9",
                 "teaser": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)",
                 "text": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)\n<br>\nElőénekes: Uram, Istenem, <u>vir</u>rasztva kereslek, * az én Istenem <u>te</u> vagy nékem.<br>\nTéged szomjaz lelkem, testem <u>u</u>tánad eped, * mint a puszta tikkadt, <u>ki</u>aszott földje.<br>\nHívek: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b><br>\n\nE: Szentélyedben <u>ne</u>ked szolgáltam, * hogy erődet és dicsőségedet <u>meg</u>láthassam.<br>\nMert irgalmad többet ér, <u>mint</u> az élet, * ezért ajkam <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b><br>\n\nE: Neked mondok áldást, <u>a</u>míg csak élek, * a te nevedben tárom <u>i</u>mára kezemet.<br>\nMint dús lakomával, <u>tel</u>jék be lelkem, * ajkam ujjong, szám <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b><br>\n\nE: Valóban te lettél <u>vé</u>delmezőm, * szárnyaid oltalmában <u>ör</u>vendezem.<br>\nLelkem tehozzád <u>ra</u>gaszkodik, * jobbod szilárdan <u>tart</u> fenn engem.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 12,1-2",
                 "teaser": "Adjátok testeteket élő áldozatul!",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -1076,13 +1076,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus.",
                 "text": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "16,21-27",
                 "teaser": "Aki utánam akar jönni, tagadja meg önmagát!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1096,7 +1096,7 @@
         "name": "Évközi 23. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ez 33,7-10",
                 "teaser": "Ha nem teszel semmit, hogy az istentelent visszatérítsd útjáról, vérét tőled kérem számon.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
@@ -1104,13 +1104,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 94,1-2.6-7.8-9",
                 "teaser": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)<br>",
                 "text": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)<br>\n\nElőénekes: Jöjjetek, örvendezzünk az <u>Úr</u>nak, * és ujjongjunk üdvünk sziklá<u>ja</u> előtt.<br>\nDicsőítő énekkel lépjünk színe <u>e</u>lé, * magasztaljuk őt zsol<u>tárt</u> zengve.<br>\nHívek: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\n\nE: Jöjjetek, boruljunk le, hódoljunk <u>e</u>lőtte, * hulljunk térdre Urunk, Alko<u>tónk</u> előtt.<br>\nMert ő a mi <u>Is</u>tenünk, * mi pedig az ő népe, és kezére bízott <u>nyáj</u> vagyunk.<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\n\nE: Bárcsak hallgatnátok ma az ő <u>sza</u>vára: * „Ne keményítsétek meg szí<u>ve</u>teket,<br>\nmint egykor Meribánál, Massza napján a pusz<u>tá</u>ban, † ahol atyáitok megkísértettek <u>en</u>gem, * próbára tettek, bár látták számos <u>cso</u>dámat.”<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 13,8-10",
                 "teaser": "A törvény teljessége a szeretet.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -1118,13 +1118,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Isten Krisztusban kiengesztelődött a világgal, * és ránk bízta a kiengesztelődés igéjét. 2Kor 5,19 – 4g. tónus.",
                 "text": "Isten Krisztusban kiengesztelődött a világgal, * és ránk bízta a kiengesztelődés igéjét. 2Kor 5,19 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 18,15-20",
                 "teaser": "Ha hallgat rád, megnyerted testvéredet.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1138,7 +1138,7 @@
         "name": "Évközi 24. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Sir 27,30-28,7",
                 "teaser": "Bocsásd meg a másik embernek, ha vétett, imádkozzál, és neked ismegbocsátják vétked.",
                 "title": "OLVASMÁNY Sirák fia könyvéből",
@@ -1146,13 +1146,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 102,1-2.3-4.9-10.11-12",
                 "teaser": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> (11. tónus.)<br>",
                 "text": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> (11. tónus.)<br>\n\nElőénekes: Áldjad, lelkem, az <u>U</u>rat, * egész bensőm az ő <u>szent</u> nevét áldja.<br>\nÁldjad, lelkem, az <u>U</u>rat, * és ne feledd, hogy hoz<u>zád</u> milyen jó volt.<br>\nHívek: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Megbocsátja minden <u>vét</u>ked, * meggyógyítja min<u>den</u> gyengeséged.<br>\nA pusztulástól megmenti <u>é</u>leted, * kegyelmében és irgalmában meg <u>is</u> koronázza.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Irgalmas és kegyes a mi <u>Is</u>tenünk: * nagy irgalmú <u>és</u> hosszan tűrő.<br>\nNem bűneink szerint bánik <u>ve</u>lünk, * és nem gonoszságunk szerint fi<u>zet</u> vissza nekünk.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Amilyen messze van napkelettől a <u>nap</u>nyugat, * bűneinket olyan mes<u>sze</u> dobja tőlünk.<br>\nAhogyan az atya megkönyörül <u>fi</u>ain, * úgy könyörül meg az Úr <u/>az</u> istenfélőn.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 14,7-9",
                 "teaser": "Akár élünk, akár halunk, mindig az Úréi vagyunk.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -1160,13 +1160,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Új parancsot adok nektek, * szeressétek egymást, amint én szeretlek titeket.” Jn 13,34 – 4g. tónus.",
                 "text": "Jézus mondja: † „Új parancsot adok nektek, * szeressétek egymást, amint én szeretlek titeket.” Jn 13,34 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 18,21-35",
                 "teaser": "Nem mondom, hogy hétszer bocsáss meg, hanem hetvenszer hétszer.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1180,7 +1180,7 @@
         "name": "Évközi 25. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 55,6-9",
                 "teaser": "Az én gondolataim nem a ti gondolataitok.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -1188,13 +1188,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 144,2-3.8-9.17-18",
                 "teaser": "Válasz: <b>Közel az Úr <u>a</u>zokhoz, * akik <u>ol</u>talmát kérik.</b> (5. tónus.)<br>",
                 "text": "Válasz: <b>Közel az Úr <u>a</u>zokhoz, * akik <u>ol</u>talmát kérik.</b> (5. tónus.)<br>\n\nElőénekes: Mindennap áldalak <u>té</u>ged, * és dicsőítem nevedet <u>ö</u>rökkön örökké.<br>\nNagy az Úr és minden dicséretre <u>mél</u>tó, * nagyságát <u>fel</u>fogni nem lehet.<br>\nHívek: <b>Közel az Úr <u>a</u>zokhoz, * akik <u>ol</u>talmát kérik.</b>\n<br>\nE: Irgalmas az Úr és <u>ke</u>gyelmes, * nagy irgalmú és <u>hos</u>szan tűrő.<br>\nAz Úr mindenkihez <u>jó</u>ságos, * és irgalmas <u>min</u>den művéhez.<br>\nH: <b>Közel az Úr <u>a</u>zokhoz, * akik <u>ol</u>talmát kérik.</b>\n<br>\nE: Igazságos az Úr minden <u>út</u>ján, * és szent <u>min</u>den művében.<br>\nKözel az Úr azokhoz, akik őt <u>hív</u>ják, * akik hozzá kiáltanak <u>i</u>gaz szívvel.<br>\nH: <b>Közel az Úr <u>a</u>zokhoz, * akik <u>ol</u>talmát kérik.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Fil 1,20a-24.27a",
                 "teaser": "Számomra az élet Krisztus.",
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
@@ -1202,13 +1202,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Uram, nyisd meg szívünket,* hogy meghallgassuk Fiad igéit. Vö. ApCsel 16,14b – 5. tónus.",
                 "text": "Uram, nyisd meg szívünket,* hogy meghallgassuk Fiad igéit. Vö. ApCsel 16,14b – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 20,1-16a",
                 "teaser": "Talán rossz szemmel nézed, hogy én jó vagyok?",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1222,7 +1222,7 @@
         "name": "Évközi 26. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ez 18,25-28",
                 "teaser": "Amikor a bűnös elfordul a bűntől, amelyet elkövetett, megmenti életét.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
@@ -1230,13 +1230,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 24,4bc-5.6-7.8-9",
                 "teaser": "Válasz: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b> (4G. tónus.)<br>",
                 "text": "Válasz: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b> (4G. tónus.)<br>\n\nElőénekes: Utaidat, Uram, mu<u>tasd</u> meg nekem, * ösvényeidre taníts meg en<u>gem</u>.<br>\nTaníts és vezess igazságod sze<u>rint</u>, † mert te vagy üdvö<u>zí</u>tő Istenem, szüntelenül benned bí<u>zom</u>.<br>\nHívek: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>\n<br>\nE: Irgalmasságodról emlékez<u>zél</u> meg, Uram, * és könyörületességedről, mely öröktől va<u>ló</u>.<br>\nNe emlékezzél ifjúságom bűné<u>re</u> és vétkére, * jóságodban, Uram, gondolj rám irgalom<u>mal</u>.<br>\nH: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>\n<br>\nE: Az Úr igazsá<u>gos</u> és jóságos, * ezért a bűnösöknek is utat mu<u>tat</u>.<br>\nAz alázatost a <u>jó</u>ban vezérli, * a szelídet útjára ta<u>nít</u>ja.<br>\nH: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Fil 2,1-11 rövidebb: Fil 2,1-5",
                 "teaser": "Ugyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt!",
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
@@ -1244,13 +1244,13 @@
                 "ending": "<i>Vagy rövidebb forma a *-ig</i>"
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „juhaim hallgatnak szavamra, * ismerem őket és a nyomomban járnak.” Jn 10,27 – 1 D<sup><small>2</small></sup> tónus.",
                 "text": "Jézus mondja: † „juhaim hallgatnak szavamra, * ismerem őket és a nyomomban járnak.” Jn 10,27 – 1 D<sup><small>2</small></sup> tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 21,28-32",
                 "teaser": "Ne szavakkal, hanem tettekkel szeressük az Istent.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1264,7 +1264,7 @@
         "name": "Évközi 27. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 5,1-7",
                 "teaser": "A Seregek Urának szőlője Izrael háza.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -1272,13 +1272,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 79,9 és 12.13-14.15-16.19-20",
                 "teaser": "Válasz: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b> (4g. tónus.)<br>",
                 "text": "Válasz: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b> (4g. tónus.)<br>\n\nElőénekes: Egyiptomból telepítet<u>ted</u> át szőlődet, * népeket űztél el, hogy elültet<u>hesd</u>.<br>\nIndái a ten<u>ge</u>rig elértek, * hajtásai pedig a Fo<u>lya</u>mig.<br>\nHívek: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b>\n<br>\nE: Miért rombol<u>tad</u> le falait, * hogy az arra járók mind leszüretel<u>jék</u>?<br>\nElpusztította az <u>er</u>dei vadkan, * a magányos vad lelegel<u>te</u>.<br>\nH: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b>\n<br>\nE: Seregek Ura, fordulj hoz<u>zánk</u>, † tekints <u>le</u> az égből, * lásd és látogasd meg ezt a sző<u>lőt</u>!<br>\nVédd meg, amit <u>job</u>bod ültetett, * és az emberfiát, akit magadnak megerősítet<u>tél</u>.<br>\nH: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b>\n<br>\nE: Nem hagyunk el többé, él<u>tess</u> még bennünket, * és mi segítségül hívjuk ne<u>ve</u>det.<br>\nSeregek Ura, Istene, té<u>ríts</u> meg minket, * ragyogtasd ránk arcodat, és szabadok le<u>szünk</u>.<br>\nH: <b>Isten <u>ked</u>ves szőlője * az ő választott né<u>pe</u>.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Fil 4,6-9",
                 "teaser": "Amit tanultatok, váltsátok tettekre, és veletek lesz a béke Istene!",
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
@@ -1286,13 +1286,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Én választottalak titeket a világból, † hogy menjetek és gyümölcsöt teremjetek, * és gyümölcsötök maradandó legyen, mondja az Úr. Jn 15,16 – 6. tónus.",
                 "text": "Én választottalak titeket a világból, † hogy menjetek és gyümölcsöt teremjetek, * és gyümölcsötök maradandó legyen, mondja az Úr. Jn 15,16 – 6. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 21,33-43",
                 "teaser": "Más munkásoknak adja bérbe szőlőskertjét.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1306,7 +1306,7 @@
         "name": "Évközi 28. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 25,6-10a",
                 "teaser": "Az Úr bőséges lakomát rendez, és letörli a könnyet minden arcról.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -1314,13 +1314,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 22,1-3a.3b-4.5.6",
                 "teaser": "Válasz: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b> (9. tónus.)",
                 "text": "Válasz: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b> (9. tónus.)\n<br>\n\nElőénekes: Az <u>Úr</u> nékem pásztorom: * ínsé<u>get</u> nem kell látnom.<br>\nZöldellő mező<u>kön</u> terelget engem, * csendes vizekhez vezet és lelke<u>met</u> felüdíti.<br>\nHívek: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Az igazság ösvé<u>nyén</u> vezet engem, * ahogyan <u>ő</u> megígérte.<br>\nA halál sötét völgyében sem félek, <u>mert</u> ott vagy vélem, * biztonságot ad vessződ <u>és</u> pásztorbotod.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Számomra asz<u>talt</u> terítettél, * hogy üldözői<u>met</u> szégyen érje.<br>\nFejemet megken<u>ted</u> olajoddal, * serlegemet csordul<u>tig</u> megtöltötted.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Jóságod és irgal<u>mad</u> nyomon követ * életem</u>nek</u> minden napján.<br>\nOtthonom lesz <u>az</u> Isten háza, * mindörök<u>ké</u> szünet nélkül.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Fil 4,12-14.19-20",
                 "teaser": "Mindenre képes vagyok abban, aki nekem erőt ad.",
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
@@ -1328,13 +1328,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus.",
                 "text": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 22,1-14 rövidebb: Mt 22,1-10",
                 "teaser": "Akit csak találtok, hívjátok el a menyegzőre!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1348,7 +1348,7 @@
         "name": "Évközi 29. vasárnap – A missziók vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 45,1.4-6",
                 "teaser": "Megfogtam Kürosz jobbját, hogy színe előtt meghódolásra bírjam a nemzeteket.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -1356,13 +1356,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 95,1.3.4-5.7-8.9-10a.c",
                 "teaser": "Válasz: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b> (4g. tónus.)",
                 "text": "Válasz: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b> (4g. tónus.)\n<br>\nElőénekes: Énekeljetek az Úr<u>nak</u> új éneket, * minden föld az Úrnak énekel<u>jen</u>.<br>\nHirdessétek dicsőségét a nem<u>ze</u>tek között, * és csodatetteit minden nép<u>nek</u>.<br>\nHívek: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b>\n<br>\nE: Mert nagy az Úr, és minden dicsé<u>ret</u>re méltó, * félelmetesebb az összes istenek<u>nél</u>.<br>\nA népek minden istene csak <u>ü</u>res semmiség, * az Úr azonban az ég alko<u>tó</u>ja.<br>\nH: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b>\n<br>\nE: Népek családjai, adja<u>tok</u> az Úrnak, * adjatok az Úrnak dicsőséget és ha<u>tal</u>mat.<br>\nIsmerjétek el az Úr nevének <u>di</u>csőségét, * áldozatot hozva lépjetek udvará<u>ba</u>.<br>\nH: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b>\n<br>\nE: Boruljatok <u>le</u> az Úr előtt, * színe előtt rendüljön meg az e<u>gész</u> föld.<br>\nMondjátok a nemzeteknek: „Az Úr <u>u</u>ralkodik, * igazságban ítéli meg a né<u>pe</u>ket.<br>\nH: <b>Adjatok az Úrnak <u>di</u>csőséget, * ismerjétek el ha<u>tal</u>mát.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Tessz 1,1-5b",
                 "teaser": "Megemlékezünk hitetekről, szeretetekről és reményetekről.",
                 "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből",
@@ -1370,13 +1370,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Úgy ragyogjatok, mint csillagok a mindenségben, * és tartsátok meg az örök élet igéit. Vö. Fil 2,15d-16a – 6. tónus.",
                 "text": "Úgy ragyogjatok, mint csillagok a mindenségben, * és tartsátok meg az örök élet igéit. Vö. Fil 2,15d-16a – 6. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 22,15-21",
                 "teaser": "Adjátok meg a császárnak, ami a császáré, az Istennek pedig, ami az Istené.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1390,7 +1390,7 @@
         "name": "Évközi 30. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Kiv 22,20-26",
                 "teaser": "Ha az özvegyet és árvát sanyargatjátok, fellobban ellenetek haragom.",
                 "title": "OLVASMÁNY Mózes második könyvéből",
@@ -1398,13 +1398,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 17,2-3a.3bc-4.47 és 51ab",
                 "teaser": "Válasz: <b>Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.</b> (2. tónus.)",
                 "text": "Válasz: <b>Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.</b> (2. tónus.)\n<br>\nElőénekes: Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.<br>\nMenedékem és szikla<u>vá</u>ram, * szabadítóm te <u>vagy</u>, Uram.<br>\nHívek: <b>Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.</b>\n<br>\nE: Istenem, segítőm, akiben <u>re</u>mélek, * oltalmazóm, pártfogóm és üd<u>vöm</u> ereje.<br>\nAz Úrhoz kiáltok, aki dicséretre <u>mél</u>tó, * és megszabadulok ellensé<u>ge</u>imtől.<br>\nH: <b>Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.</b>\n<br>\nE: Él az Úr, az én áldott <u>se</u>gítőm, * legyen dicsőség üdvöm Is<u>te</u>nének.<br>\nFelmagasztalta királyát, győzelmet adott <u>né</u>ki, * irgalmas volt föl<u>kent</u>jéhez.<br>\nH: <b>Szeretlek, Uram, <u>Is</u>tenem, * én e<u>rős</u>ségem.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Tessz 1,5c-10",
                 "teaser": "Elfordultatok a bálványoktól, hogy az Istennek szolgáljatok és várjátok a mennyből az ő Fiát.",
                 "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből",
@@ -1412,13 +1412,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † Aki szeret engem, megfogadja szavamat, * Atyám is szeretni fogja, és hozzá költözünk. Jn 14,23 – 8 G. tónus.",
                 "text": "Jézus mondja: † Aki szeret engem, megfogadja szavamat, * Atyám is szeretni fogja, és hozzá költözünk. Jn 14,23 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 22,34-40",
                 "teaser": "Szeresd az Urat, a te Istenedet, és felebarátodat, mint saját magadat.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1432,7 +1432,7 @@
         "name": "Évközi 31. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Mal 1,14b-2,2b.8-10",
                 "teaser": "Ti letértetek az útról, sőt sokan elbuktak tanítástok miatt.",
                 "title": "OLVASMÁNY Malakiás próféta könyvéből",
@@ -1440,13 +1440,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 130,1.2.3.",
                 "teaser": "Válasz: <b>Őrizd meg <u>lel</u>kemet * a te bé<u>kéd</u>ben, Uram.</b> (8G. tónus.)",
                 "text": "Válasz: <b>Őrizd meg <u>lel</u>kemet * a te bé<u>kéd</u>ben, Uram.</b> (8G. tónus.)\n<br>\nElőénekes: Szívemben nincs nagyravágyás, <u>U</u>ram, * szememben <u>sin</u>csen kérkedés.<br>\nNagy dolgok után nem töröm <u>ma</u>gam, * sem erőmet meghaladó feltűnő <u>cso</u>dák után.<br>\nHívek: <b>Őrizd meg <u>lel</u>kemet * a te bé<u>kéd</u>ben, Uram.</b>\n<br>\nE: Valóban lecsendesítettem lelkemet és megnyugtat<u>tam</u>, † miként a kisded anyja <u>ö</u>lében, * úgy pihent <u>meg</u> a lelkem.<br>\nH: <b>Őrizd meg <u>lel</u>kemet * a te bé<u>kéd</u>ben, Uram.</b>\n<br>\nE: Bízzál, Izrael, az <u>Úr</u>ban, * mostantól fogva <u>mind</u>örökké!<br>\nH: <b>Őrizd meg <u>lel</u>kemet * a te bé<u>kéd</u>ben, Uram.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Tessz 2,7b-9.13",
                 "teaser": "Nemcsak Isten evangéliumát, hanem életünket is nektek akartuk adni.",
                 "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből",
@@ -1454,13 +1454,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Egy a ti Atyátok, a mennyei, * és egy a ti tanítótok, a Krisztus. Mt 23,9b. 10b – 8G. tónus.",
                 "text": "Egy a ti Atyátok, a mennyei, * és egy a ti tanítótok, a Krisztus. Mt 23,9b. 10b – 8G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 23,1-12",
                 "teaser": "A farizeusok tanítják ugyan a mózesi törvényt, de maguk nem teszik.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1474,7 +1474,7 @@
         "name": "Évközi 32. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Bölcs 6,12-16",
                 "teaser": "A bölcsességre rátalálnak, akik keresik.",
                 "title": "OLVASMÁNY a Bölcsesség könyvéből",
@@ -1482,13 +1482,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 62,2.3-4.5-6.7-8",
                 "teaser": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)",
                 "text": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)\n<br>\nElőénekes: Uram, Istenem, <u>vir</u>rasztva kereslek, * az én Istenem <u>te</u> vagy nékem.<br>\nTéged szomjaz a lelkem, testem <u>u</u>tánad eped, * mint a puszta tikkadt, <u>ki</u>aszott földje.<br>\nHívek: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Szentélyedben <u>ne</u>ked szolgáltam, * hogy erődet és dicsőségedet <u>meg</u>láthassam.<br>\nMert irgalmad többet ér, <u>mint</u> az élet, * ezért ajkam <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Neked mondok áldást, <u>a</u>míg csak élek, * a te nevedben tárom <u>i</u>mára kezemet.<br>\nMint dús lakomával, <u>tel</u>jék be lelkem, * ajkam ujjong, szám <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Még fekvőhelyemen is <u>rád</u> gondolok, * hajnalig rólad <u>el</u>mélkedem.<br>\nValóban te lettél <u>vé</u>delmezőm, * szárnyaid oltalmában <u/>ör</u>vendezem.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Tessz 4,13-18 rövidebb: 1Tessz 4,13-14",
                 "teaser": "Isten feltámasztja azokat, akik Jézusban hunytak el.",
                 "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből.",
@@ -1496,13 +1496,13 @@
                 "ending": "<i>Vagy rövidebb forma a *-ig </i>"
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Virrasszatok és készen álljatok, * mert nem tudjátok, hogy az Emberfia melyik órában érkezik. Mt 24,42a és 44 – 8G. tónus.",
                 "text": "Virrasszatok és készen álljatok, * mert nem tudjátok, hogy az Emberfia melyik órában érkezik. Mt 24,42a és 44 – 8G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 25,1-13",
                 "teaser": "Íme, jön a Vőlegény! Menjetek eléje!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1516,7 +1516,7 @@
         "name": "Évközi 33. vasárnap – Szegények világnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Péld 31,10-13.19-20.30-31",
                 "teaser": "A derék asszony mindent beszerez ügyes kézzel.",
                 "title": "OLVASMÁNY a Példabeszédek könyvéből",
@@ -1524,13 +1524,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 127,1-2.3.4-5",
                 "teaser": "Válasz: <b>Boldog az <u>az</u> ember, * aki <u>fé</u>li az Istent.</b> (6. tónus.)",
                 "text": "Válasz: <b>Boldog az <u>az</u> ember, * aki <u>fé</u>li az Istent.</b> (6. tónus.)\n<br>\nElőénekes: Boldog mindaz, aki féli <u>az</u> Urat, * aki az <u>ő</u> útjain jár.<br>\nKezed munkájá<u>ból</u> élhetsz, * boldog leszel, <u>és</u> jól megy sorod.<br>\nHívek: <b>Boldog az <u>az</u> ember, * aki <u>fé</u>li az Istent.</b>\n<br>\nE: Feleséged olyan, mint a ter<u>mő</u> szőlőtő, * a te há<u>zad</u> bensejében.<br>\nFiaid olyanok, mint az olaj<u>fa</u>csemeték, * úgy veszik kö<u>rül</u> asztalodat.<br>\nH: <b>Boldog az <u>az</u> ember, * aki <u>fé</u>li az Istent.</b>\n<br>\nE: Íme, ilyen áldásban részesül az <u>az</u> ember,* aki <u>fé</u>li az Urat.<br>\nÁldjon meg az <u>Úr</u> Sionból, * hogy lásd Jeruzsálem jólétét éle<u>ted</u> minden napján.<br>\nH: <b>Boldog az <u>az</u> ember, * aki <u>fé</u>li az Istent.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Tessz 5,1-6",
                 "teaser": "Ne lepjen meg titeket az a nap, mint a tolvaj!",
                 "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből",
@@ -1538,13 +1538,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Maradjatok bennem és én bennetek maradok, mondja a mi <u>U</u>runk, * aki bennem marad, az <u>bő</u> termést hoz. Jn 15,4a és 5b. – 2. tónus.",
                 "text": "Maradjatok bennem és én bennetek maradok, mondja a mi <u>U</u>runk, * aki bennem marad, az <u>bő</u> termést hoz. Jn 15,4a és 5b. – 2. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 25,14-30 rövidebb: Mt 25,14-15.19-21",
                 "teaser": "Mivel a kevésben hű voltál, menj be Urad örömébe!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1558,7 +1558,7 @@
         "name": "Évközi 34. vasárnap – Krisztus a Világmindenség Királya",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ez 34,11-12.15-17",
                 "teaser": "Igazságot teszek a juhok között.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
@@ -1566,13 +1566,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 22,1-2a.2b-3.5-6",
                 "teaser": "Válasz: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (9. tónus.)",
                 "text": "Válasz: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (9. tónus.)\n<br>\nElőénekes: Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.<br>\nZöldellő mező<u>kön</u> terelget engem, * csendes vizekhez vezet, és lelke<u>met</u> felüdíti.<br>\nHívek: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nE: Az igazság ösvé<u>nyén</u> vezet engem, * ahogyan <u>ő</u> megígérte.<br>\nH: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nE: Számomra asz<u>talt</u> terítettél, * hogy üldözői<u>met</u> szégyen érje.<br>\nFejemet megken<u>ted</u> olajoddal, * serlegemet csordul<u>tig</u> megtöltötted.<br>\nH: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nE: Jóságod és irgal<u>mad</u> nyomon követ, * életem<u>nek</u> minden napján.<br>\nOtthonom lesz <u>az</u> Isten háza, * mindörök<u>ké</u> szünet nélkül.<br>\nH: <b>Az <u>Úr</u> nékem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 15,20-26.28",
                 "teaser": "Krisztus átadja Istennek, az Atyának az uralmat, hogy Isten legyen minden mindenben.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -1580,13 +1580,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Áldott, aki jön <u>az</u> Úr nevében! * Áldott legyen Dávid ősatyánknak eljövendő or<u>szá</u>ga! Mk 11,9b-10a – 4g. tónus.",
                 "text": "Áldott, aki jön <u>az</u> Úr nevében! * Áldott legyen Dávid ősatyánknak eljövendő or<u>szá</u>ga! Mk 11,9b-10a – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 25,31-46",
                 "teaser": "Helyet foglal dicsőséges trónusán, és szétválasztja őket.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1600,7 +1600,7 @@
         "name": "Húsvétvasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 10,34a.37-43",
                 "teaser": "Mi ettünk és ittunk vele, miután feltámadt a halálból.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1608,13 +1608,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 117,1-2.16ab-17.22-23",
                 "teaser": "Válasz: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b> (6. tónus.)<br>",
                 "text": "Válasz: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b> (6. tónus.)<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b> 6. szám.<br>\n\nElőénekes: Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nMondja Izrael háza, hogy jó <u>az</u> Isten, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nHívek: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Az Úr jobb keze erős<u>nek</u> bizonyult: * az Úrnak jobbja <u>föl</u>emelt engem.<br>\nNem halok meg, ha<u>nem</u> élek, * és hirdetem <u>az</u> Úr nagy tetteit.<br>\nH: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: A kő, amelyet az építők fél<u>re</u>dobtak, * íme, az <u>vált</u> szegletkővé.<br>\nMindezt az Úr vit<u>te</u> végbe, * csodálatra mél<u>tó</u> a mi szemünkben.<br>\nH: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Kol 3,1-4 vagy 1Kor 5,6b-8",
                 "teaser": "Azt keressétek, ami odafönt van, ahol Krisztus ül az Isten jobbján.",
                 "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
@@ -1622,13 +1622,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Krisztus, a mi húsvéti Bárányunk már feláldozta magát. * Üljük meg tehát az Úrral a húsvéti lakomát. 1Kor 5,7b-8a – 2. tónus.",
                 "text": "Krisztus, a mi húsvéti Bárányunk már feláldozta magát. * Üljük meg tehát az Úrral a húsvéti lakomát. 1Kor 5,7b-8a – 2. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 20,1-9 este: Lk 24,13-35",
                 "teaser": "Jézusnak fel kellett támadnia a halálból.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1642,7 +1642,7 @@
         "name": "Húsvét 2. vasárnapja, az isteni Irgalmasság vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 2,42-47",
                 "teaser": "A hívek mind összetartottak, és közös volt mindenük.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1650,13 +1650,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 117,2-4.13-15.22-24",
                 "teaser": "Válasz: <b>Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.</b> (6. tónus.)<br>",
                 "text": "Válasz: <b>Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.</b> (6. tónus.)<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b> Vö. 6. szám.\n<br>\nElőénekes: Mondja Izrael háza, hogy jó <u>az</u> Isten, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nMondja Áron pa<u>pi</u> háza is, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nMondják, akik félik <u>az</u> Urat, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nHívek: <b>Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Nekem jöttek, ütlegeltek, <u>hogy</u> elessem, * de az <u>Úr</u> megsegített.<br>\nAz Úr erősségem és di<u>cső</u>ségem, * ő lett az <u>én</u> szabadítóm.<br>\nAz iga<u>zak</u> sátra * örömujjongástól és <u>é</u>nektől hangos.<br>\nH: <b>Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: A kő, amelyet az építők fél<u>re</u>dobtak, * íme, az <u>vált</u> szegletkővé.<br>\nMindezt az Úr vit<u>te</u> végbe, * csodálatra mél<u>tó</u> a mi szemünkben.<br>\nEzt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.<br>\nH: <b>Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Pét 1,3-9",
                 "teaser": "Jézus Krisztusnak a halálból való feltámadása élő reményre teremtettújjá bennünket.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
@@ -1664,13 +1664,13 @@
                 "ending": "<i>Mondható a Szekvencia is, lásd 180.</i>"
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Most már hiszel, Tamás, mert láttál engem. * Boldogok, akik nem láttak, és mégis hittek.” Jn 20,29 – 5. tónus.",
                 "text": "Jézus mondja: † „Most már hiszel, Tamás, mert láttál engem. * Boldogok, akik nem láttak, és mégis hittek.” Jn 20,29 – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 20,19-31",
                 "teaser": "Nyolc nap múlva eljött Jézus.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1684,7 +1684,7 @@
         "name": "Húsvét 3. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 2,14.22-28",
                 "teaser": "Lehetetlen volt, hogy a halál fogva tartsa.",
                 "title": "OLVASMÁNY Az Apostolok Cselekedeteiből",
@@ -1692,13 +1692,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 15,1-2a és 5.7-8.9-10.11",
                 "teaser": "Válasz: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b> (1 D<sup><small>2</small></sup>. tónus.)",
                 "text": "Válasz: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b> (1 D<sup><small>2</small></sup>. tónus.)\n<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nElőénekes: Istenem, oltalmazz engem, mert <u>ben</u>ned bíztam! * Azt mondom Uramnak: „Istenem <u>te</u> vagy nékem.”<br>\nIsten az én osztályrészem és <u>sor</u>som kelyhe: * örökségemet <u>tő</u>le várom.<br>\nHívek: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b><br>\n\nE: Áldom az Urat, mert tanácsot <u>a</u>dott nekem, * éjjel-nappal erre tanít <u>szí</u>vem mélye.<br>\nMindenkor Istent tartom <u>sze</u>mem előtt; * jobbomon ő áll, semmi<u>től</u> sem félek.<br>\nH: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b><br>\n\nE: Örvend a szívem, és <u>dalt</u> zeng a lelkem, * sőt testem is meg<u>nyug</u>szik bízva.<br>\nMert nem hagyod lelkem az <u>al</u>világ mélyén, * és testemnek rom<u>lás</u> nem árthat.<br>\nH: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b><br>\n\nE: Megmutatod nekem az <u>é</u>let útját, * és a végtelen boldogságot, midőn szent <u>or</u>cád látom.<br>\nGyönyörűségre <u>hív</u>tál engem, * jobbod mellett <u>szü</u>net nélkül.<br>\nH: <b>Az <u>é</u>let útját * mutatod, <u>U</u>ram, nékem.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Pét 1,17-21",
                 "teaser": "Krisztusnak, a szeplőtelen báránynak drága vére váltott meg titeket.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
@@ -1706,13 +1706,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Urunk Jézus, tárd fel az Írások értelmét, * hadd lángoljon a szívünk, midőn tanítasz minket! Lk 24,32 – 6. tónus.",
                 "text": "Urunk Jézus, tárd fel az Írások értelmét, * hadd lángoljon a szívünk, midőn tanítasz minket! Lk 24,32 – 6. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Lk 24,13-35",
                 "teaser": "Amikor a kenyeret megtörte, felismerték.",
                 "title": "† EVANGÉLIUM Szent Lukács könyvéből",
@@ -1726,7 +1726,7 @@
         "name": "Húsvét 4. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 2,14a.36-41",
                 "teaser": "Isten Úrrá és Messiássá tette Jézust.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1734,13 +1734,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 22,1-3a.3b-4.5.6",
                 "teaser": "Válasz: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (9. tónus.)<br>",
                 "text": "Válasz: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (9. tónus.)<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b> 1. szám.<br>\n\nElőénekes: Az <u>Úr</u> nékem pásztorom: * ínsé<u>get</u> nem kell látnom.<br>\nZöldellő mező<u>kön</u> terelget engem, * csendes vizekhez vezet és lelke<u>met</u> felüdíti.<br>\nHívek: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Az igazság ösvé<u>nyén</u> vezet engem, * ahogyan <u>ő</u> megígérte.<br>\nA halál sötét völgyében sem félek, <u>mert</u> ott vagy vélem, * biztonságot ad vessződ <u>és</u> pásztorbotod.<br>\nH: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Számomra asz<u>talt</u> terítettél, * hogy üldözői<u>met</u> szégyen érje.<br>\nFejemet megken<u>ted</u> olajoddal, * serlegemet csordul<u>tig</u> megtöltötted.<br>\nH: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Jóságod és irgal<u>mad</u> nyomon követ * életem</u>nek</u> minden napján.<br>\nOtthonom lesz <u>az</u> Isten háza, * mindörök<u>ké</u> szünet nélkül.<br>\nH: <b>Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b>\n<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Pét 2,20b-25",
                 "teaser": "Megtértetek lelketek Pásztorához.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
@@ -1748,13 +1748,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok a jó Pásztor. * Ismerem juhaimat, és juhaim ismernek engem. Jn 10,14 – 8G. tónus.",
                 "text": "Jézus mondja: † „Én vagyok a jó Pásztor. * Ismerem juhaimat, és juhaim ismernek engem. Jn 10,14 – 8G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 10,1-10",
                 "teaser": "Én vagyok a juhok kapuja.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1768,7 +1768,7 @@
         "name": "Húsvét 5. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 6,1-7",
                 "teaser": "Kiválasztottak hét jó hírben álló, Szentlélekkel eltelt férfit.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1776,13 +1776,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 32,1-2.4-5.18-19",
                 "teaser": "Válasz: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b> (5. tónus.)<br>",
                 "text": "Válasz: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b> (5. tónus.)<br>\nVagy: <b>Alleluja.</b> 5. szám.<br>\n\nElőénekes: Örvendezzetek, igazak, az <u>Úr</u>ban, * a szentekhez <u>di</u>cséret illik.<br>\nDicsérjétek az Urat cite<u>rá</u>val, * tízhúrú hárfán <u>zeng</u>jetek néki.<br>\nHívek: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Sziklaszilárd az Úr <u>i</u>géje, * minden tettét <u>hű</u>ség vezeti.<br>\nAz igazlelkűséget és a törvényt <u>sze</u>reti, * telve van a föld az Úr <u>ir</u>galmával.<br>\nH: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Az istenfélőkre ügyel az Úr <u>sze</u>me, * akik bíznak az ő <u>ir</u>galmában.<br>\nMegmenti lelküket a <u>ha</u>láltól, * és táplálja őket <u>é</u>hínség idején.<br>\nH: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b><br>\nVagy: <b>Alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Pét 2,4-9",
                 "teaser": "Választott nép, királyi papság vagytok!",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
@@ -1790,13 +1790,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok az út, az igazság és az élet. * Senki sem jut Atyámhoz, csak általam.” Jn 14,6 – 4g tónus.",
                 "text": "Jézus mondja: † „Én vagyok az út, az igazság és az élet. * Senki sem jut Atyámhoz, csak általam.” Jn 14,6 – 4g tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 14,1-12",
                 "teaser": "Én vagyok az út, az igazság és az élet.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1810,7 +1810,7 @@
         "name": "Húsvét 6. vasárnapja – A társadalmi kommunikáció világnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 8,5-8.14-17",
                 "teaser": "Rájuk tették a kezüket, s azok megkapták a Szentlelket.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1818,13 +1818,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 65,1-3a.4-5.6-7a.16 és 20",
                 "teaser": "Válasz: <b>Minden föld Istent dicsérje!</b> (10. tónus, 13. dallam.) <br>",
                 "text": "Válasz: <b>Minden föld Istent dicsérje!</b> (10. tónus, 13. dallam.) <br>\nVagy: <b>Alleluja, alleluja.</b> 10. szám.<br>\n\nElőénekes: Minden föld dicsérje az <u>Is</u>tent, * dicső nevének zsol<u>tárt</u> zengjetek.<br>\nMagasztaló énekkel mondjátok <u>Is</u>tennek: * „Mily csodásak a <u>te</u> műveid!”<br>\nHívek: <b>Minden föld Istent dicsérje!</b><br>\nVagy: <b>Alleluja, alleluja.</b><br>\n\nE: Az egész föld imádjon és magasztaljon <u>té</u>ged, * nevedet zsoltár<u>ral</u> dicsérje.<br>\nJöjjetek, és lássátok Isten <u>mű</u>veit, * csodálatos, amit az embere<u>kért</u> végbevitt.<br>\nH: <b>Minden föld Istent dicsérje!</b><br>\nVagy: <b>Alleluja, alleluja.</b><br>\n\nE: Szárazfölddé tette a <u>ten</u>gert, * gyalogszerrel keltek át <u>a</u> vízen.<br>\nÖrvendezzünk tehát <u>ő</u>benne, * mert hatalmával uralkodik min<u>dö</u>rökké.<br>\nH: <b>Minden föld Istent dicsérje!</b><br>\nVagy: <b>Alleluja, alleluja.</b><br>\n\nE: Jertek ide mind, és hall<u>já</u>tok, † kik félitek az <u>Is</u>tent, * elmondom, mily nagy dolgot <u>tett</u> vélem.<br>\nÁldott legyen az Isten, aki nem vetette el <u>i</u>mámat, * és nem vonta meg tő<u>lem</u> irgalmát.<br>\nH: <b>Minden föld Istent dicsérje!</b><br>\nVagy: <b>Alleluja, alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Pét 3,15-18",
                 "teaser": "Test szerint ugyan megölték Jézust, de a Lélek szerint életre kelt.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
@@ -1832,13 +1832,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mond<u>ja</u>: † „Aki szeret engem, megfogadja <u>sza</u>vamat. * Atyám is szeretni fogja, és <u>hoz</u>zá költözünk. Jn 14,23 – 8 G. tónus.",
                 "text": "Jézus mond<u>ja</u>: † „Aki szeret engem, megfogadja <u>sza</u>vamat. * Atyám is szeretni fogja, és <u>hoz</u>zá költözünk. Jn 14,23 – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 14,15-21",
                 "teaser": "Kérni fogom az Atyát, és más Vigasztalót ad majd nektek.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1852,7 +1852,7 @@
         "name": "Urunk mennybemenetele",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 1,1-11",
                 "teaser": "A szemük láttára fölemelkedett.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1860,13 +1860,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 46,2-3.6-7.8-9",
                 "teaser": "Válasz: <b>Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.</b> (5. tónus.)",
                 "text": "Válasz: <b>Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.</b> (5. tónus.)\n<br>\nVagy: <b>Alleluja.</b> 5. szám.<br>\n\nElőénekes: Tapsoljatok, nemzetek, <u>mind</u>nyájan, * ujjongjatok Istennek <u>di</u>csérő szóval.<br>\nMert félelmetes az Úr, a fölséges <u>Is</u>ten, * nagy király az <u>e</u>gész földön.<br>\nHívek: <b>Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.<br>\nZengjetek dalt Istenünknek, <u>zeng</u>jetek, * zengjetek dalt királyunknak, <u>zsol</u>tárt zengjetek!<br>\nH: <b>Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Mivel Isten az egész föld <u>ki</u>rálya, * bölcsességgel neki <u>é</u>neket zengjetek.<br>\nIsten országol a nemzetek <u>fö</u>lött, * szent trónusán <u>ül</u> az Isten.<br>\nH: <b>Ujjongás közt ment föl <u>Is</u>ten, * az Úr égbe emelkedett <u>har</u>sonaszóval.</b><br>\nVagy: <b>Alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Ef 1,17-23",
                 "teaser": "Isten Jézus Krisztust a mennyben jobbjára ültette.",
                 "title": "SZENTLECKE Szent Pál apostolnak az efezusiakhoz írt leveléből",
@@ -1874,13 +1874,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † Menjetek, tegyetek tanítványommá minden népet! Én veletek vagyok a világ végéig. Mt 28,19a.20b – 5. tónus.",
                 "text": "Jézus mondja: † Menjetek, tegyetek tanítványommá minden népet! Én veletek vagyok a világ végéig. Mt 28,19a.20b – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 28,16-20",
                 "teaser": "Én kaptam meg minden hatalmat az égen és a földön.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -1894,7 +1894,7 @@
         "name": "Pünkösdvasárnap - ünnepi mise",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "ApCsel 2,1-11",
                 "teaser": "Mindannyiukat eltöltötte a Szentlélek, és beszélni kezdtek.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
@@ -1902,13 +1902,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 103,1ab és 24ac.29bc-30.31 és 34",
                 "teaser": "Válasz: <b>Áraszd ránk Lelkedet, <u>Is</u>tenünk: * újítsd <u>meg</u> a föld színét.</b> (8 G. tónus.)<br>",
                 "text": "Válasz: <b>Áraszd ránk Lelkedet, <u>Is</u>tenünk: * újítsd <u>meg</u> a föld színét.</b> (8 G. tónus.)<br>\nVagy: <b>Alleluja.</b> 8. szám.<br>\n\nElőénekes: Mondj áldást, lelkem, az <u>Úr</u>nak! * Nagy vagy nagyon, én <u>U</u>ram, Istenem.<br>\nMily sokrétű a te műved, <u>U</u>ram! * teremtményeid betöl<u>tik</u> a földet.<br>\nHívek: <b>Áraszd ránk Lelkedet, <u>Is</u>tenünk: * újítsd <u>meg</u> a föld színét.</b><br>\nVagy: <b>Alleluja.</b>\n<br>\nE: Ha megvonod éltető <u>e</u>rődet, * elpusztulnak és a <u>por</u>ba térnek.<br>\nÁm, ha újra kiárasztod lelkedet, életre <u>kel</u>nek, * és a föld színét <u>meg</u>újítod.<br>\nH: <b>Áraszd ránk Lelkedet, <u>Is</u>tenünk: * újítsd <u>meg</u> a föld színét.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Dicsőség legyen az Úrnak örökkön <u>ö</u>rökké, * örül az Úr <u>min</u>den művének.<br>\nLegyen előtte kedves az <u>é</u>nekem, * gyönyörűségemet ő<u>ben</u>ne találom.<br>\nH: <b>Áraszd ránk Lelkedet, <u>Is</u>tenünk: * újítsd <u>meg</u> a föld színét.</b><br>\nVagy: <b>Alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 12,3b-7.12-13",
                 "teaser": "Mi mindannyian egy Lélekben egy testté lettünk keresztségünk által.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -1916,13 +1916,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jöjj el, Szentlélek Isten, † töltsd el híveid szívét, * és szereteted tüzét gyullaszd föl bennünk! – 8 G. tónus.",
                 "text": "Jöjj el, Szentlélek Isten, † töltsd el híveid szívét, * és szereteted tüzét gyullaszd föl bennünk! – 8 G. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 20,19-23",
                 "teaser": "Amint engem küldött az Atya, úgy küldelek én is titeket: Vegyétek aSzentlelket!",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1936,7 +1936,7 @@
         "name": "Szentháromság vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Kiv 34,4b-6.8-9",
                 "teaser": "Az Úr irgalmas és könyörülő Isten.",
                 "title": "OLVASMÁNY Mózes második könyvéből",
@@ -1944,13 +1944,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Dán 3,52.53.54.55.56",
                 "teaser": "Válasz: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b> (6. tónus.)",
                 "text": "Válasz: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b> (6. tónus.)\n<br>\nElőénekes: Áldott vagy, Urunk, atyá<u>ink</u> Istene.*<br>\nHívek: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b><br>\n\nE: Áldott a te dicsőséges <u>szent</u> neved.*<br>\nH: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b><br>\n\nE: Áldott vagy templomodban, dicsőséged <u>szent</u> helyén.*<br>\nH: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b>\n<br>\nE: Áldott vagy kirá<u>lyi</u> trónodon.*<br>\nH: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b><br>\n\nE: Áldott vagy, aki mélységekbe te<u>kin</u>tesz, † és a kerubok fö<u>lött</u> trónolsz.*<br>\nH: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b><br>\n\nE: Áldott vagy az ég<u>bolt</u> fölött.*<br>\nH: <b>* Dicséretre méltó és magasztos <u>ö</u>rökkön örökké.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "2Kor 13,11-13",
                 "teaser": "Urunk, Jézus Krisztus kegyelme, Isten szeretete és a Szentlélek közössége köti össze a híveket.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt második leveléből",
@@ -1958,13 +1958,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Dicsőség az Atyának, a Fiúnak és a Szentléleknek: * Istennek, aki van, aki volt, és aki eljön újra! Vö. Jel 1,8 – 9. tónus.",
                 "text": "Dicsőség az Atyának, a Fiúnak és a Szentléleknek: * Istennek, aki van, aki volt, és aki eljön újra! Vö. Jel 1,8 – 9. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 3,16-18",
                 "teaser": "Isten elküldte Fiát, hogy üdvözüljön általa a világ.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -1978,7 +1978,7 @@
         "name": "Krisztus Szent Teste és\nVére, Úrnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "MTörv 8,2-3.14b-16a",
                 "teaser": "Az Úr a pusztában mannával táplálta népét.",
                 "title": "OLVASMÁNY Mózes ötödik könyvéből",
@@ -1986,13 +1986,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 147,12-13.14-15.19-20",
                 "teaser": "Válasz: <b>Jeruzsálem, <u>szen</u>tek otthona, * dicsérd <u>föl</u>séges Istened!</b> (7b. tónus.)",
                 "text": "Válasz: <b>Jeruzsálem, <u>szen</u>tek otthona, * dicsérd <u>föl</u>séges Istened!</b> (7b. tónus.)\n<br>\n\nElőénekes: Dicsérd Uradat, <u>Je</u>ruzsálem, * magasztald, Sion, <u>Is</u>tenedet.<br>\nMert erőssé tette <u>ka</u>puid zárát, * és megáldotta benned <u>fi</u>aidat.<br>\nHívek: <b>Jeruzsálem, <u>szen</u>tek otthona, * dicsérd <u>föl</u>séges Istened!</b><br>\n\nE: Határaidon <u>ő</u> ad békét, * és jóllakat <u>kö</u>vér búzával.<br>\nElküldi <u>sza</u>vát a földre, * az ő igéje <u>gyor</u>san terjed.<br>\nH: <b>Jeruzsálem, <u>szen</u>tek otthona, * dicsérd <u>föl</u>séges Istened!</b><br>\n\nE: Igéjét <u>Já</u>kobnak hirdeti, * törvényeit és végzéseit <u>Iz</u>raelnek.<br>\nEgyetlen <u>nép</u>pel sem bánt így, * végzéseit nem fedte fel <u>sen</u>ki másnak.<br>\nH: <b>Jeruzsálem, <u>szen</u>tek otthona, * dicsérd <u>föl</u>séges Istened!</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "1Kor 10,16-17",
                 "teaser": "Sokan egy kenyér, egy test vagyunk.",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
@@ -2000,13 +2000,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok az égből szállott élő kenyér. * Aki eszik ebből a kenyérből, örökké élni fog.” Jn 6,51-52 – 5. tónus.",
                 "text": "Jézus mondja: † „Én vagyok az égből szállott élő kenyér. * Aki eszik ebből a kenyérből, örökké élni fog.” Jn 6,51-52 – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 6,51-58",
                 "teaser": "Az én testem valóban étel, az én vérem valóban ital.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -2020,7 +2020,7 @@
         "name": "A Szent Család: Jézus, Mária és József",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Sir 3,3-7.14-17a",
                 "teaser": "Aki féli az Urat, tiszteli szüleit.",
                 "title": "OLVASMÁNY Sirák fia könyvéből",
@@ -2028,13 +2028,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 127,1-2.3.4-5",
                 "teaser": "Válasz: <b>Boldog ember, ki féli <u>az</u> Urat, * aki az Úrnak <u>ös</u>vényén halad.</b> (6. tónus)",
                 "text": "Válasz: <b>Boldog ember, ki féli <u>az</u> Urat, * aki az Úrnak <u>ös</u>vényén halad.</b> (6. tónus)\nVö. 1. vers.\n<br>\nElőénekes: Boldog mindaz, ki féli <u>az</u> Urat, * aki az <u>ő</u> útjain jár.<br>\nKezed munkájá<u>ból</u> élhetsz, * boldog leszel, <u>és</u> jól megy sorod.<br>\nHívek: <b>Boldog ember, ki féli <u>az</u> Urat, * aki az Úrnak <u>ös</u>vényén halad.</b>\n<br>\nE: Feleséged olyan, mint a ter<u>mő</u> szőlőtő, * a te há<u>zad</u> bensejében.<br>\nFiaid olyanok, mint az olaj<u>fa</u>csemeték, * úgy veszik kö<u>rül</u> asztalodat.<br>\nH: <b>Boldog ember, ki féli <u>az</u> Urat, * aki az Úrnak <u>ös</u>vényén halad.</b>\n<br>\nE: Íme, ilyen áldásban részesül az <u>az</u> ember, * aki <u>fé</u>li az Urat.<br>\nÁldjon meg az <u>Úr</u> Sionból, * hogy lásd Jeruzsálem jólétét éle<u>ted</u> minden\nnapján.<br>\nH: <b>Boldog ember, ki féli <u>az</u> Urat, * aki az Úrnak <u>ös</u>vényén halad.</b>\n"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Kol 3,12-21",
                 "teaser": "A család élete az Úrban.",
                 "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
@@ -2042,13 +2042,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Szívetekben uralkodjék Krisztus békéje, * Krisztus tanítása töltsön el\ntiteket gazdagon. Kol 3,15a és 16a – 5. tónus.",
                 "text": "Szívetekben uralkodjék Krisztus békéje, * Krisztus tanítása töltsön el\ntiteket gazdagon. Kol 3,15a és 16a – 5. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 2,12-15.19-23",
                 "teaser": "Vedd a gyermeket és anyját és menekülj Egyiptomba!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -2062,7 +2062,7 @@
         "name": "Karácsony 2. vasárnapja",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Sir 24,1-4.12-16",
                 "teaser": "Isten bölcsessége a választott nép között lakott.",
                 "title": "OLVASMÁNY Sirák fia könyvéből",
@@ -2070,13 +2070,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 147,12-13.14-15.19-20",
                 "teaser": "Válasz: <b>Az Ige <u>em</u>berré lett, * és <u>itt</u> élt közöttünk.</b> (7. tónus.)<br>",
                 "text": "Válasz: <b>Az Ige <u>em</u>berré lett, * és <u>itt</u> élt közöttünk.</b> (7. tónus.)<br>\nVagy: <b>Alleluja.</b> 7. szám<br>\n\nElőénekes: Dicsérd Uradat, <u>Je</u>ruzsálem, * magasztald, Sion, <u>Is</u>tenedet.<br>\nMert erőssé tette <u>ka</u>puid zárát, * és megáldotta benned <u>fi</u>aidat.<br>\nHívek: <b>Az Ige <u>em</u>berré lett, * és <u>itt</u> élt közöttünk.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Határaidon <u>ő</u> ad békét, * és jóllakat <u>kö</u>vér búzával.<br>\nElküldi <u>sza</u>vát a földre, * az ő igéje <u>gyor</u>san terjed.<br>\nH: <b>Az Ige <u>em</u>berré lett, * és <u>itt</u> élt közöttünk.</b><br>\nVagy: <b>Alleluja.</b><br>\n\nE: Igéjét <u>Já</u>kobnak hirdeti, * törvényeit és végzéseit <u>Iz</u>raelnek.<br>\nEgyetlen <u>nép</u>pel sem bánt így, * végzéseit nem fedte fel <u>sen</u>ki másnak.<br>\nH: <b>Az Ige <u>em</u>berré lett, * és <u>itt</u> élt közöttünk.</b><br>\nVagy: <b>Alleluja.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Ef 1,3-6.15-18",
                 "teaser": "Isten arra rendelt minket, hogy fogadott fiakká legyünk.",
                 "title": "SZENTLECKE Szent Pál apostolnak az efezusiakhoz írt leveléből",
@@ -2084,13 +2084,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "alleluja",
+                "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus.",
                 "text": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 1,1-18",
                 "teaser": "Az Ige testté lett, és közöttünk lakott.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -2104,7 +2104,7 @@
         "name": "Nagyböjt 1. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ter 2,7-9;3,1-7a",
                 "teaser": "Az ősszülők teremtése és bűnbeesése.",
                 "title": "OLVASMÁNY Mózes első könyvéből",
@@ -2112,13 +2112,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 50,3-4.5-6a.12-13.14 és 17",
                 "teaser": "Válasz: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b> (1 D<sup><small>2</small></sup> tónus.)",
                 "text": "Válasz: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b> (1 D<sup><small>2</small></sup> tónus.)\n<br>\nElőénekes: Könyörülj rajtam, Is<u>te</u>nem, † mivel irgalmas és <u>jó</u>ságos vagy, * töröld el gonoszságomat mérhetetlen <u>ir</u>galmaddal.<br>\nMosd le <u>bű</u>nömet teljesen, * és vétkemtől tisz<u>títs</u> meg engem.<br>\nHívek: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b>\n<br>\nE: Gonoszságomat <u>be</u>ismerem, * szüntelen előttem <u>le</u>beg bűnöm.<br>\nEgyedül csak <u>el</u>lened vétettem, * ami színed előtt gonosz, <u>o</u>lyat tettem.<br>\nH: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b>\n<br>\nE: Tiszta szívet teremts <u>ben</u>nem, Istenem, * az erős lelket éleszd fel <u>új</u>ra bennem.<br>\nNe taszíts el <u>szí</u>ned elől, * és szent lelkedet ne <u>vond</u> meg tőlem.<br>\nH: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b>\n<br>\nE: Üdvösséged örömét <u>add</u> meg újra, * a készséges lelkületet erő<u>sítsd</u> meg bennem.<br>\nNyisd meg <u>aj</u>kamat, Uram, * és dicséretedet hir<u>de</u>ti szájam.<br>\nH: <b>Könyörülj, <u>U</u>runk, Istenünk, * mert <u>nagy</u> a vétkünk.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 5,12-19 rövidebb: Róm 5,12.17-19",
                 "teaser": "Ahol elárad a bűn, ott túlárad a kegyelem.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -2126,13 +2126,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten\najkáról való. Mt 4,4b – 2. tónus.",
                 "text": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten\najkáról való. Mt 4,4b – 2. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 4,1-11",
                 "teaser": "Jézus negyven napig böjtölt, és kísértést szenvedett.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -2146,7 +2146,7 @@
         "name": "Nagyböjt 2. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ter 12,1-4a",
                 "teaser": "Ábrahámnak, Isten népe ősatyjának meghívása.",
                 "title": "OLVASMÁNY Mózes első könyvéből",
@@ -2154,13 +2154,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 32,4-5.18-19.20 és 22",
                 "teaser": "Válasz: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b> (5. tónus.)",
                 "text": "Válasz: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b> (5. tónus.)\n<br>\nElőénekes: Sziklaszilárd az Úr <u>i</u>géje, * minden tettét <u>hű</u>ség vezeti.<br>\nAz igazlelkűséget és a törvényt <u>sze</u>reti, * telve van a föld az Úr <u>ir</u>galmával.<br>\nHívek: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b>\n<br>\nE: Az istenfélőkre ügyel az Úr <u>sze</u>me, * akik bíznak az ő <u>ir</u>galmában.<br>\nMegmenti lelküket a <u>ha</u>láltól, * és táplálja őket <u>é</u>hínség idején.<br>\nH: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b>\n<br>\nE: Az Úrra hagyatkozik <u>lel</u>künk, * ő a segítőnk, és <u>ő</u> a mi oltalmunk.<br>\nKegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.<br>\nH: <b>Kegyes szemed legyen <u>raj</u>tunk, * tebenned van <u>bi</u>zodalmunk.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "2Tim 1,8b-10",
                 "teaser": "Isten hív és megvilágosít minket.",
                 "title": "SZENTLECKE Szent Pál apostolnak Timóteushoz írt második leveléből",
@@ -2168,13 +2168,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "A fényes felhőből az Atya szózata hallatszott: * „Ez az én szeretett Fiam, őt hallgassátok!” Vö. 2Pét 1,17 – 3a tónus.",
                 "text": "A fényes felhőből az Atya szózata hallatszott: * „Ez az én szeretett Fiam, őt hallgassátok!” Vö. 2Pét 1,17 – 3a tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Mt 17,1-9",
                 "teaser": "Úgy fénylett az arca, mint a nap.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
@@ -2188,7 +2188,7 @@
         "name": "Nagyböjt 3. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Kiv 17,3-7",
                 "teaser": "Adj nekünk vizet, hogy ihassunk.",
                 "title": "OLVASMÁNY Mózes második könyvéből",
@@ -2196,13 +2196,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 94,1-2.6-7.8-9",
                 "teaser": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára,* „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)",
                 "text": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára,* „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)\n<br>\nElőénekes: Jöjjetek, örvendezzünk az <u>Úr</u>nak, * és ujjongjunk üdvünk sziklá<u>ja</u> előtt.<br>\nDicsőítő énekkel lépjünk színe <u>e</u>lé, * magasztaljuk őt zsol<u>tárt</u> zengve.<br>\nHívek: <b>Bár hallgatnátok ma Isten <u>sza</u>vára,* „Népem, ne légy ke<u>mény</u> szívű.”</b>\n<br>\nE: Jöjjetek, boruljunk le, hódoljunk <u>e</u>lőtte, * hulljunk térdre Urunk, Alko<u>tónk</u> előtt.<br>\nMert ő a mi <u>Is</u>tenünk, * mi pedig az ő népe, és kezére bízott <u>nyáj</u> vagyunk.<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára,* „Népem, ne légy ke<u>mény</u> szívű.”</b>\n<br>\nE: Bárcsak hallgatnátok ma az ő <u>sza</u>vára: * „Ne keményítsétek meg szí<u>ve</u>teket,<br>\nmint egykor Meribánál, Massza napján a pusz<u>tá</u>ban, † ahol atyáitok megkísértettek <u>en</u>gem, * próbára tettek, bár látták számos <u>cso</u>dámat.”<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára,* „Népem, ne légy ke<u>mény</u> szívű.”</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 5,1-2.5-8",
                 "teaser": "A nekünk ajándékozott Szentlélekkel kiáradt szívünkbe az Istenszeretete.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -2210,13 +2210,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "Valóban te vagy a világ Megváltója, Uram. * Adj innom az élő vízből, hogy ne szomjazzam soha többé! Jn 4,42 és 15 – 11. tónus.",
                 "text": "Valóban te vagy a világ Megváltója, Uram. * Adj innom az élő vízből, hogy ne szomjazzam soha többé! Jn 4,42 és 15 – 11. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 4,5-42 rövidebb: Jn  4,5-15.19b-26.39a.40-42",
                 "teaser": "Az a víz, amelyet én adok, örök életre szökellő vízforrás.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -2230,7 +2230,7 @@
         "name": "Nagyböjt 4. vasárnapja<br>Laetare-vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "1Sám 16,1b.6-7.10-13a",
                 "teaser": "Dávidot Izrael királyává kenik.",
                 "title": "OLVASMÁNY Sámuel első könyvéből",
@@ -2238,13 +2238,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 22,1-3a.3b-4.5-6",
                 "teaser": "Válasz: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b> (9. tónus.)",
                 "text": "Válasz: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b> (9. tónus.)\n<br>\nElőénekes: Az <u>Úr</u> nékem pásztorom: * ínsé<u>get</u> nem kell látnom.<br>\nZöldellő mező<u>kön</u> terelget engem, * csendes vizekhez vezet és lelke<u>met</u> felüdíti.<br>\nHívek: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Az igazság ösvé<u>nyén</u> vezet engem, * ahogyan <u>ő</u> megígérte.<br>\nA halál sötét völgyében sem félek, <u>mert</u> ott vagy vélem, * biztonságot ad vessződ <u>és</u> pásztorbotod.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Számomra asz<u>talt</u> terítettél, * hogy üldözői<u>met</u> szégyen érje.<br>\nFejemet megken<u>ted</u> olajoddal, * serlegemet csordul<u>tig</u> megtöltötted.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>\n<br>\nE: Jóságod és irgal<u>mad</u> nyomon követ * életem</u>nek</u> minden napján.<br>\nOtthonom lesz <u>az</u> Isten háza, * mindörök<u>ké</u> szünet nélkül.<br>\nH: <b>Otthonom lesz <u>az</u> Isten háza * mindörök<u>ké</u> szünet nélkül.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Ef 5,8-14",
                 "teaser": "Támadj fel holtodból, és Krisztus rád ragyog.",
                 "title": "SZENTLECKE Szent Pál apostolnak az efezusiakhoz írt leveléből",
@@ -2252,13 +2252,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "„Én a világ világossága vagyok”, mondja a mi Urunk, * „Aki engem követ, övé lesz az élet világossága”. Jn 8,12 – 4g. tónus.",
                 "text": "„Én a világ világossága vagyok”, mondja a mi Urunk, * „Aki engem követ, övé lesz az élet világossága”. Jn 8,12 – 4g. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 9,1-41 rövidebb: Jn  9,1.6-9.13-17.34-38",
                 "teaser": "Elment megmosakodni, és amikor visszatért, már látott.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -2272,7 +2272,7 @@
         "name": "Nagyböjt 5. vasárnap",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Ez 37,12-14",
                 "teaser": "Belétek oltom lelkemet és életre keltek.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
@@ -2280,13 +2280,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 129,1-2.3-4ab.4c-6.7-8",
                 "teaser": "Válasz: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b> (1 D<sup><small>2</small></sup>. tónus.)",
                 "text": "Válasz: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b> (1 D<sup><small>2</small></sup>. tónus.)\n<br>\nElőénekes: A mélységből kiáltok, <u>U</u>ram, hozzád, * Istenem, hall<u>gass</u> a szómra.<br>\nFüled <u>fi</u>gyeljen fel * kö<u>nyör</u>gő szavamra.<br>\nHívek: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Ha számon tartod a <u>vét</u>keket, Uram, * Uram, ki az, aki előt<u>ted</u> megállhat?<br>\nDe nálad bocsánatot <u>nyer</u> a vétek, * ezért félve tisz<u>te</u>lünk téged.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Tebenned <u>re</u>mélek, Uram, * és igédben remény<u>ke</u>dik lelkem.<br>\nLelkem <u>vár</u>ja az Urat, * jobban, mint éji <u>őr</u> a hajnalt.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Jobban, mint éji <u>őr</u> a hajnalt, * várja az U<u>rat</u> Izrael.<br>\nMert az Úrnál az ir<u>ga</u>lom, † és bőséges a <u>meg</u>váltás nála, * ő váltja meg Izraelt min<u>den</u> bűnétől.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Róm 8,8-11",
                 "teaser": "Isten Lelke, aki Jézust feltámasztotta a halálból, bennetek lakik.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
@@ -2294,13 +2294,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "Jézus mondja: † „Én vagyok a feltámadás és az élet: * aki bennem hisz, nem hal meg örökre.” Jn 11,25a és 26 – 6. tónus.",
                 "text": "Jézus mondja: † „Én vagyok a feltámadás és az élet: * aki bennem hisz, nem hal meg örökre.” Jn 11,25a és 26 – 6. tónus."
             },
             {
-                "header": "evangélium",
+                "short_title": "evangélium",
                 "ref": "Jn 11,1-45 rövidebb: Jn 11,3-7.17.20-27.33b-45",
                 "teaser": "Én vagyok a feltámadás és az élet.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
@@ -2314,7 +2314,7 @@
         "name": "Virágvasárnap - ünnepi mise",
         "parts": [
             {
-                "header": "olvasmány",
+                "short_title": "olvasmány",
                 "ref": "Iz 50,4-7",
                 "teaser": "Nem rejtettem el arcomat azok elől, akik gyaláztak, de tudom, hogynem vallok szégyent.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
@@ -2322,13 +2322,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "zsoltár",
+                "short_title": "zsoltár",
                 "ref": "Zsolt 21,8-9.17-18a.19-20.23-24",
                 "teaser": "Válasz: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b> (2. tónus.)",
                 "text": "Válasz: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b> (2. tónus.)\n<br>\nElőénekes: Aki csak rám néz, mind <u>ki</u>nevet, * elhúzza száját, fejét <u>csó</u>válja.<br>\nAz Úrban remélt, hát <u>ment</u>se meg, * ha szereti őt, szaba<u>dít</u>sa meg.<br>\nHívek: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b>\n<br>\nE: Kutyák falkája vett <u>kö</u>rül, * gonosztevők serege szoron<u>gat</u> engem.<br>\nÁtlyuggatták kezemet és <u>lá</u>bamat, * megszámlálhatom min<u>den</u> csontomat.<br>\nH: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b>\n<br>\nE: Elosztják maguk közt <u>ru</u>hámat, * és köntösömre sor<u>sot</u> vetnek.<br>\nTe azonban, Uram, ne maradj <u>tá</u>vol, * erősségem siess <u>és</u> segíts.<br>\nH: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b>\n<br>\nE: Hirdetni fogom nevedet testvéreim <u>e</u>lőtt, * a gyülekezetben dicsőíte<u>lek</u> téged.<br>\nTi, akik félitek az Urat, áldjá<u>tok</u>, † magasztaljátok őt, Jákob <u>fi</u>ai, * Izrael minden gyerme<u>ke</u> félje őt.<br>\nH: <b>Istenem, <u>Is</u>tenem, * miért hagytál <u>el</u> engem?</b>"
             },
             {
-                "header": "szentlecke",
+                "short_title": "szentlecke",
                 "ref": "Fil 2,6-11",
                 "teaser": "Megalázta önmagát, ezért Isten felmagasztalta őt.",
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
@@ -2336,13 +2336,13 @@
                 "ending": "Ez az Isten igéje."
             },
             {
-                "header": "evangélium előtti vers",
+                "short_title": "evangélium előtti vers",
                 "ref": null,
                 "teaser": "Krisztus engedelmes lett értünk mindhalálig, * mégpedig a kereszthalálig.\nEzért Isten felmagasztalta, † és olyan nevet adott neki, * amely fölötte áll minden névnek. Fil 2,8-9 – 7b. tónus.",
                 "text": "Krisztus engedelmes lett értünk mindhalálig, * mégpedig a kereszthalálig.\nEzért Isten felmagasztalta, † és olyan nevet adott neki, * amely fölötte áll minden névnek. Fil 2,8-9 – 7b. tónus."
             },
             {
-                "header": "passió",
+                "short_title": "passió",
                 "ref": "Mt 26,14-27.66 rövidebb: Mt 27,11-54",
                 "teaser": "Mit adtok nekem, ha a kezetekbe juttatom őt?",
                 "title": "A MI URUNK JÉZUS KRISZTUS KÍNSZENVEDÉSE Szent Máté szerint",
