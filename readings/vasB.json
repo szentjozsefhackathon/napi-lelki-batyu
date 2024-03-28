@@ -2282,45 +2282,90 @@
     "NAB05": {
         "igenaptarId": "NAB05",
         "name": "Nagyböjt 5. vasárnap",
-        "parts": [
-            {
-                "short_title": "olvasmány",
-                "ref": "Jer 31,31-34",
-                "teaser": null,
-                "title": "OLVASMÁNY Jeremiás próféta könyvéből.",
-                "text": "„Íme, napok jönnek – mondja az Úr –, amikor új szövetséget kötök Izrael házával és Juda házával. De nem olyan szövetséget, mint amilyet atyáikkal kötöttem azon a napon, amikor kézen fogva kivezettem őket Egyiptom földjéről. Azt a szövetségemet ugyanis megszegték, pedig Uruk voltam – mondja az Úr.<br>\nEz lesz az a szövetség, amelyet majd Izrael házával kötök, ha elérkeznek azok a napok – mondja az Úr: Bensejükbe adom törvényemet, és a szívükbe írom. Istenük leszek, ők meg az én népem lesznek. Többé nem lesz szükség arra, hogy az egyik ember a másikat, testvér a testvérét így tanítsa: »Ismerd meg az Urat,« mert mindnyájan ismerni fognak a legkisebbtől a legnagyobbig – mondja az Úr –, mivel megbocsátom gonoszságaikat, és vétkeikre többé nem emlékezem.”",
-                "ending": "Ez az Isten igéje."
-            },
-            {
-                "short_title": "zsoltár",
-                "ref": "Zsolt 50,3-4.12-13.14-15",
-                "teaser": "Válasz: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b> (1 D<sup><small>2</small></sup> tónus.)<br>",
-                "text": "Válasz: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b> (1 D<sup><small>2</small></sup> tónus.)<br>\n\nElőénekes: Könyörülj rajtam, Is<u>te</u>nem, † mivel irgalmas és <u>jó</u>ságos vagy, * töröld el gonoszságomat mérhetetlen <u>ir</u>galmaddal.<br>\nMosd le <u>bű</u>nömet teljesen, * és vétkemtől tisz<u>títs</u> meg engem.<br>\nHívek: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b><br>\n\nE: Tiszta szívet teremts <u>ben</u>nem, Istenem, * az erős lelket éleszd fel <u>új</u>ra bennem.<br>\nNe taszíts el <u>szí</u>ned elől, * és szent lelkedet ne <u>vond</u> meg tőlem.<br>\nH: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b><br>\n\nE: Üdvösséged örömét <u>add</u> meg újra, * a készséges lelkületet erő<u>sítsd</u> meg bennem.<br>\nMegtanítom utaidat a <u>vét</u>keseknek, * és a bűnösök <u>hoz</u>zád térnek.<br>\nH: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b>"
-            },
-            {
-                "short_title": "szentlecke",
-                "ref": "Zsid 5,7-9",
-                "teaser": null,
-                "title": "SZENTLECKE a Zsidókhoz írt levélből",
-                "text": "Testvéreim! Jézus földi életében hangosan kiáltozva, könnyek között imádkozott, és könyörgött ahhoz, aki meg tudta menteni a haláltól. Hódolatáért meghallgatásra talált. Annak ellenére, hogy ő volt a Fiú, a szenvedésből tanulta meg az engedelmességet. Műve befejeztével pedig örök üdvösséget szerzett azoknak, akik  engedelmeskednek neki.<br>\nEz az Isten igéje.\n",
-                "ending": ""
-            },
-            {
-                "short_title": "evangélium előtti vers",
-                "ref": null,
-                "teaser": "Jézus mond<u>ja</u>: † „Aki nékem szolgál, az <u>en</u>gem kövessen, * és ahol én vagyok, ott lesz <u>az</u> én szolgám.” (Jn 12,26 – 1 D<sup><small>2</small></sup> tónus.)",
-                "text": "Jézus mond<u>ja</u>: † „Aki nékem szolgál, az <u>en</u>gem kövessen, * és ahol én vagyok, ott lesz <u>az</u> én szolgám.” (Jn 12,26 – 1 D<sup><small>2</small></sup> tónus.)"
-            },
-            {
-                "short_title": "evangélium",
-                "ref": "Jn 12,20-33",
-                "teaser": null,
-                "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "Abban az időben: Azok között, akik felzarándokoltak, hogy az ünnepen imádják Istent, volt néhány görög is. Ezek odamentek Fülöphöz, aki a galileai Betszaidából származott, és kérték: „Uram, látni szeretnénk Jézust.” Fülöp elment és szólt Andrásnak. Aztán András és Fülöp elmentek, és megmondták Jézusnak. Jézus ezt válaszolta: „Eljött az óra, hogy megdicsőüljön az Emberfia. Bizony, bizony, mondom nektek: ha a búzaszem nem hull a földbe, és el nem hal, egyedül marad, ha azonban elhal, sok gyümölcsöt hoz. Aki szereti életét, elveszíti azt, de aki gyűlöli életét ebben a világban, az megmenti azt az örök életre. Aki nekem szolgál, kövessen engem, és ahol én vagyok, ott lesz a szolgám is. Aki nekem szolgál, azt becsülni fogja az Atya. Most megrendült a lelkem. Mit is mondjak? Atyám, szabadíts meg ettől az órától? De hiszen éppen ezért az óráért jöttem. Atyám, dicsőítsd meg nevedet!”<br>\nErre hang hallatszott az égből: „Megdicsőítettem, és ismét megdicsőítem.” A tömeg, amely ott állt, ennek hallatára azt gondolta, hogy mennydörgött. Mások így vélekedtek: „Angyal beszélt vele.” Jézus megmagyarázta nekik: „Nem miattam hallatszott ez a hang, hanem miattatok. Ítélet van most a világon. Most vetik ki ennek a világnak a fejedelmét. Én pedig, ha majd fölmagasztalnak a földről, mindenkit magamhoz vonzok.” Ezt azért mondta, hogy jelezze: milyen halállal fog meghalni.",
-                "ending": "Ezek az evangélium igéi."
-            }
-        ]
-    },
+		"parts": [
+			{
+				"parts": [
+					{
+						"short_title": "olvasmány",
+						"ref": "Jer 31,31-34",
+						"teaser": null,
+						"title": "OLVASMÁNY Jeremiás próféta könyvéből.",
+						"text": "„Íme, napok jönnek – mondja az Úr –, amikor új szövetséget kötök Izrael házával és Juda házával. De nem olyan szövetséget, mint amilyet atyáikkal kötöttem azon a napon, amikor kézen fogva kivezettem őket Egyiptom földjéről. Azt a szövetségemet ugyanis megszegték, pedig Uruk voltam – mondja az Úr.<br>\nEz lesz az a szövetség, amelyet majd Izrael házával kötök, ha elérkeznek azok a napok – mondja az Úr: Bensejükbe adom törvényemet, és a szívükbe írom. Istenük leszek, ők meg az én népem lesznek. Többé nem lesz szükség arra, hogy az egyik ember a másikat, testvér a testvérét így tanítsa: »Ismerd meg az Urat,« mert mindnyájan ismerni fognak a legkisebbtől a legnagyobbig – mondja az Úr –, mivel megbocsátom gonoszságaikat, és vétkeikre többé nem emlékezem.”",
+						"ending": "Ez az Isten igéje."
+					},
+					{
+						"short_title": "zsoltár",
+						"ref": "Zsolt 50,3-4.12-13.14-15",
+						"teaser": "Válasz: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b> (1 D<sup><small>2</small></sup> tónus.)<br>",
+						"text": "Válasz: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b> (1 D<sup><small>2</small></sup> tónus.)<br>\n\nElőénekes: Könyörülj rajtam, Is<u>te</u>nem, † mivel irgalmas és <u>jó</u>ságos vagy, * töröld el gonoszságomat mérhetetlen <u>ir</u>galmaddal.<br>\nMosd le <u>bű</u>nömet teljesen, * és vétkemtől tisz<u>títs</u> meg engem.<br>\nHívek: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b><br>\n\nE: Tiszta szívet teremts <u>ben</u>nem, Istenem, * az erős lelket éleszd fel <u>új</u>ra bennem.<br>\nNe taszíts el <u>szí</u>ned elől, * és szent lelkedet ne <u>vond</u> meg tőlem.<br>\nH: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b><br>\n\nE: Üdvösséged örömét <u>add</u> meg újra, * a készséges lelkületet erő<u>sítsd</u> meg bennem.<br>\nMegtanítom utaidat a <u>vét</u>keseknek, * és a bűnösök <u>hoz</u>zád térnek.<br>\nH: <b>Istenem, <u>kér</u>lek téged, * teremts bennem <u>tisz</u>ta szívet.</b>"
+					},
+					{
+						"short_title": "szentlecke",
+						"ref": "Zsid 5,7-9",
+						"teaser": null,
+						"title": "SZENTLECKE a Zsidókhoz írt levélből",
+						"text": "Testvéreim! Jézus földi életében hangosan kiáltozva, könnyek között imádkozott, és könyörgött ahhoz, aki meg tudta menteni a haláltól. Hódolatáért meghallgatásra talált. Annak ellenére, hogy ő volt a Fiú, a szenvedésből tanulta meg az engedelmességet. Műve befejeztével pedig örök üdvösséget szerzett azoknak, akik  engedelmeskednek neki.<br>\nEz az Isten igéje.\n",
+						"ending": ""
+					},
+					{
+						"short_title": "evangélium előtti vers",
+						"ref": null,
+						"teaser": "Jézus mond<u>ja</u>: † „Aki nékem szolgál, az <u>en</u>gem kövessen, * és ahol én vagyok, ott lesz <u>az</u> én szolgám.” (Jn 12,26 – 1 D<sup><small>2</small></sup> tónus.)",
+						"text": "Jézus mond<u>ja</u>: † „Aki nékem szolgál, az <u>en</u>gem kövessen, * és ahol én vagyok, ott lesz <u>az</u> én szolgám.” (Jn 12,26 – 1 D<sup><small>2</small></sup> tónus.)"
+					},
+					{
+						"short_title": "evangélium",
+						"ref": "Jn 12,20-33",
+						"teaser": null,
+						"title": "† EVANGÉLIUM Szent János könyvéből",
+						"text": "Abban az időben: Azok között, akik felzarándokoltak, hogy az ünnepen imádják Istent, volt néhány görög is. Ezek odamentek Fülöphöz, aki a galileai Betszaidából származott, és kérték: „Uram, látni szeretnénk Jézust.” Fülöp elment és szólt Andrásnak. Aztán András és Fülöp elmentek, és megmondták Jézusnak. Jézus ezt válaszolta: „Eljött az óra, hogy megdicsőüljön az Emberfia. Bizony, bizony, mondom nektek: ha a búzaszem nem hull a földbe, és el nem hal, egyedül marad, ha azonban elhal, sok gyümölcsöt hoz. Aki szereti életét, elveszíti azt, de aki gyűlöli életét ebben a világban, az megmenti azt az örök életre. Aki nekem szolgál, kövessen engem, és ahol én vagyok, ott lesz a szolgám is. Aki nekem szolgál, azt becsülni fogja az Atya. Most megrendült a lelkem. Mit is mondjak? Atyám, szabadíts meg ettől az órától? De hiszen éppen ezért az óráért jöttem. Atyám, dicsőítsd meg nevedet!”<br>\nErre hang hallatszott az égből: „Megdicsőítettem, és ismét megdicsőítem.” A tömeg, amely ott állt, ennek hallatára azt gondolta, hogy mennydörgött. Mások így vélekedtek: „Angyal beszélt vele.” Jézus megmagyarázta nekik: „Nem miattam hallatszott ez a hang, hanem miattatok. Ítélet van most a világon. Most vetik ki ennek a világnak a fejedelmét. Én pedig, ha majd fölmagasztalnak a földről, mindenkit magamhoz vonzok.” Ezt azért mondta, hogy jelezze: milyen halállal fog meghalni.",
+						"ending": "Ezek az evangélium igéi."
+					}
+				]
+			},
+			{
+				"cause" : "Vagy vehető minden olvasmány az A évből.",
+				"parts": [
+					{
+						"short_title": "olvasmány",
+						"ref": "Ez 37,12-14",
+						"teaser": "Belétek oltom lelkemet és életre keltek.",
+						"title": "OLVASMÁNY Ezekiel próféta könyvéből",
+						"text": "\nÍgy szólt az Úr Ezekiel prófétához:<br>\n„Jövendölj és így beszélj népemhez: Ezt mondja az Úr, az Isten:\n»Íme, kinyitom sírjaitokat és kihozlak titeket sírjaitokból, én népem,\nés elvezetlek Izrael földjére. Akkor majd megtudjátok, hogy én vagyok\naz Úr, amikor kinyitom sírjaitokat és kihozlak benneteket sírjaitokból,\nén népem. Belétek oltom lelkemet és életre keltek. Letelepítelek\ntiteket földeteken, és megtudjátok, hogy én, az Úr mondtam ezt, és\nvégbe is vittem«” – mondja az Úr.",
+						"ending": "Ez az Isten igéje."
+					},
+					{
+						"short_title": "zsoltár",
+						"ref": "Zsolt 129,1-2.3-4ab.4c-6.7-8",
+						"teaser": "Válasz: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b> (1 D<sup><small>2</small></sup>. tónus.)",
+						"text": "Válasz: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b> (1 D<sup><small>2</small></sup>. tónus.)\n<br>\nElőénekes: A mélységből kiáltok, <u>U</u>ram, hozzád, * Istenem, hall<u>gass</u> a szómra.<br>\nFüled <u>fi</u>gyeljen fel * kö<u>nyör</u>gő szavamra.<br>\nHívek: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Ha számon tartod a <u>vét</u>keket, Uram, * Uram, ki az, aki előt<u>ted</u> megállhat?<br>\nDe nálad bocsánatot <u>nyer</u> a vétek, * ezért félve tisz<u>te</u>lünk téged.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Tebenned <u>re</u>mélek, Uram, * és igédben remény<u>ke</u>dik lelkem.<br>\nLelkem <u>vár</u>ja az Urat, * jobban, mint éji <u>őr</u> a hajnalt.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>\n<br>\nE: Jobban, mint éji <u>őr</u> a hajnalt, * várja az U<u>rat</u> Izrael.<br>\nMert az Úrnál az ir<u>ga</u>lom, † és bőséges a <u>meg</u>váltás nála, * ő váltja meg Izraelt min<u>den</u> bűnétől.<br>\nH: <b>Az <u>Úr</u>nál az irgalom, * és bőséges a meg<u>vál</u>tás nála.</b>"
+					},
+					{
+						"short_title": "szentlecke",
+						"ref": "Róm 8,8-11",
+						"teaser": "Isten Lelke, aki Jézust feltámasztotta a halálból, bennetek lakik.",
+						"title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
+						"text": "\nTestvéreim! <br>\nAki test szerint él, nem lehet kedves Isten előtt. Ti\nazonban nem test, hanem lélek szerint éltek, ha valóban Isten Lelke\nlakik bennetek. De akiben nem lakik Krisztus Lelke, az nem Krisztusé.\nHa Krisztus bennetek lakik, jóllehet a test a bűn miatt halott, a\nlélek a megigazulás következtében él. Ha pedig bennetek lakik annak\nLelke, aki feltámasztotta Jézust a halálból, ő, aki Krisztust\nfeltámasztotta a halottak közül, halandó testeteket is életre kelti a\nbennetek lakó Lelke által.\n",
+						"ending": "Ez az Isten igéje."
+					},
+					{
+						"short_title": "evangélium előtti vers",
+						"ref": null,
+						"teaser": "Jézus mondja: † „Én vagyok a feltámadás és az élet: * aki bennem hisz, nem hal meg örökre.” Jn 11,25a és 26 – 6. tónus.",
+						"text": "Jézus mondja: † „Én vagyok a feltámadás és az élet: * aki bennem hisz, nem hal meg örökre.” Jn 11,25a és 26 – 6. tónus."
+					},
+					{
+						"short_title": "evangélium",
+						"ref": "Jn 11,1-45 rövidebb: Jn 11,3-7.17.20-27.33b-45",
+						"teaser": "Én vagyok a feltámadás és az élet.",
+						"title": "† EVANGÉLIUM Szent János könyvéből",
+						"text": "\nAbban az időben:<br>\nLázár beteg volt Betániában, Máriának és nővérének, Mártának a\nfalujában. Ez a Mária kente meg az Urat mirhával, és törölte meg lábait a hajával. A beteg Lázár, az ő testvérük volt.<br>\nA két leánytestvér megüzente Jézusnak: „Uram, nézd, beteg, akit\nszeretsz!” Amikor Jézus meghallotta ezt, így szólt: „Ez a betegség\nnem halálos, hanem Isten dicsőségére fog szolgálni, hogy az Isten Fia\nmegdicsőüljön.”<br>\nJézus szerette őket: Mártát, Máriát és Lázárt. Amikor tehát\nmeghallotta, hogy Lázár beteg, két napig ott időzött még, ahol volt,\nazután így szólt a tanítványokhoz: „Menjünk el ismét Judeába?”<br>\nA tanítványok ezt mondták neki: „Mester, most akartak megkövezni a\nzsidók, és te megint odamégy?” Jézus ezt felelte: „Nem tizenkét órája\nvan a nappalnak? Aki nappal jár, nem botlik el, mert látja a világ\nvilágosságát. De aki éjszaka jár, elbotlik, mert hiányzik belőle a\nvilágosság.” Ezt mondta, azután hozzátette: „Lázár, a mi barátunk\nelaludt. De én megyek és fölkeltem.” A tanítványok így szóltak:\n„Uram, ha elaludt, akkor meggyógyul.”<br>\nJézus Lázár haláláról beszélt, ők azonban azt hitték, hogy az álomba\nmerülésre gondol. Erre Jézus nyíltan megmondta nekik: „Lázár meghalt.\nÉs hogy nem voltam ott, örömömre szolgál miattatok, hogy higgyetek.\nMost azonban induljunk hozzá!”<br>\nTamás, akinek Iker volt a mellékneve, így szólt tanítványtársaihoz:\n„Menjünk, és haljunk meg mi is vele együtt!”<br>\nAmikor Jézus megérkezett, Lázár már négy napja a sírban feküdt.\nBetánia Jeruzsálem közelében volt, mintegy tizenöt stádiumra (fél óra\njárásnyira). Így sok zsidó jött Máriához és Mártához, hogy vigasztalják őket testvérük miatt.<br>\nAmint Márta meghallotta, hogy Jézus jön, eléje sietett, míg Mária\notthon maradt. Márta így szólt Jézushoz: „Uram, ha itt lettél volna,\nnem halt volna meg a testvérem! De tudom, hogy most is, bármit kérsz\nIstentől, megadja neked.” Jézus ezt felelte neki: „Testvéred fel fog\ntámadni!” Erre Márta így szólt: „Tudom, hogy feltámad a\nfeltámadáskor, az utolsó napon.”<br>\nJézus folytatta: „Én vagyok a feltámadás és az élet. Aki hisz\nbennem, még ha meg is hal, élni fog. Mindaz, aki él és hisz énbennem,\naz nem hal meg örökre. Hiszed ezt?” Márta ezt válaszolta neki: „Igen,\nUram! Hiszem, hogy te vagy a Messiás, az Isten Fia, aki a világba\njön!”<br>\nE szavak után elment és hívta a testvérét, Máriát. Halkan odaszólt\nneki: „Megjött a Mester, és hív téged!” Ennek hallatára ő rögtön\nfölkelt, és Jézushoz sietett. Jézus ugyanis még nem ért be a faluba,\nhanem azon a helyen volt, ahol Mártával találkozott.<br>\nA zsidók pedig, akik Máriával együtt a házban voltak és vigasztalták\nőt, amikor látták, hogy Mária gyorsan fölkel és kimegy, utána siettek.<br>\nAzt gondolták, hogy a sírhoz megy, hogy ott kisírja magát.<br>\nAmikor Mária odaért, ahol Jézus volt, és meglátta őt, e szavakkal\nborult lábaihoz: „Uram, ha itt lettél volna, nem halt volna meg a\ntestvérem!”<br>\nMikor Jézus látta, hogy Mária sír, és hogy a vele jött zsidók is\nsírnak, lelke mélyéig megrendült és megindult. Megkérdezte: „Hova\ntemettétek?” Azok így szóltak: ,Jöjj, Uram, és lásd!” Ekkor Jézus\nkönnyekre fakadt. Erre a zsidók megjegyezték: „Nézzétek, mennyire\nszerette őt!” Némelyek azonban így szóltak: „Ő, aki visszaadta a vak\nlátását, nem akadályozhatta volna meg, hogy meghaljon?”<br>\nJézus pedig, még mindig mélyen megrendülve a sírhoz ment, amely egy\nkővel elzárt barlang volt. Jézus így szólt: „Vegyétek el a követ!”\nMárta, az elhunyt testvére megjegyezte: „Uram, már szaga van, hiszen\nnegyednapos.” Jézus ezt válaszolta neki: „Mondtam már neked, hogy ha\nhiszel, meglátod Isten dicsőségét!” Elvették tehát a követ. Jézus az\négre emelte szemét, és így szólt: „Atyám, hálát adok neked, hogy\nmeghallgattál. Én ugyan tudom, hogy mindenkor meghallgatsz, csak a\nkörülálló nép miatt mondom, hogy higgyék: te küldöttél engem!”<br>\nE szavak után Jézus hangos szóval kiáltotta: „Lázár, jöjj ki!” A\nhalott azonnal kijött, kezén és lábán a rátekert leplekkel, arcán pedig a kendővel, amelyet fejére csavartak. Jézus megparancsolta: „Oldjátok fel, hogy járni tudjon!”<br>\nA zsidók közül, akik Máriához jöttek, sokan hittek Jézusban, miután\nlátták, amit cselekedett.\n<br>\nEzek az evangélium igéi.\n<br><br>\n<i>Vagy rövidebb forma:</i>\n<br>\n† EVANGÉLIUM Szent János könyvéből \n<br>\n<i>Én vagyok a feltámadás és az élet.</i>\n<br>\nAbban az időben:<br>\nLázár testvérei megüzenték Jézusnak: „Uram, nézd, beteg, akit\nszeretsz!” Amikor Jézus meghallotta ezt, így szólt: „Ez a betegség\nnem halálos, hanem Isten dicsőségére fog szolgálni, hogy az Isten Fia\nmegdicsőüljön.”<br>\nJézus szerette őket: Mártát, Máriát és Lázárt. Amikor tehát\nmeghallotta, hogy Lázár beteg, két napig ott időzött még, ahol volt,\naztán így szólt a tanítványokhoz: „Menjünk el ismét Judeába!”<br>\nAmikor Jézus megérkezett, Lázár már négy napja a sírban feküdt.<br>\nAmint Márta meghallotta, hogy Jézus jön, eléje sietett, míg Mária\notthon maradt. Márta így szólt Jézushoz: „Uram, ha itt lettél volna,\nnem halt volna meg a testvérem! De tudom, hogy most is, bármit kérsz\nIstentől, megadja neked.” Jézus ezt felelte neki: „Testvéred fel fog\ntámadni.” Erre Márta így szólt: „Tudom, hogy feltámad a\nfeltámadáskor, az utolsó napon.”<br>\nJézus folytatta: „Én vagyok a feltámadás és az élet. Aki hisz\nbennem, még ha meg is hal, élni fog. Mindaz, aki él és hisz énbennem,\naz nem hal meg örökre. Hiszed ezt?” Márta ezt válaszolta neki: „Igen,\nUram! Hiszem, hogy te vagy a Messiás, az Isten Fia, aki a világba\njön!”<br>\nJézus a lelke mélyéig megrendült és megindult. Megkérdezt: „Hova\ntemettétek?” Azok így szóltak: ,jöjj, Uram, és lásd!” Ekkor Jézus\nkönnyekre fakadt. Erre a zsidók megjegyezték: „Nézzétek, mennyire\nszerette őt!” Némelyek azonban így szóltak: „Ő, aki visszaadta a vak\nlátását, nem akadályozhatta volna meg, hogy meghaljon?”<br>\nJézus pedig, még mindig mélyen megrendülve a sírhoz ment, amely egy\nkővel elzárt barlang volt. Jézus így szólt: „Vegyétek el a követ!”\nMárta, az elhunyt testvére megjegyezte: „Uram, már szaga van, hiszen\nnegyednapos.” Jézus ezt válaszolta neki: „Mondtam már neked, hogy ha\nhiszel, meglátod Isten dicsőségét!” Elvették tehát a követ. Jézus az\négre emelte szemét, és így szólt: „Atyám, hálát adok neked, hogy\nmeghallgattál. Én ugyan tudom, hogy mindenkor meghallgatsz, csak a\nkörülálló nép miatt mondom, hogy higgyék: te küldöttél engem!”<br>\nE szavak után Jézus hangos szóval kiáltotta: „Lázár, jöjj ki!” A\nhalott azonnal kijött, kezén és lábán a rátekert leplekkel, arcán pedig\na kendővel, amelyet fejére csavartak. Jézus megparancsolta: „Oldjátok\nföl, hogy járni tudjon!”<br>\nA zsidók közül, akik Máriához jöttek, sokan hittek Jézusban, miután\nlátták, amit cselekedett.",
+						"ending": "Ezek az evangélium igéi."
+					}
+				]
+			}
+		]
+	},
     "NAB06": {
         "igenaptarId": "NAB06",
         "name": "Virágvasárnap - ünnepi mise",
