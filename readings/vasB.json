@@ -1622,11 +1622,23 @@
                 "ending": ""
             },
             {
-                "type": "alleluja",
+                "type": "szekvencia",
                 "ref": null,
-                "teaser": "Krisztus, a mi h\u00fasv\u00e9ti B\u00e1r\u00e1nyunk m\u00e1r fel\u00e1ldozta mag\u00e1t. * \u00dclj\u00fck meg teh\u00e1t az \u00darral a h\u00fasv\u00e9ti lakom\u00e1t. (1Kor 5,7b-8a \u2013 2. t\u00f3nus.)",
-                "text": "Krisztus, a mi h\u00fasv\u00e9ti B\u00e1r\u00e1nyunk m\u00e1r fel\u00e1ldozta mag\u00e1t. * \u00dclj\u00fck meg teh\u00e1t az \u00darral a h\u00fasv\u00e9ti lakom\u00e1t. (1Kor 5,7b-8a \u2013 2. t\u00f3nus.)"
+                "text": "Húsvét tiszta áldozatját a hívek áldva áldják.\n<br>Bárány megváltotta nyáját, és az ártatlan \n<br>Krisztus már kiengeszteli értünk Atyját. \n<br>Élet itt a halállal megvítt csoda-csatával, \n<br>a holt Élet-Vezér ma úr és él! \n<br>Mária, szentasszony, mondd, mit láttál útadon? \n<br>Az élő Krisztusnak sírját, s a Fölkentnek láttam \n<br>glóriáját, angyali tanúkat, szemfedőt és gyolcsokat. \n<br>Feltámadt reményem, Krisztus, Galileába elétek indult. \n<br>Tudjuk, Krisztus feltámadott és diadalmas: \n<br>ó, győztes Királyunk, légy irgalmas."
             },
+            [
+                {
+                    "type": "szekvencia",
+                    "ref": null,
+                    "text": "Victimae paschali laudes immolent \n<br>Christiani. \n<br>Agnus redemit oves, Christus innocens \n<br>Patri reconciliavit peccatores. \n<br>Mors et vita duello conflixere mirando, \n<br>dux vitae mortuus regnat vivus. \n<br>Dic nobis Maria, quid vidisti in via? \n<br>Sepulchrum Christi viventis, et gloriam \n<br>vidi resurgentis, angelicos testes, \n<br>sudarium et vestes. \n<br>Surrexit Christur, spes mea, praecedet \n<br>suos in Galileam. \n<br>Scimus Christum surrexisse a moruis vere, \n<br>tu nobis victor Rex, miserere. "
+                },
+                {
+                    "type": "alleluja",
+                    "ref": null,
+                    "teaser": "Krisztus, a mi h\u00fasv\u00e9ti B\u00e1r\u00e1nyunk m\u00e1r fel\u00e1ldozta mag\u00e1t. * \u00dclj\u00fck meg teh\u00e1t az \u00darral a h\u00fasv\u00e9ti lakom\u00e1t. (1Kor 5,7b-8a \u2013 2. t\u00f3nus.)",
+                    "text": "Krisztus, a mi h\u00fasv\u00e9ti B\u00e1r\u00e1nyunk m\u00e1r fel\u00e1ldozta mag\u00e1t. * \u00dclj\u00fck meg teh\u00e1t az \u00darral a h\u00fasv\u00e9ti lakom\u00e1t. (1Kor 5,7b-8a \u2013 2. t\u00f3nus.)"
+                }
+            ],
             {
                 "type": "evang\u00e9lium",
                 "ref": "Jn 20,1-9 <i> vagy este mondott mis\u00e9ben </i> Lk 24,13-35",
