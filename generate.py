@@ -86,7 +86,11 @@ def findCommentaries(celebration: dict):
                 if 'teaser' in katolikusData['commentaries'][commentary]:
                     celebration['teaser'] = katolikusData['commentaries'][commentary]['teaser']['text']
                 if 'commentary' in katolikusData['commentaries'][commentary]:
-                    celebration['commentary'] = katolikusData['commentaries'][commentary]['commentary']['text']                    
+                    celebration['commentary'] = {
+                        "type" : "object",
+                        "short_title" : "Gondolatok a mai napról",
+                        "text" : katolikusData['commentaries'][commentary]['commentary']['text']                    
+                    }
                 commentaryHasFound = True
                 return True
 
@@ -171,8 +175,13 @@ def findReadings(celebration: dict):
                 if 'excerpt' in possibility:
                     celebration['teaser'] = possibility['excerpt']
                 if 'content' in possibility:
-                    celebration['commentary'] = possibility['content']    
-                                
+                    celebration['commentary'] = {
+                        "type": "object",
+                        "short_title" : "Élete",
+                        "text": possibility['content']    
+                    }
+                if 'image' in possibility:
+                    celebration['image'] = possibility['image']                                    
                 
                 readingHasFound = True
                 return True
