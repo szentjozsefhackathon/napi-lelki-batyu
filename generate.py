@@ -167,6 +167,13 @@ def findReadings(celebration: dict):
             #print(str(Levenshtein.ratio(str(celebration['name']), possibility['name'])) + " " + celebration['name'] + " ? " + possibility['name'])  
             if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.5:
                 celebration['parts'] = possibility['parts']
+                
+                if 'excerpt' in possibility:
+                    celebration['teaser'] = possibility['excerpt']
+                if 'content' in possibility:
+                    celebration['commentary'] = possibility['content']    
+                                
+                
                 readingHasFound = True
                 return True
                     

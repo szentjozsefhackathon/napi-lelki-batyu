@@ -20,11 +20,28 @@ def loadKatolikusData():
 
     katolikusData = {}
     sources = ["konyorgesek", "konyorgesekszentek", "olvasmanyok", "saint", "szentek", "vasA", "vasB", "vasC"]
-    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek"]
+    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","saint"]   
     for name in sources:        
         with open('sources/' + name + '.csv', 'r',encoding="utf8") as file:
             csv_reader = csv.DictReader(file,delimiter=",")
             katolikusData[name] = [row for row in csv_reader]            
+    
+    # combaine saint and szentek
+    if "saint" in katolikusData and "szentek" in katolikusData:
+        for szentId, szent in enumerate(katolikusData['szentek']):
+            match = re.match(r'^(\d{2})\-(\d{2})([a-z]{0,1})$',szent["datum"])
+            szent['day'] = int( match[2] )
+            szent['month'] = int( match[1] )
+            
+            for saint in katolikusData['saint']:                            
+                if str(szent['month']) == str(saint["month"]) and str(szent['day']) == str(saint["day"]):
+                    if Levenshtein.ratio(szent['nev'], saint['name']) > 0.6:
+                        #print( szent['nev'] + " ? " + saint['name'] + "  -- " + str(Levenshtein.ratio(szent['nev'], saint['name']) ))
+                    
+                        columns = ['birth_date','death_date','content','excerpt','liturgy','prayer','source_id','color']
+                        for column in columns:                    
+                            katolikusData['szentek'][szentId][column] = saint[column]
+
     return katolikusData
 
 katolikusData = loadKatolikusData()
@@ -165,6 +182,7 @@ def partFromPsalm(text):
 
 
 sources = ["vasA", "vasB", "vasC","olvasmanyok","szentek"]
+sources = ["szentek"]
 for name in sources:        
    
     datas = {}
@@ -182,6 +200,11 @@ for name in sources:
                 'name' : row["nev"],
                 'parts' : []
                 }
+                
+            extras = ['birth_date','death_date','content','excerpt','liturgy','prayer','source_id','color']
+            for extra in extras:
+                if extra in row:
+                    data[extra] = row[extra]
                                 
         else:
             id = row["kod"]
