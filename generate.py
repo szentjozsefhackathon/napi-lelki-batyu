@@ -27,7 +27,7 @@ def loadBreviarData():
 
 def loadKatolikusData():
     katolikusData = {}    
-    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","descriptions"]
+    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","commentaries"]
     for name in sources:
         with open('readings/' + name + '.json', 'r',encoding="utf8") as file:            
             katolikusData[name] = simplejson.load(file)
@@ -76,18 +76,18 @@ def transformCelebration(celebration: dict):
     return transformedCelebration
 
 
-def findDescriptions(celebration: dict):
+def findCommentaries(celebration: dict):
 
-    descriptionHasFound = False
+    commentaryHasFound = False
     
-    for description in katolikusData['descriptions']:                
-        if 'readingsBreviarId' in katolikusData['descriptions'][description]:
-            if katolikusData['descriptions'][description]['readingsBreviarId'] == celebration['readingsBreviarId']:
-                if 'teaser' in katolikusData['descriptions'][description]:
-                    celebration['teaser'] = katolikusData['descriptions'][description]['teaser']['text']
-                if 'description' in katolikusData['descriptions'][description]:
-                    celebration['description'] = katolikusData['descriptions'][description]['description']['text']                    
-                descriptionHasFound = True
+    for commentary in katolikusData['commentaries']:                
+        if 'readingsBreviarId' in katolikusData['commentaries'][commentary]:
+            if katolikusData['commentaries'][commentary]['readingsBreviarId'] == celebration['readingsBreviarId']:
+                if 'teaser' in katolikusData['commentaries'][commentary]:
+                    celebration['teaser'] = katolikusData['commentaries'][commentary]['teaser']['text']
+                if 'commentary' in katolikusData['commentaries'][commentary]:
+                    celebration['commentary'] = katolikusData['commentaries'][commentary]['commentary']['text']                    
+                commentaryHasFound = True
                 return True
 
 
@@ -214,7 +214,7 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
     for celebration in lelkiBatyu['celebration']:
-        findDescriptions(celebration)
+        findCommentaries(celebration)
 
     # now write output to a file
     with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
