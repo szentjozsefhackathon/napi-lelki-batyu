@@ -27,7 +27,7 @@ def loadBreviarData():
 
 def loadKatolikusData():
     katolikusData = {}    
-    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek"]
+    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","descriptions"]
     for name in sources:
         with open('readings/' + name + '.json', 'r',encoding="utf8") as file:            
             katolikusData[name] = simplejson.load(file)
@@ -74,6 +74,22 @@ def transformCelebration(celebration: dict):
 
 
     return transformedCelebration
+
+
+def findDescriptions(celebration: dict):
+
+    descriptionHasFound = False
+    
+    for description in katolikusData['descriptions']:                
+        if 'readingsBreviarId' in katolikusData['descriptions'][description]:
+            if katolikusData['descriptions'][description]['readingsBreviarId'] == celebration['readingsBreviarId']:
+                if 'teaser' in katolikusData['descriptions'][description]:
+                    celebration['teaser'] = katolikusData['descriptions'][description]['teaser']['text']
+                if 'description' in katolikusData['descriptions'][description]:
+                    celebration['description'] = katolikusData['descriptions'][description]['description']['text']                    
+                descriptionHasFound = True
+                return True
+
 
 def findReadings(celebration: dict):
     
@@ -169,7 +185,7 @@ def findReadings(celebration: dict):
         print(str(calendarDay['DateISO']) + " ERROR: Nincs '" + celebration['readingsBreviarId'] + "'")
         return False
 
-downloadBreviarData()
+#downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
@@ -195,6 +211,10 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
     for celebration in lelkiBatyu['celebration']:
         findReadings(celebration)
+
+    #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
+    for celebration in lelkiBatyu['celebration']:
+        findDescriptions(celebration)
 
     # now write output to a file
     with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
