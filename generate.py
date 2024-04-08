@@ -34,7 +34,7 @@ def loadKatolikusData():
     return katolikusData
 
 def transformCelebration(celebration: dict):
-    print(celebration['LiturgicalCelebrationName'])
+    
     transformedCelebration = {
         'yearLetter': celebration['LiturgicalYearLetter'],
         'yearParity': yearIorII(celebration['LiturgicalYearLetter'], calendarDay['DateYear']),
@@ -53,6 +53,16 @@ def transformCelebration(celebration: dict):
     if celebration['LiturgicalCelebrationName'] and "#text" in celebration['LiturgicalCelebrationName']:
         transformedCelebration['name'] = celebration['LiturgicalCelebrationName']['#text']
 
+    # Create name if it is necessary
+    if transformedCelebration['name'] == None:
+        napok = { 0: "vasárnap", 1: "hétfő", 2: "kedd", 3: "szerda", 4: "csütörtök", 5: "péntek", 6: "szombat"}
+        transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'] + " " + celebration['LiturgicalWeek'] + ". hét, " + napok[int(calendarDay["DayOfWeek"]['@Id'])]
+
+    print(transformedCelebration['name'])
+            
+    if celebration['LiturgicalCelebrationType']['#text'] == "féria":
+        celebration['LiturgicalCelebrationType']['#text'] = "köznap"
+            
     if transformedCelebration['name']:
         transformedCelebration['title'] = transformedCelebration['name'] + " - " + celebration['LiturgicalCelebrationType']['#text']
     else:
@@ -233,8 +243,6 @@ def clearYearIorII(celebration: dict):
                 for possibility in k:
                     if "cause" in possibility and ( (  possibility["cause"] == 'II. évben' and celebration['yearParity'] == 'I' ) or  ( possibility["cause"] == 'I. évben' and celebration['yearParity'] == 'II' ) ) :                        
                         k.remove(possibility)
-                        print(len(k))
-                        print(k)
                         if len(k) == 1:
                             celebration['parts'][kid] = k[0]
                             celebration['parts'][kid].pop("cause")
