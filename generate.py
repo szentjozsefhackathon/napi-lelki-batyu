@@ -202,6 +202,28 @@ def findReadings(celebration: dict):
         print(str(calendarDay['DateISO']) + " ERROR: Nincs '" + celebration['readingsBreviarId'] + "'")
         return False
 
+# Kötelező emléknapokon (level 10 és 11) köznapi olvasmányok a default érték!
+def addreadingstolevel10(celebration: dict):
+    if celebration['level'] == '10' or celebration['level'] == '11':
+        
+        seasons = { '0' :"ADV", '3': "?Kar1?", '5' : "EVK", "6": "NAB", "10" : "HUS", "11" : "?HUS2?" }
+        napok = { 1: "Hetfo", 2: "Kedd", 3: "Szerda", 4: "Csutortok", 5: "Pentek", 6: "Szombat"}
+        
+        
+        katolikusDataKod = seasons[celebration['season']] + celebration['week'].zfill(2) + calendarDay["DayOfWeek"]['@Id'] + napok[int(calendarDay["DayOfWeek"]['@Id'])]
+        
+        if katolikusDataKod in katolikusData["olvasmanyok"]:
+            tmp = [{
+                "parts" : katolikusData["olvasmanyok"][katolikusDataKod]["parts"],
+                "cause" : "Olvasmányok a köznapról"
+            }
+            ]
+            if "parts" in celebration:
+                tmp.append({"parts" : celebration['parts'], "cause" : "Saját olvasmányok"})
+                
+            celebration['parts'] = tmp
+
+
 # Köznapokon az I és II éve szerint szétszedni az olvasmányokat!
 def clearYearIorII(celebration: dict):
     if 'parts' in celebration:
@@ -269,6 +291,7 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         findReadings(celebration)
 
         clearYearIorII(celebration)
+        addreadingstolevel10(celebration)
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
     for celebration in lelkiBatyu['celebration']:
