@@ -241,7 +241,7 @@ def yearIorII(ABC, year):
     exit()
 
 
-#downloadBreviarData()
+downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
