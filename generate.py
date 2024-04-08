@@ -205,11 +205,18 @@ def findReadings(celebration: dict):
 # Köznapokon az I és II éve szerint szétszedni az olvasmányokat!
 def clearYearIorII(celebration: dict):
     if 'parts' in celebration:
-        if type(celebration['parts']) == dict:
-            print(celebration['parts'])
-            print("AÁÁLJ")
-            exit()
-        else:
+        for kid, k in enumerate(celebration['parts']):
+            
+            if type(k) != dict:
+                for possibility in k:
+                    if "cause" in possibility and ( (  possibility["cause"] == 'II. évben' and celebration['yearParity'] == 'I' ) or  ( possibility["cause"] == 'I. évben' and celebration['yearParity'] == 'II' ) ) :                        
+                        k.remove(possibility)
+                        print(len(k))
+                        print(k)
+                        if len(k) == 1:
+                            celebration['parts'][kid] = k[0]
+                            celebration['parts'][kid].pop("cause")
+                                                    
 
 def yearIorII(ABC, year):
     if year == '2023':
