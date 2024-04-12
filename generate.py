@@ -223,15 +223,11 @@ def addreadingstolevel10(celebration: dict):
         katolikusDataKod = seasons[celebration['season']] + celebration['week'].zfill(2) + calendarDay["DayOfWeek"]['@Id'] + napok[int(calendarDay["DayOfWeek"]['@Id'])]
         
         if katolikusDataKod in katolikusData["olvasmanyok"]:
-            tmp = [{
-                "parts" : katolikusData["olvasmanyok"][katolikusDataKod]["parts"],
-                "cause" : "Olvasmányok a köznapról"
-            }
-            ]
-            if "parts" in celebration:
-                tmp.append({"parts" : celebration['parts'], "cause" : "Saját olvasmányok"})
-                
-            celebration['parts'] = tmp
+            if 'parts' in celebration:
+                celebration['parts2'] = celebration['parts'];
+                celebration['parts2cause'] = "(Vagy) saját olvasmányok";
+            celebration['parts'] = katolikusData["olvasmanyok"][katolikusDataKod]["parts"];
+                        
 
 
 # Köznapokon az I és II éve szerint szétszedni az olvasmányokat!
