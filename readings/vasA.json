@@ -260,7 +260,7 @@
                 "ref": "Iz 8,23b–9,3",
                 "teaser": "A pogány nemzetek területén a nép nagy fényességet lát.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
-                "text": "\nEgykor megalázta az Úr Zabulon földjét és Neftali földjét. De az\neljövendő napokban megdicsőíti majd a Tenger útját, a Jordánon túli\nvidéket, a pogány nemzetek területét.\nA nép, amely sötétségben jár,\nnagy fényességet lát. <br>\nAkik a halál árnyékának országában laknak,\nazoknak nagy világosság támad.\nNagy ujjongással töltöd el őket,\nkitörő örömöt adsz nekik.\nÚgy örülnek majd színed előtt,\nahogyan aratáskor szoktak örülni,\ns ahogy akkor örülnek, amikor a zsákmányt osztják.\nMert terhes igáját, a vállára nehezedő rudat,\nsanyargatója botját összetöröd, mint Midián idejében.  ",
+                "text": "\nEgykor megalázta az Úr Zabulon földjét és Neftali földjét. De az\neljövendő napokban megdicsőíti majd a Tenger útját, a Jordánon túli\nvidéket, a pogány nemzetek területét.\nA nép, amely sötétségben jár,\nnagy fényességet lát. <br>\nAkik a halál árnyékának országában laknak,\nazoknak nagy világosság támad.\nNagy ujjongással töltöd el őket,\nkitörő örömöt adsz nekik.\nÚgy örülnek majd színed előtt,\nahogyan aratáskor szoktak örülni,\ns ahogy akkor örülnek, amikor a zsákmányt osztják.\nMert terhes igáját, a vállára nehezedő rudat,\nsanyargatója botját összetöröd, mint Midián idejében.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -274,8 +274,8 @@
                 "ref": "1Kor 1,10-13.17",
                 "teaser": "Éjetek mindnyájan egyetértésben, és ne szakadjatok pártokra!",
                 "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
-                "text": "\nTestvéreim!<br>\nUrunk Jézus Krisztus nevére kérlek titeket, éljetek\nmindnyájan egyetértésben, és ne szakadjatok pártokra! Forrjatok eggyé\nugyanabban a lelkületben, ugyanabban a felfogásban! Kloé hozzátartozói\nugyanis azt a hírt hozták felőletek, testvérek, hogy pártokra\nszakadtatok. Arra gondolok, hogy akadnak köztetek, akik azt mondják:\n„Én Pállal tartok, én meg Apollóval, én Kéfással, én meg\nKrisztussal!”<br>\nTalán megoszlott Krisztus? Vajon Pált feszítették értetek keresztre,\nvagy Pál nevében keresztelkedtetek meg?<br>\nKrisztus engem nem keresztelni küldött, hanem azért, hogy hirdessem\naz evangéliumot, – de ne bölcselkedő beszéddel, hogy Krisztus\nkeresztje erejét ne veszítse.<br>\n\nEz az Isten igéje.\n",
-                "ending": ""
+                "text": "\nTestvéreim!<br>\nUrunk Jézus Krisztus nevére kérlek titeket, éljetek\nmindnyájan egyetértésben, és ne szakadjatok pártokra! Forrjatok eggyé\nugyanabban a lelkületben, ugyanabban a felfogásban! Kloé hozzátartozói\nugyanis azt a hírt hozták felőletek, testvérek, hogy pártokra\nszakadtatok. Arra gondolok, hogy akadnak köztetek, akik azt mondják:\n„Én Pállal tartok, én meg Apollóval, én Kéfással, én meg\nKrisztussal!”<br>\nTalán megoszlott Krisztus? Vajon Pált feszítették értetek keresztre,\nvagy Pál nevében keresztelkedtetek meg?<br>\nKrisztus engem nem keresztelni küldött, hanem azért, hogy hirdessem\naz evangéliumot, – de ne bölcselkedő beszéddel, hogy Krisztus\nkeresztje erejét ne veszítse.",
+                "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "alleluja",
@@ -283,14 +283,26 @@
                 "teaser": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus.",
                 "text": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus."
             },
-            {
+		[
+			]
+			{
                 "short_title": "evangélium",
-                "ref": "Mt 4,12-23 rövidebb: Mt 4,12-17",
+                "ref": "Mt 4,12-23",
                 "teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!” *<br>\nA Galileai-tenger mentén járva meglátott két testvért: Simont, akit\nPéternek is neveznek, és Andrást, a testvérét. Éppen hálót vetettek a\ntengerbe, mert halászok voltak. Így szólt hozzájuk: „Kövessetek engem,\nés én emberek halászává teszlek titeket!” Erre azok otthagyták\nhálóikat és követték őt. Amint onnan továbbment, meglátott másik két\ntestvért is: Zebedeus fiát, Jakabot és testvérét, Jánost. Apjukkal,\nZebedeussal a hálóikat javították a csónakban. Őket is elhívta. Ők is\notthagyták a csónakot és az apjukat, és követték őt.<br>\nJézus pedig bejárta egész Galileát. Tanított a zsinagógákban,\nhirdette a mennyek országa örömhírét, és meggyógyított a nép körében\nminden betegséget és minden gyötrelmet.<br>\n\nEzek az evangélium igéi.",
-                "ending": "<i>Vagy rövidebb forma a *-ig</i>"
+                "text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!” <br>\nA Galileai-tenger mentén járva meglátott két testvért: Simont, akit\nPéternek is neveznek, és Andrást, a testvérét. Éppen hálót vetettek a\ntengerbe, mert halászok voltak. Így szólt hozzájuk: „Kövessetek engem,\nés én emberek halászává teszlek titeket!” Erre azok otthagyták\nhálóikat és követték őt. Amint onnan továbbment, meglátott másik két\ntestvért is: Zebedeus fiát, Jakabot és testvérét, Jánost. Apjukkal,\nZebedeussal a hálóikat javították a csónakban. Őket is elhívta. Ők is\notthagyták a csónakot és az apjukat, és követték őt.<br>\nJézus pedig bejárta egész Galileát. Tanított a zsinagógákban,\nhirdette a mennyek országa örömhírét, és meggyógyított a nép körében\nminden betegséget és minden gyötrelmet.",
+                "ending": "Ezek az evangélium igéi."
+            },
+			{
+                "cause": "rövidebb forma",
+				"short_title": "evangélium",
+                "ref": "Mt 4,12-17",
+                "teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
+                "title": "† EVANGÉLIUM Szent Máté könyvéből",
+                "text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!”",
+                "ending": "Ezek az evangélium igéi."
             }
+			[
         ]
     },
     "EVK04": {
@@ -787,14 +799,25 @@
                 "teaser": "A jó mag az Isten igéje, Krisztus a magvető, * aki reátalál örökké élni fog. – 8 G. tónus.",
                 "text": "A jó mag az Isten igéje, Krisztus a magvető, * aki reátalál örökké élni fog. – 8 G. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 13,1-23 rövidebb: Mt 13,1-9",
-                "teaser": "Kiment a magvető vetni.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben:<br>\nJézus elment hazulról, és leült a tó partján. Hatalmas tömeg gyűlt\nössze, ezért beült egy csónakba, a tömeg pedig ott állt a parton. Ekkor\npéldabeszédekben sok mindenre oktatta őket:<br>\n„Íme, kiment a magvető vetni. Amint vetett, némely szem az útszélre\nesett. Jöttek az ég madarai, és ezeket mind megették. Némely szem kövek\nközé esett, ahol nem volt elég termőföld. Ezek hamar kikeltek, hisz nem\nvolt mély a föld. Majd amikor a Nap fölkelt és forrón tűzött, kiégtek,\nmert nem volt gyökerük. Voltak szemek, amelyek tövisek közé estek, és\namikor nőni kezdtek, a tövisek elfojtották őket. De a többi szem jó\nföldbe hullott, és termést hozott: az egyik százszorosat, a másik\nhatvanszorosat, a harmadik harmincszorosat.<br>\nAkinek van füle, hallja meg!” *<br>\nEkkor odamentek hozzá tanítványai és megkérdezték: „Miért beszélsz\nhozzájuk példabeszédekben?” Ő így válaszolt: „Nektek adatott meg,\nhogy megismerjétek a mennyek országa titkait, nekik ez nem adatott meg.\nMert akinek van, annak még adnak, hogy még több legyen neki; de akinek\nnincs, attól még azt is elveszik, amije van. Azért beszélek hozzájuk\npéldabeszédekben, hogy nézzenek, de ne lássanak, hallgassanak, de ne\nhalljanak, és ne értsenek, és így beteljesedjék rajtuk Izajás próféta\njövendölése:<br>\nHallván hallotok, és mégsem értetek,<br>\nnézvén néztek, de mégsem láttok;<br>\nmegkérgesedett ugyanis e népnek szíve:<br>\nFülükkel restül hallanak,<br>\nszemüket behunyják,<br>\nhogy a szemükkel ne lássanak,<br>\nfülükkel ne halljanak,<br>\nés a szívükkel ne értsenek,<br>\ns meg ne térjenek, hogy meggyógyítsam őket.<br>\nDe boldog a ti szemetek, mert lát, és boldog a ti fületek, mert hall!\nBizony, mondom nektek, sok próféta és igaz vágyott látni, amit ti\nláttok, – és nem látta; vágyott hallani, amit ti hallotok, – és nem\nhallotta.<br>\nHallgassátok meg hát a magvetőről szóló példabeszédet!<br>\nAkik hallgatják a mennyek országáról szóló tanítást, és nem értik\nmeg, azokhoz eljön a gonosz, és elragadja mindazt, amit a szívükbe\nvetettek Ez az, ami az útszélre esett. A kövek közé hullott mag pedig\naz, aki meghallgatja ugyan a tanítást, és szívesen be is fogadja, de az\nnem ver benne gyökeret, csak ideig-óráig él. Amikor a tanítás miatt\nszorongatás, üldözés éri, csakhamar eltántorodik. A tövisek közé esett\nmag az, aki meghallgatja a tanítást, de a világi gondok s a csalóka\nvagyon elfojtja azt benne, és gyümölcs nélkül marad. Végül a jó földbe\nhullott mag az, aki meghallgatja, megszívleli a tanítást, és jó termést\nis hoz: az egyik százszorosat, a másik hatvanszorosat, a harmadik\nharmincszorosat.”<br>\n\nEzek az evangélium igéi.",
-                "ending": "<i>Vagy rövidebb forma a *-ig</i>"
-            }
+				[
+				{
+					"short_title": "evangélium",
+					"ref": "Mt 13,1-23",
+					"teaser": "Kiment a magvető vetni.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAbban az időben:<br>\nJézus elment hazulról, és leült a tó partján. Hatalmas tömeg gyűlt\nössze, ezért beült egy csónakba, a tömeg pedig ott állt a parton. Ekkor\npéldabeszédekben sok mindenre oktatta őket:<br>\n„Íme, kiment a magvető vetni. Amint vetett, némely szem az útszélre\nesett. Jöttek az ég madarai, és ezeket mind megették. Némely szem kövek\nközé esett, ahol nem volt elég termőföld. Ezek hamar kikeltek, hisz nem\nvolt mély a föld. Majd amikor a Nap fölkelt és forrón tűzött, kiégtek,\nmert nem volt gyökerük. Voltak szemek, amelyek tövisek közé estek, és\namikor nőni kezdtek, a tövisek elfojtották őket. De a többi szem jó\nföldbe hullott, és termést hozott: az egyik százszorosat, a másik\nhatvanszorosat, a harmadik harmincszorosat.<br>\nAkinek van füle, hallja meg!” <br>\nEkkor odamentek hozzá tanítványai és megkérdezték: „Miért beszélsz\nhozzájuk példabeszédekben?” Ő így válaszolt: „Nektek adatott meg,\nhogy megismerjétek a mennyek országa titkait, nekik ez nem adatott meg.\nMert akinek van, annak még adnak, hogy még több legyen neki; de akinek\nnincs, attól még azt is elveszik, amije van. Azért beszélek hozzájuk\npéldabeszédekben, hogy nézzenek, de ne lássanak, hallgassanak, de ne\nhalljanak, és ne értsenek, és így beteljesedjék rajtuk Izajás próféta\njövendölése:<br>\nHallván hallotok, és mégsem értetek,<br>\nnézvén néztek, de mégsem láttok;<br>\nmegkérgesedett ugyanis e népnek szíve:<br>\nFülükkel restül hallanak,<br>\nszemüket behunyják,<br>\nhogy a szemükkel ne lássanak,<br>\nfülükkel ne halljanak,<br>\nés a szívükkel ne értsenek,<br>\ns meg ne térjenek, hogy meggyógyítsam őket.<br>\nDe boldog a ti szemetek, mert lát, és boldog a ti fületek, mert hall!\nBizony, mondom nektek, sok próféta és igaz vágyott látni, amit ti\nláttok, – és nem látta; vágyott hallani, amit ti hallotok, – és nem\nhallotta.<br>\nHallgassátok meg hát a magvetőről szóló példabeszédet!<br>\nAkik hallgatják a mennyek országáról szóló tanítást, és nem értik\nmeg, azokhoz eljön a gonosz, és elragadja mindazt, amit a szívükbe\nvetettek Ez az, ami az útszélre esett. A kövek közé hullott mag pedig\naz, aki meghallgatja ugyan a tanítást, és szívesen be is fogadja, de az\nnem ver benne gyökeret, csak ideig-óráig él. Amikor a tanítás miatt\nszorongatás, üldözés éri, csakhamar eltántorodik. A tövisek közé esett\nmag az, aki meghallgatja a tanítást, de a világi gondok s a csalóka\nvagyon elfojtja azt benne, és gyümölcs nélkül marad. Végül a jó földbe\nhullott mag az, aki meghallgatja, megszívleli a tanítást, és jó termést\nis hoz: az egyik százszorosat, a másik hatvanszorosat, a harmadik\nharmincszorosat.”",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "evangélium",
+					"ref": "Mt 13,1-9",
+					"teaser": "Kiment a magvető vetni.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAbban az időben:<br>\nJézus elment hazulról, és leült a tó partján. Hatalmas tömeg gyűlt\nössze, ezért beült egy csónakba, a tömeg pedig ott állt a parton. Ekkor\npéldabeszédekben sok mindenre oktatta őket:<br>\n„Íme, kiment a magvető vetni. Amint vetett, némely szem az útszélre\nesett. Jöttek az ég madarai, és ezeket mind megették. Némely szem kövek\nközé esett, ahol nem volt elég termőföld. Ezek hamar kikeltek, hisz nem\nvolt mély a föld. Majd amikor a Nap fölkelt és forrón tűzött, kiégtek,\nmert nem volt gyökerük. Voltak szemek, amelyek tövisek közé estek, és\namikor nőni kezdtek, a tövisek elfojtották őket. De a többi szem jó\nföldbe hullott, és termést hozott: az egyik százszorosat, a másik\nhatvanszorosat, a harmadik harmincszorosat.<br>\nAkinek van füle, hallja meg!”",
+					"ending": "Ezek az evangélium igéi."
+				}
+				[
         ]
     },
     "EVK16": {
@@ -829,14 +852,25 @@
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8G. tónus.",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8G. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 13,24-43 rövidebb: Mt 13,24-30",
-                "teaser": "A jók és a rosszak szétválasztása az ítélet napján következik be.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben: Jézus egy másik példabeszédet is mondott a tömegnek: „A mennyek országa olyan, mint amikor egy ember jó magot vetett a földjébe. Míg az emberek aludtak, jött az ellenség, konkolyt vetett a búza közé, és elment. Amikor a vetés kikelt és kalászba szökkent, felütötte fejét a konkoly is. Akkor a szolgák odamentek a gazdához, és megkérdezték: »Uram, te ugye jó magot vetettél a földedbe? Honnét került hát bele a konkoly?” Az így válaszolt: „Ellenséges ember műve ez.” A szolgák erre megkérdezték: „Akarod-e, hogy elmenjünk és kiszedjük belőle?” Ő azonban így felelt: „Nem, nehogy a búzát is kitépjétek, amikor a konkolyt kiszeditek! Hagyjátok, hadd nőjön az aratásig mindkettő. Aratáskor majd megmondom az aratóknak: Előbb a konkolyt gyűjtsétek össze, kössétek kévébe, hogy elégessük, a búzát pedig hordjátok a magtáramba!” *<br>\nAzután egy másik példabeszédet is mondott nekik: „A mennyek országa olyan, mint a mustármag, amelyet egy ember elvetett a földjébe. Bár kisebb ez minden más magnál, mégis, amikor felnő, nagyobb minden veteménynél. Fává terebélyesedik, úgyhogy jönnek az ég madarai és ágai között fészket raknak.”<br>\nVégül ezt a példabeszédet mondta nekik: „A mennyek országa olyan, mint a kovász, amelyet fog az asszony, belekever három véka lisztbe, és az egész megkel tőle.” Mindezt példabeszédekben mondta el Jézus a sokaságnak, és példabeszéd nélkül nem mondott nekik semmit, hogy beteljesedjék, amit a próféta mondott:<br>\nPéldabeszédekre nyitom ajkamat, s hirdetem, mi rejtve volt a világ kezdetétől. Akkor elbocsátotta a tömeget, és hazament. Tanítványai pedig odajárultak hozzá és kérték: „Magyarázd meg nekünk a szántóföldről és a konkolyról szóló példabeszédet!” Erre ő ezekkel a szavakkal válaszolt: „Aki a jó magot veti, az az Emberfia. A szántóföld a világ, a jó mag az ország fiai, a konkoly pedig a gonosz fiai. Az ellenség, aki ezeket elveti – az ördög. Az aratás a világ vége, az aratók pedig az angyalok. Ahogy a konkolyt összeszedik és tűzre vetve elégetik, úgy lesz a világ végén is. Az Emberfia elküldi angyalait, hogy szedjék össze országában mindazt, ami botrányos, és minden törvényszegőt. Ezeket tüzes kemencébe vetik, ott sírás lesz és fogcsikorgatás. Az igazak pedig mint a nap, ragyogni fognak Atyjuk országában. Akinek van füle, hallja meg!”<br>\nEzek az evangélium igéi.<br><br>\n<i>",
-                "ending": "Vagy rövidebb forma a *-ig</i>"
-            }
+				[
+				{
+					"short_title": "evangélium",
+					"ref": "Mt 13,24-43",
+					"teaser": "A jók és a rosszak szétválasztása az ítélet napján következik be.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "Abban az időben: Jézus egy másik példabeszédet is mondott a tömegnek: „A mennyek országa olyan, mint amikor egy ember jó magot vetett a földjébe. Míg az emberek aludtak, jött az ellenség, konkolyt vetett a búza közé, és elment. Amikor a vetés kikelt és kalászba szökkent, felütötte fejét a konkoly is. Akkor a szolgák odamentek a gazdához, és megkérdezték: »Uram, te ugye jó magot vetettél a földedbe? Honnét került hát bele a konkoly?” Az így válaszolt: „Ellenséges ember műve ez.” A szolgák erre megkérdezték: „Akarod-e, hogy elmenjünk és kiszedjük belőle?” Ő azonban így felelt: „Nem, nehogy a búzát is kitépjétek, amikor a konkolyt kiszeditek! Hagyjátok, hadd nőjön az aratásig mindkettő. Aratáskor majd megmondom az aratóknak: Előbb a konkolyt gyűjtsétek össze, kössétek kévébe, hogy elégessük, a búzát pedig hordjátok a magtáramba!” <br>\nAzután egy másik példabeszédet is mondott nekik: „A mennyek országa olyan, mint a mustármag, amelyet egy ember elvetett a földjébe. Bár kisebb ez minden más magnál, mégis, amikor felnő, nagyobb minden veteménynél. Fává terebélyesedik, úgyhogy jönnek az ég madarai és ágai között fészket raknak.”<br>\nVégül ezt a példabeszédet mondta nekik: „A mennyek országa olyan, mint a kovász, amelyet fog az asszony, belekever három véka lisztbe, és az egész megkel tőle.” Mindezt példabeszédekben mondta el Jézus a sokaságnak, és példabeszéd nélkül nem mondott nekik semmit, hogy beteljesedjék, amit a próféta mondott:<br>\nPéldabeszédekre nyitom ajkamat, s hirdetem, mi rejtve volt a világ kezdetétől. Akkor elbocsátotta a tömeget, és hazament. Tanítványai pedig odajárultak hozzá és kérték: „Magyarázd meg nekünk a szántóföldről és a konkolyról szóló példabeszédet!” Erre ő ezekkel a szavakkal válaszolt: „Aki a jó magot veti, az az Emberfia. A szántóföld a világ, a jó mag az ország fiai, a konkoly pedig a gonosz fiai. Az ellenség, aki ezeket elveti – az ördög. Az aratás a világ vége, az aratók pedig az angyalok. Ahogy a konkolyt összeszedik és tűzre vetve elégetik, úgy lesz a világ végén is. Az Emberfia elküldi angyalait, hogy szedjék össze országában mindazt, ami botrányos, és minden törvényszegőt. Ezeket tüzes kemencébe vetik, ott sírás lesz és fogcsikorgatás. Az igazak pedig mint a nap, ragyogni fognak Atyjuk országában. Akinek van füle, hallja meg!”",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "evangélium",
+					"ref": "Mt 13,24-30",
+					"teaser": "A jók és a rosszak szétválasztása az ítélet napján következik be.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "Abban az időben: Jézus egy másik példabeszédet is mondott a tömegnek: „A mennyek országa olyan, mint amikor egy ember jó magot vetett a földjébe. Míg az emberek aludtak, jött az ellenség, konkolyt vetett a búza közé, és elment. Amikor a vetés kikelt és kalászba szökkent, felütötte fejét a konkoly is. Akkor a szolgák odamentek a gazdához, és megkérdezték: »Uram, te ugye jó magot vetettél a földedbe? Honnét került hát bele a konkoly?” Az így válaszolt: „Ellenséges ember műve ez.” A szolgák erre megkérdezték: „Akarod-e, hogy elmenjünk és kiszedjük belőle?” Ő azonban így felelt: „Nem, nehogy a búzát is kitépjétek, amikor a konkolyt kiszeditek! Hagyjátok, hadd nőjön az aratásig mindkettő. Aratáskor majd megmondom az aratóknak: Előbb a konkolyt gyűjtsétek össze, kössétek kévébe, hogy elégessük, a búzát pedig hordjátok a magtáramba!”",
+					"ending": "Ezek az evangélium igéi."
+				}
+				[
         ]
     },
     "EVK17": {
@@ -862,8 +896,8 @@
                 "ref": "Róm 8,28-30",
                 "teaser": "Isten eleve arra rendelt minket, hogy Fiának képmását öltsük magunkra.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
-                "text": "\nTestvéreim!<br>\nTudjuk, hogy az Istent szeretőknek minden javukra válik, hiszen ő saját elhatározásából választotta ki őket. Akiket ugyanis előre ismert, azokat eleve arra rendelte, hogy Fiának képmását öltsék magukra. Így lesz ő elsőszülött a sok testvér között. Akiket előre erre rendelt, azokat meg is hívta, akiket meghívott, azokat igazzá tette, akiket pedig igazzá tett, azokat meg is dicsőítette.<br>\nEz az Isten igéje.\n",
-                "ending": ""
+                "text": "Testvéreim!<br>\nTudjuk, hogy az Istent szeretőknek minden javukra válik, hiszen ő saját elhatározásából választotta ki őket. Akiket ugyanis előre ismert, azokat eleve arra rendelte, hogy Fiának képmását öltsék magukra. Így lesz ő elsőszülött a sok testvér között. Akiket előre erre rendelt, azokat meg is hívta, akiket meghívott, azokat igazzá tette, akiket pedig igazzá tett, azokat meg is dicsőítette.",
+                "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "alleluja",
@@ -871,14 +905,25 @@
                 "teaser": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus. ",
                 "text": "Áldalak téged, Atyám, mennynek és földnek Istene, * mert feltártad a kicsinyeknek országod titkait. Vö. Mt 11,25 – 8 G. tónus. "
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 13,44-52",
-                "teaser": "Isten országa többet ér minden földi kincsnél.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben ezt mondta Jézus a tömegnek: „A mennyek országa olyan, mint a földbe rejtett kincs, amelyet egy ember megtalált. Elrejtette újra, azután boldogan elment, eladta mindenét, amije csak volt, és megvette azt a szántóföldet. A mennyek országa olyan, mint amikor egy kereskedő igazgyöngyöt keresett. Talált egy nagyon értékeset, erre elment, eladta mindenét, amije csak volt, és megvásárolta azt. *<br>\nVégül: a mennyek országa olyan, mint amikor a hálót a tengerbe vetik és az mindenféle halat összefog. Mihelyt megtelik, a partra vonják, és nekiülve kiválogatják: a javát edényekbe rakják, a hitványát pedig kidobják. Így lesz a világ végén is. Kivonulnak az angyalok, a gonoszokat elválasztják az igazaktól és tüzes kemencébe vetik, ott sírás lesz és fogcsikorgatás.<br>\nÉrtitek-e mindezt?” „Igen!” – felelték. Erre így folytatta: „Minden írástudó, aki jártas a mennyek országáról szóló tanításban, olyan, mint egy családapa, aki kincseiből régit és újat vesz elő.”<br>\nEzek az evangélium igéi.",
-                "ending": "<i>Vagy rövidebb forma a *-ig Mt 13,44-46</i>"
-            }
+				[
+					{
+						"short_title": "evangélium",
+						"ref": "Mt 13,44-52",
+						"teaser": "Isten országa többet ér minden földi kincsnél.",
+						"title": "† EVANGÉLIUM Szent Máté könyvéből",
+						"text": "Abban az időben ezt mondta Jézus a tömegnek: „A mennyek országa olyan, mint a földbe rejtett kincs, amelyet egy ember megtalált. Elrejtette újra, azután boldogan elment, eladta mindenét, amije csak volt, és megvette azt a szántóföldet. A mennyek országa olyan, mint amikor egy kereskedő igazgyöngyöt keresett. Talált egy nagyon értékeset, erre elment, eladta mindenét, amije csak volt, és megvásárolta azt. <br>\nVégül: a mennyek országa olyan, mint amikor a hálót a tengerbe vetik és az mindenféle halat összefog. Mihelyt megtelik, a partra vonják, és nekiülve kiválogatják: a javát edényekbe rakják, a hitványát pedig kidobják. Így lesz a világ végén is. Kivonulnak az angyalok, a gonoszokat elválasztják az igazaktól és tüzes kemencébe vetik, ott sírás lesz és fogcsikorgatás.<br>\nÉrtitek-e mindezt?” „Igen!” – felelték. Erre így folytatta: „Minden írástudó, aki jártas a mennyek országáról szóló tanításban, olyan, mint egy családapa, aki kincseiből régit és újat vesz elő.”",
+						"ending": "Ezek az evangélium igéi."
+					},
+					{
+						"cause": "rövidebb forma",
+						"short_title": "evangélium",
+						"ref": "Mt 13,44-46",
+						"teaser": "Isten országa többet ér minden földi kincsnél.",
+						"title": "† EVANGÉLIUM Szent Máté könyvéből",
+						"text": "\nAbban az időben ezt mondta Jézus a tömegnek: „A mennyek országa olyan, mint a földbe rejtett kincs, amelyet egy ember megtalált. Elrejtette újra, azután boldogan elment, eladta mindenét, amije csak volt, és megvette azt a szántóföldet. A mennyek országa olyan, mint amikor egy kereskedő igazgyöngyöt keresett. Talált egy nagyon értékeset, erre elment, eladta mindenét, amije csak volt, és megvásárolta azt.”",
+						"ending": "Ezek az evangélium igéi."
+					}
+				]
         ]
     },
     "EVK18": {
@@ -981,14 +1026,14 @@
                 "short_title": "zsoltár",
                 "ref": "Zsolt 66,2-3.5.6 és 8",
                 "teaser": "Válasz: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b> (5. tónus.)",
-                "text": "Válasz: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b> (5. tónus.)\n<br>\nElőénekes: Könyörüljön rajtunk az Isten, és áldjon meg <u>min</u>ket, * ragyogtassa fel <u>ar</u>cát fölöttünk,<br>\nhogy megismerjék a földön <u>u</u>tadat, * és üdvösségedet az <u>ös</u>szes nemzetek.<br>\nHívek: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b><br>\n\nE: Örvendjenek és ujjongjanak a nem<u>ze</u>tek, † mert igazságosan ítéled a <u>né</u>peket,* és te vezérled <u>ő</u>ket a földön.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b><br>\n\nE: Magasztaljanak téged a népek, <u>Is</u>tenünk, * dicsőítsenek az <u>ös</u>szes nemzetek.<br>\nÁldjon meg minket az <u>Is</u>ten, * félve tisztelje őt a föld <u>min</u>den határa.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b>"
+                "text": "Válasz: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b> (5. tónus.) <br>\nElőénekes: Könyörüljön rajtunk az Isten, és áldjon meg <u>min</u>ket, * ragyogtassa fel <u>ar</u>cát fölöttünk,<br>\nhogy megismerjék a földön <u>u</u>tadat, * és üdvösségedet az <u>ös</u>szes nemzetek.<br>\nHívek: <b>Magasztaljanak téged aépek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.<br>\n\nE: Örvendjenek és ujjongjanak a nem<u>ze</u>tek, † mert igazságosan ítéled a <u>né</u>peket,* és te vezérled <u>ő</u>ket a földön.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b>\nE: Magasztaljanak téged a népek, <u>Is</u>tenünk, * dicsőítsenek az <u>ös</u>szes nemzetek.<br>\nÁldjon meg minket az <u>Is</u>ten, * félve tisztelje őt a föld <u>min</u>den határa.<br>\nH: <b>Magasztaljanak téged a népek, <u>Is</u>tenünk, * magasztaljanak az <u>ös</u>szes nemzetek.</b>"
             },
             {
                 "short_title": "szentlecke",
                 "ref": "Róm 11,13-15.29-32",
                 "teaser": "Isten nem bánja meg kegyelmi adományait és meghívását.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
-                "text": "\nTestvéreim!<br>\nA pogányoknak azt mondom: Mint a pogányok apostola,\nnagyra tartom szolgálatomat. Sőt, szeretném vetélkedésre serkenteni\nvéreimet, hogy elvezessem néhányukat az üdvösségre. Ha ugyanis az ő\nelvettetésük által kiáradt a megbékélés a világra, mi más lesz\nújrafelvételük, ha nem élet a halálból?<br>\nIsten ugyanis nem bánja meg kegyelmi adományait és meghívását. Amint\negykor ti sem engedelmeskedtetek Istennek, de most, az ő\nengedetlenségük következtében irgalomra találtatok, úgy ők most\nhitetlenek lettek az irántatok tanúsított irgalmasság miatt, hogy\negykor ők is irgalomra találjanak. Isten ugyanis kiszolgáltatott\nmindenkit az engedetlenségnek, hogy mindenkin megkönyörüljön.\n",
+                "text": "Testvéreim!<br>\nA pogányoknak azt mondom: Mint a pogányok apostola,\nnagyra tartom szolgálatomat. Sőt, szeretném vetélkedésre serkenteni\nvéreimet, hogy elvezessem néhányukat az üdvösségre. Ha ugyanis az ő\nelvettetésük által kiáradt a megbékélés a világra, mi más lesz\nújrafelvételük, ha nem élet a halálból?<br>\nIsten ugyanis nem bánja meg kegyelmi adományait és meghívását. Amint\negykor ti sem engedelmeskedtetek Istennek, de most, az ő\nengedetlenségük következtében irgalomra találtatok, úgy ők most\nhitetlenek lettek az irántatok tanúsított irgalmasság miatt, hogy\negykor ők is irgalomra találjanak. Isten ugyanis kiszolgáltatott\nmindenkit az engedetlenségnek, hogy mindenkin megkönyörüljön.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -1086,7 +1131,7 @@
                 "ref": "16,21-27",
                 "teaser": "Aki utánam akar jönni, tagadja meg önmagát!",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben:<br>\nJézus többször felhívta tanítványai figyelmét arra, hogy neki\nJeruzsálembe kell mennie, sokat kell szenvednie a vénektől, főpapoktól\nés az írástudóktól, megölik, de a harmadik napon feltámad a halálból.\nErre Péter félrevonta őt, és óva intette: „Isten ments, Uram! Ez nem\ntörténhet veled!” Mire ő Péterhez fordult: „Távozz tőlem, sátán!\nBotránkoztatsz, mert nem az Isten ügyére van gondod, hanem az\nemberekére!”<br>\nAzután így szólt tanítványaihoz: „Ha valaki követni akar engem,\ntagadja meg magát, vegye föl keresztjét és kövessen. Mert mindaz, aki\nmeg akarja menteni életét, elveszíti azt; és aki énértem elveszíti\néletét, megtalálja azt. Mert mit használ az embernek, ha az egész\nvilágot megnyeri is, de a lelke kárt szenved? Mit is adhatna az ember\ncserébe saját lelkéért?<br>\nAz Emberfia pedig el fog jönni Atyjának dicsőségében, angyalai\nkíséretében, és megfizet mindenkinek tettei szerint.”",
+                "text": "Abban az időben:<br>\nJézus többször felhívta tanítványai figyelmét arra, hogy neki\nJeruzsálembe kell mennie, sokat kell szenvednie a vénektől, főpapoktól\nés az írástudóktól, megölik, de a harmadik napon feltámad a halálból.\nErre Péter félrevonta őt, és óva intette: „Isten ments, Uram! Ez nem\ntörténhet veled!” Mire ő Péterhez fordult: „Távozz tőlem, sátán!\nBotránkoztatsz, mert nem az Isten ügyére van gondod, hanem az\nemberekére!”<br>\nAzután így szólt tanítványaihoz: „Ha valaki követni akar engem,\ntagadja meg magát, vegye föl keresztjét és kövessen. Mert mindaz, aki\nmeg akarja menteni életét, elveszíti azt; és aki énértem elveszíti\néletét, megtalálja azt. Mert mit használ az embernek, ha az egész\nvilágot megnyeri is, de a lelke kárt szenved? Mit is adhatna az ember\ncserébe saját lelkéért?<br>\nAz Emberfia pedig el fog jönni Atyjának dicsőségében, angyalai\nkíséretében, és megfizet mindenkinek tettei szerint.”",
                 "ending": "Ezek az evangélium igéi."
             }
         ]
@@ -1100,21 +1145,21 @@
                 "ref": "Ez 33,7-10",
                 "teaser": "Ha nem teszel semmit, hogy az istentelent visszatérítsd útjáról, vérét tőled kérem számon.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
-                "text": "\nAz Úr ezt a szózatot intézte Ezekiel prófétához: „Emberfia, őrnek állítottalak Izrael háza mellé, hogy halld számból szavaimat és közvetítsd üzeneteimet. Ha azt mondom az istentelennek: »Istentelen, meg kell halnod,« és te nem teszel semmit, hogy az istentelent visszatérítsd útjáról, az istentelen meghal ugyan vétke miatt, de vérét tőled kérem számon. Ha ellenben meginted az istentelent, hogy hagyjon fel életmódjával és térjen meg, de nem tér le útjáról, meghal ugyan gonoszsága miatt, de te megmented életedet.”\n",
+                "text": "Az Úr ezt a szózatot intézte Ezekiel prófétához: „Emberfia, őrnek állítottalak Izrael háza mellé, hogy halld számból szavaimat és közvetítsd üzeneteimet. Ha azt mondom az istentelennek: »Istentelen, meg kell halnod,« és te nem teszel semmit, hogy az istentelent visszatérítsd útjáról, az istentelen meghal ugyan vétke miatt, de vérét tőled kérem számon. Ha ellenben meginted az istentelent, hogy hagyjon fel életmódjával és térjen meg, de nem tér le útjáról, meghal ugyan gonoszsága miatt, de te megmented életedet.”",
                 "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 94,1-2.6-7.8-9",
-                "teaser": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)<br>",
-                "text": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)<br>\n\nElőénekes: Jöjjetek, örvendezzünk az <u>Úr</u>nak, * és ujjongjunk üdvünk sziklá<u>ja</u> előtt.<br>\nDicsőítő énekkel lépjünk színe <u>e</u>lé, * magasztaljuk őt zsol<u>tárt</u> zengve.<br>\nHívek: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\n\nE: Jöjjetek, boruljunk le, hódoljunk <u>e</u>lőtte, * hulljunk térdre Urunk, Alko<u>tónk</u> előtt.<br>\nMert ő a mi <u>Is</u>tenünk, * mi pedig az ő népe, és kezére bízott <u>nyáj</u> vagyunk.<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\n\nE: Bárcsak hallgatnátok ma az ő <u>sza</u>vára: * „Ne keményítsétek meg szí<u>ve</u>teket,<br>\nmint egykor Meribánál, Massza napján a pusz<u>tá</u>ban, † ahol atyáitok megkísértettek <u>en</u>gem, * próbára tettek, bár látták számos <u>cso</u>dámat.”<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b>"
+                "teaser": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b>\n (2. tónus.)<br>",
+                "text": "Válasz: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b> (2. tónus.)<br>\nElőénekes: Jöjjetek, örvendezzünk az <u>Úr</u>nak, * és ujjongjunk üdvünk sziklá<u>ja</u> előtt.<br>\nDicsőítő énekkel lépjünk színe <u>e</u>lé, * magasztaljuk őt zsol<u>tárt</u> zengve.<br>\nHívek: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\nE: Jöjjetek, boruljunk le, hódoljunk <u>e</u>lőtte, * hulljunk térdre Urunk, Alko<u>tónk</u> előtt.<br>\nMert ő a mi <u>Is</u>tenünk, * mi pedig az ő népe, és kezére bízott <u>nyáj</u> vagyunk.<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b><br>\nE: Bárcsak hallgatnátok ma az ő <u>sza</u>vára: * „Ne keményítsétek meg szí<u>ve</u>teket,<br>\nmint egykor Meribánál, Massza napján a pusz<u>tá</u>ban, † ahol atyáitok megkísértettek <u>en</u>gem, * próbára tettek, bár látták számos <u>cso</u>dámat.”<br>\nH: <b>Bár hallgatnátok ma Isten <u>sza</u>vára: * „Népem, ne légy ke<u>mény</u> szívű.”</b>"
             },
             {
                 "short_title": "szentlecke",
                 "ref": "Róm 13,8-10",
                 "teaser": "A törvény teljessége a szeretet.",
                 "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
-                "text": "\nTestvéreim!<br>\nNe tartozzatok senkinek semmivel, csak kölcsönös szeretettel! Mert aki a másikat szereti, teljesíti a többi parancsot is. Hiszen a parancsok: „Ne ölj, ne törj házasságot, ne lopj, a másét ne kívánd”, és ami egyéb parancs még van, ebben az egyben foglalható össze: „Szeresd felebarátodat, mint önmagadat!”<br>\nA szeretet nem tesz rosszat felebarátjának, mert a törvény teljessége a szeretet.\n",
+                "text": "Testvéreim!<br>\nNe tartozzatok senkinek semmivel, csak kölcsönös szeretettel! Mert aki a másikat szereti, teljesíti a többi parancsot is. Hiszen a parancsok: „Ne ölj, ne törj házasságot, ne lopj, a másét ne kívánd”, és ami egyéb parancs még van, ebben az egyben foglalható össze: „Szeresd felebarátodat, mint önmagadat!”<br>\nA szeretet nem tesz rosszat felebarátjának, mert a törvény teljessége a szeretet.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -1128,7 +1173,7 @@
                 "ref": "Mt 18,15-20",
                 "teaser": "Ha hallgat rád, megnyerted testvéredet.",
                 "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben Jézus így szólt apostolaihoz:<br>\n„Ha testvéred vétkezik ellened, menj és figyelmeztesd őt\nnégyszemközt. Ha hallgat rád, megnyerted testvéredet. Ha azonban nem\nhallgat rád, vigyél magaddal egy vagy két társat, hogy »kettőnek a\ntanúbizonysága vagy háromé tanúsítsa a dolgot. Ha rájuk sem hallgat,\nmondd meg a hívek közösségének. Ha a hívek közösségére sem hallgat,\nvedd úgy, mintha pogány volna vagy vámos.<br>\nBizony mondom nektek: Amit megköttök a földön, meg lesz kötve a\nmennyben is; és amit feloldotok a földön, fel lesz oldva a mennyben is.\nÉs bizony mondom nektek: Ha ketten közületek valamiben egyetértenek a\nföldön és úgy kérik, megkapják azt mennyei Atyámtól. Mert ahol ketten\nvagy hárman összejönnek az én nevemben, ott vagyok közöttük.”\n",
+                "text": "Abban az időben Jézus így szólt apostolaihoz:<br>\n„Ha testvéred vétkezik ellened, menj és figyelmeztesd őt\nnégyszemközt. Ha hallgat rád, megnyerted testvéredet. Ha azonban nem\nhallgat rád, vigyél magaddal egy vagy két társat, hogy »kettőnek a\ntanúbizonysága vagy háromé tanúsítsa a dolgot. Ha rájuk sem hallgat,\nmondd meg a hívek közösségének. Ha a hívek közösségére sem hallgat,\nvedd úgy, mintha pogány volna vagy vámos.<br>\nBizony mondom nektek: Amit megköttök a földön, meg lesz kötve a\nmennyben is; és amit feloldotok a földön, fel lesz oldva a mennyben is.\nÉs bizony mondom nektek: Ha ketten közületek valamiben egyetértenek a\nföldön és úgy kérik, megkapják azt mennyei Atyámtól. Mert ahol ketten\nvagy hárman összejönnek az én nevemben, ott vagyok közöttük.”",
                 "ending": "Ezek az evangélium igéi."
             }
         ]
@@ -1142,14 +1187,14 @@
                 "ref": "Sir 27,30-28,7",
                 "teaser": "Bocsásd meg a másik embernek, ha vétett, imádkozzál, és neked ismegbocsátják vétked.",
                 "title": "OLVASMÁNY Sirák fia könyvéből",
-                "text": "\nA düh és a harag egyaránt utálatos,\ncsak az ragaszkodik hozzá, aki bűnös.\nAki bosszút áll, azon bosszút áll az Úr is,\nkemény számadást tart vele bűneiért.\nBocsáss meg a másik embernek, ha vétett,\nimádkozzál, és neked is megbocsátják vétked.<br>\nAki más emberre konokul haragszik,\nhogy keres Istennél gyógyulást magának?\nAki nem könyörül meg embertársán,\na saját bűneiért hogyan imádkozik?\nJóllehet ő csak ember, kitart a haragban,\nés ugyanakkor bocsánatot kér Istentől?!\n– hát az ő bűneiért ki ad elégtételt?<br>\nGondolj a végső dolgokra, hagyd a gyűlölködést,\ngondolj halálodra, s tartsd meg a parancsokat.\nGondolj a törvényre, ne gyűlöld embertársadat,\ngondolj az Istennel kötött szövetségre, s nézd el a sértést.\n",
+                "text": "A düh és a harag egyaránt utálatos,\ncsak az ragaszkodik hozzá, aki bűnös.\nAki bosszút áll, azon bosszút áll az Úr is,\nkemény számadást tart vele bűneiért.\nBocsáss meg a másik embernek, ha vétett,\nimádkozzál, és neked is megbocsátják vétked.<br>\nAki más emberre konokul haragszik,\nhogy keres Istennél gyógyulást magának?\nAki nem könyörül meg embertársán,\na saját bűneiért hogyan imádkozik?\nJóllehet ő csak ember, kitart a haragban,\nés ugyanakkor bocsánatot kér Istentől?!\n– hát az ő bűneiért ki ad elégtételt?<br>\nGondolj a végső dolgokra, hagyd a gyűlölködést,\ngondolj halálodra, s tartsd meg a parancsokat.\nGondolj a törvényre, ne gyűlöld embertársadat,\ngondolj az Istennel kötött szövetségre, s nézd el a sértést.",
                 "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 102,1-2.3-4.9-10.11-12",
                 "teaser": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> (11. tónus.)<br>",
-                "text": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> (11. tónus.)<br>\n\nElőénekes: Áldjad, lelkem, az <u>U</u>rat, * egész bensőm az ő <u>szent</u> nevét áldja.<br>\nÁldjad, lelkem, az <u>U</u>rat, * és ne feledd, hogy hoz<u>zád</u> milyen jó volt.<br>\nHívek: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Megbocsátja minden <u>vét</u>ked, * meggyógyítja min<u>den</u> gyengeséged.<br>\nA pusztulástól megmenti <u>é</u>leted, * kegyelmében és irgalmában meg <u>is</u> koronázza.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Irgalmas és kegyes a mi <u>Is</u>tenünk: * nagy irgalmú <u>és</u> hosszan tűrő.<br>\nNem bűneink szerint bánik <u>ve</u>lünk, * és nem gonoszságunk szerint fi<u>zet</u> vissza nekünk.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Amilyen messze van napkelettől a <u>nap</u>nyugat, * bűneinket olyan mes<u>sze</u> dobja tőlünk.<br>\nAhogyan az atya megkönyörül <u>fi</u>ain, * úgy könyörül meg az Úr <u/>az</u> istenfélőn.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>"
+                "text": "Válasz: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b> (11. tónus.)<br>\nElőénekes: Áldjad, lelkem, az <u>U</u>rat, * egész bensőm az ő <u>szent</u> nevét áldja.<br>\nÁldjad, lelkem, az <u>U</u>rat, * és ne feledd, hogy hoz<u>zád</u> milyen jó volt.<br>\nHívek: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b><br>\nE: Megbocsátja minden <u>vét</u>ked, * meggyógyítja min<u>den</u> gyengeséged.<br>\nA pusztulástól megmenti <u>é</u>leted, * kegyelmében és irgalmában meg <u>is</u> koronázza.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Irgalmas és kegyes a mi <u>Is</u>tenünk: * nagy irgalmú <u>és</u> hosszan tűrő.<br>\nNem bűneink szerint bánik <u>ve</u>lünk, * és nem gonoszságunk szerint fi<u>zet</u> vissza nekünk.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>\n<br>\nE: Amilyen messze van napkelettől a <u>nap</u>nyugat, * bűneinket olyan mes<u>sze</u> dobja tőlünk.<br>\nAhogyan az atya megkönyörül <u>fi</u>ain, * úgy könyörül meg az Úr <u/>az</u> istenfélőn.<br>\nH: <b>Irgalmas a mi Urunk, <u>Is</u>tenünk: * könyörület<u>re</u> hajlik szíve.</b>"
             },
             {
                 "short_title": "szentlecke",
@@ -1235,14 +1280,25 @@
                 "teaser": "Válasz: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b> (4G. tónus.)<br>",
                 "text": "Válasz: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b> (4G. tónus.)<br>\n\nElőénekes: Utaidat, Uram, mu<u>tasd</u> meg nekem, * ösvényeidre taníts meg en<u>gem</u>.<br>\nTaníts és vezess igazságod sze<u>rint</u>, † mert te vagy üdvö<u>zí</u>tő Istenem, szüntelenül benned bí<u>zom</u>.<br>\nHívek: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>\n<br>\nE: Irgalmasságodról emlékez<u>zél</u> meg, Uram, * és könyörületességedről, mely öröktől va<u>ló</u>.<br>\nNe emlékezzél ifjúságom bűné<u>re</u> és vétkére, * jóságodban, Uram, gondolj rám irgalom<u>mal</u>.<br>\nH: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>\n<br>\nE: Az Úr igazsá<u>gos</u> és jóságos, * ezért a bűnösöknek is utat mu<u>tat</u>.<br>\nAz alázatost a <u>jó</u>ban vezérli, * a szelídet útjára ta<u>nít</u>ja.<br>\nH: <b>Emlékez<u>zél</u> meg, Uram, * irgalmasságod<u>ról</u>.</b>"
             },
-            {
-                "short_title": "szentlecke",
-                "ref": "Fil 2,1-11 rövidebb: Fil 2,1-5",
-                "teaser": "Ugyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt!",
-                "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
-                "text": "\nTestvéreim!<br>\nHa ér valamit a Krisztusban adott buzdítás, a szeretetből fakadó intelem, a lelki közösség, a bensőség és együttérzés, akkor tegyétek örömömet teljessé azáltal, hogy egyetértetek, egy szívvel szerettek, és egy lélekkel ugyanarra törekedtek. Vetélkedésből ne tegyetek semmit, sem hiú dicsőségvágyból! Egyik a másikat tekintse inkább alázatosan önmagánál kiválóbbnak! Ne keresse senki csak a maga javát, hanem a másét is!<br>\nUgyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt. *<br>\nŐ, mint Isten, az Istennel való egyenlőséget nem tartotta olyan dolognak, amelyhez feltétlenül ragaszkodnia kell, hanem szolgai alakot öltött, kiüresítette önmagát, és hasonló lett az emberekhez. Megalázta magát, és engedelmes lett a halálig, mégpedig a kereszthalálig.<br>\nEzért Isten felmagasztalta őt, és olyan nevet adott neki, amely felette áll minden névnek, hogy Jézus nevére hajoljon meg minden térd a mennyben, a földön és az alvilágban, s minden nyelv hirdesse az Atyaisten dicsőségére, hogy Jézus Krisztus az Úr!<br>\nEz az Isten igéje.\n<br><br>\n<i>Vagy rövidebb forma a *-ig</i>",
-                "ending": "<i>Vagy rövidebb forma a *-ig</i>"
-            },
+				[
+				{
+					"short_title": "szentlecke",
+					"ref": "Fil 2,1-11",
+					"teaser": "Ugyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt!",
+					"title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
+					"text": "\nTestvéreim!<br>\nHa ér valamit a Krisztusban adott buzdítás, a szeretetből fakadó intelem, a lelki közösség, a bensőség és együttérzés, akkor tegyétek örömömet teljessé azáltal, hogy egyetértetek, egy szívvel szerettek, és egy lélekkel ugyanarra törekedtek. Vetélkedésből ne tegyetek semmit, sem hiú dicsőségvágyból! Egyik a másikat tekintse inkább alázatosan önmagánál kiválóbbnak! Ne keresse senki csak a maga javát, hanem a másét is!<br>\nUgyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt. <br>\nŐ, mint Isten, az Istennel való egyenlőséget nem tartotta olyan dolognak, amelyhez feltétlenül ragaszkodnia kell, hanem szolgai alakot öltött, kiüresítette önmagát, és hasonló lett az emberekhez. Megalázta magát, és engedelmes lett a halálig, mégpedig a kereszthalálig.<br>\nEzért Isten felmagasztalta őt, és olyan nevet adott neki, amely felette áll minden névnek, hogy Jézus nevére hajoljon meg minden térd a mennyben, a földön és az alvilágban, s minden nyelv hirdesse az Atyaisten dicsőségére, hogy Jézus Krisztus az Úr!",
+					"ending": "Ez az Isten igéje."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "szentlecke",
+					"ref": "Fil 2,1-5",
+					"teaser": "Ugyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt!",
+					"title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből",
+					"text": "\nTestvéreim!<br>\nHa ér valamit a Krisztusban adott buzdítás, a szeretetből fakadó intelem, a lelki közösség, a bensőség és együttérzés, akkor tegyétek örömömet teljessé azáltal, hogy egyetértetek, egy szívvel szerettek, és egy lélekkel ugyanarra törekedtek. Vetélkedésből ne tegyetek semmit, sem hiú dicsőségvágyból! Egyik a másikat tekintse inkább alázatosan önmagánál kiválóbbnak! Ne keresse senki csak a maga javát, hanem a másét is!<br>\nUgyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt.",
+					"ending": "Ez az Isten igéje."
+				}
+				]
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1333,14 +1389,25 @@
                 "teaser": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus.",
                 "text": "Urunk, Jézus Krisztus Atyja, világosítsa meg lelkünket, * hogy megértsük, mily reménységre hívott meg minket. Ef 1,17-18 – 8 G. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 22,1-14 rövidebb: Mt 22,1-10",
-                "teaser": "Akit csak találtok, hívjátok el a menyegzőre!",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAbban az időben: Jézus ismét példabeszédekben szólt a főpapokhoz és a nép véneihez:<br>\nA mennyek országa olyan, mint amikor egy király menyegzőt rendezett a fiának. Elküldte szolgáit, hogy szóljanak a meghívottaknak, jöjjenek a menyegzőre. Ők azonban nem akartak jönni. Erre más szolgákat küldött: „Mondjátok meg a meghívottaknak: Íme, a lakomát elkészítettem. Ökreim és hizlalt állataim leöltem. Minden készen áll, jöjjetek a menyegzőre!” De azok mindezzel mit sem törődve szétszéledtek: az egyik a földjére ment, a másik az üzlete után nézett. A többiek pedig a szolgáknak estek: összeverték, sőt meg is ölték őket. A király nagy haragra lobbant. Elküldte seregeit, és felkoncoltatta a gyilkosokat, városukat pedig felégette. Azután így szólt a szolgákhoz: „A menyegző kész, de a meghívottak nem voltak rá méltók. Menjetek hát ki az útkereszteződésekre, és akit csak találtok, hívjátok el a menyegzőre!” A szolgák kimentek az utakra és összeszedtek mindenkit, akit csak találtak, gonoszokat és jókat egyaránt. A lakodalmas ház megtelt vendégekkel. *<br>\nAmikor a király bejött, hogy megszemlélje a vendégeket, meglátott köztük egy embert, aki nem volt menyegzős ruhába öltözve. Megszólította: „Barátom, hogy jöhettél be ide, ha nincs menyegzős ruhád?” De az csak hallgatott. Erre a király megparancsolta a szolgáknak: „Kezét-lábát kötözzétek meg, és dobjátok ki a külső sötétségre! Ott sírás lesz és fogcsikorgatás!” Sokan vannak a meghívottak, de kevesen a választottak!\nEzek az evangélium igéi.\n",
-                "ending": "<i>Vagy rövidebb forma a *-ig</i>"
-            }
+				[
+				{
+					"short_title": "evangélium",
+					"ref": "Mt 22,1-14",
+					"teaser": "Akit csak találtok, hívjátok el a menyegzőre!",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAbban az időben: Jézus ismét példabeszédekben szólt a főpapokhoz és a nép véneihez:<br>\nA mennyek országa olyan, mint amikor egy király menyegzőt rendezett a fiának. Elküldte szolgáit, hogy szóljanak a meghívottaknak, jöjjenek a menyegzőre. Ők azonban nem akartak jönni. Erre más szolgákat küldött: „Mondjátok meg a meghívottaknak: Íme, a lakomát elkészítettem. Ökreim és hizlalt állataim leöltem. Minden készen áll, jöjjetek a menyegzőre!” De azok mindezzel mit sem törődve szétszéledtek: az egyik a földjére ment, a másik az üzlete után nézett. A többiek pedig a szolgáknak estek: összeverték, sőt meg is ölték őket. A király nagy haragra lobbant. Elküldte seregeit, és felkoncoltatta a gyilkosokat, városukat pedig felégette. Azután így szólt a szolgákhoz: „A menyegző kész, de a meghívottak nem voltak rá méltók. Menjetek hát ki az útkereszteződésekre, és akit csak találtok, hívjátok el a menyegzőre!” A szolgák kimentek az utakra és összeszedtek mindenkit, akit csak találtak, gonoszokat és jókat egyaránt. A lakodalmas ház megtelt vendégekkel. <br>\nAmikor a király bejött, hogy megszemlélje a vendégeket, meglátott köztük egy embert, aki nem volt menyegzős ruhába öltözve. Megszólította: „Barátom, hogy jöhettél be ide, ha nincs menyegzős ruhád?” De az csak hallgatott. Erre a király megparancsolta a szolgáknak: „Kezét-lábát kötözzétek meg, és dobjátok ki a külső sötétségre! Ott sírás lesz és fogcsikorgatás!” Sokan vannak a meghívottak, de kevesen a választottak!",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "evangélium",
+					"ref": "Mt 22,1-10",
+					"teaser": "Akit csak találtok, hívjátok el a menyegzőre!",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAbban az időben: Jézus ismét példabeszédekben szólt a főpapokhoz és a nép véneihez:<br>\nA mennyek országa olyan, mint amikor egy király menyegzőt rendezett a fiának. Elküldte szolgáit, hogy szóljanak a meghívottaknak, jöjjenek a menyegzőre. Ők azonban nem akartak jönni. Erre más szolgákat küldött: „Mondjátok meg a meghívottaknak: Íme, a lakomát elkészítettem. Ökreim és hizlalt állataim leöltem. Minden készen áll, jöjjetek a menyegzőre!” De azok mindezzel mit sem törődve szétszéledtek: az egyik a földjére ment, a másik az üzlete után nézett. A többiek pedig a szolgáknak estek: összeverték, sőt meg is ölték őket. A király nagy haragra lobbant. Elküldte seregeit, és felkoncoltatta a gyilkosokat, városukat pedig felégette. Azután így szólt a szolgákhoz: „A menyegző kész, de a meghívottak nem voltak rá méltók. Menjetek hát ki az útkereszteződésekre, és akit csak találtok, hívjátok el a menyegzőre!” A szolgák kimentek az utakra és összeszedtek mindenkit, akit csak találtak, gonoszokat és jókat egyaránt. A lakodalmas ház megtelt vendégekkel.",
+					"ending": "Ezek az evangélium igéi."
+				}
+			]
         ]
     },
     "EVK29": {
@@ -1487,14 +1554,24 @@
                 "teaser": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)",
                 "text": "Válasz: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b> (7b. tónus.)\n<br>\nElőénekes: Uram, Istenem, <u>vir</u>rasztva kereslek, * az én Istenem <u>te</u> vagy nékem.<br>\nTéged szomjaz a lelkem, testem <u>u</u>tánad eped, * mint a puszta tikkadt, <u>ki</u>aszott földje.<br>\nHívek: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Szentélyedben <u>ne</u>ked szolgáltam, * hogy erődet és dicsőségedet <u>meg</u>láthassam.<br>\nMert irgalmad többet ér, <u>mint</u> az élet, * ezért ajkam <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Neked mondok áldást, <u>a</u>míg csak élek, * a te nevedben tárom <u>i</u>mára kezemet.<br>\nMint dús lakomával, <u>tel</u>jék be lelkem, * ajkam ujjong, szám <u>di</u>csőít téged.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>\n<br>\nE: Még fekvőhelyemen is <u>rád</u> gondolok, * hajnalig rólad <u>el</u>mélkedem.<br>\nValóban te lettél <u>vé</u>delmezőm, * szárnyaid oltalmában <u/>ör</u>vendezem.<br>\nH: <b>Hozzád <u>vá</u>gyódik szívem, * én <u>U</u>ram, Istenem.</b>"
             },
-            {
-                "short_title": "szentlecke",
-                "ref": "1Tessz 4,13-18 rövidebb: 1Tessz 4,13-14",
-                "teaser": "Isten feltámasztja azokat, akik Jézusban hunytak el.",
-                "title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből.",
-                "text": "\nTestvéreim!<br>\nAz elhunytak sorsáról nem akarunk tájékozatlanságban hagyni benneteket, hogy ne szomorkodjatok, mint a többiek, akiknek nincs reményük. Ha Jézus, mint ahogy hisszük, meghalt és feltámadt, akkor Isten vele együtt feltámasztja azokat is, akik Jézusban hunytak el. *<br>\nAz Úr tanítása alapján ugyanis ezt mondjuk nektek: Mi élők, akik az Úr eljöveteléig megmaradunk, nem előzzük meg az elhunytakat. A parancsszóra, a főangyal kiáltására, Isten harsonájának szavára az Úr maga száll le a mennyből. Először a Krisztusban elhunytak támadnak fel, azután mi élők, akik életben maradunk, velük együtt elragadtatunk a magasba, hogy találkozzunk Krisztussal, és örökké az Úrral legyünk.<br>\nEz az Isten igéje.\n<br><br>\n<i>Vagy rövidebb forma a *-ig </i>",
-                "ending": "<i>Vagy rövidebb forma a *-ig </i>"
-            },
+				[
+				{
+					"short_title": "szentlecke",
+					"ref": "1Tessz 4,13-18",
+					"teaser": "Isten feltámasztja azokat, akik Jézusban hunytak el.",
+					"title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből.",
+					"text": "Testvéreim!<br>\nAz elhunytak sorsáról nem akarunk tájékozatlanságban hagyni benneteket, hogy ne szomorkodjatok, mint a többiek, akiknek nincs reményük. Ha Jézus, mint ahogy hisszük, meghalt és feltámadt, akkor Isten vele együtt feltámasztja azokat is, akik Jézusban hunytak el. <br>\nAz Úr tanítása alapján ugyanis ezt mondjuk nektek: Mi élők, akik az Úr eljöveteléig megmaradunk, nem előzzük meg az elhunytakat. A parancsszóra, a főangyal kiáltására, Isten harsonájának szavára az Úr maga száll le a mennyből. Először a Krisztusban elhunytak támadnak fel, azután mi élők, akik életben maradunk, velük együtt elragadtatunk a magasba, hogy találkozzunk Krisztussal, és örökké az Úrral legyünk.",
+					"ending": "Ez az Isten igéje."
+				},
+				{
+					"cause": "rövidebb forma","short_title": "szentlecke",
+					"ref": "1Tessz 4,13-14",
+					"teaser": "Isten feltámasztja azokat, akik Jézusban hunytak el.",
+					"title": "SZENTLECKE Szent Pál apostolnak a tesszaloniki hívekhez írt első leveléből.",
+					"text": "Testvéreim!<br>\nAz elhunytak sorsáról nem akarunk tájékozatlanságban hagyni benneteket, hogy ne szomorkodjatok, mint a többiek, akiknek nincs reményük. Ha Jézus, mint ahogy hisszük, meghalt és feltámadt, akkor Isten vele együtt feltámasztja azokat is, akik Jézusban hunytak el.",
+					"ending": "Ez az Isten igéje."
+				}
+				]
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1613,14 +1690,39 @@
                 "teaser": "Válasz: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b> (6. tónus.)<br>",
                 "text": "Válasz: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b> (6. tónus.)<br>\nVagy: <b>Alleluja, alleluja, alleluja.</b> 6. szám.<br>\n\nElőénekes: Adjatok hálát az Úr<u>nak</u>, mert jó, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nMondja Izrael háza, hogy jó <u>az</u> Isten, * mivel irgalma <u>ö</u>rökké megmarad.<br>\nHívek: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: Az Úr jobb keze erős<u>nek</u> bizonyult: * az Úrnak jobbja <u>föl</u>emelt engem.<br>\nNem halok meg, ha<u>nem</u> élek, * és hirdetem <u>az</u> Úr nagy tetteit.<br>\nH: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>\n<br>\nE: A kő, amelyet az építők fél<u>re</u>dobtak, * íme, az <u>vált</u> szegletkővé.<br>\nMindezt az Úr vit<u>te</u> végbe, * csodálatra mél<u>tó</u> a mi szemünkben.<br>\nH: <b>Ezt a napot az Úris<u>ten</u> adta: * örvendjünk és <u>vi</u>gadjunk rajta.</b><br>\nVagy: <b>Alleluja, alleluja, alleluja.</b>"
             },
-            {
-                "short_title": "szentlecke",
-                "ref": "Kol 3,1-4 vagy 1Kor 5,6b-8",
-                "teaser": "Azt keressétek, ami odafönt van, ahol Krisztus ül az Isten jobbján.",
-                "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
-                "text": "\nTestvéreim!<br>\nKrisztussal együtt ti is feltámadtatok. Keressétek tehát\nazt, ami odafönt van, ahol Krisztus ül az Isten jobbján. Az égiekre\nirányuljon figyelmetek, ne a földiekre. Hiszen meghaltatok, és életetek\nKrisztussal az Istenben van elrejtve.<br>\nAmikor azonban Krisztus, a mi életünk, újra megjelenik, vele együtt\nti is megjelentek a dicsőségben.\n<br>\nEz az Isten igéje.\n<br><br>\n<i>Vagy tetszés szerint:</i>\n<br>\nSZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből\n<br>\n<i>El a régi kovásszal, hogy új tésztává legyetek!</i>\n<br>\nTestvéreim!<br>\nNem tudjátok, hogy egy kevés kovász az egész tésztát megkeleszti? El a régi kovásszal, hogy új tésztává legyetek, aminthogy kovásztalanok is vagytok! Hiszen húsvéti bárányunkat, Krisztust feláldozták! (1Kor 5,6b-8)\nÜnnepeljünk tehát, de ne a régi kovásszal, sem a romlottság és gonoszság kovászával, hanem a tisztaság és az igazság kovásztalan kenyerével!\n",
-                "ending": "Ez az Isten igéje."
-            },
+			[
+				{
+					"short_title": "szentlecke",
+					"ref": "Kol 3,1-4",
+					"teaser": "Azt keressétek, ami odafönt van, ahol Krisztus ül az Isten jobbján.",
+					"title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
+					"text": "Testvéreim!<br>\nKrisztussal együtt ti is feltámadtatok. Keressétek tehát\nazt, ami odafönt van, ahol Krisztus ül az Isten jobbján. Az égiekre\nirányuljon figyelmetek, ne a földiekre. Hiszen meghaltatok, és életetek\nKrisztussal az Istenben van elrejtve.<br>\nAmikor azonban Krisztus, a mi életünk, újra megjelenik, vele együtt\nti is megjelentek a dicsőségben.",
+					"ending": "Ez az Isten igéje."
+				},
+				{
+					"cause": "vagy",
+					"short_title": "szentlecke",
+					"ref": "1Kor 5,6b-8",
+					"teaser": "El a régi kovásszal, hogy új tésztává legyetek!",
+					"title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből\n""text": "Testvéreim!<br>\nNem tudjátok, hogy egy kevés kovász az egész tésztát megkeleszti? El a régi kovásszal, hogy új tésztává legyetek, aminthogy kovásztalanok is vagytok! Hiszen húsvéti bárányunkat, Krisztust feláldozták!\nÜnnepeljünk tehát, de ne a régi kovásszal, sem a romlottság és gonoszság kovászával, hanem a tisztaság és az igazság kovásztalan kenyerével!",
+					"ending": "Ez az Isten igéje."
+				}
+			],
+			[
+				{
+					"short_title": "szekvencia",
+					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!"
+					"title": "SZEKVENCIA"
+					"text": "A húsvéti Bárányt keresztények dicsérve áldják! <br>\nKrisztus, ártatlan Bárány: <br>\nvérének árán nyája bűneiért megengesztelte Atyját. <br>\nBenne élet és halál csodás nagy párharcra száll: <br>\nélet Ura a sírból felkél, és győztesen él. <br>\nMária Magdolna, mondd, mit láttál utadon! <br>\n„Az élő Krisztusnak sírját, feltámadt Urunk nagy diadalmát, <br>\nangyalok jelenését, Urunk halotti laplét <br>\nFeltámadt Krisztus, reményetek: Galileába megy előttetek.” <br>\nKrisztus a halálból valóban feltámadt, tudjuk. <br>\n Győztes Király, könyörülj meg rajtunk!"
+				},
+				{
+					"cause": "vagy",
+					"short_title": "szekvencia",
+					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják."
+					"title": "SZEKVENCIA"
+					"text": "Húsvét tiszta áldozatát a hívek áldva áldják.<br>\nBárány megváltja nyáját, <br>\nés az ártatlan Krisztus már kiengeszteli értünk Atyját. <br>\nÉlet itt a halállal megvítt csoda-csatával, <br>\na holt Élet-Vezér ma Úr és él! <br>\nMária, szentasszony, mondd, mit láttál utadon? <br>\n„Az élő Krisztusnak sírját, s a Fölkentnek láttam glóriáját, <br>\nangyali tanúkat, szemfedőt és gyolcsokat. <br>\nFeltámadt reményem, Krisztus, Galileába elétek indult.” <br>\nTudjuk, Krisztus feltámadott és diadalmas: <br>\nó, győztes Királyunk, légy irgalmas."		
+				}
+			],
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1658,11 +1760,26 @@
             {
                 "short_title": "szentlecke",
                 "ref": "1Pét 1,3-9",
-                "teaser": "Jézus Krisztusnak a halálból való feltámadása élő reményre teremtettújjá bennünket.",
+                "teaser": "Jézus Krisztusnak a halálból való feltámadása élő reményre teremtett újjá bennünket.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
-                "text": "\nTestvéreim! <br>\nÁldott legyen az Isten, a mi Urunk Jézus Krisztus Atyja,\naki nagy irgalmasságával, Jézus Krisztusnak a halálból való feltámadása\náltal, élő reményre teremtett újjá bennünket, hogy a mennyben\nromolhatatlan, szeplőtelen és el nem hervadó örökség várjon rátok.\nIsten hatalma megőrzött titeket a hitben az örök üdvösségre, amely\nkészen áll, hogy az utolsó időben megnyilvánuljon.<br>\nÖrüljetek tehát, akkor is ha most egy kicsit szomorkodnotok kell,\nmert különféle kísértések érnek benneteket, hogy kipróbált hitetek,\nmely értékesebb a tűzpróbát kiállott veszendő aranynál, Jézus Krisztus\nmegjelenésekor méltó legyen a dicséretre, a dicsőségre és a\ntiszteletre. Mivel szeretitek Krisztust, bár nem láttátok, és hisztek\nbenne, noha nem találkoztatok vele, amikor eléritek hitetek célját,\nlelketek üdvösségét, – a megdicsőültek kimondhatatlan örömével fogtok\nujjongani.\n<br>\nEz az Isten igéje.\n<br><br>\n<i>Mondható a Szekvencia is, lásd 180.</i>",
-                "ending": "<i>Mondható a Szekvencia is, lásd 180.</i>"
+                "text": "\nTestvéreim! <br>\nÁldott legyen az Isten, a mi Urunk Jézus Krisztus Atyja,\naki nagy irgalmasságával, Jézus Krisztusnak a halálból való feltámadása\náltal, élő reményre teremtett újjá bennünket, hogy a mennyben\nromolhatatlan, szeplőtelen és el nem hervadó örökség várjon rátok.\nIsten hatalma megőrzött titeket a hitben az örök üdvösségre, amely\nkészen áll, hogy az utolsó időben megnyilvánuljon.<br>\nÖrüljetek tehát, akkor is ha most egy kicsit szomorkodnotok kell,\nmert különféle kísértések érnek benneteket, hogy kipróbált hitetek,\nmely értékesebb a tűzpróbát kiállott veszendő aranynál, Jézus Krisztus\nmegjelenésekor méltó legyen a dicséretre, a dicsőségre és a\ntiszteletre. Mivel szeretitek Krisztust, bár nem láttátok, és hisztek\nbenne, noha nem találkoztatok vele, amikor eléritek hitetek célját,\nlelketek üdvösségét, – a megdicsőültek kimondhatatlan örömével fogtok\nujjongani.",
+                "ending": "Ez az Isten igéje."
             },
+			[
+				{
+					"short_title": "szekvencia",
+					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!"
+					"title": "SZEKVENCIA"
+					"text": "A húsvéti Bárányt keresztények dicsérve áldják! <br>\nKrisztus, ártatlan Bárány: <br>\nvérének árán nyája bűneiért megengesztelte Atyját. <br>\nBenne élet és halál csodás nagy párharcra száll: <br>\nélet Ura a sírból felkél, és győztesen él. <br>\nMária Magdolna, mondd, mit láttál utadon! <br>\n„Az élő Krisztusnak sírját, feltámadt Urunk nagy diadalmát, <br>\nangyalok jelenését, Urunk halotti laplét <br>\nFeltámadt Krisztus, reményetek: Galileába megy előttetek.” <br>\nKrisztus a halálból valóban feltámadt, tudjuk. <br>\n Győztes Király, könyörülj meg rajtunk!"
+				},
+				{
+					"cause": "vagy",
+					"short_title": "szekvencia",
+					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják."
+					"title": "SZEKVENCIA"
+					"text": "Húsvét tiszta áldozatát a hívek áldva áldják.<br>\nBárány megváltja nyáját, <br>\nés az ártatlan Krisztus már kiengeszteli értünk Atyját. <br>\nÉlet itt a halállal megvítt csoda-csatával, <br>\na holt Élet-Vezér ma Úr és él! <br>\nMária, szentasszony, mondd, mit láttál utadon? <br>\n„Az élő Krisztusnak sírját, s a Fölkentnek láttam glóriáját, <br>\nangyali tanúkat, szemfedőt és gyolcsokat. <br>\nFeltámadt reményem, Krisztus, Galileába elétek indult.” <br>\nTudjuk, Krisztus feltámadott és diadalmas: <br>\nó, győztes Királyunk, légy irgalmas."		
+				}
+			],
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1716,7 +1833,7 @@
                 "ref": "Lk 24,13-35",
                 "teaser": "Amikor a kenyeret megtörte, felismerték.",
                 "title": "† EVANGÉLIUM Szent Lukács könyvéből",
-                "text": "\nHúsvétvasárnap ketten a tanítványok közül egy Emmausz nevű faluba\nmentek, amely, Jeruzsálemtől hatvan stádiumra (két-három óra\njárásnyira) fekszik. Útközben megbeszélték egymás között mindazt, ami\ntörtént. Míg beszélgettek és vitatkoztak, egyszerre maga Jézus\nközeledett feléjük, és hozzájuk szegődött. Ők azonban nem ismerték meg\nőt, mert látásukban akadályozva voltak. Jézus megkérdezte őket:\n„Milyen dolgokról beszélgettetek egymással útközben?” Erre szomorúan\nmegálltak és egyikük, akit Kleofásnak hívtak, ezt válaszolta neki: „Te\nvagy talán az egyetlen idegen Jeruzsálemben, aki nem tudja, mi történt\nott ezekben a napokban?”<br>\nŐ megkérdezte: „Miért, mi történt?” Azok ezt felelték: „A názáreti\nJézus esete, aki szóban és tettben nagyhatású próféta volt Isten és az\negész nép előtt. Főpapjaink és elöljáróink kiszolgáltatták őt, hogy\nhalálra ítéljék, és keresztre feszítsék. Pedig mi azt reméltük, hogy ő\nváltja meg Izraelt. Azóta, hogy ezek történtek, már három nap telt el,\nés néhány hozzánk tartozó asszony megzavart bennünket. Hajnalban a\nsírnál voltak, de nem találták ott a holttestét. Azzal a hírrel tértek\nvissza, hogy angyalok jelentek meg nekik, akik azt állították, hogy él.\nKözülünk néhányan el is mentek a sírhoz, és úgy találtak mindent,\nahogyan az asszonyok mondták, őt magát azonban nem látták.<br>\nJézus erre így szólt: „Ó, ti oktalanok, késedelmes szívűek!\nKéptelenek vagytok hinni abban, amit a próféták jövendöltek! Hát nem\nezeket kellett elszenvednie a Messiásnak, hogy bemehessen\ndicsőségébe?” Aztán Mózesen kezdve valamennyi prófétából\nmegmagyarázta, ami az Írásokban őróla szól.<br>\nKözben odaértek a faluhoz, ahová tartottak. Úgy tett, mintha tovább\nakarna menni. De azok marasztalták és kérték: „Maradj velünk, mert\nesteledik, és lemenőben már a nap.” Betért tehát, hogy velük maradjon.\nAmikor asztalhoz ültek, kezébe vette a kenyeret, áldást mondott,\nmegtörte, és odanyújtotta nekik. Erre megnyílt a szemük, és fölismerték.\nDe ő eltűnt előlük.<br>\nAkkor azt mondták egymásnak: „Ugye lángolt a szívünk, amikor\nútközben beszélt hozzánk, és kifejtette az Írásokat?”\nMég abban az órában útra keltek és visszatértek Jeruzsálembe. Ott\negybegyűlve találták a tizenegyet és társaikat. Azok ezzel fogadták\nőket: „Valóban feltámadt az Úr, és megjelent Simonnak!” Erre ők is\nelbeszélték, mi történt az úton, és hogyan ismerték fel Jézust a\nkenyértörésben.\n",
+                "text": "\nHúsvétvasárnap ketten a tanítványok közül egy Emmausz nevű faluba\nmentek, amely, Jeruzsálemtől hatvan stádiumra (két-három óra\njárásnyira) fekszik. Útközben megbeszélték egymás között mindazt, ami\ntörtént. Míg beszélgettek és vitatkoztak, egyszerre maga Jézus\nközeledett feléjük, és hozzájuk szegődött. Ők azonban nem ismerték meg\nőt, mert látásukban akadályozva voltak. Jézus megkérdezte őket:\n„Milyen dolgokról beszélgettetek egymással útközben?” Erre szomorúan\nmegálltak és egyikük, akit Kleofásnak hívtak, ezt válaszolta neki: „Te\nvagy talán az egyetlen idegen Jeruzsálemben, aki nem tudja, mi történt\nott ezekben a napokban?”<br>\nŐ megkérdezte: „Miért, mi történt?” Azok ezt felelték: „A názáreti\nJézus esete, aki szóban és tettben nagyhatású próféta volt Isten és az\negész nép előtt. Főpapjaink és elöljáróink kiszolgáltatták őt, hogy\nhalálra ítéljék, és keresztre feszítsék. Pedig mi azt reméltük, hogy ő\nváltja meg Izraelt. Azóta, hogy ezek történtek, már három nap telt el,\nés néhány hozzánk tartozó asszony megzavart bennünket. Hajnalban a\nsírnál voltak, de nem találták ott a holttestét. Azzal a hírrel tértek\nvissza, hogy angyalok jelentek meg nekik, akik azt állították, hogy él.\nKözülünk néhányan el is mentek a sírhoz, és úgy találtak mindent,\nahogyan az asszonyok mondták, őt magát azonban nem látták.<br>\nJézus erre így szólt: „Ó, ti oktalanok, késedelmes szívűek!\nKéptelenek vagytok hinni abban, amit a próféták jövendöltek! Hát nem\nezeket kellett elszenvednie a Messiásnak, hogy bemehessen\ndicsőségébe?” Aztán Mózesen kezdve valamennyi prófétából\nmegmagyarázta, ami az Írásokban őróla szól.<br>\nKözben odaértek a faluhoz, ahová tartottak. Úgy tett, mintha tovább\nakarna menni. De azok marasztalták és kérték: „Maradj velünk, mert\nesteledik, és lemenőben már a nap.” Betért tehát, hogy velük maradjon.\nAmikor asztalhoz ültek, kezébe vette a kenyeret, áldást mondott,\nmegtörte, és odanyújtotta nekik. Erre megnyílt a szemük, és fölismerték.\nDe ő eltűnt előlük.<br>\nAkkor azt mondták egymásnak: „Ugye lángolt a szívünk, amikor\nútközben beszélt hozzánk, és kifejtette az Írásokat?”\nMég abban az órában útra keltek és visszatértek Jeruzsálembe. Ott\negybegyűlve találták a tizenegyet és társaikat. Azok ezzel fogadták\nőket: „Valóban feltámadt az Úr, és megjelent Simonnak!” Erre ők is\nelbeszélték, mi történt az úton, és hogyan ismerték fel Jézust a\nkenyértörésben.",
                 "ending": "Ezek az evangélium igéi."
             }
         ]
@@ -1744,7 +1861,7 @@
                 "ref": "1Pét 2,20b-25",
                 "teaser": "Megtértetek lelketek Pásztorához.",
                 "title": "SZENTLECKE Szent Péter apostol első leveléből",
-                "text": "\nSzeretteim!<br>\nHa a jót teszitek és türelmesen szenvedtek, az kedves az\nIsten előtt. Hiszen erre kaptatok meghívást, mert Krisztus is\nszenvedett értünk, példát hagyva nektek, hogy a nyomában járjatok:\n„Bűnt nem követett el, s hamisság nem volt a szájában.”<br>\nAmikor szidalmazták, nem viszonozta a szidalmat; amikor szenvedett,\nnem fenyegetőzött, hanem rábízta magát az igazságos Bíróra. Vétkeinket\nsaját testében fölvitte a keresztfára, hogy meghaljunk a bűnöknek, és\naz igazságnak éljünk. Az ő sebei szereztek számotokra gyógyulást.\nOlyanok voltatok ugyanis, mint a tévelygő juhok, de most megtértetek\nlelketek Pásztorához és oltalmazójához.\n",
+                "text": "Szeretteim!<br>\nHa a jót teszitek és türelmesen szenvedtek, az kedves az\nIsten előtt. Hiszen erre kaptatok meghívást, mert Krisztus is\nszenvedett értünk, példát hagyva nektek, hogy a nyomában járjatok:\n„Bűnt nem követett el, s hamisság nem volt a szájában.”<br>\nAmikor szidalmazták, nem viszonozta a szidalmat; amikor szenvedett,\nnem fenyegetőzött, hanem rábízta magát az igazságos Bíróra. Vétkeinket\nsaját testében fölvitte a keresztfára, hogy meghaljunk a bűnöknek, és\naz igazságnak éljünk. Az ő sebei szereztek számotokra gyógyulást.\nOlyanok voltatok ugyanis, mint a tévelygő juhok, de most megtértetek\nlelketek Pásztorához és oltalmazójához.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -1758,7 +1875,7 @@
                 "ref": "Jn 10,1-10",
                 "teaser": "Én vagyok a juhok kapuja.",
                 "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "\nAbban az időben így szólt Jézus:<br>\n„Bizony, bizony, mondom nektek: Aki nem a kapun megy be a juhok\naklába, hanem máshol, az tolvaj és rabló. Aki viszont az ajtón megy be,\naz a juhok pásztora. Az őr ajtót nyit neki, a juhok pedig hallgatnak\nszavára. Nevükön szólítja juhait, és kivezeti őket. Miután mind\nkivezette, előttük halad, és a juhok követik, mert ismerik a hangját.\nAz idegent nem követik, sőt elfutnak tőle, mert az idegen hangját nem\nismerik.”<br>\nJézus ezt a hasonlatot mondta nekik, de ők nem értették meg, hogy\nmiről beszél.<br>\nJézus ezért így folytatta: „Bizony, bizony, mondom nektek: Én vagyok\naz ajtó a juhok számára. Akik előttem jöttek, azok tolvajok és rablók.\nNem is hallgattak rájuk a juhok. Én vagyok az ajtó: aki rajtam\nkeresztül megy be, az üdvözül, ki- és bejár, s legelőre talál. A tolvaj\ncsak azért jön, hogy lopjon, öljön és pusztítson. Én azért jöttem, hogy\néletük legyen, és bőségben legyen.”",
+                "text": "Abban az időben így szólt Jézus:<br>\n„Bizony, bizony, mondom nektek: Aki nem a kapun megy be a juhok\naklába, hanem máshol, az tolvaj és rabló. Aki viszont az ajtón megy be,\naz a juhok pásztora. Az őr ajtót nyit neki, a juhok pedig hallgatnak\nszavára. Nevükön szólítja juhait, és kivezeti őket. Miután mind\nkivezette, előttük halad, és a juhok követik, mert ismerik a hangját.\nAz idegent nem követik, sőt elfutnak tőle, mert az idegen hangját nem\nismerik.”<br>\nJézus ezt a hasonlatot mondta nekik, de ők nem értették meg, hogy\nmiről beszél.<br>\nJézus ezért így folytatta: „Bizony, bizony, mondom nektek: Én vagyok\naz ajtó a juhok számára. Akik előttem jöttek, azok tolvajok és rablók.\nNem is hallgattak rájuk a juhok. Én vagyok az ajtó: aki rajtam\nkeresztül megy be, az üdvözül, ki- és bejár, s legelőre talál. A tolvaj\ncsak azért jön, hogy lopjon, öljön és pusztítson. Én azért jöttem, hogy\néletük legyen, és bőségben legyen.”",
                 "ending": "Ezek az evangélium igéi."
             }
         ]
@@ -1772,7 +1889,7 @@
                 "ref": "ApCsel 6,1-7",
                 "teaser": "Kiválasztottak hét jó hírben álló, Szentlélekkel eltelt férfit.",
                 "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
-                "text": "\nAzokban a napokban, amikor a tanítványok száma már megnövekedett,\nzúgolódás támadt a görögök közt a zsidók ellen, hogy a mindennapi\nalamizsnaosztáskor az ő özvegyeiket háttérbe szorítják. Ezért a\nTizenkettő összehívta a tanítványokat, és így szóltak hozzájuk:\n„Nem volna rendjén, hogy elhanyagoljuk Isten igéjét, s az asztal\nszolgálatát lássuk el. Szemeljetek hát ki magatok közül, testvérek, hét\njó hírben álló, Lélekkel eltelt bölcs férfit, akiket megbízhatunk ezzel\na feladattal. Mi pedig majd az imádságnak és az ige szolgálatának\nszenteljük magunkat.”<br>\nTetszett a javaslat az egész közösségnek, és kiválasztották Istvánt,\nezt a hittel és Szentlélekkel eltelt férfit, aztán Fülöpöt és\nProhóruszt, Nikánort és Timont, Parmenászt és Miklóst, az antióchiai\nprozelitát. Az apostolok elé állították őket, azok pedig imádkoztak\nfelettük, és rájuk tették kezüket.<br>\nÉs az Isten igéje tovább terjedt, úgyhogy a tanítványok száma igen\nmegnőtt Jeruzsálemben. Még a papok közül is tömegesen hódoltak meg a\nhitnek.",
+                "text": "Azokban a napokban, amikor a tanítványok száma már megnövekedett,\nzúgolódás támadt a görögök közt a zsidók ellen, hogy a mindennapi\nalamizsnaosztáskor az ő özvegyeiket háttérbe szorítják. Ezért a\nTizenkettő összehívta a tanítványokat, és így szóltak hozzájuk:\n„Nem volna rendjén, hogy elhanyagoljuk Isten igéjét, s az asztal\nszolgálatát lássuk el. Szemeljetek hát ki magatok közül, testvérek, hét\njó hírben álló, Lélekkel eltelt bölcs férfit, akiket megbízhatunk ezzel\na feladattal. Mi pedig majd az imádságnak és az ige szolgálatának\nszenteljük magunkat.”<br>\nTetszett a javaslat az egész közösségnek, és kiválasztották Istvánt,\nezt a hittel és Szentlélekkel eltelt férfit, aztán Fülöpöt és\nProhóruszt, Nikánort és Timont, Parmenászt és Miklóst, az antióchiai\nprozelitát. Az apostolok elé állították őket, azok pedig imádkoztak\nfelettük, és rájuk tették kezüket.<br>\nÉs az Isten igéje tovább terjedt, úgyhogy a tanítványok száma igen\nmegnőtt Jeruzsálemben. Még a papok közül is tömegesen hódoltak meg a\nhitnek.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -1940,7 +2057,7 @@
                 "ref": "Kiv 34,4b-6.8-9",
                 "teaser": "Az Úr irgalmas és könyörülő Isten.",
                 "title": "OLVASMÁNY Mózes második könyvéből",
-                "text": "\nMózes, miután elpusztította az aranyborjút és kiengesztelte az Urat,\nmásnap korán reggel elindult a Sinai-hegyre, és vitte magával a két\nkőtáblát, ahogy az Úr megparancsolta. Az Úr leereszkedett felhőben, ő\npedig eléje járult és segítségül hívta az Úr nevét. Az Úr elvonult\nMózes előtt és ezt mondta: „Az Úr, az Úr, irgalmas és könyörülő Isten,\nhosszantűrő, kegyelemben és hűségben gazdag.”<br>\nMózes sietve a földig hajolt, leborult, és így szólt: „Ha kegyelmet\ntaláltam a szemedben, Uram, akkor a mi Urunk vonuljon velünk. Bár\nkeménynyakú nép ez, mégis bocsásd meg bűneinket, és fogadj el minket\nörökségedül.”",
+                "text": "Mózes, miután elpusztította az aranyborjút és kiengesztelte az Urat,\nmásnap korán reggel elindult a Sinai-hegyre, és vitte magával a két\nkőtáblát, ahogy az Úr megparancsolta. Az Úr leereszkedett felhőben, ő\npedig eléje járult és segítségül hívta az Úr nevét. Az Úr elvonult\nMózes előtt és ezt mondta: „Az Úr, az Úr, irgalmas és könyörülő Isten,\nhosszantűrő, kegyelemben és hűségben gazdag.”<br>\nMózes sietve a földig hajolt, leborult, és így szólt: „Ha kegyelmet\ntaláltam a szemedben, Uram, akkor a mi Urunk vonuljon velünk. Bár\nkeménynyakú nép ez, mégis bocsásd meg bűneinket, és fogadj el minket\nörökségedül.”",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -2089,13 +2206,13 @@
                 "teaser": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus.",
                 "text": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus."
             },
-			[
+				[
 				{
 					"short_title": "evangélium",
 					"ref": "Jn 1,1-18",
 					"teaser": "Az Ige testté lett, és közöttünk lakott.",
 					"title": "† EVANGÉLIUM Szent János könyvéből",
-					"text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\n*(Föllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen, tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.)*<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\n*(János tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.)*<br>\nEzek az evangélium igéi.\n",
+					"text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nFöllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen, tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\nJános tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.",
 					"ending": "Ezek az evangélium igéi."
 				},
 				{
@@ -2104,10 +2221,10 @@
 					"ref": "Jn 1,1-5.9-14",
 					"teaser": "Az Ige testté lett, és közöttünk lakott.",
 					"title": "† EVANGÉLIUM Szent János könyvéből",
-					"text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\n<br>\nEzek az evangélium igéi.\n",
+					"text": "Kezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.",
 					"ending": "Ezek az evangélium igéi."
 				}				
-			]
+				]
         ]
     },
     "NAB01": {

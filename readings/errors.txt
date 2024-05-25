@@ -1,44 +1,10 @@
+
 2024-03-28 14:30:51.411656 -- generateparts.py hibaüzenete:
-vasA - KAR02: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ok közötti rész kihagyásával Jn 1,1-5.9-14</i>
-vasA - EVK03: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasA - EVK03: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
-vasA - EVK15: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
-vasA - EVK16: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig</i>
-vasA - EVK17: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasA - EVK17: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Mt 13,44-46</i>
-vasA - EVK26: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
-vasA - EVK28: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig</i>
-vasA - EVK32: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig </i>
-vasA - HUS02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Mondható a Szekvencia is, lásd 180.</i>
-vasB - KAR01: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma:</i> Lk 2,22.39-40
-vasB - KAR02: !!! Az evangéliumot kézzel át kell nézni! Jn 1,1-5.9-14
-vasB - EVK01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasB - HUS01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasB - HUS07: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma:</i> Ef 4,1-7.11-13<br>
-vasB - HUS07: !!! Az evangéliumot kézzel át kell nézni! 
-vasB - EVK09: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig (Mk 2,23-28)</i>
-vasB - NAB05: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasB - EVK13: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma:</i> Mk 5,21-24.35b-43 A két * közötti rész kimarad.
-vasB - EVK15: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <br><br><i>Vagy rövidebb forma:</i> Ef 1,3-10 a *-ig.
-vasB - EVK27: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma:</i> Mk 10,2-12 a *-ig.
-vasB - EVK28: !!! Az evangéliumot kézzel át kell nézni! Mk 10,17-27 a *-ig
-vasB - EVK29: !!! Az evangéliumot kézzel át kell nézni! 
-vasB - EVK32: !!! Az evangéliumot kézzel át kell nézni! 
-vasC - ADV01: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasC - KAR02: !!! Az evangéliumot kézzel át kell nézni! Jn 1,1-5.9-14
-vasC - EVK02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-vasC - EVK11: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig (Lk 7,36-50)</i>
-vasC - EVK14: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ig. Lk 10,1-9</i>
-vasC - EVK19: !!! Az olvasmányt/szentleckét kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Zsid 11,1-2.8-12</i>
-vasC - EVK19: !!! Az evangéliumot kézzel át kell nézni! Vagy rövidebb forma a *-ok közötti rész kimarad Lk 12,35-40
-vasC - EVK24: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig.</i>
-vasC - EVK25: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-tól Lk 16,10-13</i>
-vasC - NAB02: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Vagy rövidebb forma a *-ok közötti rész kimarad Fil 3,20–4,1</i>
-vasC - NAB03: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
-vasC - NAB04: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
-vasC - NAB05: !!! Az evangéliumot kézzel át kell nézni! vasárnapjáról.</i>
-vasC - NAB06: !!! A teasert jól átkéne nézni, mert gond van itt majmócák! <i>Vágyva vágytam rá, hogy ezt a húsvéti vacsorát elköltsem veletek,
-vasC - HUS03: !!! Az evangéliumot kézzel át kell nézni! <i>Vagy rövidebb forma a *-ig Jn 21,1-14 </i>
+
+
+vasC - HUS02: !!! Ide nem tettem be az alternatív szekvenciákat, mert a misekönyv nem jelzi, hogy lehetne venni őket. De gyanús, hogy ez hiba, mert az A és a B évben is szerepel ezen a vasárnapon. :-/
+
+
 olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
 olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
 olvasmanyok - EVK031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
