@@ -2089,14 +2089,25 @@
                 "teaser": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus.",
                 "text": "Dicsőség neked, Krisztus, akit hirdettek a pogány népeknek! Dicsőség neked, Krisztus, akiben hittek világszerte! Vö. 1Tim 3,16 – 7. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Jn 1,1-18",
-                "teaser": "Az Ige testté lett, és közöttünk lakott.",
-                "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\n*(Föllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen, tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.)*<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\n*(János tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.)*<br>\nEzek az evangélium igéi.\n",
-                "ending": "<i>Vagy rövidebb forma a *-ok közötti rész kihagyásával Jn 1,1-5.9-14</i>"
-            }
+			[
+				{
+					"short_title": "evangélium",
+					"ref": "Jn 1,1-18",
+					"teaser": "Az Ige testté lett, és közöttünk lakott.",
+					"title": "† EVANGÉLIUM Szent János könyvéből",
+					"text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\n*(Föllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen, tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.)*<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\n*(János tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.)*<br>\nEzek az evangélium igéi.\n",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "evangélium",
+					"ref": "Jn 1,1-5.9-14",
+					"teaser": "Az Ige testté lett, és közöttünk lakott.",
+					"title": "† EVANGÉLIUM Szent János könyvéből",
+					"text": "\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\n<br>\nEzek az evangélium igéi.\n",
+					"ending": "Ezek az evangélium igéi."
+				}				
+			]
         ]
     },
     "NAB01": {
