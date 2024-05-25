@@ -283,26 +283,25 @@
                 "teaser": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus.",
                 "text": "Jézus hirdette országának örömhírét, * és minden betegséget\nmeggyógyított a nép körében. Mt 4,23 – 2. tónus."
             },
-		[
-			]
-			{
-                "short_title": "evangélium",
-                "ref": "Mt 4,12-23",
-                "teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!” <br>\nA Galileai-tenger mentén járva meglátott két testvért: Simont, akit\nPéternek is neveznek, és Andrást, a testvérét. Éppen hálót vetettek a\ntengerbe, mert halászok voltak. Így szólt hozzájuk: „Kövessetek engem,\nés én emberek halászává teszlek titeket!” Erre azok otthagyták\nhálóikat és követték őt. Amint onnan továbbment, meglátott másik két\ntestvért is: Zebedeus fiát, Jakabot és testvérét, Jánost. Apjukkal,\nZebedeussal a hálóikat javították a csónakban. Őket is elhívta. Ők is\notthagyták a csónakot és az apjukat, és követték őt.<br>\nJézus pedig bejárta egész Galileát. Tanított a zsinagógákban,\nhirdette a mennyek országa örömhírét, és meggyógyított a nép körében\nminden betegséget és minden gyötrelmet.",
-                "ending": "Ezek az evangélium igéi."
-            },
-			{
-                "cause": "rövidebb forma",
-				"short_title": "evangélium",
-                "ref": "Mt 4,12-17",
-                "teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!”",
-                "ending": "Ezek az evangélium igéi."
-            }
 			[
+				{
+					"short_title": "evangélium",
+					"ref": "Mt 4,12-23",
+					"teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!” <br>\nA Galileai-tenger mentén járva meglátott két testvért: Simont, akit\nPéternek is neveznek, és Andrást, a testvérét. Éppen hálót vetettek a\ntengerbe, mert halászok voltak. Így szólt hozzájuk: „Kövessetek engem,\nés én emberek halászává teszlek titeket!” Erre azok otthagyták\nhálóikat és követték őt. Amint onnan továbbment, meglátott másik két\ntestvért is: Zebedeus fiát, Jakabot és testvérét, Jánost. Apjukkal,\nZebedeussal a hálóikat javították a csónakban. Őket is elhívta. Ők is\notthagyták a csónakot és az apjukat, és követték őt.<br>\nJézus pedig bejárta egész Galileát. Tanított a zsinagógákban,\nhirdette a mennyek országa örömhírét, és meggyógyított a nép körében\nminden betegséget és minden gyötrelmet.",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause": "rövidebb forma",
+					"short_title": "evangélium",
+					"ref": "Mt 4,12-17",
+					"teaser": "Jézus Kafarnaumba jött, hogy beteljesedjék, amit Izajás mondott.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "\nAmikor Jézus meghallotta, hogy (Keresztelő) Jánost fogságba vetették,\nvisszatért Galileába. Elhagyta Názáretet, és a tengerparti Kafarnaumban\ntelepedett le, Zabulon és Neftali vidékén, hogy beteljesedjék, amit\nIzajás próféta mondott: <br>\nZabulon földje és Neftali földje, a tenger útja, a Jordán vidéke, a pogányok Galileája: A sötétben lakó nép nagy fényt lát, és fény virrad a halál honában s árnyékában ülőkre.<br>\nEttől kezdve Jézus tanítani kezdett. Ezt hirdette: „Térjetek meg,\nmert elközelgett a mennyek országa!”",
+					"ending": "Ezek az evangélium igéi."
+				}
+			]
         ]
     },
     "EVK04": {
@@ -817,7 +816,7 @@
 					"text": "\nAbban az időben:<br>\nJézus elment hazulról, és leült a tó partján. Hatalmas tömeg gyűlt\nössze, ezért beült egy csónakba, a tömeg pedig ott állt a parton. Ekkor\npéldabeszédekben sok mindenre oktatta őket:<br>\n„Íme, kiment a magvető vetni. Amint vetett, némely szem az útszélre\nesett. Jöttek az ég madarai, és ezeket mind megették. Némely szem kövek\nközé esett, ahol nem volt elég termőföld. Ezek hamar kikeltek, hisz nem\nvolt mély a föld. Majd amikor a Nap fölkelt és forrón tűzött, kiégtek,\nmert nem volt gyökerük. Voltak szemek, amelyek tövisek közé estek, és\namikor nőni kezdtek, a tövisek elfojtották őket. De a többi szem jó\nföldbe hullott, és termést hozott: az egyik százszorosat, a másik\nhatvanszorosat, a harmadik harmincszorosat.<br>\nAkinek van füle, hallja meg!”",
 					"ending": "Ezek az evangélium igéi."
 				}
-				[
+			]
         ]
     },
     "EVK16": {
@@ -870,7 +869,7 @@
 					"text": "Abban az időben: Jézus egy másik példabeszédet is mondott a tömegnek: „A mennyek országa olyan, mint amikor egy ember jó magot vetett a földjébe. Míg az emberek aludtak, jött az ellenség, konkolyt vetett a búza közé, és elment. Amikor a vetés kikelt és kalászba szökkent, felütötte fejét a konkoly is. Akkor a szolgák odamentek a gazdához, és megkérdezték: »Uram, te ugye jó magot vetettél a földedbe? Honnét került hát bele a konkoly?” Az így válaszolt: „Ellenséges ember műve ez.” A szolgák erre megkérdezték: „Akarod-e, hogy elmenjünk és kiszedjük belőle?” Ő azonban így felelt: „Nem, nehogy a búzát is kitépjétek, amikor a konkolyt kiszeditek! Hagyjátok, hadd nőjön az aratásig mindkettő. Aratáskor majd megmondom az aratóknak: Előbb a konkolyt gyűjtsétek össze, kössétek kévébe, hogy elégessük, a búzát pedig hordjátok a magtáramba!”",
 					"ending": "Ezek az evangélium igéi."
 				}
-				[
+			]
         ]
     },
     "EVK17": {
@@ -1298,7 +1297,7 @@
 					"text": "\nTestvéreim!<br>\nHa ér valamit a Krisztusban adott buzdítás, a szeretetből fakadó intelem, a lelki közösség, a bensőség és együttérzés, akkor tegyétek örömömet teljessé azáltal, hogy egyetértetek, egy szívvel szerettek, és egy lélekkel ugyanarra törekedtek. Vetélkedésből ne tegyetek semmit, sem hiú dicsőségvágyból! Egyik a másikat tekintse inkább alázatosan önmagánál kiválóbbnak! Ne keresse senki csak a maga javát, hanem a másét is!<br>\nUgyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt.",
 					"ending": "Ez az Isten igéje."
 				}
-				]
+			],
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1571,7 +1570,7 @@
 					"text": "Testvéreim!<br>\nAz elhunytak sorsáról nem akarunk tájékozatlanságban hagyni benneteket, hogy ne szomorkodjatok, mint a többiek, akiknek nincs reményük. Ha Jézus, mint ahogy hisszük, meghalt és feltámadt, akkor Isten vele együtt feltámasztja azokat is, akik Jézusban hunytak el.",
 					"ending": "Ez az Isten igéje."
 				}
-				]
+			],
             {
                 "short_title": "alleluja",
                 "ref": null,
@@ -1704,22 +1703,23 @@
 					"short_title": "szentlecke",
 					"ref": "1Kor 5,6b-8",
 					"teaser": "El a régi kovásszal, hogy új tésztává legyetek!",
-					"title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből\n""text": "Testvéreim!<br>\nNem tudjátok, hogy egy kevés kovász az egész tésztát megkeleszti? El a régi kovásszal, hogy új tésztává legyetek, aminthogy kovásztalanok is vagytok! Hiszen húsvéti bárányunkat, Krisztust feláldozták!\nÜnnepeljünk tehát, de ne a régi kovásszal, sem a romlottság és gonoszság kovászával, hanem a tisztaság és az igazság kovásztalan kenyerével!",
+					"title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből\n",
+					"text": "Testvéreim!<br>\nNem tudjátok, hogy egy kevés kovász az egész tésztát megkeleszti? El a régi kovásszal, hogy új tésztává legyetek, aminthogy kovásztalanok is vagytok! Hiszen húsvéti bárányunkat, Krisztust feláldozták!\nÜnnepeljünk tehát, de ne a régi kovásszal, sem a romlottság és gonoszság kovászával, hanem a tisztaság és az igazság kovásztalan kenyerével!",
 					"ending": "Ez az Isten igéje."
 				}
 			],
 			[
 				{
 					"short_title": "szekvencia",
-					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!"
-					"title": "SZEKVENCIA"
+					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!",
+					"title": "SZEKVENCIA",
 					"text": "A húsvéti Bárányt keresztények dicsérve áldják! <br>\nKrisztus, ártatlan Bárány: <br>\nvérének árán nyája bűneiért megengesztelte Atyját. <br>\nBenne élet és halál csodás nagy párharcra száll: <br>\nélet Ura a sírból felkél, és győztesen él. <br>\nMária Magdolna, mondd, mit láttál utadon! <br>\n„Az élő Krisztusnak sírját, feltámadt Urunk nagy diadalmát, <br>\nangyalok jelenését, Urunk halotti laplét <br>\nFeltámadt Krisztus, reményetek: Galileába megy előttetek.” <br>\nKrisztus a halálból valóban feltámadt, tudjuk. <br>\n Győztes Király, könyörülj meg rajtunk!"
 				},
 				{
 					"cause": "vagy",
 					"short_title": "szekvencia",
-					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják."
-					"title": "SZEKVENCIA"
+					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják.",
+					"title": "SZEKVENCIA",
 					"text": "Húsvét tiszta áldozatát a hívek áldva áldják.<br>\nBárány megváltja nyáját, <br>\nés az ártatlan Krisztus már kiengeszteli értünk Atyját. <br>\nÉlet itt a halállal megvítt csoda-csatával, <br>\na holt Élet-Vezér ma Úr és él! <br>\nMária, szentasszony, mondd, mit láttál utadon? <br>\n„Az élő Krisztusnak sírját, s a Fölkentnek láttam glóriáját, <br>\nangyali tanúkat, szemfedőt és gyolcsokat. <br>\nFeltámadt reményem, Krisztus, Galileába elétek indult.” <br>\nTudjuk, Krisztus feltámadott és diadalmas: <br>\nó, győztes Királyunk, légy irgalmas."		
 				}
 			],
@@ -1768,15 +1768,15 @@
 			[
 				{
 					"short_title": "szekvencia",
-					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!"
-					"title": "SZEKVENCIA"
+					"teaser": "A húsvéti Bárányt keresztények dicsérve áldják!",
+					"title": "SZEKVENCIA",
 					"text": "A húsvéti Bárányt keresztények dicsérve áldják! <br>\nKrisztus, ártatlan Bárány: <br>\nvérének árán nyája bűneiért megengesztelte Atyját. <br>\nBenne élet és halál csodás nagy párharcra száll: <br>\nélet Ura a sírból felkél, és győztesen él. <br>\nMária Magdolna, mondd, mit láttál utadon! <br>\n„Az élő Krisztusnak sírját, feltámadt Urunk nagy diadalmát, <br>\nangyalok jelenését, Urunk halotti laplét <br>\nFeltámadt Krisztus, reményetek: Galileába megy előttetek.” <br>\nKrisztus a halálból valóban feltámadt, tudjuk. <br>\n Győztes Király, könyörülj meg rajtunk!"
 				},
 				{
 					"cause": "vagy",
 					"short_title": "szekvencia",
-					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják."
-					"title": "SZEKVENCIA"
+					"teaser": "Húsvét tiszta áldozatát a hívek áldva áldják.",
+					"title": "SZEKVENCIA",
 					"text": "Húsvét tiszta áldozatát a hívek áldva áldják.<br>\nBárány megváltja nyáját, <br>\nés az ártatlan Krisztus már kiengeszteli értünk Atyját. <br>\nÉlet itt a halállal megvítt csoda-csatával, <br>\na holt Élet-Vezér ma Úr és él! <br>\nMária, szentasszony, mondd, mit láttál utadon? <br>\n„Az élő Krisztusnak sírját, s a Fölkentnek láttam glóriáját, <br>\nangyali tanúkat, szemfedőt és gyolcsokat. <br>\nFeltámadt reményem, Krisztus, Galileába elétek indult.” <br>\nTudjuk, Krisztus feltámadott és diadalmas: <br>\nó, győztes Királyunk, légy irgalmas."		
 				}
 			],
