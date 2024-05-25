@@ -1,9 +1,10 @@
 
 2024-03-28 14:30:51.411656 -- generateparts.py hibaüzenete:
 
-
+vasA - HUS01: !!! Két evangélium van egyben, amit ketté kéne választani.
+vasB - HUS01: !!! Két evangélium van egyben, amit ketté kéne választani.
 vasC - HUS02: !!! Ide nem tettem be az alternatív szekvenciákat, mert a misekönyv nem jelzi, hogy lehetne venni őket. De gyanús, hogy ez hiba, mert az A és a B évben is szerepel ezen a vasárnapon. :-/
-
+vasA - HUS01: !!! Két evangélium van egyben, amit ketté kéne választani.
 
 olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
 olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
