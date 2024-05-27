@@ -58,7 +58,7 @@ def transformCelebration(celebration: dict):
         napok = { 0: "vasárnap", 1: "hétfő", 2: "kedd", 3: "szerda", 4: "csütörtök", 5: "péntek", 6: "szombat"}
         transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'] + " " + celebration['LiturgicalWeek'] + ". hét, " + napok[int(calendarDay["DayOfWeek"]['@Id'])]
 
-    print(transformedCelebration['name'])
+    #print(transformedCelebration['name'])
             
     if celebration['LiturgicalCelebrationType']['#text'] == "féria":
         celebration['LiturgicalCelebrationType']['#text'] = "köznap"
@@ -229,6 +229,14 @@ def addreadingstolevel10(celebration: dict):
             celebration['parts'] = katolikusData["olvasmanyok"][katolikusDataKod]["parts"];
                         
 
+def addSzuzMariaSzombatja(celebration: dict):
+    
+    if celebration['title'] == "Szűz Mária szombati emléknapja - tetszés szerinti emléknap":
+        celebration['parts2'] = { 
+            "teaser" : "Olvasmányok a Boldogságos Szűz Mária közös olvasmányaiból",
+            "text" : "A Boldogságos Szűz Mária közös olvasmányai megtalálhatóak a <i>Szentek miseolvasmányai</i> kötetből 569-592"
+        }
+        celebration['parts2cause'] = "(Vagy) Szűz Mária szombatjáról";
 
 # Köznapokon az I és II éve szerint szétszedni az olvasmányokat!
 def clearYearIorII(celebration: dict):
@@ -296,6 +304,7 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
 
         
         addreadingstolevel10(celebration)
+        addSzuzMariaSzombatja(celebration)
         clearYearIorII(celebration)
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
@@ -345,3 +354,4 @@ with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
         )
 
 print("Hello World")
+
