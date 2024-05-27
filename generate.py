@@ -12,7 +12,7 @@ def downloadBreviarData():
     print("Downloading data from breviar.kbs.sk", end='')
     sys.stdout.flush()
     # get breviarData from url
-    url = "https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r=2024&j=hu"
+    url = "https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=5&r=2024&j=hu"
     response = requests.get(url)
     breviarData = xmltodict.parse(response.content)
 
@@ -177,10 +177,9 @@ def createReadingIds(celebration: dict):
     if result:
         # mi a 'kod' azaz az adott nap rövidítése
         kodok = { "A" : "ADV", "C" : "EVK", "P": "NAB", "V" : "HUS", "K" : "KAR" }
-        katolikusDataKod = kodok[result.group(2)] + str(result.group(1)).zfill(2)
-        napok = { 1: "Hetfo", 2: "Kedd", 3: "Szerda", 4: "Csutortok", 5: "Pentek", 6: "Szombat"}
+        katolikusDataKod = kodok[result.group(2)] + str(result.group(1)).zfill(2)        
         if not result.group(3) == "":
-            katolikusDataKod += result.group(3) + napok[ int(result.group(3))]
+            katolikusDataKod += result.group(3) + days[ int(result.group(3))]
     
     #
     # Egyes dátumokhoz tartozó ünnepek olvasmányainak kikeresése, figyelve arra, hogy egy napra több minden is juthat. Uuuupsz.
@@ -251,24 +250,28 @@ def findReadings(celebration: dict):
     
     
     for possibility in possibilities:
-
         
-        if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.5:
+        if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.7:
             readingHasFound = True
+            break
 
         # Legyen itt pár félig kézzel javított cucc
         elif possibility['name'].startswith("Adventi köznapok - december") and celebration['name'].startswith("adventi idő "):
             readingHasFound = True
+            break
 
         elif possibility['name'].startswith("Karácsonyi idő - december") and celebration['name'].startswith("karácsony nyolcada 1. hét"):
             readingHasFound = True
+            break
 
         elif possibility['name'].startswith("Évközi 34. vasárnap – Krisztus, a Mindenség Királya") and celebration['name'].startswith("Krisztus Király"):
             readingHasFound = True
+            break
 
         #Ha valami évközi vasárnapnek extra neve is van
         elif re.search("^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", celebration['name']) and re.search("^(Évközi ([0-9]{1,2})\. vasárnap)", possibility['name']):
             readingHasFound = True
+            break
         
         
         tmp = ""
@@ -286,8 +289,8 @@ def findReadings(celebration: dict):
     #  szóval megvan az aranybogárka
     else: 
         if 'name' in possibility and possibility['name'] != "":
-            print(possibility['name'] + " <-- " + celebration['name'])
-            #celebration['name'] = possibility['name']
+            #print(possibility['name'] + " <-- " + celebration['name'])
+            celebration['name'] = possibility['name']
     
         celebration['parts'] = possibility['parts']
         
