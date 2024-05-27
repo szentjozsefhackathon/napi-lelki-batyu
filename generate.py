@@ -247,19 +247,19 @@ def clearYearIorII(celebration: dict):
 def yearIorII(ABC, year):
     if year == '2023':
         if ABC == 'A':
-            return "II"
+            return "I"
         else:
             return "I"
     elif year == '2024':
         if ABC == 'B':
-            return "I"
-        else:
             return "II"
+        else:
+            return "I"
     if year == '2025':
         if ABC == 'C':
-            return "II"
-        else:
             return "I"
+        else:
+            return "II"
 
     #print(ABC)
     #print(year)
