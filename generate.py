@@ -251,45 +251,25 @@ def findReadings(celebration: dict):
     
     
     for possibility in possibilities:
+
         
         if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.5:
-            
-            celebration['parts'] = possibility['parts']
-
-            if 'excerpt' in possibility:
-                celebration['teaser'] = possibility['excerpt']
-            if 'content' in possibility:
-                celebration['commentary'] = {
-                    "type": "object",
-                    "short_title" : "Élete",
-                    "text": possibility['content']
-                }
-            if 'image' in possibility:
-                celebration['image'] = possibility['image']
-
             readingHasFound = True
-            return True
 
         # Legyen itt pár félig kézzel javított cucc
-        if possibility['name'].startswith("Adventi köznapok - december") and celebration['name'].startswith("adventi idő "):
-            celebration['parts'] = possibility['parts']
+        elif possibility['name'].startswith("Adventi köznapok - december") and celebration['name'].startswith("adventi idő "):
             readingHasFound = True
-            return True
-        if possibility['name'].startswith("Karácsonyi idő - december") and celebration['name'].startswith("karácsony nyolcada 1. hét"):
-            celebration['parts'] = possibility['parts']
-            readingHasFound = True
-            return True            
-        if possibility['name'].startswith("Évközi 34. vasárnap – Krisztus, a Mindenség Királya") and celebration['name'].startswith("Krisztus Király"):
-            celebration['parts'] = possibility['parts']
-            readingHasFound = True
-            return True            
-        #Ha valami évközi vasárnapnek extra neve is van
-        if re.search("^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", celebration['name']) and re.search("^(Évközi ([0-9]{1,2})\. vasárnap)", possibility['name']):
-            celebration['parts'] = possibility['parts']
-            readingHasFound = True
-            return True            
-            
 
+        elif possibility['name'].startswith("Karácsonyi idő - december") and celebration['name'].startswith("karácsony nyolcada 1. hét"):
+            readingHasFound = True
+
+        elif possibility['name'].startswith("Évközi 34. vasárnap – Krisztus, a Mindenség Királya") and celebration['name'].startswith("Krisztus Király"):
+            readingHasFound = True
+
+        #Ha valami évközi vasárnapnek extra neve is van
+        elif re.search("^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", celebration['name']) and re.search("^(Évközi ([0-9]{1,2})\. vasárnap)", possibility['name']):
+            readingHasFound = True
+        
         
         tmp = ""
         for row in possibilities:
@@ -303,6 +283,26 @@ def findReadings(celebration: dict):
         error("Nincs eléggé jól passzoló olvasmány. Amit keresünk (breviar): '" + tmp1 + "'. Amik vannak (igenaptar): " + tmp)
 
         return False
+    #  szóval megvan az aranybogárka
+    else: 
+        if 'name' in possibility and possibility['name'] != "":
+            print(possibility['name'] + " <-- " + celebration['name'])
+            #celebration['name'] = possibility['name']
+    
+        celebration['parts'] = possibility['parts']
+        
+        if 'excerpt' in possibility:
+            celebration['teaser'] = possibility['excerpt']
+        if 'content' in possibility:
+            celebration['commentary'] = {
+                "type": "object",
+                "short_title" : "Élete",
+                "text": possibility['content']
+            }
+        if 'image' in possibility:
+            celebration['image'] = possibility['image']
+        
+        return True
     
     
 
