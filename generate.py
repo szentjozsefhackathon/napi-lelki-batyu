@@ -38,7 +38,7 @@ def loadKatolikusData():
     print("Loading katolikusData from jsons: ", end='')
     sys.stdout.flush()
     katolikusData = {}
-    sources = [ "vasA", "vasB", "vasC","olvasmanyok", "szentek"]
+    sources = [ "vasA", "vasB", "vasC","olvasmanyok", "szentek","custom"]
     for name in sources:
         print("." + name + ".", end='')
         sys.stdout.flush()
@@ -214,6 +214,9 @@ def createReadingIds(celebration: dict):
         #De karácsony nyolcadában ünnepek és köznapok találkoznak
         if int(celebration['season']) == 2 or int(celebration['season']) == 3:
             celebration['ferialReadingsId'] = ferialReadingsId
+        #De Szűz Mária szombati emléknapján is van munka
+        if celebration['name'].startswith("Szűz Mária szombati emléknapja"):
+            celebration['ferialReadingsId'] = ferialReadingsId
                 
     if katolikusDataKod != 'False':
         return True
@@ -234,17 +237,21 @@ def findReadings(celebration: dict):
             return
         else:
             celebration['readingsId'] = celebration['yearLetter'] + celebration['readingsId']
-    
-    
+        
     if isinstance(katolikusData[celebration['readingsId']], dict):
         possibilities = [ katolikusData[celebration['readingsId']] ]
     else:
         possibilities = katolikusData[celebration['readingsId']]
-        
+    
+    #Add Szűz Mária szombatja as a possibility
+    if celebration['dayofWeek'] == 6 and int(celebration['level']) > 9:        
+        possibilities.append(katolikusData['SzuzMariaSzombatja'])
+    
     
     for possibility in possibilities:
         
         if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.5:
+            
             celebration['parts'] = possibility['parts']
 
             if 'excerpt' in possibility:
@@ -261,23 +268,36 @@ def findReadings(celebration: dict):
             readingHasFound = True
             return True
 
+        # Legyen itt pár félig kézzel javított cucc
+        if possibility['name'].startswith("Adventi köznapok - december") and celebration['name'].startswith("adventi idő "):
+            celebration['parts'] = possibility['parts']
+            readingHasFound = True
+            return True
+        if possibility['name'].startswith("Karácsonyi idő - december") and celebration['name'].startswith("karácsony nyolcada 1. hét"):
+            celebration['parts'] = possibility['parts']
+            readingHasFound = True
+            return True            
+        if possibility['name'].startswith("Évközi 34. vasárnap – Krisztus, a Mindenség Királya") and celebration['name'].startswith("Krisztus Király"):
+            celebration['parts'] = possibility['parts']
+            readingHasFound = True
+            return True            
+
+
+        
         tmp = ""
         for row in possibilities:
             if celebration['name']:
                 tmp1 = celebration['name']
             else:
                 tmp1 = "névtelen"
-            tmp += row['name'] + ", "
-            
-        # tmp += "\n  " + str(Levenshtein.ratio(str(celebration['name']), possibility['name'])) + " " + celebration['name'] + " ? " + possibility['name']   
-            
+            tmp += row['name'] + " ("+ str( round(Levenshtein.ratio(str(celebration['name']), row['name']),2)) +") , "
+                       
+    if not readingHasFound:    
         error("Nincs eléggé jól passzoló olvasmány. Amit keresünk (breviar): '" + tmp1 + "'. Amik vannak (igenaptar): " + tmp)
 
         return False
     
-    if not readingHasFound:
-        error("Nincs '" + celebration['readingsBreviarId'] + "'")
-        return False
+    
 
 # Kötelező emléknapokon (level 10 és 11) köznapi olvasmányok a default érték!
 def addreadingstolevel10(celebration: dict):
@@ -315,14 +335,6 @@ def addreadingstolevel10(celebration: dict):
         return
                               
 
-def addSzuzMariaSzombatja(celebration: dict):
-    
-    if celebration['title'] == "Szűz Mária szombati emléknapja - tetszés szerinti emléknap":
-        celebration['parts2'] = { 
-            "teaser" : "Olvasmányok a Boldogságos Szűz Mária közös olvasmányaiból",
-            "text" : "A Boldogságos Szűz Mária közös olvasmányai megtalálhatóak a <i>Szentek miseolvasmányai</i> kötetből 569-592"
-        }
-        celebration['parts2cause'] = "(Vagy) Szűz Mária szombatjáról";
 
 # Köznapokon az I és II éve szerint szétszedni az olvasmányokat!
 def clearYearIorII(celebration: dict):
@@ -399,7 +411,6 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
 
         
         addreadingstolevel10(celebration)
-        addSzuzMariaSzombatja(celebration)
         clearYearIorII(celebration)
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId

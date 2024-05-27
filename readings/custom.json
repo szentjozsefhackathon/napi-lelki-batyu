@@ -1,0 +1,12 @@
+{
+	"SzuzMariaSzombatja" : {
+		"igenaptarId": "SzuzMariaSzombatja",
+		"name" : "Szűz Mária szombati emléknapja",
+		"parts" : [{ 
+			"short_title": "olvasmány",
+            "teaser" : "Olvasmányok a Boldogságos Szűz Mária közös olvasmányaiból",
+            "text" : "A Boldogságos Szűz Mária közös olvasmányai megtalálhatóak a <i>Szentek miseolvasmányai</i> kötetből 569-592"
+        }]
+	}
+	
+}
