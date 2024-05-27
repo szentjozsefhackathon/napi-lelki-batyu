@@ -217,6 +217,8 @@ def createReadingIds(celebration: dict):
         #De Szűz Mária szombati emléknapján is van munka
         if celebration['name'].startswith("Szűz Mária szombati emléknapja"):
             celebration['ferialReadingsId'] = ferialReadingsId
+        
+            
                 
     if katolikusDataKod != 'False':
         return True
@@ -281,7 +283,12 @@ def findReadings(celebration: dict):
             celebration['parts'] = possibility['parts']
             readingHasFound = True
             return True            
-
+        #Ha valami évközi vasárnapnek extra neve is van
+        if re.search("^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", celebration['name']) and re.search("^(Évközi ([0-9]{1,2})\. vasárnap)", possibility['name']):
+            celebration['parts'] = possibility['parts']
+            readingHasFound = True
+            return True            
+            
 
         
         tmp = ""
