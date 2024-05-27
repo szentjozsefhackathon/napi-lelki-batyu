@@ -294,8 +294,9 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
     for celebration in lelkiBatyu['celebration']:
         findReadings(celebration)
 
-        clearYearIorII(celebration)
+        
         addreadingstolevel10(celebration)
+        clearYearIorII(celebration)
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
     for celebration in lelkiBatyu['celebration']:
