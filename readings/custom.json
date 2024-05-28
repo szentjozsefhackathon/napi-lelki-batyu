@@ -16,6 +16,54 @@
             "teaser" : "...",
             "text" : "...bizony..."
         }]
-	}
+	},
+	"01-23" : {
+		"name" : "Alamizsnás Szent János",
+		"alert" : "- A pozsonyi főszékesegyházban",
+		"parts": []
+	},
+	"01-25" : {
+		"name" : "Szent Pál apostol, az egyházmegye fővédőszentje",
+		"alert" : "A Szabadkai Egyházmegyében",
+		"parts": []
+	},
+	"02-27" : {
+		"name" : "Nareki Szent Gergely apát és egyháztanító",
+		"parts": []
+	},
+	"05-11" : {
+		"name" : "Boldog Salkaházi Sára szűz és vértanú",
+		"parts": []
+	},
+	"05-17" : {
+		"name" : "Boldog Scheffler János püspök és vértanú",
+		"parts": []
+	},	
 	
+	
+	"NAB064Csutortok": {
+        "igenaptarId": "NAB064Csutortok",
+        "name": "Nagycsütörtök - krizmaszentelési mise",
+        "parts": []
+	},
+	"NAB066Szombat": {
+        "igenaptarId": "NAB066Szombat",
+        "name": "Nagyszombat",
+        "parts" : [{ 
+			"short_title": "info",
+            "teaser" : "Nagyszombaton semmi nincs",
+            "text" : "De igazán semmi de semmi, amit ide leírhatunk"
+        }]
+	},
+	"BHUS01": {
+        "igenaptarId": "HUS01",
+        "name": "Húsvétvasárnap vaaaaalmi",
+        "parts": [	]
+	},
+	
+	"HUS08": {
+        "igenaptarId": "HUS08",
+        "name": "Pünkösdvasárnap, vigília mise",
+        "parts": []
+	}
 }
