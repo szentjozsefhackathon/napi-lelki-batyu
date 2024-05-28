@@ -12,11 +12,20 @@
 		
 		"name" : "Székesegyház felszentelése",
 		"parts" : [{ 
+			"short_title": "info",
+            "teaser" : "Olvasmányok a templomszentelés évfordulójánból.",
+            "text" : "Választható olvasmányok megtalálhatóak: Szentek miseolvasmányai (2001), 555-568. o."
+        }]
+	},
+	"10-26" : {
+		
+		"name" : "A saját templom felszentelése (ha annak napja nem ismeretes)",
+		"parts" : [{ 
 			"short_title": "olvasmány",
             "teaser" : "...",
             "text" : "...bizony..."
         }]
-	},
+	},	
 	"01-23" : {
 		"name" : "Alamizsnás Szent János",
 		"alert" : "- A pozsonyi főszékesegyházban",
@@ -68,9 +77,27 @@
 	"10-16" : {
 		"name" : "Szent Gaál áldozópap",
 		"alert" : "A szlovákiai egyházmegyékben",
-		"parts": []
+		"parts" : [{ 
+			"short_title": "olvasmány",
+            "teaser" : "...",
+            "text" : "...bizony..."
+        }]
 		
+	},	
+	"11-20" : {
+		"name" : "Boldog Kolesar Anna szűz és vértanú",
+		"alert" : "Kassai Főegyházmegye",
+		"parts": []		
 	},
+	"11-28" : {
+		"name" : "Marchiai Szent Jakab áldozópap",
+		"alert" : "A Szeged-Csanádi Egyházmegyében",
+		"parts": []		
+	},	
+	
+	
+	
+	
 	
 	"BHUS105Pentek": {
         "igenaptarId": "06-16",

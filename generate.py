@@ -214,7 +214,8 @@ def createReadingIds(celebration: dict):
         katolikusDataKod = "HUS106Szombat"       
     if celebration['name'] == "Pannonhalma: a bazilika felszentelése":
         katolikusDataKod = "SzekesegyhazFelszentelése"       
-        
+    if celebration['name'] == "A Boldogságos Szűz Mária szeplőtelen fogantatása":
+        katolikusDataKod = "12-08"           
     
     
     celebration['readingsId'] = katolikusDataKod
@@ -251,7 +252,7 @@ def createReadingIds(celebration: dict):
 
 def error(text):
     print("  ERROR: " + text.ljust(80))
-    #exit()
+    # exit()
 
 def findReadings(celebration: dict):
 
