@@ -131,9 +131,20 @@
         "parts": [	]
 	},
 	
-	"HUS08": {
-        "igenaptarId": "HUS08",
+	"AHUS08": {
+        "igenaptarId": "HUS083",
         "name": "Pünkösdvasárnap, vigília mise",
         "parts": []
-	}
+	},
+	"BHUS08": {
+        "igenaptarId": "HUS083",
+        "name": "Pünkösdvasárnap, vigília mise",
+        "parts": []
+	},
+	"CHUS08": {
+        "igenaptarId": "HUS083",
+        "name": "Pünkösdvasárnap, vigília mise",
+        "parts": []
+	}	
+	
 }

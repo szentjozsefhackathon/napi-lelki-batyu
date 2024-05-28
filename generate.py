@@ -219,8 +219,7 @@ def createReadingIds(celebration: dict):
     
     
     celebration['readingsId'] = katolikusDataKod
-    print("  ReadingsId: " +  katolikusDataKod, end="\r", flush=True)
-    print("  ReadingsId: " +  katolikusDataKod)
+    print("  ReadingsId: " +  katolikusDataKod, end="\r", flush=True)      
     
     #
     # Köznapi olvasmányok is kellenek, ha nem nagy ünnepről van szó
@@ -329,7 +328,7 @@ def findReadings(celebration: dict):
                 [ "^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", "^(Évközi ([0-9]{1,2})\. vasárnap)"],
                 ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
                 ["Virágvasárnap", "Virágvasárnap"],
-                ["Krisztus feltámadása$", "Húsvétvasárnap"],
+                ["\nKrisztus feltámadása$", "Húsvétvasárnap"],
                 ["nagyböjti idő 0\. hét", "hamvazószerda után"],
                 ["a bazilika felszentelése", "Székesegyház felszentelése"],
                 ["főszékesegyház felszentelése", "Székesegyház felszentelése"]
@@ -342,8 +341,6 @@ def findReadings(celebration: dict):
 
         
         
-       
-                       
     if not readingHasFound:    
         error("Nincs eléggé jól passzoló olvasmány. Amit keresünk (breviar): '" + tmp1 + "'. Amik vannak (igenaptar): " + tmp)
 
@@ -491,7 +488,8 @@ def addCustomCelebrationstoBreviarData(data):
                         
         data['celebration'] = data['celebration2'].copy()
         del data['celebration2']
-                
+              
+        
     return 
 
  
@@ -541,6 +539,10 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         
         addreadingstolevel10(celebration)
         clearYearIorII(celebration)
+        
+        
+        
+        
 
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
    # for celebration in lelkiBatyu['celebration']:
@@ -549,6 +551,10 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         print("  OK                                  ", end="\r",flush=True)
         
         #sys.stdout.flush()
+
+
+    #if calendarDay['DateISO'] == "2024-05-19":        
+    #    exit()
 
     # now write output to a file
     with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
