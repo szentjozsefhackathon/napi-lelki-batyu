@@ -39,6 +39,49 @@
 		"name" : "Boldog Scheffler János püspök és vértanú",
 		"parts": []
 	},	
+	"06-04" : {
+		"name" : "Szent Quirinus (Kerény) püspök és vértanú",
+		"alert" : "Szombathely Egyházmegyében",
+		"parts": []
+	},	
+	"07-05" : {
+		"name" : "Szent Cirill szerzetes és Szent Metód püspök",
+		"alert" : "(A Muraszombati és a szlovákiai egyházmegyékben) (A Muraszombati Egyházmegyében: az egyházmegye védőszentjei; főünnep)",
+		"parts": []
+	},	
+	"07-27" : {
+		"name" : "Szent Gorazd és társai, hitvallók",
+		"alert" : "(A szlovákiai egyházmegyékben)",
+		"parts": []
+	},	
+	"07-30" : {
+		"name" : "Boldog Scheling Szidónia Cecília szűz és vértanú",
+		"alert" : "(A szlovákiai egyházmegyékben)",
+		"parts": []
+	},	
+	"10-03" : {
+		"name" : "Boldog Bogdánffy Szilárd püspök és vértanú",
+		"alert" : "A nagyváradi egyházmegyében",
+		"parts": []
+		
+	},
+	"10-16" : {
+		"name" : "Szent Gaál áldozópap",
+		"alert" : "A szlovákiai egyházmegyékben",
+		"parts": []
+		
+	},
+	
+	"BHUS105Pentek": {
+        "igenaptarId": "06-16",
+        "name": "Jézus Szent Szíve - B év – FÜ",
+        "parts": []
+	},
+	"CHUS105Pentek": {
+        "igenaptarId": "06-16",
+        "name": "Jézus Szent Szíve - C év – FÜ",
+        "parts": []
+	},
 	
 	
 	"NAB064Csutortok": {
@@ -57,7 +100,7 @@
 	},
 	"BHUS01": {
         "igenaptarId": "HUS01",
-        "name": "Húsvétvasárnap vaaaaalmi",
+        "name": "Húsvétvasárnap, Urunk feltámadásának ünnepe - Húsvéti vigília",
         "parts": [	]
 	},
 	

@@ -2652,8 +2652,10 @@
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
-        },
-        {
+        }
+        
+    ],
+	"PUNK01" : {
             "igenaptarId": "05-20a",
             "name": "Boldogságos Szűz Mária az Egyház Anyja – E",
             "parts": [
@@ -2686,8 +2688,9 @@
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
-        }
-    ],
+        },
+	
+	
     "05-21": {
         "igenaptarId": "05-21",
         "name": "Magallán Szent Kristóf áldozópap és társai, mexikói vértanúk",
@@ -2790,7 +2793,9 @@
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
-        },
+        }
+	],
+	 "OrokFopap":
         {
             "igenaptarId": "05-23",
             "name": "A mi Urunk, Jézus Krisztus az örök Főpap – Ü",
@@ -2832,8 +2837,8 @@
                     "ending": ""
                 }
             ]
-        }
-    ],
+        },
+    
     "05-24": {
         "igenaptarId": "05-24",
         "name": "Szűz Mária,  keresztények segítsége",
@@ -3362,31 +3367,20 @@
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
-        },
-        {
+        }
+	],
+	
+    "HUS106Szombat":    {
             "igenaptarId": "06-08",
             "name": "A Boldogságos Szűz Mária Szeplőtelen\nSzíve",
             "parts": [
-                {
-                    "short_title": null,
-                    "ref": "Iz 61,9-11",
-                    "teaser": "Ujjongó örömmel örülök az Úrban.",
-                    "title": "<i>Ennek az emléknapnak saját olvasmányai vannak</i><br><br> OLVASMÁNY Izajás próféta könyvéből\t",
-                    "text": "A próféta így beszél: Népem sarjadéka híres lesz a nemzetek között, és minden ivadékuk a népek körében. Akik látják őket, elismerik majd, hogy ez az a nemzedék, amelyet megáldott az Úr.<br>\nNagy örömmel örvendezem az Úrban, lelkem ujjong az én Istenemben, mert az üdvösség ruhájába öltöztetett, s az igazság köntösét terítette rám.\nFelékesített, mint a vőlegényt, aki koszorút visel, és mint a menyasszonyt, aki ékszerekkel díszíti magát.<br>\nMert amint a föld megtermi növényeit, és a kert veteményeket sarjaszt, úgy sarjasztja ki az Úristen az igazságot, és a magasztalást minden nép színe előtt.",
-                    "ending": "Ez az Isten igéje."
-                },
-                {
-                    "short_title": "zsoltár",
-                    "ref": "1Sám 2,1.4-5.6-7.8abcd",
-                    "teaser": "Válasz: <b>Szívem ujjong az Úrban, * megváltó Istenemben.</b> Vö. 1a. vers.",
-                    "text": "Válasz: <b>Szívem ujjong az Úrban, * megváltó Istenemben.</b> Vö. 1a. vers.<br>\nElőénekes: Szívem ujjong az Úrban, * erővel tölt el Istenem. <br>\nEllenségeimmel bátran szembeszállok * mert örvendezem segítségeden.<br>\nHívek: Szívem ujjong az Úrban, * megváltó Istenemben.<br>\nE: A hatalmasok íja eltörött, * a gyengéket azonban erő övezi. <br>\nKenyérért szegődnek el, kik azelőtt bővelkedtek, * jóllakhatnak, akik nélkülöztek.<br>\nAnya lesz, kinek nem volt gyermeke, * erőtlenné válik a nagy családú.<br>\nH: Szívem ujjong az Úrban, * megváltó Istenemben.<br>\nE: Az Úr adja a halált és az életet, * letaszít az alvilágra és felhoz onnan.<br>\nAz Úr tesz szegénnyé és ő tesz gazdaggá, * ő az, aki megaláz és felmagasztal.<br>\nH: Szívem ujjong az Úrban, * megváltó Istenemben.<br>\nE: Fölemeli a porból a rászorulót, * a sárból a szegényt fölsegíti.<br>\nA fejedelmek sorába ülteti, * a dicsőség trónusára.<br>\nH: Szívem ujjong az Úrban, * megváltó Istenemben."
-                },
-                {
-                    "short_title": "alleluja",
-                    "ref": null,
-                    "teaser": "A Boldogságos Szűz Mária szívébe véste Isten Igéjét * és elgondolkodott rajta. Vö. Lk 2,19 – 8 G. tónus. ",
-                    "text": "A Boldogságos Szűz Mária szívébe véste Isten Igéjét * és elgondolkodott rajta. Vö. Lk 2,19 – 8 G. tónus. "
-                },
+				{
+					"short_title" : "info",
+					"title" : "RUBRIKA",
+					"teaser" : "Szentek olvasmányai (2001) 186. o.",
+					"text" : "Saját evangéliuma van a többi Boldogságos Szűz Mária közös olvasmányaiból, Szentek olvasmányai, 569. o."
+				},
+                
                 {
                     "short_title": "evangélium",
                     "ref": "Lk 2,41-51a",
@@ -3396,8 +3390,7 @@
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
-        }
-    ],
+	},
     "06-09": {
         "igenaptarId": "06-09",
         "name": "Szent Efrém diakónus és egyháztanító",
