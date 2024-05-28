@@ -116,10 +116,11 @@ def transformCelebration(celebration: dict):
         celebration['LiturgicalCelebrationType']['#text'] = "köznap"
             
     if transformedCelebration['name']:
-        transformedCelebration['title'] = transformedCelebration['name'] + " - " + celebration['LiturgicalCelebrationType']['#text']
+        transformedCelebration['title'] = transformedCelebration['name'] # + " - " + celebration['LiturgicalCelebrationType']['#text']
     else:
         transformedCelebration['title'] = celebration['LiturgicalCelebrationType']['#text']
 
+    transformedCelebration['celebrationType'] = celebration['LiturgicalCelebrationType']['#text']
 
     # LiturgicalCelebrationColor can be without text if it's in special season
     transformedCelebration['colorId'] = celebration['LiturgicalCelebrationColor']['@Id']
@@ -263,44 +264,58 @@ def findReadings(celebration: dict):
     if re.search("székesegyház felszentelése", celebration['name']):        
         possibilities.append(katolikusData['SzekesegyhazFelszentelése'])
     
+    ratio = 0.65
+    tryout = False
     
     for possibility in possibilities:
         
-        if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.65:
-            readingHasFound = True
-            break
-
-        pairs = [
-            ["^A Szent Család", "^Szent Család"],
-            [ "^adventi idő", "^Adventi köznapok - december", ],
-            [ "^adventi idő ([0-9]{1})\. hét, vasárnap$", "^Advent ([0-9]{1})\. vasárnapja" ],
-            [ "^nagyböjti idő ([0-9]{1})\. hét, vasárnap$", "^Nagyböjt ([0-9]{1})\. vasárnapja" ],
-            [ "Rózsafüzér Királynője", "Rózsafüzér Királynője" ],
-            [ "Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony" ],
-            [ "Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
-            [ "karácsony nyolcada 1. hét","Karácsonyi idő - december"],
-            [ "karácsonyi idő 1. hét", "Karácsonyi idő - január"],
-            [ "^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", "^(Évközi ([0-9]{1,2})\. vasárnap)"],
-            ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
-            ["Virágvasárnap", "Virágvasárnap"],
-            ["Krisztus feltámadása$", "Húsvétvasárnap"],
-            ["nagyböjti idő 0\. hét", "hamvazószerda után"]
-        ]
-
-        for first, second in pairs:
-            if re.search(first, celebration['name']) and re.search(second, possibility['name']):
-                readingHasFound = True
-                break
-
+        currentRatio = Levenshtein.ratio(str(celebration['name']), possibility['name'])
         
-        
+        if currentRatio > ratio:
+            ratio = currentRatio
+            tryout = possibility
+                
+            
         tmp = ""
         for row in possibilities:
             if celebration['name']:
                 tmp1 = celebration['name']
             else:
                 tmp1 = "névtelen"
-            tmp += row['name'] + " ("+ str( round(Levenshtein.ratio(str(celebration['name']), row['name']),2)) +") , "
+            tmp += row['name'] + " ("+ str( round(Levenshtein.ratio(str(celebration['name']), row['name']),2)) +") , "    
+
+    if tryout:             
+        readingHasFound = tryout
+
+
+    if not readingHasFound: 
+        for possibility in possibilities:
+        
+            pairs = [
+                ["^A Szent Család", "^Szent Család"],
+                [ "^adventi idő", "^Adventi köznapok - december", ],
+                [ "^adventi idő ([0-9]{1})\. hét, vasárnap$", "^Advent ([0-9]{1})\. vasárnapja" ],
+                [ "^nagyböjti idő ([0-9]{1})\. hét, vasárnap$", "^Nagyböjt ([0-9]{1})\. vasárnapja" ],
+                [ "Rózsafüzér Királynője", "Rózsafüzér Királynője" ],
+                [ "Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony" ],
+                [ "Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
+                [ "karácsony nyolcada 1. hét","Karácsonyi idő - december"],
+                [ "karácsonyi idő 1. hét", "Karácsonyi idő - január"],
+                [ "^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", "^(Évközi ([0-9]{1,2})\. vasárnap)"],
+                ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
+                ["Virágvasárnap", "Virágvasárnap"],
+                ["Krisztus feltámadása$", "Húsvétvasárnap"],
+                ["nagyböjti idő 0\. hét", "hamvazószerda után"]
+            ]
+
+            for first, second in pairs:
+                if re.search(first, celebration['name']) and re.search(second, possibility['name']):
+                    readingHasFound = possibility
+                    break
+
+        
+        
+       
                        
     if not readingHasFound:    
         error("Nincs eléggé jól passzoló olvasmány. Amit keresünk (breviar): '" + tmp1 + "'. Amik vannak (igenaptar): " + tmp)
@@ -308,10 +323,14 @@ def findReadings(celebration: dict):
         return False
     #  szóval megvan az aranybogárka
     else: 
+        possibility = readingHasFound
+        #print(readingHasFound['name'])
+        
         if 'name' in possibility and possibility['name'] != "":
-            #print(possibility['name'] + " <-- " + celebration['name'])
+            #print(possibility['name'] + " <-- " + celebration['name'])            
             celebration['name'] = possibility['name']
-    
+            celebration['title'] +=  " - " + celebration['celebrationType']
+            
         celebration['parts'] = possibility['parts']
         
         if 'excerpt' in possibility:
