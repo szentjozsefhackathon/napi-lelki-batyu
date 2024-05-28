@@ -12,7 +12,7 @@ def downloadBreviarData():
     print("Downloading data from breviar.kbs.sk", end='')
     sys.stdout.flush()
     # get breviarData from url
-    url = "https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=5&r=2024&j=hu"
+    url = "https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r=2024&j=hu"
     response = requests.get(url)
     breviarData = xmltodict.parse(response.content)
 
@@ -62,15 +62,19 @@ def loadKatolikusData():
             data = tmp
                                    
         for key in data:
-           
             if key in katolikusData:
-                if isinstance(katolikusData[key],dict):
+                if isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
                     katolikusData[key] = [ katolikusData[key] , data[key] ]
-                else:
-                    katolikusData[key].append(data[key])
+                elif isinstance(katolikusData[key],dict) and not isinstance(data[key],dict):
+                    katolikusData[key] = data[key].append(katolikusData[key])
+                elif not isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
+                    katolikusData[key] = katolikusData[key].append(data[keey])
+                elif not isinstance(katolikusData[key],dict) and not isinstance(data[key],dict):
+                    katolikusData[key] = katolikusData[key] | data[key]                                    
             else:
                 katolikusData[key] = data[key]
-
+                
+    
     # commentaries
     name = 'commentaries'
     with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
@@ -233,9 +237,15 @@ def findReadings(celebration: dict):
     readingHasFound = False
         
     if not celebration['readingsId'] in katolikusData:
-        if not ( celebration['yearLetter'] + celebration['readingsId'] ) in katolikusData:            
-            error("Ez az olvasmánykód (" + celebration['readingsId'] + ") hiányzik a kulcsok között. Pedig csak van ilyen ünnep/emléknap '" + celebration['name'] + "' nem?")
-            return
+       
+        if not ( celebration['yearLetter'] + celebration['readingsId'] ) in katolikusData:
+
+            if re.search("székesegyház felszentelése", celebration['name']):                
+                celebration['readingsId'] = "SzekesegyhazFelszentelése"
+
+            else:
+                error("Ez az olvasmánykód (" + celebration['readingsId'] + ") hiányzik a kulcsok között. Pedig csak van ilyen ünnep/emléknap '" + celebration['name'] + "' nem?")
+                return
         else:
             celebration['readingsId'] = celebration['yearLetter'] + celebration['readingsId']
         
@@ -248,30 +258,36 @@ def findReadings(celebration: dict):
     if celebration['dayofWeek'] == 6 and int(celebration['level']) > 9:        
         possibilities.append(katolikusData['SzuzMariaSzombatja'])
     
+    #Székesegyházak felszentelése
+    if re.search("székesegyház felszentelése", celebration['name']):        
+        possibilities.append(katolikusData['SzekesegyhazFelszentelése'])
+    
     
     for possibility in possibilities:
         
-        if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.7:
+        if Levenshtein.ratio(str(celebration['name']), possibility['name']) > 0.65:
             readingHasFound = True
             break
 
-        # Legyen itt pár félig kézzel javított cucc
-        elif possibility['name'].startswith("Adventi köznapok - december") and celebration['name'].startswith("adventi idő "):
-            readingHasFound = True
-            break
+        pairs = [
+            ["^A Szent Család", "^Szent Család"],
+            [ "^adventi idő", "^Adventi köznapok - december", ],
+            [ "^adventi idő ([0-9]{1})\. hét, vasárnap$", "^Advent ([0-9]{1})\. vasárnapja" ],
+            [ "Rózsafüzér Királynője", "Rózsafüzér Királynője" ],
+            [ "Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony" ],
+            [ "Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
+            [ "karácsony nyolcada 1. hét","Karácsonyi idő - december"],
+            [ "^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", "^(Évközi ([0-9]{1,2})\. vasárnap)"],
+            ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
+            ["Virágvasárnap", "Virágvasárnap"],
+            ["nagyböjti idő 0\. hét", "hamvazószerda után"]
+        ]
 
-        elif possibility['name'].startswith("Karácsonyi idő - december") and celebration['name'].startswith("karácsony nyolcada 1. hét"):
-            readingHasFound = True
-            break
+        for first, second in pairs:
+            if re.search(first, celebration['name']) and re.search(second, possibility['name']):
+                readingHasFound = True
+                break
 
-        elif possibility['name'].startswith("Évközi 34. vasárnap – Krisztus, a Mindenség Királya") and celebration['name'].startswith("Krisztus Király"):
-            readingHasFound = True
-            break
-
-        #Ha valami évközi vasárnapnek extra neve is van
-        elif re.search("^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", celebration['name']) and re.search("^(Évközi ([0-9]{1,2})\. vasárnap)", possibility['name']):
-            readingHasFound = True
-            break
         
         
         tmp = ""
@@ -383,7 +399,7 @@ def yearIorII(ABC, year):
     exit()
 
 
-#downloadBreviarData()
+downloadBreviarData()
 breviarData = loadBreviarData()
 katolikusData = loadKatolikusData()
 
