@@ -352,8 +352,8 @@ def findReadings(celebration: dict):
         
         if 'name' in possibility and possibility['name'] != "":
             #print(possibility['name'] + " <-- " + celebration['name'])            
-            celebration['name'] = possibility['name']
-            celebration['title'] +=  " - " + celebration['celebrationType']
+            #celebration['name'] = possibility['name']
+            celebration['title'] =  celebration['name'] + " (" + celebration['celebrationType'] + ")"
             
         celebration['parts'] = possibility['parts']
         
