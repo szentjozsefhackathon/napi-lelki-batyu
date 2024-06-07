@@ -2479,5 +2479,39 @@
                 "ending": null
             }
         ]
+    },
+    "HUS105Pentek": {
+        "igenaptarId": "06-07",
+        "name": "Jézus Szentséges Szíve FÜ",
+        "parts": [
+            {
+                "short_title": "olvasmány",
+                "ref": "MTörv 7,6-11",
+                "teaser": "Szeretett és kiválasztott benneteket az Úr.",
+                "title": "OLVASMÁNY Mózes ötödik könyvéből",
+                "text": "A negyvenéves pusztai vándorlás után Mózes így beszélt a néphez: „Te az Úr, a te Istened szent népe vagy, téged választott ki az Úr, a te Istened a föld népei közül a maga népének.<br> Nem azért hajolt le hozzátok és választott ki benneteket az Úr, mert számban fölötte álltok az összes népnek, hiszen a legkisebbek vagytok minden nép között, hanem mert szeretett benneteket az Úr, és megtartja esküjét, amelyet atyáitoknak tett, azért vezetett ki erős kézzel és szabadított ki a szolgaság házából, a fáraónak, Egyiptom királyának kezéből. Ismerd föl hát, hogy az Úr, a te Istened az igaz Isten, a hűséges Isten, aki szövetségét és szeretetét az ezredik nemzedékig megőrzi azok iránt, akik szeretik és megőrzik parancsait. Azt ellenben, aki gyűlöli őt, megbünteti; nem késlekedik, elpusztítja azt, aki gyűlöli őt.<br> Ezért tartsd meg a parancsokat, rendelkezéseket és törvényeket, amelyet ma szabok neked, hogy kövesd őket.”",
+                "ending": "Ez az Isten igéje."
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 102,1-2.3-4.6-7.8 és 10",
+                "teaser": "Válasz: <b>Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők.</b> 11. tónus.",
+                "text": "Válasz: <b>Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők.</b> 11. tónus.<br>Előénekes: Áldjad, lelkem, az Urat! * Egész bensőm az ő szent nevét áldja. <br>Áldjad, lelkem, az Urat, * és ne feledd, hogy hozzád milyen jó volt.<br>Hívek: Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők.<br>E: Megbocsátja minden vétked, * meggyógyítja minden gyengeséged.<br>A pusztulástól megmenti életed, * kegyelmében és irgalmában meg is koronázza.<br>H: Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők.<br>E: Az Úrigazságot szolgáltat, * és megvédi jogát minden elnyomottnak.<br>Megismertette útjait Mózessel, * és terveit Izrael fiaival.<br>H: Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők.<br>E: Irgalmas és kegyes a mi Istenünk: * nagy irgalmú és hosszan tűrő.<br>Nem bűneink szerint bánik velünk, * és nem gonoszságunk szerint fizet vissza nekünk.<br>H: Örökkévaló az Úr irgalma * mindazokhoz, akik istenfélők."
+            },
+            {
+                "short_title": "alleluja",
+                "ref": null,
+                "teaser": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! Mt 11,29ab – 2. tónus.",
+                "text": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! Mt 11,29ab – 2. tónus."
+            },
+            {
+                "short_title": "evangélium",
+                "ref": "Mt 11,25-30",
+                "teaser": "Tanuljatok tőlem, mert én szelíd vagyok, és alázatos szívű - mondja az Úr. ",
+                "title": "† EVANGÉLIUM Szent Máté könyvéből",
+                "text": "Abban az időben Jézus megszólalt, és ezt mondta:<br> Magasztallak téged, Atyám, ég és föld Ura, mert elrejtetted mindezt a bölcsek és okosak elől, és kinyilatkoztattad a kicsinyeknek! Igen, Atyám, így tetszett ez neked! Az én Atyám mindent átadott nekem, és nem ismeri a Fiút senki más, csak az Atya, s az Atyát sem ismeri más, csak a Fiú, és akinek a Fiú ki akarja nyilatkoztatni.<br> Jöjjetek hozzám mindnyájan, akik fáradtak vagytok, és terhek alatt görnyedtek: én felüdítlek titeket! Vegyétek magatokra igámat, és tanuljatok tőlem, mert én szelíd vagyok és alázatos szívű – és nyugalmat talál lelketek. Mert az én igám édes, és az én terhem könnyű.",
+                "ending": "Ezek az evangélium igéi."
+            }
+        ]
     }
 }

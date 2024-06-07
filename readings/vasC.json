@@ -2610,5 +2610,39 @@
                 "ending": null
             }
         ]
-    }
+    },
+    "HUS105Pentek": {
+            "igenaptarId": "06-07",
+            "name": "Jézus Szentséges Szíve FÜ",
+            "parts": [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Ez 34,11-16",
+                    "teaser": "Az Úr gondot visel híveire: mint igazi jó pásztornak szívügye a nyáj és minden bárány.",
+                    "title": "OLVASMÁNY Ezekiel próféta könyvéből",
+                    "text": " Ezt mondja az Úr, az Isten:<br>„Íme, én magam keresem meg juhaimat, és magam gondoskodom róluk.<br> Amint a pásztor számba veszi nyáját azon a napon, amikor megáll szétszéledt juhai között, íme, én is gondjaimba veszem juhaimat, amelyek szétszóródtak. Visszahozom őket mindenünnen, ahová a sötét fellegek napján szétszóródtak. Kivezetem őket a népek közül, összegyűjtöm őket az országokból, és visszaviszem őket saját hazájukba. Izrael hegyein legeltetem őket, a völgyekben és az ország lakott tájain. Jó legelőre terelem majd őket, és Izrael magaslatain lesz a legelőjük. Jó legelőn pihennek majd, kövér legelőn, Izrael hegyein.<br>Magam terelgetem majd juhaimat, és magam telepítem le pihenőre őket – mondja az Úr, az Isten. Megkeresem az elveszettet, visszaterelem az elszéledtet, bekötözöm a sérültet, ápolom a beteget, és gondozom a kövéret és egészségeset. Az igazság szerint legeltetem őket.”",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "zsoltár",
+                    "ref": "Zsolt 22,1-3a.3b-4.5.6",
+                    "teaser": "Válasz:<b> Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (1. vers. - 9. tónus)",
+                    "text": "Válasz:<b> Az Úr <u>né</u>kem pásztorom, * ínsé<u>get</u> nem kell látnom.</b> (1. vers. - 9. tónus)<br>Előénekes: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>Zöldellő mezőkön, terelget engem, * csendes vizekhez vezet, és lelkemet felüdíti.<br>Hívek: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Az igazság ösvényén vezet engem, * ahogyan ő megígérte.<br>A halál sötét völgyében sem félek, mert ott vagy vélem, * biztonságot ad vessződ és pásztorbotod.<br>H: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Számomra asztalt terítettél, * hogy üldözőimet szégyen érje.<br>Fejemet megkented olajoddal, * serlegemet csordultig megtöltötted.<br>H: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Jóságod és irgalmad nyomon követ, * életemnek minden napján.<br>Otthonom lesz az Isten háza, * mindörökké szünet nélkül.<br>H: Az Úr nékem pásztorom, * ínséget nem kell látnom."
+                },
+                {
+                    "short_title": "alleluja",
+                    "ref": null,
+                    "teaser": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! Mt 11,29ab – 2. tónus.",
+                    "text": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! Mt 11,29ab – 2. tónus."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Lk 15,3-7",
+                    "teaser": "Az elveszett után megy, amíg meg nem találja. ",
+                    "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+                    "text": "Abban az időben Jézus ezt a példabeszédet mondta: „Ha közületek valakinek száz juha van, és egy elvész belőlük, nem hagyja-e ott a  kilencvenkilencet a pusztában, és nem megy-e az elveszett juh után, amíg meg nem találja?<br>Ha megtalálta, örömében vállára veszi, hazasiet vele, összehívja barátait és szomszédait, és azt mondja nekik: »Örüljetek velem, mert megtaláltam elveszett juhomat!«”<br>Mondom nektek, éppen így nagyobb öröm lesz a mennyben egy megtérő bűnösön, mint kilencvenkilenc igazon, akinek nincs szüksége megtérésre.",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
+        }
 }

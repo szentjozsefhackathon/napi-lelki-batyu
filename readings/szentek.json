@@ -2653,7 +2653,7 @@
                 }
             ]
         }
-        
+
     ],
 	"PUNK01" : {
             "igenaptarId": "05-20a",
@@ -2689,8 +2689,8 @@
                 }
             ]
         },
-	
-	
+
+
     "05-21": {
         "igenaptarId": "05-21",
         "name": "Magallán Szent Kristóf áldozópap és társai, mexikói vértanúk",
@@ -2838,7 +2838,7 @@
                 }
             ]
         },
-    
+
     "05-24": {
         "igenaptarId": "05-24",
         "name": "Szűz Mária,  keresztények segítsége",
@@ -3290,49 +3290,7 @@
                 "ending": "Ezek az evangélium igéi."
             }
         ]
-    },
-    "06-07": {
-        "igenaptarId": "06-07",
-        "name": "Jézus Szentséges Szíve FÜ – 2024 B év",
-        "parts": [
-            {
-                "short_title": null,
-                "ref": "Oz 11,1.3-4.8c-9",
-                "teaser": null,
-                "title": "<i>\"B\" évben</i>",
-                "text": "OLVASMÁNY Ozeás próféta könyvéből\n<br>\n<i>Isten megbocsátó irgalma népe iránt való első -- és egyben örök\nszeretetéből fakad. </i><br>\nEzt mondja az Úr: „Gyermek volt még Izrael, amikor megszerettem; Egyiptomból hívtam meg fiamat. Én tanítottam meg járni Efraimot, karomon hordoztam, mégsem ismerték el, hogy gondjukat viseltem. Puha  kötelékekkel vonzottam őket, a szeretet kötelékeivel. Olyan voltam hozzájuk, mint aki arcához emeli a csecsemőt; lehajoltam hozzá, enni adtam neki.<br>\nSzívem elváltozott, egész bensőm remeg. Nem hagyom, hogy fellobbanjon haragom: Efraimot nem pusztítom el többé, mert Isten vagyok, nem ember; a közöttetek élő Szent, aki nem a harag tüzével jön.",
-                "ending": "Ez az Isten igéje."
-            },
-            {
-                "short_title": "zsoltár",
-                "ref": "Iz 12,2-3.4bcd.5-6",
-                "teaser": "Válasz: <b>Örömmel merítsetek vizet * az üdvösség forrásaiból.</b> Vö. 3. vers.",
-                "text": "Válasz: <b>Örömmel merítsetek vizet * az üdvösség forrásaiból.</b> Vö. 3. vers.<br>\n\nElőénekes: Íme, Isten az én üdvösségem, * bízom benne és nem félek.<br>\nMert az Úr az én erősségem és dicsőségem, * ő lett nékem szabadulásom.<br>\nHívek: Örömmel merítsetek vizet * az üdvösség forrásaiból.<br>\n\nE: Adjatok hálát az Úrnak, * magasztaljátok az ő nevét.<br>\nA népek közt hirdessétek tetteit, * emlékezzetek meg arról, hogy Fölséges az ő neve.<br>\nH: Örömmel merítsetek vizet * az üdvösség forrásaiból.<br>\n\nE: Zengjetek dalt az Úrnak, mert csodás dolgokat művelt: * tudja meg az egész világ!<br>\nUjjongjatok és dicséretet mondjatok Sion lakói, * mert nagy a ti körötökben Izrael szentje.<br>\nH: Örömmel merítsetek vizet * az üdvösség forrásaiból."
-            },
-            {
-                "short_title": "szentlecke",
-                "ref": "Ef 3,8-12.14-19",
-                "teaser": "Megismeritek Krisztusnak minden értelmet meghaladó szeretetét. ",
-                "title": "SZENTLECKE Szent Pál apostolnak az efezusiakhoz írt leveléből",
-                "text": "Testvéreim!<br> \nNekem, az összes szent közül a legkisebbnek jutott osztályrészül a kegyelem, hogy Krisztus felfoghatatlan gazdagságát hirdessem a pogányoknak, és megvilágosítsak minden embert, hogyan valósult meg ez a titok, amely kezdettől fogva el volt rejtve a mindent teremtő Istenben, hogy most az Egyház által az Isten szerfölött sokrétű bölcsessége nyilvánvalóvá legyen a mennyei fejedelemségek és hatalmasságok előtt. Ez volt az ő örök szándéka, amelyet Krisztus Jézusban, a mi Urunkban megvalósított; a benne való hit által van reményünk és biztonságos utunk Istenhez. Ezért meghajtom térdemet az Atya előtt: tőle származik minden közösség az égben és a földön. Adja meg nektek dicsőségének gazdagsága szerint, hogy Lelke által megerősödjetek benső emberré, hogy a hittel Krisztus lakjék szívetekben, gyökeret verjetek és alapot vessetek a szeretetben. Akkor majd fel tudjátok fogni az összes szenttel együtt, mi a szélesség és a hosszúság, a magasság és a mélység; megismeritek Krisztusnak minden értelmet meghaladó szeretetét, és beteltek az Isten egész teljességével.",
-                "ending": "Ez az Isten igéje."
-            },
-            {
-                "short_title": "alleluja",
-                "ref": null,
-                "teaser": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! (Mt 11,29ab – 2. tónus.)",
-                "text": "Vegyétek magatokra igámat és tanuljatok tőlem, * mert szelíd vagyok és alázatos szívű! (Mt 11,29ab – 2. tónus.)"
-            },
-            {
-                "short_title": "evangélium",
-                "ref": "Jn 19,31-37",
-                "teaser": "A katona lándzsája megnyitotta Jézus oldalát, s vér és víz folyt kiabból.",
-                "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "Abban az időben: A zsidók, mivel az előkészület napja volt, és a holttestek nem maradhattak a kereszten, megkérték Pilátust, hogy töresse el a keresztrefeszítettek lábszárát, és vetesse le őket a keresztről. Az a szombat ugyanis nagy ünnep volt. Elmentek tehát a katonák, és eltörték a lábszárát az egyiknek is, a másiknak is, akit vele együtt fölfeszítettek. Amikor azonban Jézushoz értek, látták, hogy már meghalt. Ezért nem törték el a lábszárát, hanem az egyik katona beledöfte lándzsáját az oldalába. És ekkor vér és víz folyt ki belőle. Az tanúskodik erről, aki látta ezt, és az ő tanúságtétele igaz. Jól tudja ő, hogy igazat mond, hogy ti is higgyetek. Mert mindez azért történt, hogy beteljesedjék az Írás: „Csontot ne törjetek benne!” És ami az Írás más helyén áll: „Föltekintenek arra, akit keresztülszúrtak.”",
-                "ending": "Ezek az evangélium igéi."
-            }
-        ]
-    },
+    },  
     "06-08": [
         {
             "igenaptarId": "06-08b",
@@ -3369,7 +3327,7 @@
             ]
         }
 	],
-	
+
     "HUS106Szombat":    {
             "igenaptarId": "06-08",
             "name": "A Boldogságos Szűz Mária Szeplőtelen\nSzíve",
@@ -3380,7 +3338,7 @@
 					"teaser" : "Szentek olvasmányai (2001) 186. o.",
 					"text" : "Saját evangéliuma van a többi Boldogságos Szűz Mária közös olvasmányaiból, Szentek olvasmányai, 569. o."
 				},
-                
+
                 {
                     "short_title": "evangélium",
                     "ref": "Lk 2,41-51a",
