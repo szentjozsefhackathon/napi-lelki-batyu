@@ -7,6 +7,7 @@ import Levenshtein
 import sys
 import os
 import time
+from datetime import datetime
 
 
 def downloadBreviarData():
@@ -24,7 +25,7 @@ def downloadBreviarData():
         sys.stdout.flush()
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
-            simplejson.dumps(breviarData, indent=4, sort_keys=True)            
+            simplejson.dumps(breviarData, indent=4, sort_keys=True)
         )
     print(" OK")
 
@@ -46,9 +47,9 @@ def loadKatolikusData():
         sys.stdout.flush()
         data = {}
         with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
-            data = simplejson.load(file)            
-            
-        
+            data = simplejson.load(file)
+
+
         if name == "vasA" or name == "vasB" or name == "vasC":
             tmp = {}
             for keyId, key in enumerate(data):
@@ -60,9 +61,9 @@ def loadKatolikusData():
                     tmp["B" + key] = data[key]
                 if name == "vasC":
                     data[key]['igenaptarId'] = "C" + key
-                    tmp["C" + key] = data[key]                                    
+                    tmp["C" + key] = data[key]
             data = tmp
-                                   
+
         for key in data:
             if key in katolikusData:
                 if isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
@@ -72,23 +73,25 @@ def loadKatolikusData():
                 elif not isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
                     katolikusData[key] = katolikusData[key].append(data[key])
                 elif not isinstance(katolikusData[key],dict) and not isinstance(data[key],dict):
-                    katolikusData[key] = katolikusData[key] | data[key]                                    
+                    katolikusData[key] = katolikusData[key] | data[key]
             else:
                 katolikusData[key] = data[key]
-                
-    
+
+
     # commentaries
     name = 'commentaries'
     with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
-            data = simplejson.load(file) 
+            data = simplejson.load(file)
     katolikusData['commentaries'] = data
-    
+
     print(" OK")
     return katolikusData
 
 def transformCelebration(celebration: dict):
-    
+
+
     transformedCelebration = {
+        'dateISO' : calendarDay['DateISO'],
         'yearLetter': celebration['LiturgicalYearLetter'],
         'yearParity': yearIorII(celebration['LiturgicalYearLetter'], calendarDay['DateYear']),
         'week': celebration['LiturgicalWeek'],
@@ -494,6 +497,35 @@ def addCustomCelebrationstoBreviarData(data):
 
     return
 
+# Bűnbánati napok
+def day_of_penance(celebration):
+    day_of_penance = 0
+
+    # minden péntek
+    date_obj = datetime.strptime(celebration['dateISO'], '%Y-%m-%d')
+    if date_obj.weekday() == 4:
+        # kivételek a kötelező ünnepek ÉS az alábbiak:
+        exceptions = ["02-02", "03-25", "05-01", "08-20", "09-08", "12-24", "12-31", "10-23"]
+        month_day = date_obj.strftime('%m-%d')
+        if month_day in exceptions or int(celebration['level']) < 10:
+            day_of_penance = 0
+        else:
+            day_of_penance = 1
+
+        # nagyböjt péntekjei
+        if celebration['season'] == "6":
+            day_of_penance = 2
+
+    print(celebration)
+    #nagypéntek és hamvazószerda
+    if celebration['readingsId'] == "NAB065Pentek" or celebration['readingsId'] == "NAB003Szerda":
+        day_of_penance = 3
+
+    return day_of_penance
+
+
+
+
 def is_file_old_or_missing(file_path):
     if not os.path.exists(file_path):
         return True
@@ -559,6 +591,10 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
     #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
    # for celebration in lelkiBatyu['celebration']:
         findCommentaries(celebration)
+
+
+        # egyéb dolgok
+        celebration['dayOfPenance'] = day_of_penance(celebration)
 
         print("  OK                                  ", end="\r",flush=True)
 

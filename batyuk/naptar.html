@@ -105,8 +105,17 @@
             day = getHungarianDayAbbreviation(date)
             if(day == "Va" ) day = "<span class=\"red\">†</span> " + day;
 
+            //Bűnbűnati napok
+            if ( data.celebration[0].dayOfPenance == 3 ) {
+              day =  "<span class=\"black\">†††</span> " + day
+            }
+            else if ( data.celebration[0].dayOfPenance == 2 ) {
+                day =  "<span class=\"black\">††</span> " + day
+            }
+            else if ( data.celebration[0].dayOfPenance == 1 ) {
+                day = "<span class=\"black\">†</span> " + day
+            }
 
-            console.log(data.celebration[0].season)
             $("#row_" + date ).append("<td class=\"bg-grey\">" + day + "</td>")
 
 
