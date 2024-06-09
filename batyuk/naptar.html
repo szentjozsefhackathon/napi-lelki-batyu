@@ -99,6 +99,8 @@
 
 
   $(document).ready(function () {
+
+
     $.getJSON("2024.json", function (data) {
         lastWeekOfPsalter = false
         $.each(data, function (date, data) {
@@ -122,7 +124,7 @@
 
 
             // Dátum: Máj 20.
-              $("#row_" + date ).append("<td class=\"bg-grey\">" + formatHungarianDate(date) + "</td>")
+              $("#row_" + date ).append("<td class=\"bg-grey\" id=\"" + date + "\"><strong><a href=\"index.html?date=" + date + "\">" + formatHungarianDate(date) + "</a></strong></td>")
 
             // Nap: + Vas.
               day = getHungarianDayAbbreviation(date)
@@ -146,13 +148,19 @@
               for (const [key, value] of Object.entries(data.celebration)) {
                 unnep += "(" + value.colorText + ") "
                 if (key > 0) unnep += "<span class=\"red\">VAGY</span> "
+
                 if ( value.level < 9 ) {
                   if (value.level < 7) {
                     value.name = value.name.toUpperCase()
                   }
-                  unnep +=  "<span class=\"red\">" + value.name + "</span>"
+                  unnep +=  "<span class=\"red\"><strong>" + value.name + "</strong></span>"
                 } else {
-                  unnep +=  value.name
+                  if (value.level == 12) {
+                    unnep += "<i>" + value.name + "</i>"
+                  } else {
+                    unnep +=  "<strong>" + value.name + "</strong>"
+                  }
+
                 }
 
                 unnep += "<br>"

@@ -14,14 +14,14 @@
 
   </head>
   <body>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <main>
-        
 
-        
-      
+
+
+
         <div class="px-4 py-5 my-5   border-bottom">
-            <h1 class="display-1 json_date">[dátum]</h1>   
+            <h1 class="display-1 json_date">[dátum]</h1>
             <div class="json_1" id="json_1">
                 <h1><span class="_name">N/A</span> <span class="badge bg-secondary _colorText">N/A</span>
 
@@ -33,34 +33,51 @@
 
                 <p class="lead _eletrajz">N/A</p>
 
-                
+
                 <div class="parts accordion text-justify" id="accordionExample">
 
-                </div>  
+                </div>
 
 
 
-            </div>         
+            </div>
         </div>
-      
-       
-      
+
+
+
         <div class="b-example-divider mb-0"></div>
       </main>
 
 
-	
 
-    <script> 
-        $(document).ready(function () { 
 
-            // FETCHING DATA FROM JSON FILE 
-            $.getJSON(randomDate(new Date(2024, 0, 1), new Date(2024, 12, 31)) + ".json", 
-                    function (data) { 
-                            
+    <script>
+        $(document).ready(function () {
+
+          //
+          // You can get url_string from window.location.href if you want to work with
+          // the URL of the current page
+          var url_string = window.location.href;
+          var url = new URL(url_string);
+          var dateString = url.searchParams.get("date");
+
+           if ( dateString == "ma" ||  dateString == "today" ) {
+            dateString = getTodayString()
+          } else  if ( dateString == "holnap" ||  dateString == "tomorrow" ) {
+            dateString = getTomorrowString()
+          } else if ( dateString == undefined ) {
+            dateString = randomDate(new Date(2024, 0, 1), new Date(2024, 12, 31))
+          }
+
+
+
+            // FETCHING DATA FROM JSON FILE
+            $.getJSON(dateString + ".json",
+                    function (data) {
+
                             $('.json_date').html(data.date.ISO + ", " + data.date.dayofWeekText);
-                            
-                            $.each(data.celebration, function (key, value) { 
+
+                            $.each(data.celebration, function (key, value) {
 
                                 if(key > 0) {
 
@@ -71,15 +88,15 @@
                                     $div.after( $klon );
 
                                 }
-                            });  
+                            });
 
-                            $.each(data.celebration, function (key, value) { 
+                            $.each(data.celebration, function (key, value) {
                                 $('#json_' + ( key + 1 ) + ' ._colorText').html(data.celebration[key].colorText);
                                 $('#json_' + ( key + 1 ) + ' ._name').html(data.celebration[key].name);
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
 
-                                $.each(value.parts, function (partkey, part) { 
-                                    
+                                $.each(value.parts, function (partkey, part) {
+
                                     var accordionItem =   `<div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse` + partkey + `" aria-expanded="true" aria-controls="collapse` + partkey + `">
@@ -109,8 +126,32 @@ var valami = `                                ["name", "elsoolvhely","zsoltarhel
                             })
 
 
-            }); 
-        }); 
+            });
+        });
+
+
+        function getTodayString() {
+            const today = new Date();
+
+            const year = today.getFullYear();
+            const month = String(today.getMonth() + 1).padStart(2, '0'); // getMonth() returns 0-11, so we add 1
+            const day = String(today.getDate()).padStart(2, '0');
+
+            return `${year}-${month}-${day}`;
+        }
+
+        function getTomorrowString() {
+            const today = new Date();
+
+            // Set the date to tomorrow
+            today.setDate(today.getDate() + 1);
+
+            const year = today.getFullYear();
+            const month = String(today.getMonth() + 1).padStart(2, '0'); // getMonth() returns 0-11, so we add 1
+            const day = String(today.getDate()).padStart(2, '0');
+
+            return `${year}-${month}-${day}`;
+        }
 
         function randomDate(start, end) {
             var d = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime())),
@@ -122,12 +163,8 @@ var valami = `                                ["name", "elsoolvhely","zsoltarhel
             if (day.length < 2) day = '0' + day;
 
             return [year, month, day].join('-');
-        }   
-    </script> 
-	
+        }
+    </script>
+
 </body>
 </html>
-
-	
-	
-
