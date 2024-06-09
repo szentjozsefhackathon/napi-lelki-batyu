@@ -93,30 +93,49 @@
 
 
 
+
   $(document).ready(function () {
     $.getJSON("2024.json", function (data) {
+        lastWeekOfPsalter = false
         $.each(data, function (date, data) {
 
-          // Dátum: Máj 20.
-            $("#calendar").append("<tr id=\"row_" + date + "\"></tr>")
-          // Map + Vas
 
-            $("#row_" + date ).append("<td class=\"bg-grey\">" + formatHungarianDate(date) + "</td>")
-            day = getHungarianDayAbbreviation(date)
-            if(day == "Va" ) day = "<span class=\"red\">†</span> " + day;
+          $("#calendar").append("<tr id=\"row_" + date + "\"></tr>")
 
-            //Bűnbűnati napok
-            if ( data.celebration[0].dayOfPenance == 3 ) {
-              day =  "<span class=\"black\">†††</span> " + day
-            }
-            else if ( data.celebration[0].dayOfPenance == 2 ) {
-                day =  "<span class=\"black\">††</span> " + day
-            }
-            else if ( data.celebration[0].dayOfPenance == 1 ) {
-                day = "<span class=\"black\">†</span> " + day
-            }
 
-            $("#row_" + date ).append("<td class=\"bg-grey\">" + day + "</td>")
+            // Zsoltárhét
+            weekOfPsalter = data.celebration[0].weekOfPsalter
+            if ( weekOfPsalter != lastWeekOfPsalter ) {
+              const weekNames = [
+                  '', "I.", "II.", "III.", "IV."
+              ];
+              weekOfPsalterText = weekNames[weekOfPsalter]
+            } else {
+              weekOfPsalterText = ""
+            }
+            $("#row_" + date ).append("<td>" + weekOfPsalterText + "</td>")
+            lastWeekOfPsalter = weekOfPsalter
+
+
+            // Dátum: Máj 20.
+              $("#row_" + date ).append("<td class=\"bg-grey\">" + formatHungarianDate(date) + "</td>")
+
+            // Nap: + Vas.
+              day = getHungarianDayAbbreviation(date)
+              if(day == "Va" ) day = "<span class=\"red\">†</span> " + day;
+
+              //Bűnbűnati napok
+              if ( data.celebration[0].dayOfPenance == 3 ) {
+                day =  "<span class=\"black\">†††</span> " + day
+              }
+              else if ( data.celebration[0].dayOfPenance == 2 ) {
+                  day =  "<span class=\"black\">††</span> " + day
+              }
+              else if ( data.celebration[0].dayOfPenance == 1 ) {
+                  day = "<span class=\"black\">†</span> " + day
+              }
+
+              $("#row_" + date ).append("<td class=\"bg-grey\">" + day + "</td>")
 
 
 
