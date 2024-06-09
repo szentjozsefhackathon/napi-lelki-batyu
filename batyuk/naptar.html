@@ -23,7 +23,11 @@
 
       <table id="calendar" class="table">
         <tbody>
-
+          <tr>
+            <td>Zsoltárhét</td>
+            <td colspan="2">Dátum</td>
+            <td>Ünnep</td>
+          </tr>
         </tbody>
       </table>
 
@@ -137,6 +141,25 @@
 
               $("#row_" + date ).append("<td class=\"bg-grey\">" + day + "</td>")
 
+              //Ünnep
+              unnep = ""
+              for (const [key, value] of Object.entries(data.celebration)) {
+                unnep += "(" + value.colorText + ") "
+                if (key > 0) unnep += "<span class=\"red\">VAGY</span> "
+                if ( value.level < 9 ) {
+                  if (value.level < 7) {
+                    value.name = value.name.toUpperCase()
+                  }
+                  unnep +=  "<span class=\"red\">" + value.name + "</span>"
+                } else {
+                  unnep +=  value.name
+                }
+
+                unnep += "<br>"
+              }
+
+
+              $("#row_" + date ).append("<td>" + unnep + "</td>")
 
 
             console.log(data)
