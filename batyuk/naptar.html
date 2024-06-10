@@ -55,7 +55,7 @@
       const day = date.getDate();
 
       // Format the date as "Month Day."
-      return `${month} ${day}.`;
+      return `${month}&nbsp;${day}.`;
   }
 
   function getHungarianDayAbbreviation(dateString) {
@@ -95,6 +95,73 @@
     return date.getDate() === firstFriday ? "okay" : false;
   }
 
+  function loadReadings(celebration) {
+    console.log(celebration)
+    readings = ''
+
+    if ( celebration.parts2 && celebration.celebrationKey == 0) {
+      readings = " - <i><span class='red'>köznapi olv.:</span></i> "
+
+      var isNotFirst = false
+      for (const [key, part] of Object.entries(celebration.parts)) {
+        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
+          if ( isNotFirst  ) {
+            readings += "; "
+          }
+          readings += part.ref
+          isNotFirst = true
+        }
+      }
+
+
+      readings += " <i><span class='red'>vagy saját:</span></i> "
+
+      var isNotFirst = false
+      for (const [key, part] of Object.entries(celebration.parts2)) {
+        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
+          if ( isNotFirst  ) {
+            readings += "; "
+          }
+          readings += part.ref
+          isNotFirst = true
+        }
+      }
+
+
+    } else if ( celebration.parts2 && celebration.celebrationKey != 0 ) {
+        readings += " - <i><span class='red'>saját:</span></i> "
+
+        var isNotFirst = false
+        for (const [key, part] of Object.entries(celebration.parts2)) {
+          if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
+            if ( isNotFirst  ) {
+              readings += "; "
+            }
+            readings += part.ref
+            isNotFirst = true
+          }
+        }
+    }
+    else {
+      readings = " - <i><span class='red'>olv.:</span></i> "
+
+      var isNotFirst = false
+      for (const [key, part] of Object.entries(celebration.parts)) {
+        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
+          if ( isNotFirst  ) {
+            readings += "; "
+          }
+          readings += part.ref
+          isNotFirst = true
+        }
+      }
+
+    }
+
+
+    return readings
+
+  }
 
 
 
@@ -128,17 +195,17 @@
 
             // Nap: + Vas.
               day = getHungarianDayAbbreviation(date)
-              if(day == "Va" ) day = "<span class=\"red\">†</span> " + day;
+              if(day == "Va" ) day = "<span class=\"red\">†</span>&nbsp;" + day;
 
               //Bűnbűnati napok
               if ( data.celebration[0].dayOfPenance == 3 ) {
-                day =  "<span class=\"black\">†††</span> " + day
+                day =  "<span class=\"black\">†††</span>&nbsp;" + day
               }
               else if ( data.celebration[0].dayOfPenance == 2 ) {
-                  day =  "<span class=\"black\">††</span> " + day
+                  day =  "<span class=\"black\">††</span>&nbsp;" + day
               }
               else if ( data.celebration[0].dayOfPenance == 1 ) {
-                  day = "<span class=\"black\">†</span> " + day
+                  day = "<span class=\"black\">†</span>&nbsp;" + day
               }
 
               $("#row_" + date ).append("<td class=\"bg-grey\">" + day + "</td>")
@@ -163,14 +230,17 @@
 
                 }
 
+                unnep += loadReadings(value)
+
                 unnep += "<br>"
               }
+
+
 
 
               $("#row_" + date ).append("<td>" + unnep + "</td>")
 
 
-            console.log(data)
         });
     });
   });
@@ -194,7 +264,10 @@
       .red {
         color: red
       }
-
+      body {
+        font-family: TimesNewRoman, "Times New Roman";
+        font-size: 1.2em
+      }
     </style>
 
 </body>
