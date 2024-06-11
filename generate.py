@@ -409,10 +409,10 @@ def addreadingstolevel10(celebration: dict):
         if 'parts' in celebration:
             celebration['parts2'] = celebration['parts'];
         else:
-            celebration['parts2'] = {
+            celebration['parts2'] = [{
                 "teaser" : "Saját olvasmányokat nem találtunk. Elnézést.",
                 "text" : "Saját olvasmányokat nem találtunk. Elnézést."
-            }
+            }]
             error("Kéne legyen saját olvasmánya is, de csak a közös olvasmányoakt találtunk meg.")
 
         celebration['parts2cause'] = "(Vagy) saját olvasmányok";
@@ -640,6 +640,20 @@ for day in lelkiBatyukComplex:
 
                     lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid] = tmp
 
+        if 'parts2' in lelkiBatyukComplex[day]['celebration'][cid]:
+            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts2']):
+                # lista
+                if type(part) == dict:
+                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid]['type'] = 'object'
+                else:
+                    tmp = {}
+                    tmp['type'] = 'array'
+                    tmp['content'] = part
+
+                    for contentid, cont in enumerate(tmp['content']):
+                        tmp['content'][contentid]['type'] = 'object'
+
+                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid] = tmp
 
 with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
         # magic happens here to make it pretty-printed
