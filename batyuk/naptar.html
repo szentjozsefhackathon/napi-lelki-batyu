@@ -10,7 +10,7 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
 
   </head>
   <body>
@@ -209,8 +209,30 @@
 
               //Ünnep
               unnep = ""
+              const szinek = [
+                  '',
+                  '<i class="bi bi-circle-fill" style="color: #d80707	"></i>',
+                  '<i class="white bi bi-circle"></i>',
+                  '<i class="bi bi-circle-fill" style="color: #186420"></i>',
+                  '<i class="bi bi-circle-fill" style="color: #800080"></i>',
+                  '<i class="bi bi-circle-fill" style="color: #f485ba	"></i>',
+                  '<i class="bi bi-circle-fill" style="color: black"></i>',
+                  '',
+                  '',
+                  '<i class="bi bi-circle-fill" style="color: transparent;     border-radius: 50%; background: linear-gradient(to right, pink 0%, pink 50%, #800080 50%, #800080 100%);"></i>'
+                ]
+
+
+
+
               for (const [key, value] of Object.entries(data.celebration)) {
-                unnep += "(" + value.colorText + ") "
+
+
+                if ( value.colorText ) {
+                  //unnep += "(" + value.colorText + " " + value.colorId + ") " + szinek[parseInt(value.colorId)] + " "
+                  unnep += szinek[parseInt(value.colorId)] + " "
+                }
+
                 if (key > 0) unnep += "<span class=\"red\">VAGY</span> "
 
                 if ( value.level < 9 ) {
