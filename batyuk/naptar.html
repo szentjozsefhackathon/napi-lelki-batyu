@@ -101,60 +101,21 @@
 
     if ( celebration.parts2 && celebration.celebrationKey == 0) {
       readings = " - <i><span class='red'>köznapi olv.:</span></i> "
-
-      var isNotFirst = false
-      for (const [key, part] of Object.entries(celebration.parts)) {
-        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
-          if ( isNotFirst  ) {
-            readings += "; "
-          }
-          readings += part.ref
-          isNotFirst = true
-        }
-      }
+      readings += partsToReadingsLit(celebration.parts)
 
 
       readings += " <i><span class='red'>vagy saját:</span></i> "
-
-      var isNotFirst = false
-      for (const [key, part] of Object.entries(celebration.parts2)) {
-        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
-          if ( isNotFirst  ) {
-            readings += "; "
-          }
-          readings += part.ref
-          isNotFirst = true
-        }
-      }
+      readings += partsToReadingsLit(celebration.parts2)
 
 
     } else if ( celebration.parts2 && celebration.celebrationKey != 0 ) {
         readings += " - <i><span class='red'>saját:</span></i> "
+        readings += partsToReadingsLit(celebration.parts2)
 
-        var isNotFirst = false
-        for (const [key, part] of Object.entries(celebration.parts2)) {
-          if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
-            if ( isNotFirst  ) {
-              readings += "; "
-            }
-            readings += part.ref
-            isNotFirst = true
-          }
-        }
     }
     else {
       readings = " - <i><span class='red'>olv.:</span></i> "
-
-      var isNotFirst = false
-      for (const [key, part] of Object.entries(celebration.parts)) {
-        if (  ['olvasmány','szentlecke','evangélium'].includes(part.short_title )) {
-          if ( isNotFirst  ) {
-            readings += "; "
-          }
-          readings += part.ref
-          isNotFirst = true
-        }
-      }
+      readings += partsToReadingsLit(celebration.parts)
 
     }
 
@@ -163,7 +124,43 @@
 
   }
 
+  function partsToReadingsLit(parts) {
+    partsToShow = ['olvasmány','szentlecke','evangélium'];
 
+    readings = ''
+    var isNotFirst = false
+    for (const [key, part] of Object.entries(parts)) {
+      if ( part.type == 'array' ) {
+        var isNotF = false
+        for (const [k, p] of Object.entries(part.content)) {
+          if (  partsToShow.includes(p.short_title )) {
+            if ( isNotFirst && isNotF == false ) {
+              readings += "; "
+            }
+            if ( isNotF  ) {
+              readings += " <span class='red'><i>vagy</i></span> "
+            }
+            readings += p.ref
+            isNotF = true
+            isNotFirst = true
+          }
+        }
+      }
+      else {
+          if (  partsToShow.includes(part.short_title )) {
+            if ( isNotFirst  ) {
+              readings += "; "
+            }
+            readings += part.ref
+            isNotFirst = true
+          }
+      }
+
+
+    }
+
+    return readings
+  }
 
   $(document).ready(function () {
 
