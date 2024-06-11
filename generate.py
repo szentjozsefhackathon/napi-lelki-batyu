@@ -106,6 +106,17 @@ def transformCelebration(celebration: dict):
         'readingsBreviarId': celebration['LiturgicalReadingsId']
     }
 
+    #Volume of the volumeOfBreviary
+    print(celebration['LiturgicalSeason']['@Id'])
+    if celebration['LiturgicalSeason']['@Id'] in ['0','1','2','3','4']:
+        transformedCelebration['volumeOfBreviary'] = "I"
+    elif celebration['LiturgicalSeason']['@Id'] in ['6','7','8','9','10','11']:
+        transformedCelebration['volumeOfBreviary'] = "II"
+    elif int(celebration['LiturgicalWeek']) > 17:
+        transformedCelebration['volumeOfBreviary'] = "IV"
+    else:
+        transformedCelebration['volumeOfBreviary'] = "III"
+
     # LiturgicalCelebrationName can contain HTML
     if celebration['LiturgicalCelebrationName'] and "#text" in celebration['LiturgicalCelebrationName']:
         transformedCelebration['name'] = celebration['LiturgicalCelebrationName']['#text']

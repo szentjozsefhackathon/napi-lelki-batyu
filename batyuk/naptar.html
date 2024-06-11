@@ -25,7 +25,7 @@
         <tbody>
           <tr>
             <td>Időszak</td>
-            <td>Zsoltárhét</td>
+            <td>Zsolozsma</td>
             <td colspan="2">Dátum</td>
             <td>Ünnep</td>
           </tr>
@@ -194,6 +194,7 @@
 
     $.getJSON("2024.json", function (data) {
         lastWeekOfPsalter = false
+        lastVolumeOfBreviary = false
         $.each(data, function (date, data) {
 
 
@@ -202,18 +203,29 @@
             // Liturgikus időszak
             seasonCell(data)
 
-            // Zsoltárhét
+            // zsolozsmás kötet és Zsoltárhét
+            volumeOfBreviary = data.celebration[0].volumeOfBreviary
+            if ( volumeOfBreviary != lastVolumeOfBreviary ) {
+              volumeOfBreviaryText = volumeOfBreviary + ". kötet,<br/>"
+            } else {
+              volumeOfBreviaryText = ""
+            }
+
+
             weekOfPsalter = data.celebration[0].weekOfPsalter
-            if ( weekOfPsalter != lastWeekOfPsalter ) {
+            if ( weekOfPsalter != lastWeekOfPsalter || volumeOfBreviary != lastVolumeOfBreviary) {
               const weekNames = [
                   '', "I.", "II.", "III.", "IV."
               ];
-              weekOfPsalterText = weekNames[weekOfPsalter]
+              weekOfPsalterText = weekNames[weekOfPsalter] + " hét"
             } else {
               weekOfPsalterText = ""
             }
-            $("#row_" + date ).append("<td>" + weekOfPsalterText + "</td>")
             lastWeekOfPsalter = weekOfPsalter
+            lastVolumeOfBreviary = volumeOfBreviary
+            $("#row_" + date ).append("<td style='text-align:center'>" + volumeOfBreviaryText + weekOfPsalterText + "</td>")
+
+
 
 
             // Dátum: Máj 20.
