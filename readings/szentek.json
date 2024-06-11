@@ -1036,14 +1036,25 @@
                     "teaser": "Boldogok a lélekben szegények, * mert övék a mennyek országa. Mt 5,3 - 1 D2. tónus. ",
                     "text": "Boldogok a lélekben szegények, * mert övék a mennyek országa. Mt 5,3 - 1 D2. tónus. "
                 },
-                {
-                    "short_title": "evangélium",
-                    "ref": "Mk 10,17-30 v. röv.: Mk 10,17-27",
-                    "teaser": "Az önkéntes szegénység a Krisztus-követés akadálytalan útja. ",
-                    "title": "† EVANGÉLIUM Szent Márk könyvéből",
-                    "text": "Abban az időben amikor Jézus útnak indult, odasietett hozzá valaki, térdre borult előtte, és úgy kérdezte: „Jó Mester! Mit tegyek, hogy elnyerjem az örök életet?”\nJézus megkérdezte: „Miért mondasz engem jónak? Senki sem jó, csak az Isten. Ismered a parancsokat: Ne ölj! Ne törj házasságot! Ne lopj! Ne tanúskodj hamisan! Ne csalj! Tiszteld apádat és anyádat!” Ekkor az így válaszolt: „Mester, ezeket mind megtartottam kora ifjúságomtól fogva.”<br>\nJézus ránézett és megkedvelte. Ezt mondta neki: „Valami hiányzik még belőled. Menj, add el, amid van, oszd szét a szegények közt, és így kincsed lesz az égben. Aztán gyere és kövess engem!” Ennek hallatára ő elszomorodott, és leverten távozott, mert nagy vagyona volt.<br>\nJézus ekkor körülnézett, és így szólt tanítványaihoz: „Milyen nehezen jut be a gazdag az Isten országába!” A tanítványok megdöbbentek szavain. Jézus azonban megismételte: „Fiaim, milyen nehéz bejutni a gazdagoknak az Isten országába! Könnyebb a tevének átmenni a tű fokán, mint a gazdagnak bejutni az Isten országába.” Azok még jobban csodálkoztak, és kérdezgették egymást: „Hát akkor ki üdvözülhet?” Jézus rájuk nézett és folytatta: „Embernek lehetetlen ez, de Istennek nem. Mert Istennek minden lehetséges.” *<br>\n(28-30) Ekkor Péter megszólalt: „Nézd, mi mindent elhagytunk, és követtünk téged.”<br>\nJézus így válaszolt: „Bizony, mondom nektek, mindenki, aki értem és az evangéliumért elhagyja otthonát, testvéreit, anyját, apját, gyermekeit vagy földjét, százannyit kap, most ezen a világon: otthont, testvért, anyát, gyermeket és földet – bár üldözések közepette –, az eljövendő világban pedig az örök életet.”<br>\nEzek az evangélium igéi.",
-                    "ending": "<i>* A rövidebb rész a *-ig</i>"
-                }
+                [
+                  {
+                      "short_title": "evangélium",
+                      "ref": "Mk 10,17-30",
+                      "teaser": "Az önkéntes szegénység a Krisztus-követés akadálytalan útja. ",
+                      "title": "† EVANGÉLIUM Szent Márk könyvéből",
+                      "text": "Abban az időben amikor Jézus útnak indult, odasietett hozzá valaki, térdre borult előtte, és úgy kérdezte: „Jó Mester! Mit tegyek, hogy elnyerjem az örök életet?”\nJézus megkérdezte: „Miért mondasz engem jónak? Senki sem jó, csak az Isten. Ismered a parancsokat: Ne ölj! Ne törj házasságot! Ne lopj! Ne tanúskodj hamisan! Ne csalj! Tiszteld apádat és anyádat!” Ekkor az így válaszolt: „Mester, ezeket mind megtartottam kora ifjúságomtól fogva.”<br>\nJézus ránézett és megkedvelte. Ezt mondta neki: „Valami hiányzik még belőled. Menj, add el, amid van, oszd szét a szegények közt, és így kincsed lesz az égben. Aztán gyere és kövess engem!” Ennek hallatára ő elszomorodott, és leverten távozott, mert nagy vagyona volt.<br>\nJézus ekkor körülnézett, és így szólt tanítványaihoz: „Milyen nehezen jut be a gazdag az Isten országába!” A tanítványok megdöbbentek szavain. Jézus azonban megismételte: „Fiaim, milyen nehéz bejutni a gazdagoknak az Isten országába! Könnyebb a tevének átmenni a tű fokán, mint a gazdagnak bejutni az Isten országába.” Azok még jobban csodálkoztak, és kérdezgették egymást: „Hát akkor ki üdvözülhet?” Jézus rájuk nézett és folytatta: „Embernek lehetetlen ez, de Istennek nem. Mert Istennek minden lehetséges.” Ekkor Péter megszólalt: „Nézd, mi mindent elhagytunk, és követtünk téged.”<br>\nJézus így válaszolt: „Bizony, mondom nektek, mindenki, aki értem és az evangéliumért elhagyja otthonát, testvéreit, anyját, apját, gyermekeit vagy földjét, százannyit kap, most ezen a világon: otthont, testvért, anyát, gyermeket és földet – bár üldözések közepette –, az eljövendő világban pedig az örök életet.”<br>\nEzek az evangélium igéi.",
+                      "ending": "Ezek az evangélium igéi."
+                  },
+                  {
+                      "short_title": "evangélium",
+                      "ref": "Mk 10,17-27",
+                      "teaser": "Az önkéntes szegénység a Krisztus-követés akadálytalan útja. ",
+                      "title": "† EVANGÉLIUM Szent Márk könyvéből",
+                      "text": "Abban az időben amikor Jézus útnak indult, odasietett hozzá valaki, térdre borult előtte, és úgy kérdezte: „Jó Mester! Mit tegyek, hogy elnyerjem az örök életet?”\nJézus megkérdezte: „Miért mondasz engem jónak? Senki sem jó, csak az Isten. Ismered a parancsokat: Ne ölj! Ne törj házasságot! Ne lopj! Ne tanúskodj hamisan! Ne csalj! Tiszteld apádat és anyádat!” Ekkor az így válaszolt: „Mester, ezeket mind megtartottam kora ifjúságomtól fogva.”<br>\nJézus ránézett és megkedvelte. Ezt mondta neki: „Valami hiányzik még belőled. Menj, add el, amid van, oszd szét a szegények közt, és így kincsed lesz az égben. Aztán gyere és kövess engem!” Ennek hallatára ő elszomorodott, és leverten távozott, mert nagy vagyona volt.<br>\nJézus ekkor körülnézett, és így szólt tanítványaihoz: „Milyen nehezen jut be a gazdag az Isten országába!” A tanítványok megdöbbentek szavain. Jézus azonban megismételte: „Fiaim, milyen nehéz bejutni a gazdagoknak az Isten országába! Könnyebb a tevének átmenni a tű fokán, mint a gazdagnak bejutni az Isten országába.” Azok még jobban csodálkoztak, és kérdezgették egymást: „Hát akkor ki üdvözülhet?” Jézus rájuk nézett és folytatta: „Embernek lehetetlen ez, de Istennek nem. Mert Istennek minden lehetséges.”",
+                      "ending": "Ezek az evangélium igéi.",
+                      "cause" : "Vagy rövidebb forma"
+                  }
+                ]
             ]
         },
         {
@@ -6069,14 +6080,25 @@
                 "teaser": "Isten igéje a mag, Krisztus a magvető, * mindaz, ki reá talál, örökké élni fog. – 5. tónus.",
                 "text": "Isten igéje a mag, Krisztus a magvető, * mindaz, ki reá talál, örökké élni fog. – 5. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mk 4,1-10.13-20 röv.: Mk 4,1-9",
-                "teaser": "Kiment a magvető vetni. ",
-                "title": "† EVANGÉLIUM Szent Márk könyvéből\t",
-                "text": "Amikor Jézus a Genezáreti-tó partján tanított, nagy tömeg gyűlt köréje. Ezért hajóba szállt, és egy kissé beljebb ment a parttól, a tömeg pedig a tó partján maradt. Ekkor példabeszédekben sok mindenről beszélt nekik. Így kezdte tanítását: „Halljátok csak! Kiment a magvető vetni. Amint vetett, némely szem az útfélre esett. Odaszálltak az égi madarak, és fölcsipegették. Némely mag köves helyre esett, ahol nem volt elég talaja. Itt hamar kikelt, mert nem jutott mélyen a földbe. Amikor azonban kisütött a nap, megperzselődött, és mivel nem volt elég erős gyökere, elszáradt. Némely mag pedig tövisek közé hullott. Amint a tövisek felnőttek, elfojtották, úgyhogy nem hozott termést. A többi mag jó földbe hullott, kikelt, felnőtt, és harmincszoros, hatvanszoros, sőt százszoros termést hozott.” Jézus így fejezte be szavait: „Akinek füle van, hallja meg!”<br>\n*<br>\nAmikor egyedül maradt, tanítványai és a tizenkét apostol megkérdezték tőle, mi a példabeszéd értelme. Így válaszolt nekik:<br>\n„Nem értitek ezt a példabeszédet? Hogyan fogjátok a többi példabeszédet megérteni? A magvető az, aki az igét hirdeti. Azok, akikben útfélre hull a tanítás, meghallgatják ugyan, de rögtön jön a sátán, és kitépi szívükből az elvetett igét. Azok, akiknél köves talajra hullt a mag, amikor hallják a tanítást, szívesen hajlanak rá; de nem ver bennük gyökeret, mert (állhatatlanok), csak a pillanatnak élnek. Ezért, ha szorongatás vagy üldözés éri őket az Isten igéje miatt, hamarosan meginognak. Azok pedig, akikben tövisek közé esik (az Isten igéje), meghallgatják ugyan a tanítást, de a világi gondok, a csalóka gazdagság és a többi földi szenvedély rabul ejtik őket; és elfojtják az igét, úgyhogy nem hoz bennük gyümölcsöt.<br>\nVégül vannak olyanok, akikben az ige jó földbe hullott. Hallják a tanítást, magukévá is teszik, és harmincszoros, hatvanszoros, sőt százszoros termést hoznak.”<br>\nEzek az evangélium igéi.",
-                "ending": "Rövidebb forma: a *-ig"
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Mk 4,1-10.13-20",
+                    "teaser": "Kiment a magvető vetni. ",
+                    "title": "† EVANGÉLIUM Szent Márk könyvéből\t",
+                    "text": "Amikor Jézus a Genezáreti-tó partján tanított, nagy tömeg gyűlt köréje. Ezért hajóba szállt, és egy kissé beljebb ment a parttól, a tömeg pedig a tó partján maradt. Ekkor példabeszédekben sok mindenről beszélt nekik. Így kezdte tanítását: „Halljátok csak! Kiment a magvető vetni. Amint vetett, némely szem az útfélre esett. Odaszálltak az égi madarak, és fölcsipegették. Némely mag köves helyre esett, ahol nem volt elég talaja. Itt hamar kikelt, mert nem jutott mélyen a földbe. Amikor azonban kisütött a nap, megperzselődött, és mivel nem volt elég erős gyökere, elszáradt. Némely mag pedig tövisek közé hullott. Amint a tövisek felnőttek, elfojtották, úgyhogy nem hozott termést. A többi mag jó földbe hullott, kikelt, felnőtt, és harmincszoros, hatvanszoros, sőt százszoros termést hozott.” Jézus így fejezte be szavait: „Akinek füle van, hallja meg!”<br>\nAmikor egyedül maradt, tanítványai és a tizenkét apostol megkérdezték tőle, mi a példabeszéd értelme. Így válaszolt nekik:<br>\n„Nem értitek ezt a példabeszédet? Hogyan fogjátok a többi példabeszédet megérteni? A magvető az, aki az igét hirdeti. Azok, akikben útfélre hull a tanítás, meghallgatják ugyan, de rögtön jön a sátán, és kitépi szívükből az elvetett igét. Azok, akiknél köves talajra hullt a mag, amikor hallják a tanítást, szívesen hajlanak rá; de nem ver bennük gyökeret, mert (állhatatlanok), csak a pillanatnak élnek. Ezért, ha szorongatás vagy üldözés éri őket az Isten igéje miatt, hamarosan meginognak. Azok pedig, akikben tövisek közé esik (az Isten igéje), meghallgatják ugyan a tanítást, de a világi gondok, a csalóka gazdagság és a többi földi szenvedély rabul ejtik őket; és elfojtják az igét, úgyhogy nem hoz bennük gyümölcsöt.<br>\nVégül vannak olyanok, akikben az ige jó földbe hullott. Hallják a tanítást, magukévá is teszik, és harmincszoros, hatvanszoros, sőt százszoros termést hoznak.”<br>\n",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Mk 4,1-9",
+                    "teaser": "Kiment a magvető vetni. ",
+                    "title": "† EVANGÉLIUM Szent Márk könyvéből\t",
+                    "text": "Amikor Jézus a Genezáreti-tó partján tanított, nagy tömeg gyűlt köréje. Ezért hajóba szállt, és egy kissé beljebb ment a parttól, a tömeg pedig a tó partján maradt. Ekkor példabeszédekben sok mindenről beszélt nekik. Így kezdte tanítását: „Halljátok csak! Kiment a magvető vetni. Amint vetett, némely szem az útfélre esett. Odaszálltak az égi madarak, és fölcsipegették. Némely mag köves helyre esett, ahol nem volt elég talaja. Itt hamar kikelt, mert nem jutott mélyen a földbe. Amikor azonban kisütött a nap, megperzselődött, és mivel nem volt elég erős gyökere, elszáradt. Némely mag pedig tövisek közé hullott. Amint a tövisek felnőttek, elfojtották, úgyhogy nem hozott termést. A többi mag jó földbe hullott, kikelt, felnőtt, és harmincszoros, hatvanszoros, sőt százszoros termést hozott.” Jézus így fejezte be szavait: „Akinek füle van, hallja meg!”",
+                    "ending": "Ezek az evangélium igéi.",
+                    "cause": "Rövidebb forma"
+                }
+            ]
         ]
     },
     "09-14": {
@@ -8874,14 +8896,24 @@
             "igenaptarId": "12-21",
             "name": "Adventi köznapok - december 21.",
             "parts": [
-                {
-                    "short_title": "olvasmány",
-                    "ref": "Én 2,8-14 v. Szof 3,14-18a",
-                    "teaser": "A vőlegény közeledésén érzett menyasszonyi örömöt az Egyház önmagára vonatkoztatja; mert Krisztusra vár. ",
-                    "title": "OLVASMÁNY az Énekek Éneke könyvéből",
-                    "text": "(Így szól az Egyház, mint Krisztus menyasszonya:) A kedvesem, íme, itt jön! Ugrál a hegyeken át és szökell a dombokon át! Olyan a kedvesem, mint a gazella, a fiatal szarvashoz hasonló. Nézzétek, már itt áll házunk falánál, benéz az ablakon, nézelődik a rácson át. Aztán így szól hozzám a kedvesem: Kelj föl, barátnőm, jöjj, galambom, szépségem! Nézd, elmúlt a tél, elállt az eső, elvonult. A föld színén immár virágok nyílnak, itt van a szőlőmetszés ideje, és gerlice hangja hallatszik földünkön. Már színesedik az első fügetermés, hajtanak a szőlők és jó illatot árasztanak. Kelj föl, kedvesem, gyere szépségem! Sziklák hasadékában fészkelő galambom, rejtekhelyeden, a szirtek szegélyezte ösvényen mutasd meg arcodat, hadd halljam hangodat, mert szépen cseng a hangod, és bájos az arcod.<br>\nEz az Isten igéje.\n<br><br>\n<i>Vagy tetszés szerint:</i>\n<br><br>\n\nOLVASMÁNY Szofoniás próféta könyvéből\n<br><i>Veled van az Úr, a te Istened!</i><br>\nDalolj, Sion leánya, zengj éneket, Izrael! Örülj és ujjongj egész szívedből, Jeruzsálem leánya. Elvette az Úr ítéletedet, elűzte ellenségedet; Izrael királya, az Úr közöttetek van, ne félj többé semmi rossztól! Azon a napon így szólnak majd Jeruzsálemben: „Ne félj, Sion! Ne lankadjon kezed!” Veled van az Úr, a te Istened, az erős szabadító! Örül majd neked nagy örömmel, újjáéleszt szeretetével; örül majd neked ujjongó örömmel, úgy mintha ünnepet ülne.<br>\nEz az Isten igéje,",
-                    "ending": ""
-                },
+                [
+                  {
+                      "short_title": "olvasmány",
+                      "ref": "Én 2,8-14",
+                      "teaser": "A vőlegény közeledésén érzett menyasszonyi örömöt az Egyház önmagára vonatkoztatja; mert Krisztusra vár. ",
+                      "title": "OLVASMÁNY az Énekek Éneke könyvéből",
+                      "text": "(Így szól az Egyház, mint Krisztus menyasszonya:) A kedvesem, íme, itt jön! Ugrál a hegyeken át és szökell a dombokon át! Olyan a kedvesem, mint a gazella, a fiatal szarvashoz hasonló. Nézzétek, már itt áll házunk falánál, benéz az ablakon, nézelődik a rácson át. Aztán így szól hozzám a kedvesem: Kelj föl, barátnőm, jöjj, galambom, szépségem! Nézd, elmúlt a tél, elállt az eső, elvonult. A föld színén immár virágok nyílnak, itt van a szőlőmetszés ideje, és gerlice hangja hallatszik földünkön. Már színesedik az első fügetermés, hajtanak a szőlők és jó illatot árasztanak. Kelj föl, kedvesem, gyere szépségem! Sziklák hasadékában fészkelő galambom, rejtekhelyeden, a szirtek szegélyezte ösvényen mutasd meg arcodat, hadd halljam hangodat, mert szépen cseng a hangod, és bájos az arcod.",
+                      "ending": "Ez az Isten igéje."
+                  },
+                  {
+                      "short_title": "olvasmány",
+                      "ref": "Szof 3,14-18a",
+                      "teaser": "Veled van az Úr, a te Istened!",
+                      "title": "OLVASMÁNY Szofoniás próféta könyvéből",
+                      "text": "Dalolj, Sion leánya, zengj éneket, Izrael! Örülj és ujjongj egész szívedből, Jeruzsálem leánya. Elvette az Úr ítéletedet, elűzte ellenségedet; Izrael királya, az Úr közöttetek van, ne félj többé semmi rossztól! Azon a napon így szólnak majd Jeruzsálemben: „Ne félj, Sion! Ne lankadjon kezed!” Veled van az Úr, a te Istened, az erős szabadító! Örül majd neked nagy örömmel, újjáéleszt szeretetével; örül majd neked ujjongó örömmel, úgy mintha ünnepet ülne.",
+                      "ending": "Ez az Isten igéje."
+                  }
+                ],
                 {
                     "short_title": "zsoltár",
                     "ref": "Zsolt 32,2-3.11-12.20-21",
@@ -9236,14 +9268,25 @@
                     "teaser": "Fölragyogott ránk a szent nap, * Jöjjetek, nemzetek, és imádjátok az\nUrat, * mert ma nagy fényesség szállt le a földre. – 5. tónus.",
                     "text": "Fölragyogott ránk a szent nap, * Jöjjetek, nemzetek, és imádjátok az\nUrat, * mert ma nagy fényesség szállt le a földre. – 5. tónus."
                 },
+                [
                 {
                     "short_title": "evangélium",
-                    "ref": "Jn 1,1-18 röv.: Jn 1,1-5.9-14",
+                    "ref": "Jn 1,1-18",
                     "teaser": "Az Ige testté lett, és közöttünk lakott. ",
                     "title": "† EVANGÉLIUM Szent János könyvéből",
-                    "text": "Kezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nFöllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen: tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\nJános tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.\n<br>\nEzek az evangélium igéi.\n<br><br>\n<i>Vagy rövidebb forma:</i>\n<br>\n† EVANGÉLIUM Szent János könyvéből<br>\n<i>Az Ige testté lett, és közöttünk lakott. </i><br>\nKezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.",
+                    "text": "Kezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nFöllépett egy ember, akit Isten küldött: János volt a neve. Azért\njött, hogy tanúságot tegyen: tanúságot a világosságról, hogy mindenki\nhiggyen általa. Nem ő volt a világosság, ő csak azért jött, hogy\ntanúságot tegyen a világosságról.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.<br>\nJános tanúságot tett róla, amikor ezt hirdette: „Ő az, akiről\nmondtam, hogy utánam jön, de megelőz engem, mert előbb volt, mint én.”\nHiszen mi mindannyian az ő teljességéből nyertünk kegyelemből\nkegyelmet. A törvényt ugyanis Mózes által kaptuk, a kegyelem és az\nigazság azonban Jézus Krisztus által valósult meg.<br>\nIstent soha senki nem látta, Isten Egyszülöttje, aki az Atya kebelén\nvan, ő nyilatkoztatta ki.",
                     "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Jn 1,1-5.9-14",
+                    "teaser": "Az Ige testté lett, és közöttünk lakott. ",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Kezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.",
+                    "ending": "Ezek az evangélium igéi.",
+                    "cause": "Vagy rövidebb forma"
                 }
+                ]
             ]
         }
     ],

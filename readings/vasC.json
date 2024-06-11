@@ -2122,28 +2122,48 @@
         "igenaptarId": "KAR01",
         "name": "Szent Család vasárnapja",
         "parts": [
-            {
-                "short_title": "olvasmány",
-                "ref": "Sir 3,3-7.14-17a v. 1Sám 1,20-22;24-28",
-                "teaser": "Aki féli az Urat, tiszteli szüleit. ",
-                "title": "OLVASMÁNY Sirák fia könyvéből",
-                "text": "Isten tekintélyt adott az apának a gyermekek előtt, és megszabta az\nanya jogát a gyermekekkel szemben. Aki tiszteli apját, bűneit\nengeszteli, megszabadul tőlük, és mindennapi imája meghallgatásra\ntalál. Kincset gyűjt magának, aki megbecsüli anyját, aki pedig tiszteli\napját, örömét leli gyermekeiben, s amikor imádkozik, meghallgatásra\ntalál. Aki becsüli apját, hosszú életű lesz, s aki szót fogad apjának,\nfelüdíti anyját.<br>\n  Fiam! Legyen gondod apádra öregségében, és ne keserítsd őt életében.\nHa meg is fogyatkozik erejében, légy elnéző iránta, és ne vesd meg\néletének egy napján se. Apád iránt tanúsított jó cselekedeted nem megy\nfeledésbe, és elszámolják neked bűneidért. A jótett fejében majd\ngyarapodni fogsz.<br>\n\n  Ez az Isten igéje.\n<br><br>\n<i>vagy</i>\n<br><br>\n\nOLVASMÁNY Sámuel első könyvéből\n<br>\n<i>Hanna az Úr szolgálatára adja gyermekét.\n</i><br>\n  Hanna fogant, és amikor elérkezett az ideje, fiút szült. A Sámuel\nnevet adta neki, „mert – amint mondta – az Úrtól könyörögtem ki”.\nAmikor Elkana egész családjával újra fölment (az Úr templomába), hogy\naz Úrnak az évi áldozatot bemutassa és teljesítse fogadalmát, Hanna nem\nment föl vele. Azt mondta férjének: „Először elválasztom a gyereket,\naztán elviszem: jelenjen meg az Úr színe előtt és maradjon ott\nörökre.”<br>\n  Mihelyt azonban Hanna elválasztotta a gyermeket, fölvitte magával,\negy hároméves marhával, egy efa liszttel és egy tömlő borral\negyetemben, és Silóban belépett az Úr templomába; a fiú még nagyon\nkicsi volt. Amikor a marhát feláldozták, a fiú anyja odament Élihez:\nMegszólította: „Engedd meg, uram! Amint igaz, hogy élsz, uram, az az\nasszony vagyok, aki itt álltam melletted és imádkoztam az Úrhoz. Ezért\na fiúért imádkoztam. S lám az Úr teljesítette kérésemet, amellyel hozzá\nfordultam. Ezért én is átengedem (fiamat) az Úrnak, egész életére\nátengedem az Úrnak.” És ott leborultak az Úr előtt.",
-                "ending": "Ez az Isten igéje."
-            },
+            [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Sir 3,3-7.14-17a",
+                    "teaser": "Aki féli az Urat, tiszteli szüleit. ",
+                    "title": "OLVASMÁNY Sirák fia könyvéből",
+                    "text": "Isten tekintélyt adott az apának a gyermekek előtt, és megszabta az\nanya jogát a gyermekekkel szemben. Aki tiszteli apját, bűneit\nengeszteli, megszabadul tőlük, és mindennapi imája meghallgatásra\ntalál. Kincset gyűjt magának, aki megbecsüli anyját, aki pedig tiszteli\napját, örömét leli gyermekeiben, s amikor imádkozik, meghallgatásra\ntalál. Aki becsüli apját, hosszú életű lesz, s aki szót fogad apjának,\nfelüdíti anyját.<br>\n  Fiam! Legyen gondod apádra öregségében, és ne keserítsd őt életében.\nHa meg is fogyatkozik erejében, légy elnéző iránta, és ne vesd meg\néletének egy napján se. Apád iránt tanúsított jó cselekedeted nem megy\nfeledésbe, és elszámolják neked bűneidért. A jótett fejében majd\ngyarapodni fogsz.",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "olvasmány",
+                    "ref": "1Sám 1,20-22;24-28",
+                    "teaser": "Hanna az Úr szolgálatára adja gyermekét.",
+                    "title": "OLVASMÁNY Sámuel első könyvéből",
+                    "text": "Hanna fogant, és amikor elérkezett az ideje, fiút szült. A Sámuel\nnevet adta neki, „mert – amint mondta – az Úrtól könyörögtem ki”.\nAmikor Elkana egész családjával újra fölment (az Úr templomába), hogy\naz Úrnak az évi áldozatot bemutassa és teljesítse fogadalmát, Hanna nem\nment föl vele. Azt mondta férjének: „Először elválasztom a gyereket,\naztán elviszem: jelenjen meg az Úr színe előtt és maradjon ott\nörökre.”<br>\n  Mihelyt azonban Hanna elválasztotta a gyermeket, fölvitte magával,\negy hároméves marhával, egy efa liszttel és egy tömlő borral\negyetemben, és Silóban belépett az Úr templomába; a fiú még nagyon\nkicsi volt. Amikor a marhát feláldozták, a fiú anyja odament Élihez:\nMegszólította: „Engedd meg, uram! Amint igaz, hogy élsz, uram, az az\nasszony vagyok, aki itt álltam melletted és imádkoztam az Úrhoz. Ezért\na fiúért imádkoztam. S lám az Úr teljesítette kérésemet, amellyel hozzá\nfordultam. Ezért én is átengedem (fiamat) az Úrnak, egész életére\nátengedem az Úrnak.” És ott leborultak az Úr előtt.",
+                    "ending": "Ez az Isten igéje."
+                }
+            ],
             {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 127,1-2.3.4-5 v. Zsolt 83,2-3.5-6.9-10",
                 "teaser": "Válasz: <b>Boldog ember, ki féli az Urat, * aki az Úrnak ösvényén halad.</b> Vö. 1. vers. (6. tónus)",
                 "text": "Válasz: <b>Boldog ember, ki féli az Urat, * aki az Úrnak ösvényén halad.</b> Vö. 1. vers. (6. tónus)<br>\n\nElőénekes: Boldog mindaz, ki féli az Urat, * aki az ő útjain jár.<br>\nKezed munkájából élhetsz, * boldog leszel, és jól megy sorod.<br>\nHívek: Boldog ember, ki féli az Urat, * aki az Úrnak ösvényén halad.\n<br>\nE: Feleséged olyan, mint a termő szőlőtő, * a te házad bensejében.<br>\nFiaid olyanok, mint az olajfacsemeték, * úgy veszik körül asztalodat.<br>\nH: Boldog ember, ki féli az Urat, * aki az Úrnak ösvényén halad.<br>\n\nE: Íme, ilyen áldásban részesül az az ember, * aki féli az Urat.<br>\nÁldjon meg az Úr Sionból, * hogy lásd Jeruzsálem jólétét életed minden napján.<br>\nH: Boldog ember, ki féli az Urat, * aki az Úrnak ösvényén halad.<br><br>\n<i>vagy</i>\n<br><br>Válasz: <b>Boldogok, Uram, mindazok, akik a te házadban laknak.</b> Vö. 5a. vers.<br>\n\nElőénekes: Mily kedves a te hajlékod, seregek Ura, * sóvárog és vágyódik lelkem az Úr udvarába.<br>\nSzívem és testem * örvendezik az élő Istenben.<br>\nHívek: Boldogok, Uram, mindazok, akik a te házadban laknak.<br>\n\nE: Boldogok, akik a te házadban laknak, * örökkön örökké dicsérnek téged.<br>\nBoldog az az ember, kinek segítsége tőled van, * és szívében készülődik, hogy hozzád menjen.<br>\nH: Boldogok, Uram, mindazok, akik a te házadban laknak.<br>\n\nE: Seregek Ura, Istene, hallgasd meg imámat, * figyelj reám Jákob Istene.<br>\nIstenünk, oltalmazónk, nézz reánk, * tekints a te fölkented arcára!<br>\nH: Boldogok, Uram, mindazok, akik a te házadban laknak."
             },
-            {
-                "short_title": "szentlecke",
-                "ref": "Kol 3,12-21 v. 1Jn 3,1-2.21-24",
-                "teaser": "A család élete az Úrban. ",
-                "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
-                "text": "Testvéreim! <br>Mint Istennek szent és kedves választottai, öltsétek\nmagatokra az irgalmasságot, a jóságot, a szelídséget és a türelmet.\nViseljétek el egymást, és bocsássatok meg egymásnak, ha valakinek\npanasza van a másik ellen. Bocsássatok meg ti is úgy, ahogyan az Úr\nmegbocsátott nektek. Legfőként pedig szeressétek egymást, mert ez a\ntökéletesség köteléke.<br>\n  Krisztus békéje töltse be szíveteket, hiszen erre kaptatok meghívást\naz egy test közösségében. Legyetek hálásak! Krisztus igéje éljen\nbennetek gazdagon! Tanítsátok és intsétek egymást telve bölcsességgel!\nÉnekeljetek Istennek hálás szívvel zsoltárokat, himnuszokat és szent\nénekeket!<br>\n  Bármit mondtok vagy tesztek, mindent az Úr Jézus nevében tegyetek!\nÍgy adjatok hálát általa az Atyaistennek!<br>\n  Asszonyok! Engedelmeskedjetek férjeteknek, ahogy illik az Úrban!\nFérfiak! Szeressétek feleségeteket, ne legyetek hozzájuk durvák!\nGyermekek! Fogadjatok szót szüleiteknek mindenben, mert ez kedves az Úr\nelőtt!<br>\n  Apák! Ne keserítsétek meg gyermekeitek életét, hogy kedvüket ne\nveszítsék!\n<br>\n  Ez az Isten igéje.\n<br><br>\n<i>vagy</i>\n<br><br>SZENTLECKE Szent János apostol első leveléből\n<br>\n<i>Isten gyermekeinek hívnak minket, és azok is vagyunk.\n </i><br>\n  Szeretteim!<br>\nNézzétek, mekkora szeretettel van irántunk az Atya: Isten\ngyermekeinek hívnak minket, és azok is vagyunk. A világ azért nem ismer\nminket, mert őt sem ismeri.<br>\n  Szeretteim, most Isten gyermekei vagyunk, de hogy mik leszünk, az még\nnem nyilvánvaló. Azt tudjuk, hogy ha ő megjelenik, hasonlók leszünk\nhozzá, mert látni fogjuk őt úgy, amint van.<br>\n  Szeretteim, ha szívünk nem vádol, legyünk bizalommal az Isten iránt.\nBármit kérünk, megkapjuk tőle, hisz megtartjuk parancsait, és azt\ntesszük, ami neki tetszik.<br>\n  Az az ő parancsa, hogy higgyünk Fiának, Jézus Krisztusnak nevében, és\nszeressük egymást, amint ő parancsolta. Aki teljesíti parancsait,\nIstenben marad, és Isten is őbenne. Azt, hogy ő bennünk marad, a\nLélektől tudjuk, akit adott nekünk.",
-                "ending": "Ez az Isten igéje."
-            },
+            [
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Kol 3,12-21",
+                    "teaser": "A család élete az Úrban. ",
+                    "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
+                    "text": "Testvéreim! <br>Mint Istennek szent és kedves választottai, öltsétek\nmagatokra az irgalmasságot, a jóságot, a szelídséget és a türelmet.\nViseljétek el egymást, és bocsássatok meg egymásnak, ha valakinek\npanasza van a másik ellen. Bocsássatok meg ti is úgy, ahogyan az Úr\nmegbocsátott nektek. Legfőként pedig szeressétek egymást, mert ez a\ntökéletesség köteléke.<br>\n  Krisztus békéje töltse be szíveteket, hiszen erre kaptatok meghívást\naz egy test közösségében. Legyetek hálásak! Krisztus igéje éljen\nbennetek gazdagon! Tanítsátok és intsétek egymást telve bölcsességgel!\nÉnekeljetek Istennek hálás szívvel zsoltárokat, himnuszokat és szent\nénekeket!<br>\n  Bármit mondtok vagy tesztek, mindent az Úr Jézus nevében tegyetek!\nÍgy adjatok hálát általa az Atyaistennek!<br>\n  Asszonyok! Engedelmeskedjetek férjeteknek, ahogy illik az Úrban!\nFérfiak! Szeressétek feleségeteket, ne legyetek hozzájuk durvák!\nGyermekek! Fogadjatok szót szüleiteknek mindenben, mert ez kedves az Úr\nelőtt!<br>\n  Apák! Ne keserítsétek meg gyermekeitek életét, hogy kedvüket ne\nveszítsék!",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Isten gyermekeinek hívnak minket, és azok is vagyunk",
+                    "teaser": "SZENTLECKE Szent János apostol első leveléből",
+                    "title": "",
+                    "text": "Szeretteim!<br>\nNézzétek, mekkora szeretettel van irántunk az Atya: Isten\ngyermekeinek hívnak minket, és azok is vagyunk. A világ azért nem ismer\nminket, mert őt sem ismeri.<br>\n  Szeretteim, most Isten gyermekei vagyunk, de hogy mik leszünk, az még\nnem nyilvánvaló. Azt tudjuk, hogy ha ő megjelenik, hasonlók leszünk\nhozzá, mert látni fogjuk őt úgy, amint van.<br>\n  Szeretteim, ha szívünk nem vádol, legyünk bizalommal az Isten iránt.\nBármit kérünk, megkapjuk tőle, hisz megtartjuk parancsait, és azt\ntesszük, ami neki tetszik.<br>\n  Az az ő parancsa, hogy higgyünk Fiának, Jézus Krisztusnak nevében, és\nszeressük egymást, amint ő parancsolta. Aki teljesíti parancsait,\nIstenben marad, és Isten is őbenne. Azt, hogy ő bennünk marad, a\nLélektől tudjuk, akit adott nekünk.",
+                    "ending": "Ez az Isten igéje."
+                }
+            ],
             {
                 "short_title": "alleluja",
                 "ref": null,
