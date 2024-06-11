@@ -532,14 +532,24 @@
             "igenaptarId": "01-22a",
             "name": "Boldog Batthyány-Strattmann László hitvalló",
             "parts": [
-                {
-                    "short_title": "olvasmány",
-                    "ref": "Iz 58,6-11 vagy Kol 3,12-17",
-                    "teaser": "Ha segítesz a rászorulókon, akkor majd felragyog világosságod!",
-                    "title": "OLVASMÁNY Izajás próféta könyvéből",
-                    "text": "Ezt mondja az Úr:<br>\nOszd meg az éhezővel kenyeredet, és a hajléktalan szegényt fogadd be házadba.\nHa mezítelent látsz, öltöztesd föl, és ne fordulj el embertársad elől!\nAkkor majd felragyog világosságod, mint a hajnal, és a rajtad ejtett seb gyorsan beheged.\nElőtted halad majd igazságod, és az Úr dicsősége gyűjt egybe téged.<br>\nAkkor, ha szólítod, az Úr válaszol, könyörgő szavadra így felel: „Íme, itt vagyok!”\nHa eltávolítod körödből az igát, az ujjal mutogatást és a gonosz beszédet,\nha odaadod az éhezőnek kenyeredet, és jóllakatod az elnyomottat,\nakkor felragyog a sötétségben világosságod, és homályod déli verőfényre változik.<br>\nEz az Isten igéje.\n<br><br><i>Vagy:</i> <br>\nSZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből\n<br>\n<i>Szeressétek egymást, mert ez a tökéletesség köteléke! </i><br>\nTestvéreim!<br>\nMint Istennek szent és kedves választottai, öltsétek\nmagatokra az irgalmasságot, a jóságot, a szelídséget és a türelmet.<br>\nViseljétek el egymást, és bocsássatok meg egymásnak, ha valakinek panasza van a másik ellen. Bocsássatok meg ti is úgy, ahogyan az Úr megbocsátott nektek. Legfőként pedig szeressétek egymást, mert ez a tökéletesség köteléke. Krisztus békéje töltse be szíveteket, hiszen erre kaptatok meghívást az egy test közösségében. Legyetek hálásak! Krisztus igéje éljen bennetek gazdagon! Tanítsátok és intsétek egymást telve bölcsességgel! Énekeljetek Istennek hálás szívvel zsoltárokat, himnuszokat és szent énekeket!<br>\nBármit mondtok vagy tesztek, mindent az Úr Jézus nevében tegyetek! Így adjatok hálát általa az Atyaistennek!",
-                    "ending": "Ez az Isten igéje."
-                },
+                [
+                    {
+                        "short_title": "olvasmány",
+                        "ref": "Iz 58,6-11",
+                        "teaser": "Ha segítesz a rászorulókon, akkor majd felragyog világosságod!",
+                        "title": "OLVASMÁNY Izajás próféta könyvéből",
+                        "text": "Ezt mondja az Úr:<br>\nOszd meg az éhezővel kenyeredet, és a hajléktalan szegényt fogadd be házadba.\nHa mezítelent látsz, öltöztesd föl, és ne fordulj el embertársad elől!\nAkkor majd felragyog világosságod, mint a hajnal, és a rajtad ejtett seb gyorsan beheged.\nElőtted halad majd igazságod, és az Úr dicsősége gyűjt egybe téged.<br>\nAkkor, ha szólítod, az Úr válaszol, könyörgő szavadra így felel: „Íme, itt vagyok!”\nHa eltávolítod körödből az igát, az ujjal mutogatást és a gonosz beszédet,\nha odaadod az éhezőnek kenyeredet, és jóllakatod az elnyomottat,\nakkor felragyog a sötétségben világosságod, és homályod déli verőfényre változik.",
+                        "ending": "Ez az Isten igéje."
+                    },
+                    {
+                        "short_title": "olvasmány",
+                        "ref": "Kol 3,12-17",
+                        "teaser": "Szeressétek egymást, mert ez a tökéletesség köteléke!",
+                        "title": "SZENTLECKE Szent Pál apostolnak a kolosszeiekhez írt leveléből",
+                        "text": "Testvéreim!<br>\nMint Istennek szent és kedves választottai, öltsétek\nmagatokra az irgalmasságot, a jóságot, a szelídséget és a türelmet.<br>\nViseljétek el egymást, és bocsássatok meg egymásnak, ha valakinek panasza van a másik ellen. Bocsássatok meg ti is úgy, ahogyan az Úr megbocsátott nektek. Legfőként pedig szeressétek egymást, mert ez a tökéletesség köteléke. Krisztus békéje töltse be szíveteket, hiszen erre kaptatok meghívást az egy test közösségében. Legyetek hálásak! Krisztus igéje éljen bennetek gazdagon! Tanítsátok és intsétek egymást telve bölcsességgel! Énekeljetek Istennek hálás szívvel zsoltárokat, himnuszokat és szent énekeket!<br>\nBármit mondtok vagy tesztek, mindent az Úr Jézus nevében tegyetek! Így adjatok hálát általa az Atyaistennek!",
+                        "ending": "Ez az Isten igéje."
+                    }
+                ],
                 {
                     "short_title": "zsoltár",
                     "ref": "Zsolt 1,1-2.3.4 és 6",
@@ -814,11 +824,12 @@
         "name": "Urunk bemutatása (Gyertyaszentelő Boldogasszony) – Ü",
         "parts": [
             {
-                "short_title": null,
+                "short_title": "olvasmány",
                 "ref": "Mal 3,1-4",
-                "teaser": null,
-                "title": "<i>Amikor ez az ünnep nem vasárnapra esik, az evangélium előtt csak egy olvasmány van; bármelyiket választhatjuk az alábbi kettő közül</i>",
-                "text": "OLVASMÁNY Malakiás próféta könyvéből\t\n<br>\n<i>Hamarosan belép szentélyébe az Úr, akit kerestek. </i><br>\nEzt mondja az Úr, a mi Istenünk: „Íme, elküldöm hírnökömet, hogy elkészítse előttem az utat.  Hamarosan belép szentélyébe az Úr, akit kerestek, és a szövetség angyala, aki után vágyakoztok. Lám, már jön is! – mondja a Seregek Ura. De ki tudja majd elviselni jövetele napját? És ki maradhat állva, amikor megjelenik? Mert olyan, mint az olvasztók tüze és a ványolók lúgja. Leül, mint az ezüstolvasztó és tisztító mester. Megtisztítja Lévi fiait, megnemesíti őket, mint az aranyat és az ezüstöt szokás, hogy igazságban mutassanak be áldozatot az Úrnak.”<br>\nJúda és Jeruzsálem áldozata tetszeni fog akkor az Úrnak, éppúgy, mint a régmúlt időkben, mint az első években.",
+                "teaser": "Hamarosan belép szentélyébe az Úr, akit kerestek. ",
+                "cause": "Amikor ez az ünnep nem vasárnapra esik, az evangélium előtt csak egy olvasmány van; bármelyiket választhatjuk az alábbi kettő közül",
+                "title": "OLVASMÁNY Malakiás próféta könyvéből",
+                "text": "Ezt mondja az Úr, a mi Istenünk: „Íme, elküldöm hírnökömet, hogy elkészítse előttem az utat.  Hamarosan belép szentélyébe az Úr, akit kerestek, és a szövetség angyala, aki után vágyakoztok. Lám, már jön is! – mondja a Seregek Ura. De ki tudja majd elviselni jövetele napját? És ki maradhat állva, amikor megjelenik? Mert olyan, mint az olvasztók tüze és a ványolók lúgja. Leül, mint az ezüstolvasztó és tisztító mester. Megtisztítja Lévi fiait, megnemesíti őket, mint az aranyat és az ezüstöt szokás, hogy igazságban mutassanak be áldozatot az Úrnak.”<br>\nJúda és Jeruzsálem áldozata tetszeni fog akkor az Úrnak, éppúgy, mint a régmúlt időkben, mint az első években.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -841,14 +852,25 @@
                 "teaser": "Új fény támadt, pogányoknak üdvösség, * kiválasztott nemzetednek dicsőség. (Lk 2,32 – 8 G. tónus.)",
                 "text": "Új fény támadt, pogányoknak üdvösség, * kiválasztott nemzetednek dicsőség. (Lk 2,32 – 8 G. tónus.)"
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Lk 2,22-40 rövidebb: Lk 2,22-32",
-                "teaser": "Simeon meglátta a Szabadítót, a Messiást. ",
-                "title": "† EVANGÉLIUM Szent Lukács könyvéből\t",
-                "text": "Amikor Mózes törvénye szerint elteltek Mária tisztulásának napjai, fölvitték Jézust Jeruzsálembe, hogy bemutassák az Úrnak, amint az Úr törvénye előírja: „Minden elsőszülött fiú az Úr szent tulajdona.” Ekkor kellett Máriának, ugyancsak az Úr törvénye szerint, „egy pár gerlét vagy két galambfiókát” tisztulási áldozatul bemutatnia.<br>\nÉs íme, volt Jeruzsálemben egy Simeon nevű férfiú, egy igaz és istenfélő ember, aki Izrael vigaszára várt, és a Szentlélek lakott benne. A Szentlélek kinyilatkoztatta neki, hogy nem lát halált addig, míg meg nem látja az Úr Fölkentjét. A Lélek arra indította, hogy menjen a templomba, amikor a gyermek Jézust odavitték szülei, hogy a törvény előírásai szerint cselekedjenek vele. Simeon a karjára vette őt, és így magasztalta Istent:<br>\nMost már elbocsáthatod szolgádat, Uram,\nszavaid szerint békességben,\nmert szemeim meglátták Szabadításodat,\nmelyet minden nemzet számára készítettél,\nhogy világosság legyen: kinyilatkoztatás a pogányoknak,\nés dicsőség népednek, Izraelnek. *<br>\nJézus atyja és anyja ámulva hallgatták mindazt, amit Simeon mondott. Simeon pedig megáldotta őket, és így szólt Máriához, Jézus anyjához: „Lám, e gyermek által sokan elbuknak és sokan feltámadnak Izraelben! Az ellentmondás jele lesz ő – még a te lelkedet is tőr járja át –, hogy napfényre kerüljenek sok szívnek titkos gondolatai!” Ott volt Anna prófétanő is, Fánuel leánya Áser törzséből. Idős volt már, napjai előrehaladtak. Leánykora után hét évig élt férjével, majd özvegyen érte meg a nyolcvannegyedik évét. Nem hagyta el a templomot soha, böjtölve és imádkozva szolgálta Istent éjjel és nappal. Abban az órában is odament, dicsőítette Istent, és beszélt a gyermekről mindazoknak, akik Jeruzsálem megváltására vártak.<br>\nMiután az Úr törvénye szerint elvégeztek mindent, visszatértek városukba, a galileai Názáretbe. A gyermek pedig növekedett és erősödött, eltelt bölcsességgel, és Isten kedvét lelte benne.<br>\nEzek az evangélium igéi.",
-                "ending": "<i>Vagy rövidebb forma a *-ig</i>"
-            }
+            [
+              {
+                  "short_title": "evangélium",
+                  "ref": "Lk 2,22-40",
+                  "teaser": "Simeon meglátta a Szabadítót, a Messiást. ",
+                  "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+                  "text": "Amikor Mózes törvénye szerint elteltek Mária tisztulásának napjai, fölvitték Jézust Jeruzsálembe, hogy bemutassák az Úrnak, amint az Úr törvénye előírja: „Minden elsőszülött fiú az Úr szent tulajdona.” Ekkor kellett Máriának, ugyancsak az Úr törvénye szerint, „egy pár gerlét vagy két galambfiókát” tisztulási áldozatul bemutatnia.<br>\nÉs íme, volt Jeruzsálemben egy Simeon nevű férfiú, egy igaz és istenfélő ember, aki Izrael vigaszára várt, és a Szentlélek lakott benne. A Szentlélek kinyilatkoztatta neki, hogy nem lát halált addig, míg meg nem látja az Úr Fölkentjét. A Lélek arra indította, hogy menjen a templomba, amikor a gyermek Jézust odavitték szülei, hogy a törvény előírásai szerint cselekedjenek vele. Simeon a karjára vette őt, és így magasztalta Istent:<br>\nMost már elbocsáthatod szolgádat, Uram,\nszavaid szerint békességben,\nmert szemeim meglátták Szabadításodat,\nmelyet minden nemzet számára készítettél,\nhogy világosság legyen: kinyilatkoztatás a pogányoknak,\nés dicsőség népednek, Izraelnek.<br>\nJézus atyja és anyja ámulva hallgatták mindazt, amit Simeon mondott. Simeon pedig megáldotta őket, és így szólt Máriához, Jézus anyjához: „Lám, e gyermek által sokan elbuknak és sokan feltámadnak Izraelben! Az ellentmondás jele lesz ő – még a te lelkedet is tőr járja át –, hogy napfényre kerüljenek sok szívnek titkos gondolatai!” Ott volt Anna prófétanő is, Fánuel leánya Áser törzséből. Idős volt már, napjai előrehaladtak. Leánykora után hét évig élt férjével, majd özvegyen érte meg a nyolcvannegyedik évét. Nem hagyta el a templomot soha, böjtölve és imádkozva szolgálta Istent éjjel és nappal. Abban az órában is odament, dicsőítette Istent, és beszélt a gyermekről mindazoknak, akik Jeruzsálem megváltására vártak.<br>\nMiután az Úr törvénye szerint elvégeztek mindent, visszatértek városukba, a galileai Názáretbe. A gyermek pedig növekedett és erősödött, eltelt bölcsességgel, és Isten kedvét lelte benne.",
+                  "ending": "Ezek az evangélium igéi."
+              },
+              {
+                  "short_title": "evangélium",
+                  "ref": "Lk 2,22-32",
+                  "teaser": "Simeon meglátta a Szabadítót, a Messiást. ",
+                  "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+                  "text": "Amikor Mózes törvénye szerint elteltek Mária tisztulásának napjai, fölvitték Jézust Jeruzsálembe, hogy bemutassák az Úrnak, amint az Úr törvénye előírja: „Minden elsőszülött fiú az Úr szent tulajdona.” Ekkor kellett Máriának, ugyancsak az Úr törvénye szerint, „egy pár gerlét vagy két galambfiókát” tisztulási áldozatul bemutatnia.<br>\nÉs íme, volt Jeruzsálemben egy Simeon nevű férfiú, egy igaz és istenfélő ember, aki Izrael vigaszára várt, és a Szentlélek lakott benne. A Szentlélek kinyilatkoztatta neki, hogy nem lát halált addig, míg meg nem látja az Úr Fölkentjét. A Lélek arra indította, hogy menjen a templomba, amikor a gyermek Jézust odavitték szülei, hogy a törvény előírásai szerint cselekedjenek vele. Simeon a karjára vette őt, és így magasztalta Istent:<br>\nMost már elbocsáthatod szolgádat, Uram,\nszavaid szerint békességben,\nmert szemeim meglátták Szabadításodat,\nmelyet minden nemzet számára készítettél,\nhogy világosság legyen: kinyilatkoztatás a pogányoknak,\nés dicsőség népednek, Izraelnek.",
+                  "ending": "Ezek az evangélium igéi.",
+                  "cause": "Vagy rövidebb forma"
+              }
+            ]
         ]
     },
     "02-03": [
@@ -3290,7 +3312,7 @@
                 "ending": "Ezek az evangélium igéi."
             }
         ]
-    },  
+    },
     "06-08": [
         {
             "igenaptarId": "06-08b",
