@@ -81,30 +81,31 @@ Minden naptári naphoz tartozik egy "celebration" lista, aminek mindig van legla
 
 ```
 [{
-     "dateISO": "2024-01-08",
-     "yearLetter": "B",
-     "yearParity": "II",
-     "week": "1",
-     "dayofWeek": 1,
-     "weekOfPsalter": "1",
-     "season": "5",
-     "seasonText": "évközi idő",
-     "typeLocal": null,
-     "level": "13",
-     "required": "1",
-     "name": "évközi idő 1. hét, hétfő",
-     "readingsBreviarId": "1C1",
-     "volumeOfBreviary": "III",
-     "title": "évközi idő 1. hét, hétfő (köznap)",
-     "celebrationType": "köznap",
-     "colorId": "3",
-     "colorText": "zöld",
-     "comunia": null,
-     "celebrationKey": 0,
-     "readingsId": "EVK011Hetfo",
-     "ferialReadingsId": "01-08",
-     "parts": [ ... ],
-     "dayOfPenance": 0
+     "dateISO": "2024-01-08", #Az adott dátum éééé-hh-nn formátumban
+     "yearLetter": "B", # A liturgikus év betújele. Lehet A, B, vagy C. Advent első vasárnapja előestén vált mindig, vagyis év közben.
+     "yearParity": "II", # A liturgikus év köznapjain az olvasmányok páros és páratlan év szerint váltakoznak. Ezért lehet ez I vagy II. Ez is advent első vasárnapja előestéjén vált.
+     "week": "1", # Az adott liturgikus időszakon belüli hét sorszáma. Például advent 3. hetében ez 3-as. Olykor lehet 0 is, például hamvazószerdától nagyböjt első vasárnapjáig
+     "dayofWeek": 1, # A hét napjának sorszáma. Vasárnap = 0
+     "weekOfPsalter": "1", # A zsolozsmában használt zsoltáros hét sorszáma. 1, 2, 3, vagy 4. Nagy ünnepekkor - amikor minden zsoltár saját - nem releváns ez az információ, de liturgikus időszak alapján akkor is van itt érték.
+     "season": "5", # A litrugikus időszak azonosítója. Van itt mindenféle: advent I, advent II, karácsony, karácsony nyolcada, karácsony II, évközi idő, stb. Kicsit több mint amit fejből mondanál.
+     "seasonText": "évközi idő", # A liturgikus időszak megnevezése. Mindig párban változik az előző azonosítóval
+     "typeLocal": null, # Lehet null vagy string. Ha az adott ünnep csak bizonyos egyházmegyékben ünneplendő, akkor itt van hozzá szöveg. 
+     "level": "13", # Az ünnep rangja. Legmagasabb az 1, legkisebb a 13. A Misekönyv elején van pontos leírás arról, hogy mi milyen rangú. Ezek alapján alakul a naptár.
+     "required": "1", # Nem egészen beazonosított érték. Kb 15 esetben "0", amikor igen nagy már-már kötelező ünnep van. Beazonosításához a zsolozsma naptárra kéne ránézni.
+     "name": "évközi idő 1. hét, hétfő", # Az adott ünneplés megnevezése. 
+     "readingsBreviarId": "1C1", # A zsolozsma naptárja ezen azonosító szerint keresi meg az ünnep olvasmányait. A fejlesztés korábbi fázisában használtuk, ma már nem.
+     "volumeOfBreviary": "III", # A négy kötetes zsolozsma hanyadik kötetében találjuk meg a zsolozsma elemeit: I, II, III, vagy IV
+     "title": "évközi idő 1. hét, hétfő (köznap)", # A 'name' társa vagyis az adott ünnep megnevezése. Itt az ünnep rangjával is. A KAPP például ezt írja ki és nem a 'name' értékét
+     "celebrationType": "köznap", # A 'level' érték alapján az ünneplés ragjának megnevezése (ez kerül a 'title' végére). 0 = köznap, 1= főünnep, ... ünnep, emléknap, tetszés szerinti emléknap, 5 = egyéb saját szöveg...
+     "colorId": "3", # A liturgikus szín azonosítója. 1 = piros, 2 = fehér, ... zöld, lila, rózsaszín, fekete, 9 = rózsaszín|lila
+     "colorText": "zöld", # A liturgikus szín szöveggel kíírva. Figyelj a rózsaszín|lila -val!
+     "comunia": null, # Null vagy lista, hogy a közös részeket a zsolozsmában honnan lehet venni (pl. lelkipásztorok, egyháztanítók, stb.) Formátuma változni fog!
+     "celebrationKey": 0, # Egy szám. Amennyiben több celebration object van a listában, akkor itt egy azonosító, hogy ez épp hányadik a sorban. 
+     "readingsId": "EVK011Hetfo", # Ezen azonosító alapján próbáljuk megtalálni, hogy melyik olvasmány való ide. Leginkább az igenaptár.katolikus.hu azonosítójára hasonlít, de vannak eltérések / kivételek.
+     "ferialReadingsId": "01-08", # Zsolozsmából jövő olvasmány-azonosító. Amennyiben lehet köznapi olvasmányokat választani, akkor azok azonsoítója. Mi nem használjuk. Lehetne?
+     "parts": [ ... ], # A napról való olvasmányok és más információk. Lent külön szétszálazzuk
+     "parts2": [ ... ], # Opcionális. Ha egy emléknapnál lehet választani, hogy a köznapi olvasmányokat vesszük vagy az ünnepieket, akkor a parts tartalmazza az alapértelmezettet (köznapi) és a parts2 a sajátokat (opcionális)
+     "dayOfPenance": 0 # b
 },...]
 ```
 
