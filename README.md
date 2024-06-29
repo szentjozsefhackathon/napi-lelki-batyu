@@ -37,3 +37,76 @@ Egy-egy konkrét napra állítja össze a nagy json fájl alapján a napi liturg
 - push esetén, akár a validátor eredményes volt akár nem, deploy-t kap a honlap: feltölti a /batyuk tartalmát (zip, index.html, sok json) és mindenki boldok
 - cél, hogy a frontend már ne gondolkodjon igazán, minél inkább a json tartalmazzon mindent ami fontos!
 
+
+## éééé.json specifikáció
+Következik a yyyy.json fájl dokumentációja 
+
+#### A legfelső szint
+Egy nagy json objectünk van, amiben sok-sok elem van. A kulcs mindig "éééé-hh-nn" formátumban egy konkrét dátum. Minden dátumhoz tartozik egy object.
+
+```
+{
+     "2024-01-01": { ... },
+     "2024-01-02": { ... },
+     "2024-01-03": { ... },
+     ...
+     "2024-12-31": { ... },
+}
+```
+
+#### egy naptári nap
+Minden "éééé-hh-nn" formátumú kulcshoz tarozó elem egy olyan object aminek pontosan két eleme van amik kulcsa: "date" és "celebration"
+
+```
+{
+     "date": { ... },
+     "celebration": [ ... ],
+}
+```
+
+#### date object
+Ez object amiben a naptári naphoz tartozó olyan információk tartoznak, amik a liturgikus rendtől függetlenek:
+
+```
+{
+     "ISO": "2024-01-03", # éééé-hh-nn formátumban a dátum.
+     "dayOfYear": "3", # Az év hannyadik napjáról van szó. Január 1 = 1
+     "dayofWeek": "3", # A hét hanyadik napjáról van szó. Vasárnap = 0
+     "dayofWeekText": "szerda" # A nap kiírva betűvel
+}
+```
+
+#### celebration object
+Minden naptári naphoz tartozik egy "celebration" lista, aminek mindig van leglaább egy eleme. Nagyon gyakran néhány eleme van. Például, ha választani lehet szentek közül, vagy ha karácsonykor külön ünneplés az éjféli mise és a pásztorok miséje, stb. Egy, egy celebration jó sok adatot tartalmaz.
+
+```
+[{
+     "dateISO": "2024-01-08",
+     "yearLetter": "B",
+     "yearParity": "II",
+     "week": "1",
+     "dayofWeek": 1,
+     "weekOfPsalter": "1",
+     "season": "5",
+     "seasonText": "évközi idő",
+     "typeLocal": null,
+     "level": "13",
+     "required": "1",
+     "name": "évközi idő 1. hét, hétfő",
+     "readingsBreviarId": "1C1",
+     "volumeOfBreviary": "III",
+     "title": "évközi idő 1. hét, hétfő (köznap)",
+     "celebrationType": "köznap",
+     "colorId": "3",
+     "colorText": "zöld",
+     "comunia": null,
+     "celebrationKey": 0,
+     "readingsId": "EVK011Hetfo",
+     "ferialReadingsId": "01-08",
+     "parts": [ ... ],
+     "dayOfPenance": 0
+},...]
+```
+
+#### parts
+folytatjuk...
