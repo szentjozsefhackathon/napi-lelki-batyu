@@ -5136,34 +5136,68 @@
         "igenaptarId": "08-09",
         "name": "A keresztről nevezett Szent Teréz Benedikta (Edith Stein), szűz és vértanú, Európa társvédőszentje",
         "parts": [
-            {
-                "short_title": null,
-                "ref": "Oz 2,16b.17b.21-22 vagy Zsid 10,32-36",
-                "teaser": null,
-                "title": "Újabb Szentek Olvasmányai",
-                "text": "<i>Eljegyezlek magamnak örökre.</i><br>\nEzt mondja az Úr:<br>\nÍme, én kivezetem őt a pusztába, hogy a szívéhez szóljak, hogy úgy válaszoljon, mint ifjúsága napjaiban; mint azokban a napokban amikor feljött Egyiptom földjéről.<br>\nEljegyezlek magamnak örökre, eljegyezlek igazsággal és igazságossággal, jósággal és könyörülettel; eljegyezlek magamnak hűséggel, és te majd megtudod, hogy én vagyok az Úr!<br>\nEz az Isten igéje.<br>\n<br>\nSzentek Olvasmányai<br>\nSZENTLECKE a Zsidókhoz írt levélből\t\n<br>\n<i>Oly sok szenvedésben és küzdelemben helytálltatok. </i><br>\nTestvéreim! <br>\nEmlékezzetek vissza az elmúlt időkre, amikor megvilágosodástok után annyi küzdelemben és szenvedésben helytálltatok! Egyrészt a gyalázatnak és zaklatásnak kitéve, nevetség tárgyává lettetek; másrészt részvéttel kísértétek azokat, akikkel így bántak. Együtt szenvedtetek a foglyokkal, és vagyonotok elrablását is örömmel viseltétek el abban a tudatban, hogy értékesebb és maradandóbb javakkal rendelkeztek.\nEzért ne veszítsétek el bizalmatokat, hiszen nagy jutalom jár érte! Állhatatosaknak kell lennetek, hogy Isten akaratát teljesítve elnyerjétek az ígéretet.<br>\nEz az Isten igéje.",
-                "ending": ""
-            },
-            {
-                "short_title": "zsoltár",
-                "ref": "Zsolt 44,11-12.14-15.16-17 vagy Zsolt 33,2-3.4-5.6-7.8-9.10-11;",
-                "teaser": "Újabb Szentek Olvasmányai",
-                "text": "Újabb Szentek Olvasmányai<br>\nVálasz: <b>Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!</b> 11. vers.<br>\nVagy: <b>Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!</b> (Vö. Mt 25,6).<br>\nElőénekes: Halljad, leányom, figyelj szavamra, * felejtsd el népedet és atyád házát.<br>\nSzépségedet kívánja a király, * mert ő a te urad, hódolj előtte. <br>\nHívek: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br>\nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!<br>\nE: Belül a királylány csupa szépség, * arannyal van átszőve ruhája. <br>\nSzínpompás ruhában vezetik a királyhoz, * szüzek követik, és barátnői kísérik útján.<br>\nH: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br> \nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!<br>\nE: Ujjongó örömmel vonulnak, * bevonulnak a király házába. <br>\nAtyáid helyett fiaid lesznek, * az egész földön fejedelmekké teszed őket.<br>\nH: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br>\nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!<br>\n<br>\nSzentek Olvasmányai<br>\nVálasz: <b>Hálát adok az Úrnak * minden időben!</b> 2a. vers.<br>\nVagy: <b>Ízleljétek és lássátok, * milyen édes az Úr.</b> 9a. vers.<br>\nElőénekes: Minden időben áldom az Urat, * dicséretét szüntelenül zengi ajkam.<br>\nLelkem az Úrban dicsekszik, * hallják meg ezt a szelídek és örvendezzenek.<br>\nHívek: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Magasztaljátok az Urat énvelem, * dicsőítsük az ő nevét mindnyájan.<br>\nKerestem az Urat, és ő meghallgatott engem, * és kiragadott minden rettegésből.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Megvilágosultok, ha az Úrra néztek, * és arcotokat nem éri szégyen.<br>\nAz Úr meghallgatta a szegényt, aki hozzá kiáltott, * és minden szorongatásából kiszabadította.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Az Úr angyala minden istenfélőt körülsáncol, * és megszabadítja őt.<br>\nÍzleljétek és lássátok, milyen édes az Úr, * boldog az az ember, aki őbenne bízik.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Féljétek az Urat, ti, szentjei, * mert semmit sem nélkülöznek az istenfélők.<br>\nA gazdagok nyomorognak és éheznek, * de akik az Urat keresik, nem szűkölködnek.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr."
-            },
+			{
+					"short_title" : "info",
+					"title" : "RUBRIKA",
+					"teaser" : "Szentek miseolvasmányai (2001) 319. o. ill. Újabb szentek miseolvasmányai (2006) 67. o.",
+					"text" : "A vértanúk közös olvasmányaiból, [Szentek miseolvasmányai (2001)] 593. oldal,\n<br/> <i>vagy</i> A szüzek közös olvasmányaiból [Szentek miseolvasmányai (2011)] 660. oldal."
+			},
+			[
+				{
+					"short_title": "olvasmány (újabb szentek olvasmányai)",
+					"ref": "Oz 2,16b.17b.21-22",
+					"teaser": "Eljegyezlek magamnak örökre.",
+					"title": "OLVASMÁNY Ozeás próféta könyvéből",
+					"text": "nEzt mondja az Úr:<br>\nÍme, én kivezetem őt a pusztába, hogy a szívéhez szóljak, hogy úgy válaszoljon, mint ifjúsága napjaiban; mint azokban a napokban amikor feljött Egyiptom földjéről.<br>\nEljegyezlek magamnak örökre, eljegyezlek igazsággal és igazságossággal, jósággal és könyörülettel; eljegyezlek magamnak hűséggel, és te majd megtudod, hogy én vagyok az Úr!",
+					"ending": "nEz az Isten igéje."
+				},
+	            {
+					"short_title": "olvasmány (szentek olvasmányai)",
+					"ref": "Zsid 10,32-36",
+					"teaser": "Oly sok szenvedésben és küzdelemben helytálltatok.",
+					"title": "SZENTLECKE a Zsidókhoz írt levélből",
+					"text": "Testvéreim! <br>\nEmlékezzetek vissza az elmúlt időkre, amikor megvilágosodástok után annyi küzdelemben és szenvedésben helytálltatok! Egyrészt a gyalázatnak és zaklatásnak kitéve, nevetség tárgyává lettetek; másrészt részvéttel kísértétek azokat, akikkel így bántak. Együtt szenvedtetek a foglyokkal, és vagyonotok elrablását is örömmel viseltétek el abban a tudatban, hogy értékesebb és maradandóbb javakkal rendelkeztek.\nEzért ne veszítsétek el bizalmatokat, hiszen nagy jutalom jár érte! Állhatatosaknak kell lennetek, hogy Isten akaratát teljesítve elnyerjétek az ígéretet.",
+					"ending": "Ez az Isten igéje."
+				}
+			],
+			[
+				{
+					"short_title": "zsoltár (újabb szentek olvasmányai)",
+					"ref": "Zsolt 44,11-12.14-15.16-17",
+					"teaser": "Válasz: <b>Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!</b> 11. vers.<br>\nVagy: <b>Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!</b> (Vö. Mt 25,6).",
+					"text": "Válasz: <b>Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!</b> 11. vers.<br>\nVagy: <b>Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!</b> (Vö. Mt 25,6).<br>\nElőénekes: Halljad, leányom, figyelj szavamra, * felejtsd el népedet és atyád házát.<br>\nSzépségedet kívánja a király, * mert ő a te urad, hódolj előtte. <br>\nHívek: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br>\nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!<br>\nE: Belül a királylány csupa szépség, * arannyal van átszőve ruhája. <br>\nSzínpompás ruhában vezetik a királyhoz, * szüzek követik, és barátnői kísérik útján.<br>\nH: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br> \nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!<br>\nE: Ujjongó örömmel vonulnak, * bevonulnak a király házába. <br>\nAtyáid helyett fiaid lesznek, * az egész földön fejedelmekké teszed őket.<br>\nH: Halljad, leányom, és figyelj, * füledet hajlítsd szavamra!<br>\nVagy: Íme, jön a Vőlegény: * menjetek az Úr Krisztus elé!"
+				},
+				{
+					"short_title": "zsoltár (szentek olvasmányai)",
+					"ref": "Válasz: <b>Hálát adok az Úrnak * minden időben!</b> 2a. vers.<br>\nVagy: <b>Ízleljétek és lássátok, * milyen édes az Úr.</b> 9a. vers.",
+					"teaser": "Újabb Szentek Olvasmányai",
+					"text": "Válasz: <b>Hálát adok az Úrnak * minden időben!</b> 2a. vers.<br>\nVagy: <b>Ízleljétek és lássátok, * milyen édes az Úr.</b> 9a. vers.<br>\nElőénekes: Minden időben áldom az Urat, * dicséretét szüntelenül zengi ajkam.<br>\nLelkem az Úrban dicsekszik, * hallják meg ezt a szelídek és örvendezzenek.<br>\nHívek: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Magasztaljátok az Urat énvelem, * dicsőítsük az ő nevét mindnyájan.<br>\nKerestem az Urat, és ő meghallgatott engem, * és kiragadott minden rettegésből.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Megvilágosultok, ha az Úrra néztek, * és arcotokat nem éri szégyen.<br>\nAz Úr meghallgatta a szegényt, aki hozzá kiáltott, * és minden szorongatásából kiszabadította.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Az Úr angyala minden istenfélőt körülsáncol, * és megszabadítja őt.<br>\nÍzleljétek és lássátok, milyen édes az Úr, * boldog az az ember, aki őbenne bízik.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr.<br>\nE: Féljétek az Urat, ti, szentjei, * mert semmit sem nélkülöznek az istenfélők.<br>\nA gazdagok nyomorognak és éheznek, * de akik az Urat keresik, nem szűkölködnek.<br>\nH: Hálát adok az Úrnak * minden időben!<br>\nVagy: Ízleljétek és lássátok, * milyen édes az Úr."
+				}
+			],
             {
                 "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jöjj Krisztus jegyese, vedd a koronát, * melyet az Úr készített örökre! – 6. tónus.",
                 "text": "Jöjj Krisztus jegyese, vedd a koronát, * melyet az Úr készített örökre! – 6. tónus."
             },
-            {
-                "short_title": null,
-                "ref": "Mt 25,1-13 vagy Jn 15,9-17",
-                "teaser": null,
-                "title": "Újabb Szentek Olvasmányai",
-                "text": "<i>Íme, jön a Vőlegény! Menjetek eléje! </i><br>\nAbban az időben Jézus a következő példabeszédet mondta tanítványainak:<br>\nA mennyek országa olyan, mint az a tíz szűz, akik vették lámpáikat, és kimentek a vőlegény elé. Öten közülük balgák voltak, öten pedig okosak. A balgák fogták a lámpásukat, de olajat nem vittek magukkal; az okosak azonban korsóikban olajat is vittek lámpásaikhoz. Késett a vőlegény, s ők mind elálmosodtak és elaludtak. Az éjszaka közepén egyszerre kiáltás hangzott: „Íme, a vőlegény! Menjetek eléje!” Erre a szüzek mindnyájan fölébredtek és felszították lámpásaikat. A balgák kérték az okosakat: „Adjatok az olajotokból, mert lámpásaink kialvóban vannak!” Az okosak ezt válaszolták: „Nem lehet, nehogy nekünk is, nektek is kevés legyen. Inkább menjetek el a kereskedőkhöz, és vegyetek magatoknak!” Míg azok vásárolni mentek, megérkezett a vőlegény, és akik készen voltak, bementek vele a menyegzőre; az ajtó pedig bezárult. Később megérkezett a többi szűz is. Így szóltak: „Uram, Uram! Nyiss ajtót nekünk!” De ő így válaszolt: „Bizony, mondom nektek, nem ismerlek titeket!”<br>\nVirrasszatok tehát, mert nem ismeritek sem a napot, sem az órát!<br>\nEzek az evangélium igéi.<br>\n<br>\nSzentek Olvasmányai<br>\n† EVANGÉLIUM Szent János könyvéből\t\n<br>\n<i>Arra rendeltelek benneteket, hogy elmenjetek és gyümölcsöt hozzatok. </i><br>\nJézus így tanított az utolsó vacsorán:<br>\n„Amint engem szeret az Atya, úgy szeretlek én is titeket. Maradjatok meg az én szeretetemben!<br>\nHa megtartjátok parancsaimat, megmaradtok szeretetemben, ahogy én is megtartottam Atyám parancsait, és megmaradok az ő szeretetében.<br>\nEzeket azért mondtam nektek, hogy az én örömöm legyen bennetek, és örömötök ezzel teljes legyen.<br>\nAz az én parancsom, hogy szeressétek egymást, amint én szerettelek titeket! Nagyobb szeretete senkinek sincs annál, mint annak, aki életét adja barátaiért. Ti barátaim vagytok, ha megteszitek, amit parancsolok nektek.\nNem mondalak titeket többé szolgának, mert a szolga nem tudja, mit tesz az ura. Barátaimnak mondalak benneteket, mert mindazt, amit hallottam Atyámtól, tudtul adtam nektek.<br>\nNem ti választottatok engem, hanem én választottalak titeket; és arra rendeltelek, hogy elmenjetek és gyümölcsöt hozzatok: maradandó gyümölcsöt. Bármit kértek az Atyától az én nevemben, megadja nektek.<br>\nAzt parancsolom nektek, hogy szeressétek egymást!”",
-                "ending": "Ezek az evangélium igéi."
-            }
+			[
+				{
+					"short_title": "evangélium (újabb szentek olvasmányai)",
+					"ref": "Mt 25,1-13",
+					"teaser": "Íme, jön a Vőlegény! Menjetek eléje! ",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből",
+					"text": "Abban az időben Jézus a következő példabeszédet mondta tanítványainak:<br>\nA mennyek országa olyan, mint az a tíz szűz, akik vették lámpáikat, és kimentek a vőlegény elé. Öten közülük balgák voltak, öten pedig okosak. A balgák fogták a lámpásukat, de olajat nem vittek magukkal; az okosak azonban korsóikban olajat is vittek lámpásaikhoz. Késett a vőlegény, s ők mind elálmosodtak és elaludtak. Az éjszaka közepén egyszerre kiáltás hangzott: „Íme, a vőlegény! Menjetek eléje!” Erre a szüzek mindnyájan fölébredtek és felszították lámpásaikat. A balgák kérték az okosakat: „Adjatok az olajotokból, mert lámpásaink kialvóban vannak!” Az okosak ezt válaszolták: „Nem lehet, nehogy nekünk is, nektek is kevés legyen. Inkább menjetek el a kereskedőkhöz, és vegyetek magatoknak!” Míg azok vásárolni mentek, megérkezett a vőlegény, és akik készen voltak, bementek vele a menyegzőre; az ajtó pedig bezárult. Később megérkezett a többi szűz is. Így szóltak: „Uram, Uram! Nyiss ajtót nekünk!” De ő így válaszolt: „Bizony, mondom nektek, nem ismerlek titeket!”<br>\nVirrasszatok tehát, mert nem ismeritek sem a napot, sem az órát!",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"short_title": "evangélium (szentek olvasmányai)",
+					"ref": "Jn 15,9-17",
+					"teaser": "Arra rendeltelek benneteket, hogy elmenjetek és gyümölcsöt hozzatok.",
+					"title": "† EVANGÉLIUM Szent János könyvéből",
+					"text": "Jézus így tanított az utolsó vacsorán:<br>\n„Amint engem szeret az Atya, úgy szeretlek én is titeket. Maradjatok meg az én szeretetemben!<br>\nHa megtartjátok parancsaimat, megmaradtok szeretetemben, ahogy én is megtartottam Atyám parancsait, és megmaradok az ő szeretetében.<br>\nEzeket azért mondtam nektek, hogy az én örömöm legyen bennetek, és örömötök ezzel teljes legyen.<br>\nAz az én parancsom, hogy szeressétek egymást, amint én szerettelek titeket! Nagyobb szeretete senkinek sincs annál, mint annak, aki életét adja barátaiért. Ti barátaim vagytok, ha megteszitek, amit parancsolok nektek.\nNem mondalak titeket többé szolgának, mert a szolga nem tudja, mit tesz az ura. Barátaimnak mondalak benneteket, mert mindazt, amit hallottam Atyámtól, tudtul adtam nektek.<br>\nNem ti választottatok engem, hanem én választottalak titeket; és arra rendeltelek, hogy elmenjetek és gyümölcsöt hozzatok: maradandó gyümölcsöt. Bármit kértek az Atyától az én nevemben, megadja nektek.<br>\nAzt parancsolom nektek, hogy szeressétek egymást!”",
+					"ending": "Ezek az evangélium igéi."
+				}
+			]
         ]
     },
     "08-10": {
