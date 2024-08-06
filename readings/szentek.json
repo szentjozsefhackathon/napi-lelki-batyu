@@ -4969,12 +4969,12 @@
         "name": "Urunk színeváltozása – Ü",
         "parts": [
             {
-                "short_title": null,
+                "short_title": "olvasmány",
                 "ref": "Dán 7,9-10.13-14",
                 "teaser": null,
-                "title": null,
-                "text": "<i>Ha ez az ünnep nem esik vasárnapra, akkor az evangélium előtt csak az egyiket olvassuk az alábbi két olvasmány közül.</i>\n<br>\n<br>OLVASMÁNY Dániel próféta könyvéből\t\n<br>\n<i>Ruhája fehér volt, mint a hó. </i><br>\nÉn, Dániel az éjjeli látomásban láttam, hogy egyszer csak trónokat állítottak fel, és az Ősöreg leült. Ruhája fehér volt, mint a hó, fején a haj tiszta, mint a gyapjú. Trónja lobogó lángból volt, kerekei meg izzó parázsból. Tűzfolyó eredt belőle és folyt tovább. Ezerszer ezren szolgáltak neki, és tízezerszer tízezren álltak előtte. Ítéletet tartottak és felnyitották a könyveket.<br>\nLáttam az éjjeli látomásban, hogy íme, az ég felhőin valaki közeledik. Olyan volt, mint az Emberfia. Amikor az Ősöreghez ért, színe elé vezették. Hatalmat, méltóságot és királyságot adott neki. Minden népnek, nemzetnek és nyelvnek neki kellett szolgálnia. Hatalma örök hatalom volt, amely nem enyészik el soha, és királysága nem megy veszendőbe.<br>\nEz az Isten igéje.",
-                "ending": null
+                "title": "OLVASMÁNY Dániel próféta könyvéből",
+                "text": "<i>Ha ez az ünnep nem esik vasárnapra, akkor az evangélium előtt csak az egyiket olvassuk az alábbi két olvasmány közül.</i>\n<br>\n<br>\t\n<br>\n<i>Ruhája fehér volt, mint a hó. </i><br>\nÉn, Dániel az éjjeli látomásban láttam, hogy egyszer csak trónokat állítottak fel, és az Ősöreg leült. Ruhája fehér volt, mint a hó, fején a haj tiszta, mint a gyapjú. Trónja lobogó lángból volt, kerekei meg izzó parázsból. Tűzfolyó eredt belőle és folyt tovább. Ezerszer ezren szolgáltak neki, és tízezerszer tízezren álltak előtte. Ítéletet tartottak és felnyitották a könyveket.<br>\nLáttam az éjjeli látomásban, hogy íme, az ég felhőin valaki közeledik. Olyan volt, mint az Emberfia. Amikor az Ősöreghez ért, színe elé vezették. Hatalmat, méltóságot és királyságot adott neki. Minden népnek, nemzetnek és nyelvnek neki kellett szolgálnia. Hatalma örök hatalom volt, amely nem enyészik el soha, és királysága nem megy veszendőbe.",
+                "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "zsoltár",
@@ -4983,12 +4983,12 @@
                 "text": "Válasz: <b>Ki<u>rály</u> az Úr! * Legfölségesebb <u>az</u> egész világon!</b> (6. tónus)<br>\n\nElőénekes: Király az <u>Úr</u>! † Ujjong<u>jon</u> a föld, * és örvend<u>jen</u> minden sziget!<br>\nHomály és felhő lebegi <u>őt</u> körül, * trónját jog és igaz<u>ság</u> tartja szilárdan.<br>\nHívek: <b>Ki<u>rály</u> az Úr! * Legfölségesebb <u>az</u> egész világon!</b><br>\n\nE: A földkerekséget bevilágítják vil<u>lá</u>mai, * a föld látja <u>és</u> beleremeg.<br>\nA hegyek viaszként szétfolynak az Úr ar<u>ca</u> előtt, * az egész föld az <u>Úr</u> színe előtt.<br>\nH: <b>Ki<u>rály</u> az Úr! * Legfölségesebb <u>az</u> egész világon!</b><br>\n\nE: Igazságosságát hirdetik <u>az</u> egek, * és dicsőségét meg<u>lát</u>ják a népek.<br>\nMert te vagy, Uram, a legfölségesebb az e<u>gész</u> világon, * messze fölségesebb <u>vagy</u> minden istennél!<br>\nH: <b>Ki<u>rály</u> az Úr! * Legfölségesebb <u>az</u> egész világon!</b>"
             },
             {
-                "short_title": null,
+                "short_title": "szentlecke",
                 "ref": "2Pét 1,16-19",
-                "teaser": null,
-                "title": null,
-                "text": "SZENTLECKE Szent Péter apostol második leveléből\t\n<br>\n<i>Mi hallottuk az égből jövő szózatot, amikor vele voltunk a szent hegyen. </i><br>\nSzeretteim! <br>\nNem ravaszul kieszelt mesék nyomán adtuk nektek hírül Urunk Jézus Krisztus csodálatos erejét, hanem mint megdicsőülésének szemtanúi. Amikor az Atyaisten megtisztelte és megdicsőítette, ez a szózat hangzott el hozzá a magasztos dicsőségből: „Ez az én szeretett Fiam, akiben kedvem telik, őt hallgassátok!” Mi hallottuk ezt az égből jövő szózatot, amikor vele voltunk a szent hegyen. Így még jobban hiszünk a prófétai jövendölésekben, és ti is jól teszitek, ha figyeltek rájuk, mint sötétben világító lámpásra, amíg a nappal fel nem virrad, és a hajnalcsillag föl nem kél a szívetekben.<br>\nEz az Isten igéje.",
-                "ending": null
+                "teaser": "Mi hallottuk az égből jövő szózatot, amikor vele voltunk a szent hegyen.",
+                "title": "SZENTLECKE Szent Péter apostol második leveléből",
+                "text": "Szeretteim! <br>\nNem ravaszul kieszelt mesék nyomán adtuk nektek hírül Urunk Jézus Krisztus csodálatos erejét, hanem mint megdicsőülésének szemtanúi. Amikor az Atyaisten megtisztelte és megdicsőítette, ez a szózat hangzott el hozzá a magasztos dicsőségből: „Ez az én szeretett Fiam, akiben kedvem telik, őt hallgassátok!” Mi hallottuk ezt az égből jövő szózatot, amikor vele voltunk a szent hegyen. Így még jobban hiszünk a prófétai jövendölésekben, és ti is jól teszitek, ha figyeltek rájuk, mint sötétben világító lámpásra, amíg a nappal fel nem virrad, és a hajnalcsillag föl nem kél a szívetekben.",
+                "ending": "Ez az Isten igéje."
             },
             {
                 "short_title": "alleluja",
@@ -4996,14 +4996,36 @@
                 "teaser": "Ez az én szeretett Fiam, akiben nekem kedvem telik, * őt hallgassátok! Mt 17,5c – 4 G. tónus. ",
                 "text": "Ez az én szeretett Fiam, akiben nekem kedvem telik, * őt hallgassátok! Mt 17,5c – 4 G. tónus. "
             },
-            {
-                "short_title": null,
-                "ref": "<!-- Mt 17,1-9 „A” évben --> \nMk 9,2-10 „B” évben\n<!--Lk 9,28b-36 „C” évben--->",
-                "teaser": null,
-                "title": null,
-                "text": "<!-- \n<i>„A” évben</i>\n<br>\n† EVANGÉLIUM Szent Máté könyvéből\n<br>\n<i>Arca ragyogott, minta nap. </i><br>\nAbban az időben Jézus maga mellé vette Pétert, Jakabot és testvérét, Jánost, s külön velük fölment egy magas hegyre. Ott elváltozott előttük: arca ragyogni kezdett, mint a nap, a ruhája pedig vakító fehér lett, mint a fény. És íme megjelent nekik Mózes és Illés: Jézussal beszélgettek.<br>\nEkkor Péter így szólt Jézushoz: „Uram, jó nekünk itt lennünk! Ha akarod, készítek itt három sátrat, neked egyet, Mózesnek egyet és Illésnek egyet!” Még beszélt, amikor íme, fényes felhő borította el őket, és a felhőből egy hang hallatszott: „Ez az én szeretett Fiam, akiben kedvem telik. Őt hallgassátok!”<br>\nEnnek hallatára a tanítványok földre borultak és nagyon megrémültek. De Jézus odament hozzájuk, megérintette őket és ezt mondta: „Keljetek fel és ne féljetek!” Amikor szemüket fölemelték, nem láttak mást, csak Jézust egymagát.<br>\nA hegyről lejövet Jézus a lelkükre kötötte: „Senkinek se szóljatok a látomásról, míg az Emberfia a holtak közül fel nem támad.”<br>\nEzek az evangélium igéi.\n\n<br><br>\n--->\n<i>„B” évben:</i>\n<br>\n† EVANGÉLIUM Szent Márk könyvéből\t\n<br>\n<i>A mennyei Atya tanúsítja, hogy Jézus az ő szeretett Fia. </i><br>\nAbban az időben Jézus maga mellé vette Pétert, Jakabot és Jánost, és egyedül velük fölment egy magas hegyre. Ott elváltozott előttük. Ruhája olyan ragyogó fehér lett, hogy a földön semmiféle kelmefestő nem képes így a ruhát kifehéríteni. Egyszerre megjelent nekik Illés és Mózes, és beszélgettek Jézussal.<br>\nPéter ekkor ezt mondta Jézusnak: „Mester! Olyan jó nekünk itt lennünk! Készítsünk három sátrat: neked egyet, Mózesnek egyet és Illésnek egyet!” Nem is tudta, mit mond, annyira meg voltak ijedve.\nEkkor felhő árnyékolta be őket, és a felhőből szózat hallatszott: „Ez az én szeretett Fiam, őt hallgassátok!” Mire körülnéztek, már senkit sem láttak, csak Jézust egymagát.<br>\nA hegyről lejövet megparancsolta nekik, hogy ne mondják el senkinek, amit láttak, amíg az Emberfia fel nem támad a holtak közül. A parancsot megtartották, de maguk között megvitatták, hogy mit jelenthet az, hogy feltámad a holtak közül.<br>\nEzek az evangélium igéi.\n\n\n<!--\n<br><br>\n<i>„C” évben:</i>\n<br>\n† EVANGÉLIUM Szent Lukács könyvéből\n<br>\n<i>Míg Jézus imádkozott, arca teljesen átváltozott. </i><br>\nAbban az időben Jézus kiválasztotta Pétert, Jánost és Jakabot, és fölment velük a hegyre imádkozni. Míg imádkozott, arca teljesen átváltozott, ruhája pedig hófehéren ragyogott. S íme, két férfi beszélgetett vele: Mózes és Illés. Megdicsőülten jelentek meg, és haláláról beszélgettek, amelyet Jeruzsálemben kell majd elszenvednie. Pétert és társait elnyomta az álom. Amikor fölébredtek, látták dicsőségét és a mellette álló két férfit.<br>\nAzok már épp menni készültek. Péter akkor így szólt Jézushoz: „Mester, jó nekünk itt lennünk! Hadd csináljunk három sátrat: neked egyet, Mózesnek egyet és Illésnek egyet.” Nem tudta ugyanis, hogy mit mondjon. Közben felhő támadt és beborította őket. A felhőben félelem szállta meg őket.\nA felhőből szózat hallatszott: „Ez az én választott Fiam, őt hallgassátok!” Miközben a szózat hangzott, Jézus ismét egyedül volt.<br>\nŐk pedig hallgattak, és senkinek sem árultak el semmit abból, amit láttak.<br>\nEzek az evangélium igéi.-->",
-                "ending": null
-            }
+			[
+				{
+					"cause" : " „A” évben",
+					"short_title": "evangélium",
+					"ref": "Mt 17,1-9",
+					"teaser": "Arca ragyogott, minta nap.",
+					"title": "† EVANGÉLIUM Szent Máté könyvéből,",
+					"text": "Abban az időben Jézus maga mellé vette Pétert, Jakabot és testvérét, Jánost, s külön velük fölment egy magas hegyre. Ott elváltozott előttük: arca ragyogni kezdett, mint a nap, a ruhája pedig vakító fehér lett, mint a fény. És íme megjelent nekik Mózes és Illés: Jézussal beszélgettek.<br>\nEkkor Péter így szólt Jézushoz: „Uram, jó nekünk itt lennünk! Ha akarod, készítek itt három sátrat, neked egyet, Mózesnek egyet és Illésnek egyet!” Még beszélt, amikor íme, fényes felhő borította el őket, és a felhőből egy hang hallatszott: „Ez az én szeretett Fiam, akiben kedvem telik. Őt hallgassátok!”<br>\nEnnek hallatára a tanítványok földre borultak és nagyon megrémültek. De Jézus odament hozzájuk, megérintette őket és ezt mondta: „Keljetek fel és ne féljetek!” Amikor szemüket fölemelték, nem láttak mást, csak Jézust egymagát.<br>\nA hegyről lejövet Jézus a lelkükre kötötte: „Senkinek se szóljatok a látomásról, míg az Emberfia a holtak közül fel nem támad.”",
+					"ending": "Ezek az evangélium igéi."
+				},
+				{
+					"cause" : " „B” évben",
+					"short_title": "evangélium",
+					"ref": "Mk 9,2-10",
+					"teaser": "A mennyei Atya tanúsítja, hogy Jézus az ő szeretett Fia.",
+					"title": "† EVANGÉLIUM Szent Márk könyvéből",
+					"text": "Abban az időben Jézus maga mellé vette Pétert, Jakabot és Jánost, és egyedül velük fölment egy magas hegyre. Ott elváltozott előttük. Ruhája olyan ragyogó fehér lett, hogy a földön semmiféle kelmefestő nem képes így a ruhát kifehéríteni. Egyszerre megjelent nekik Illés és Mózes, és beszélgettek Jézussal.<br>\nPéter ekkor ezt mondta Jézusnak: „Mester! Olyan jó nekünk itt lennünk! Készítsünk három sátrat: neked egyet, Mózesnek egyet és Illésnek egyet!” Nem is tudta, mit mond, annyira meg voltak ijedve.\nEkkor felhő árnyékolta be őket, és a felhőből szózat hallatszott: „Ez az én szeretett Fiam, őt hallgassátok!” Mire körülnéztek, már senkit sem láttak, csak Jézust egymagát.<br>\nA hegyről lejövet megparancsolta nekik, hogy ne mondják el senkinek, amit láttak, amíg az Emberfia fel nem támad a holtak közül. A parancsot megtartották, de maguk között megvitatták, hogy mit jelenthet az, hogy feltámad a holtak közül.",
+					"ending": "nEzek az evangélium igéi."
+				},
+				{
+					"cause" : " „C” évben",
+					"short_title": "evangélium",
+					"ref": "Lk 9,28b-36",
+					"teaser": "Míg Jézus imádkozott, arca teljesen átváltozott.",
+					"title": "† EVANGÉLIUM Szent Lukács könyvéből",
+					"text": "Abban az időben Jézus kiválasztotta Pétert, Jánost és Jakabot, és fölment velük a hegyre imádkozni. Míg imádkozott, arca teljesen átváltozott, ruhája pedig hófehéren ragyogott. S íme, két férfi beszélgetett vele: Mózes és Illés. Megdicsőülten jelentek meg, és haláláról beszélgettek, amelyet Jeruzsálemben kell majd elszenvednie. Pétert és társait elnyomta az álom. Amikor fölébredtek, látták dicsőségét és a mellette álló két férfit.<br>\nAzok már épp menni készültek. Péter akkor így szólt Jézushoz: „Mester, jó nekünk itt lennünk! Hadd csináljunk három sátrat: neked egyet, Mózesnek egyet és Illésnek egyet.” Nem tudta ugyanis, hogy mit mondjon. Közben felhő támadt és beborította őket. A felhőben félelem szállta meg őket.\nA felhőből szózat hallatszott: „Ez az én választott Fiam, őt hallgassátok!” Miközben a szózat hangzott, Jézus ismét egyedül volt.<br>\nŐk pedig hallgattak, és senkinek sem árultak el semmit abból, amit láttak.",
+					"ending": "Ezek az evangélium igéi."
+				}
+			
+			]
         ]
     },
     "08-07": [
