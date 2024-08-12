@@ -8,7 +8,6 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
@@ -21,9 +20,9 @@
 
 
         <div class="px-4 py-5 my-5   border-bottom">
-            <h1 class="display-1 json_date">[dátum]</h1>
+            <h1 class="display-1 json_date"></h1>
             <div class="json_1" id="json_1">
-                <h1><span class="_name">N/A</span> <span class="badge bg-secondary _colorText">N/A</span>
+                <h1><span class="_name"></span> <span class="badge bg-secondary _colorText"></span>
 
                 <span class=" badge rounded-pill bg-primary ">
                     Rang: <span class="_level"></span>
@@ -31,7 +30,7 @@
                   </span>
                 </h1>
 
-                <p class="lead _eletrajz">N/A</p>
+                <p class="lead _eletrajz"></p>
 
 
                 <div class="parts accordion text-justify" id="accordionExample">
@@ -96,19 +95,30 @@
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
 
                                 $.each(value.parts, function (partkey, part) {
-
+                                    var accordionRef = Array.isArray(part) ? part.map(p => p.ref || '').join(', ') : part['ref'] || ''
+                                    if (accordionRef) {
+                                        accordionRef = `<small>   (${accordionRef})</small>`
+                                    }
                                     var accordionItem =   `<div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse` + partkey + `" aria-expanded="true" aria-controls="collapse` + partkey + `">
-        ` + part['short_title'] + `&nbsp;<small>   (` + part['ref'] + `</small>)
+        ` + (Array.isArray(part) ? part.map(p => p.short_title || '' ).join(', ') : part['short_title'] || '') + `&nbsp;${accordionRef}
       </button>
     </h2>
     <div id="collapse` + partkey + `" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>` + part['title'] + `</strong><br/>
+      <div class="accordion-body">` +
+        (Array.isArray(part) ? 
+          part.map(function (part) {
+            return `<strong>` + (part['title'] || '') + `</strong><br/>
+            <i>${part['teaser'] || ''}</i><br/>
         ` + part['text'] + `<br/>
-        <strong>` + part['ending'] + `</strong>
-      </div>
+        <strong>` + (part['ending'] || '') + `</strong>`}).join("<hr/>")
+        : `<strong>` + (part['title'] || '') + `</strong><br/>
+            <i>${part['teaser'] || ''}</i><br/>
+        ` + part['text'] + `<br/>
+        <strong>` + (part['ending'] || '') + `</strong>`) +
+
+      `</div>
     </div>
   </div>`
 
