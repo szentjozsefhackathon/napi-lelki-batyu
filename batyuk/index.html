@@ -96,19 +96,27 @@
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
 
                                 $.each(value.parts, function (partkey, part) {
-
+                                    
                                     var accordionItem =   `<div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse` + partkey + `" aria-expanded="true" aria-controls="collapse` + partkey + `">
-        ` + part['short_title'] + `&nbsp;<small>   (` + part['ref'] + `</small>)
+        ` + (Array.isArray(part) ? part.map(p => p.short_title || '' ).join(', ') : part['short_title'] || '') + `&nbsp;<small>   (` + (Array.isArray(part) ? part.map(p => p.ref || '').join(', ') : part['ref'] || '') + `</small>)
       </button>
     </h2>
     <div id="collapse` + partkey + `" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>` + part['title'] + `</strong><br/>
+      <div class="accordion-body">` +
+        (Array.isArray(part) ? 
+          part.map(function (part) {
+            return `<strong>` + (part['title'] || '') + `</strong><br/>
+            <i>${part['teaser'] || ''}</i><br/>
         ` + part['text'] + `<br/>
-        <strong>` + part['ending'] + `</strong>
-      </div>
+        <strong>` + (part['ending'] || '') + `</strong>`}).join("<hr/>")
+        : `<strong>` + (part['title'] || '') + `</strong><br/>
+            <i>${part['teaser'] || ''}</i><br/>
+        ` + part['text'] + `<br/>
+        <strong>` + (part['ending'] || '') + `</strong>`) +
+
+      `</div>
     </div>
   </div>`
 
