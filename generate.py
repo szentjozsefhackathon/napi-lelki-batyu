@@ -7,30 +7,22 @@ import Levenshtein
 import sys
 import os
 import time
-from datetime import datetime
-from datetime import timedelta
+from datetime import datetime, timedelta
+import argparse
 
 
-def downloadBreviarData():
+def downloadBreviarData(year):
 
     print("Downloading data from breviar.kbs.sk", end='')
     sys.stdout.flush()
     # get breviarData from url
-    current_year = datetime.now().year
-    url = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={current_year}&j=hu"
+    url = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={year}&j=hu"
     response = requests.get(url)
     breviarData = xmltodict.parse(response.content)
-    next_year = current_year + 1
-    url_next_year = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={next_year}&j=hu"
-    response_next_year = requests.get(url_next_year)
-    breviarData_next_year = xmltodict.parse(response_next_year.content)
-
-    # Merge the two datasets
-    breviarData['LHData']['CalendarDay'].extend(breviarData_next_year['LHData']['CalendarDay'])
 
     # now write output to a file
-    with open("breviarData.json", "w") as breviarDataFile:
-        print("...", end='')
+    with open(f"breviarData_{year}.json", "w") as breviarDataFile:
+        print(f"Write breviarData_{year}.json...", end='')
         sys.stdout.flush()
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
@@ -38,10 +30,10 @@ def downloadBreviarData():
         )
     print(" OK")
 
-def loadBreviarData():
-    print("Loading breviarData.json...", end='')
+def loadBreviarData(year):
+    print(f"Loading breviarData_{year}.json...", end='')
     sys.stdout.flush()
-    f = open("breviarData.json")
+    f = open(f"breviarData_{year}.json")
     data = simplejson.load(f)
     print(" OK")
     return data
@@ -96,7 +88,7 @@ def loadKatolikusData():
     print(" OK")
     return katolikusData
 
-def transformCelebration(celebration: dict):
+def transformCelebration(celebration: dict, calendarDay: dict):
 
 
     transformedCelebration = {
@@ -170,9 +162,9 @@ def transformCelebration(celebration: dict):
     return transformedCelebration
 
 
-def findCommentaries(celebration: dict):
+def findCommentaries(celebration: dict, katolikusData: dict):
 
-    commentaryHasFound = False
+    commentaryHasFound = False # todo!
 
     for commentary in katolikusData['commentaries']:
         if 'readingsBreviarId' in katolikusData['commentaries'][commentary]:
@@ -189,7 +181,7 @@ def findCommentaries(celebration: dict):
                 return True
 
 
-def createReadingIds(celebration: dict):
+def createReadingIds(celebration: dict, calendarDay: dict):
 
     seasons = { '0' :"ADV", '1' : "ADV", '2': "KAR", '3': "KAR", '4': "KAR", '5' : "EVK", "6": "NAB", "10" : "HUS", "11" : "HUS" }
 
@@ -283,7 +275,7 @@ def error(text):
     print("  ERROR: " + text.ljust(80))
     # exit()
 
-def findReadings(celebration: dict):
+def findReadings(celebration: dict, katolikusData: dict, lelkiBatyu: dict):
 
     readingHasFound = False
 
@@ -417,7 +409,7 @@ def findReadings(celebration: dict):
 
 
 # Kötelező emléknapokon (level 10 és 11) köznapi olvasmányok a default érték!
-def addreadingstolevel10(celebration: dict):
+def addreadingstolevel10(celebration: dict, katolikusData: dict):
     if celebration['level'] == '10' or celebration['level'] == '11'  or celebration['level'] == '12':
 
         ferialReadings = False
@@ -446,7 +438,7 @@ def addreadingstolevel10(celebration: dict):
 
         # Tehát a fakultatív saját olvasmányok mennek a parts2-ben. Persze ha vannak...
         if 'parts' in celebration:
-            celebration['parts2'] = celebration['parts'];
+            celebration['parts2'] = celebration['parts']
         else:
             celebration['parts2'] = [{
                 "teaser" : "Saját olvasmányokat nem találtunk. Elnézést.",
@@ -454,8 +446,8 @@ def addreadingstolevel10(celebration: dict):
             }]
             error("Kéne legyen saját olvasmánya is, de csak a közös olvasmányoakt találtunk meg.")
 
-        celebration['parts2cause'] = "(Vagy) saját olvasmányok";
-        celebration['parts'] = ferialReadings["parts"];
+        celebration['parts2cause'] = "(Vagy) saját olvasmányok"
+        celebration['parts'] = ferialReadings["parts"]
 
         return
 
@@ -510,7 +502,6 @@ def addCustomCelebrationstoBreviarData(data):
         if celebration['name'] == "Urunk születése (Karácsony)":
             toAdd = [ {"name": " Urunk születése: Karácsony – Vigília mise" }, {"name" : "Karácsony – Éjféli mise" }, {"name" : "Urunk születése: Karácsony – Pásztorok miséje" }, {"name" : "Urunk születése: Karácsony – Ünnepi mise" } ]
 
-        #print(celebration['name'])
 
         if celebration['name'] == "Pünkösd":
             toAdd = [ {"name": "Pünkösd, vigília mise" }, {"name" : "Pünkösdvasárnap" } ]
@@ -576,144 +567,146 @@ def is_file_old_or_missing(file_path):
     return False
 
 
-#Itt kezdődik a program menete
-
-if is_file_old_or_missing("breviarData.json"):
-    downloadBreviarData()
-
-#A jelen év és jövő év minden napjára lekérjük az adatokat
-breviarData = loadBreviarData()
-#Összeszedjük az elérhető olvasmány adatokat
-katolikusData = loadKatolikusData()
-
-lelkiBatyuk = {}
-for calendarDay in breviarData['LHData']['CalendarDay']:
-    print(calendarDay['DateISO'] + ": ")
 
 
-    lelkiBatyu = {}
-    lelkiBatyu['date'] = {
-        'ISO': calendarDay['DateISO'],
-        'dayOfYear' : calendarDay['DayOfYear'],
-        'dayofWeek' : calendarDay['DayOfWeek']['@Id'],
-        'dayofWeekText' : calendarDay['DayOfWeek']['#text']
-    }
+def generateLelkiBatyuk(year):
+    if is_file_old_or_missing(f"breviarData_{year}.json"):
+        downloadBreviarData(year)
 
-    #for celebration in calendarDay
-    lelkiBatyu['celebration'] = []
-    if not isinstance(calendarDay['Celebration'], dict):
-        for celebration in calendarDay['Celebration']:
-            lelkiBatyu['celebration'].append(transformCelebration(celebration))
-    else:
-        lelkiBatyu['celebration'].append(transformCelebration(calendarDay['Celebration']))
+    breviarData = loadBreviarData(year)
 
-    addCustomCelebrationstoBreviarData(lelkiBatyu)
+    katolikusData = loadKatolikusData()
+
+    lelkiBatyuk = {}
+    for calendarDay in breviarData['LHData']['CalendarDay']:
+        print(calendarDay['DateISO'] + ": ")
 
 
-    #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
-    for key in range(len(lelkiBatyu['celebration'])):
-        celebration = lelkiBatyu['celebration'][key]
-        celebration['celebrationKey'] = key
-        print("", end='\r', flush=True)
-        sys.stdout.flush()
+        lelkiBatyu = {}
+        lelkiBatyu['date'] = {
+            'ISO': calendarDay['DateISO'],
+            'dayOfYear' : calendarDay['DayOfYear'],
+            'dayofWeek' : calendarDay['DayOfWeek']['@Id'],
+            'dayofWeekText' : calendarDay['DayOfWeek']['#text']
+        }
 
-        createReadingIds(celebration)
+        #for celebration in calendarDay
+        lelkiBatyu['celebration'] = []
+        if not isinstance(calendarDay['Celebration'], dict):
+            for celebration in calendarDay['Celebration']:
+                lelkiBatyu['celebration'].append(transformCelebration(celebration, calendarDay))
+        else:
+            lelkiBatyu['celebration'].append(transformCelebration(calendarDay['Celebration'], calendarDay))
+
+        addCustomCelebrationstoBreviarData(lelkiBatyu)
 
 
-        findReadings(celebration)
+        #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
+        for key in range(len(lelkiBatyu['celebration'])):
+            celebration = lelkiBatyu['celebration'][key]
+            celebration['celebrationKey'] = key
+            print("", end='\r', flush=True)
+            sys.stdout.flush()
+
+            createReadingIds(celebration, calendarDay)
 
 
-        addreadingstolevel10(celebration)
-        clearYearIorII(celebration)
+            findReadings(celebration, katolikusData, lelkiBatyu)
 
 
+            addreadingstolevel10(celebration, katolikusData)
+            clearYearIorII(celebration)
 
 
 
-    #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
-   # for celebration in lelkiBatyu['celebration']:
-        findCommentaries(celebration)
 
 
-        # egyéb dolgok
-        celebration['dayOfPenance'] = day_of_penance(celebration)
-
-        print("  OK                                  ", end="\r",flush=True)
-
-        #sys.stdout.flush()
+        #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
+    # for celebration in lelkiBatyu['celebration']:
+            findCommentaries(celebration, katolikusData)
 
 
-    #if calendarDay['DateISO'] == "2024-05-19":
-    #    exit()
+            # egyéb dolgok
+            celebration['dayOfPenance'] = day_of_penance(celebration)
 
-    # now write output to a file
-    with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
-        # magic happens here to make it pretty-printed
-        breviarDataFile.write(
-            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False, ensure_ascii=False)
-        )
-    lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
+            print("  OK                                  ", end="\r",flush=True)
 
 
-with open("batyuk/2024_simple.json", "w", encoding='utf8') as breviarDataFile:
-        # magic happens here to make it pretty-printed
-        breviarDataFile.write(
-            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
-        )
+
+        #if calendarDay['DateISO'] == "2024-05-19":
+        #    exit()
 
 
-lelkiBatyukComplex = lelkiBatyuk
-# print(lelkiBatyuk['2024-03-31'])
+        # now write output to a file
+        with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
+            # magic happens here to make it pretty-printed
+            breviarDataFile.write(
+                simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False, ensure_ascii=False)
+            )
+        lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
-for day in lelkiBatyukComplex:
-    for cid, celebration in enumerate(lelkiBatyukComplex[day]['celebration']):
-        if 'parts' in lelkiBatyukComplex[day]['celebration'][cid]:
-            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts']):
-                # lista
-                if type(part) == dict:
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid]['type'] = 'object'
-                else:
-                    tmp = {}
-                    tmp['type'] = 'array'
-                    tmp['content'] = part
+    with open(f"batyuk/{year}_simple.json", "w", encoding='utf8') as breviarDataFile:
+            # magic happens here to make it pretty-printed
+            breviarDataFile.write(
+                simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
+            )
 
-                    for contentid, cont in enumerate(tmp['content']):
-                        tmp['content'][contentid]['type'] = 'object'
 
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid] = tmp
+    lelkiBatyukComplex = lelkiBatyuk
 
-        if 'parts2' in lelkiBatyukComplex[day]['celebration'][cid]:
-            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts2']):
-                # lista
-                if type(part) == dict:
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid]['type'] = 'object'
-                else:
-                    tmp = {}
-                    tmp['type'] = 'array'
-                    tmp['content'] = part
+    for day in lelkiBatyukComplex:
+        for cid, celebration in enumerate(lelkiBatyukComplex[day]['celebration']):
+            if 'parts' in lelkiBatyukComplex[day]['celebration'][cid]:
+                for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts']):
+                    # lista
+                    if type(part) == dict:
+                        lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid]['type'] = 'object'
+                    else:
+                        tmp = {}
+                        tmp['type'] = 'array'
+                        tmp['content'] = part
 
-                    for contentid, cont in enumerate(tmp['content']):
-                        tmp['content'][contentid]['type'] = 'object'
+                        for contentid, cont in enumerate(tmp['content']):
+                            tmp['content'][contentid]['type'] = 'object'
 
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid] = tmp
+                        lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid] = tmp
 
-def save_filtered_lelkiBatyukComplex(year):
+            if 'parts2' in lelkiBatyukComplex[day]['celebration'][cid]:
+                for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts2']):
+                    # lista
+                    if type(part) == dict:
+                        lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid]['type'] = 'object'
+                    else:
+                        tmp = {}
+                        tmp['type'] = 'array'
+                        tmp['content'] = part
+
+                        for contentid, cont in enumerate(tmp['content']):
+                            tmp['content'][contentid]['type'] = 'object'
+
+                        lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid] = tmp
+
+
+
+
     with open(f"batyuk/{year}.json", "w", encoding='utf8') as breviarDataFile:
-        filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if k.startswith(str(year))}
-        breviarDataFile.write(
-            simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
-        )
-
-with open("batyuk/igenaptar.json", "w", encoding='utf8') as breviarDataFile:
-    today = datetime.now()
-    start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
-    end_date = (today + timedelta(days=365)).strftime('%Y-%m-%d')
-    filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if start_date <= k <= end_date}
-    breviarDataFile.write(
-        simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
-    )
-save_filtered_lelkiBatyukComplex(datetime.now().year)
-save_filtered_lelkiBatyukComplex(datetime.now().year + 1)
+            # magic happens here to make it pretty-printed
+            breviarDataFile.write(
+                simplejson.dumps(lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
+            )
 
 
-print("készen vagyunk")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='Napi lelki batyuk generalasa')
+    parser.add_argument(
+        '--year', default=datetime.now().year, type=int, help='the year to generate')
+    parser.add_argument('--no-next-year', action='store_false', help='do not generate next year', default=True, dest='next_year')
+
+    
+    args = parser.parse_args()
+
+    generateLelkiBatyuk(args.year)
+    if args.next_year:
+        generateLelkiBatyuk(args.year + 1)
+    print("Done!")
