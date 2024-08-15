@@ -14,7 +14,7 @@ Minden napra megadja a napi szenteket, olvasmányokat, liturgikus információka
      - és legyártja a kimeneti json fájlokat a batyuk/ mappába ( [éééé-hh-nn].json, [éééé].json, [éééé]_simple.json )
      - majd a frontendet is: batyuk/index.html, batyuk/naptar.html
 
-Nyilvános felszanálásra javasolt a bárki számára (pl. KAPP):
+Nyilvános felhasználása javasolt bárki számára (pl. KAPP):
 - https://szentjozsefhackathon.github.io/napi-lelki-batyu/[éééé].json vagy
 - https://szentjozsefhackathon.github.io/napi-lelki-batyu/[éééé-hh-nn].json
 
