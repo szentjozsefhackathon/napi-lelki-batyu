@@ -130,33 +130,34 @@
 
     readings = ''
     var isNotFirst = false
-    for (const [key, part] of Object.entries(parts)) {
-      if ( part.type == 'array' ) {
-        var isNotF = false
-        for (const [k, p] of Object.entries(part.content)) {
-          if (  partsToShow.includes(p.short_title )) {
-            if ( isNotFirst && isNotF == false ) {
-              readings += "; "
+    if(parts) {
+      for (const [key, part] of Object.entries(parts)) {
+        if ( part.type == 'array' ) {
+          var isNotF = false
+          for (const [k, p] of Object.entries(part.content)) {
+            if (  partsToShow.includes(p.short_title )) {
+              if ( isNotFirst && isNotF == false ) {
+                readings += "; "
+              }
+              if ( isNotF  ) {
+                readings += " <span class='red'><i>vagy</i></span> "
+              }
+              readings += p.ref
+              isNotF = true
+              isNotFirst = true
             }
-            if ( isNotF  ) {
-              readings += " <span class='red'><i>vagy</i></span> "
-            }
-            readings += p.ref
-            isNotF = true
-            isNotFirst = true
           }
         }
-      }
-      else {
-          if (  partsToShow.includes(part.short_title )) {
-            if ( isNotFirst  ) {
-              readings += "; "
+        else {
+            if (  partsToShow.includes(part.short_title )) {
+              if ( isNotFirst  ) {
+                readings += "; "
+              }
+              readings += part.ref
+              isNotFirst = true
             }
-            readings += part.ref
-            isNotFirst = true
-          }
+        }
       }
-
 
     }
 
