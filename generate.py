@@ -125,6 +125,11 @@ def transformCelebration(celebration: dict):
     if transformedCelebration['name'] == None:
         napok = { 0: "vasárnap", 1: "hétfő", 2: "kedd", 3: "szerda", 4: "csütörtök", 5: "péntek", 6: "szombat"}
         transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'] + " " + celebration['LiturgicalWeek'] + ". hét, " + napok[int(calendarDay["DayOfWeek"]['@Id'])]
+        if int(calendarDay["DayOfWeek"]['@Id']) == 0:
+            if celebration['LiturgicalSeason']['#text'] == "évközi idő":
+                transformedCelebration['name'] = "évközi " + celebration['LiturgicalWeek'] + ". vasárnap"
+            else:
+                transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'][:-5] + " " + celebration['LiturgicalWeek'] + ". vasárnapja"                
 
     #print(transformedCelebration['name'])
 
@@ -369,7 +374,10 @@ def findReadings(celebration: dict):
         if 'name' in possibility and possibility['name'] != "":
             #print(possibility['name'] + " <-- " + celebration['name'])
             #celebration['name'] = possibility['name']
-            celebration['title'] =  celebration['name'] + " (" + celebration['celebrationType'] + ")"
+            if lelkiBatyu['date']['dayofWeek'] != '0' or  celebration['celebrationType'] != 'köznap':
+                celebration['title'] = celebration['name'] + " (" + celebration['celebrationType'] + ")"
+            else:
+                celebration['title'] = celebration['name']
 
         celebration['parts'] = possibility['parts']
 
