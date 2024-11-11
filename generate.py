@@ -15,9 +15,17 @@ def downloadBreviarData():
     print("Downloading data from breviar.kbs.sk", end='')
     sys.stdout.flush()
     # get breviarData from url
-    url = "https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r=2024&j=hu"
+    current_year = datetime.now().year
+    url = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={current_year}&j=hu"
     response = requests.get(url)
     breviarData = xmltodict.parse(response.content)
+    next_year = current_year + 1
+    url_next_year = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={next_year}&j=hu"
+    response_next_year = requests.get(url_next_year)
+    breviarData_next_year = xmltodict.parse(response_next_year.content)
+
+    # Merge the two datasets
+    breviarData['LHData']['CalendarDay'].extend(breviarData_next_year['LHData']['CalendarDay'])
 
     # now write output to a file
     with open("breviarData.json", "w") as breviarDataFile:
@@ -674,10 +682,15 @@ for day in lelkiBatyukComplex:
 
                     lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid] = tmp
 
-with open("batyuk/2024.json", "w", encoding='utf8') as breviarDataFile:
-        # magic happens here to make it pretty-printed
+def save_filtered_lelkiBatyukComplex(year):
+    with open(f"batyuk/{year}.json", "w", encoding='utf8') as breviarDataFile:
+        filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if k.startswith(str(year))}
         breviarDataFile.write(
-            simplejson.dumps(lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
+            simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
         )
 
-print("Hello World")
+save_filtered_lelkiBatyukComplex(datetime.now().year)
+save_filtered_lelkiBatyukComplex(datetime.now().year + 1)
+
+
+print("készen vagyunk")
