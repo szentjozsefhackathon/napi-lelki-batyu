@@ -8,6 +8,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="igenaptar.css">
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
@@ -304,10 +305,20 @@
 
         });
         console.log("done");
-        // Scroll to the row with id="row_2025-01-04"
-        $('html, body').animate({
-            scrollTop: $("#row_" + new Date().toISOString().split('T')[0]).offset().top
-        }, 1000);
+        // Check if the URL contains an anchor
+        if (window.location.hash) {
+            // Scroll to the element with the id matching the hash
+            var hash = window.location.hash.substring(1);
+            var goal = /^(\d{4})-(\d{2})-(\d{2})$/.test(hash) ? "#row_" + hash : hash;
+            $('html, body').animate({            
+            scrollTop: $(goal).offset().top
+            }, 1000);
+        } else {
+            // Scroll to the row with id="row_2025-01-04"
+            $('html, body').animate({
+          scrollTop: $("#row_" + new Date().toISOString().split('T')[0]).offset().top
+            }, 1000);
+        }
     });
   });
 
@@ -349,22 +360,7 @@
         color: white !important;
         font-weight: bold;
       }
-      /* https://www.color-hex.com/color-palette/82283 */
-      .season-2, .season-3, .season-4, .season-8, .season-9, .season-10, .season-11  {
-        background-color: #d4af37 !important ; /* gold */
-      }
-      .seasion-1 {
-        background-color: #d80707 !important ; /* red */
-      }
-      .season-5 {
-        background-color: #186420 !important ; /* green */
-      }
-      .season-0, .season-1, .season-6, .season-7 {
-        background-color: #800080 !important ; /* purple */
-      }
-      .seasion-1 {
-        background-color: #f485ba !important ; /* pink */
-      }
+     
     </style>
 
 </body>
