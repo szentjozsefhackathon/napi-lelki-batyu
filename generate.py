@@ -693,7 +693,7 @@ def save_filtered_lelkiBatyukComplex(year):
             simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
         )
 
-with open("igenaptar.json", "w", encoding='utf8') as breviarDataFile:
+with open("batyuk/igenaptar.json", "w", encoding='utf8') as breviarDataFile:
     today = datetime.now()
     start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
     end_date = (today + timedelta(days=365)).strftime('%Y-%m-%d')
