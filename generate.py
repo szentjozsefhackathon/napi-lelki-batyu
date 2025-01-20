@@ -8,6 +8,7 @@ import sys
 import os
 import time
 from datetime import datetime
+from datetime import timedelta
 
 
 def downloadBreviarData():
@@ -115,7 +116,7 @@ def transformCelebration(celebration: dict):
     }
 
     #Volume of the volumeOfBreviary
-    print(celebration['LiturgicalSeason']['@Id'])
+    #print(celebration['LiturgicalSeason']['@Id'])
     if celebration['LiturgicalSeason']['@Id'] in ['0','1','2','3','4']:
         transformedCelebration['volumeOfBreviary'] = "I"
     elif celebration['LiturgicalSeason']['@Id'] in ['6','7','8','9','10','11']:
@@ -543,7 +544,7 @@ def day_of_penance(celebration):
         if celebration['season'] == "6":
             day_of_penance = 2
 
-    print(celebration)
+    #print(celebration)
     #nagypéntek és hamvazószerda
     if celebration['readingsId'] == "NAB065Pentek" or celebration['readingsId'] == "NAB003Szerda":
         day_of_penance = 3
@@ -564,11 +565,14 @@ def is_file_old_or_missing(file_path):
     return False
 
 
+#Itt kezdődik a program menete
+
 if is_file_old_or_missing("breviarData.json"):
     downloadBreviarData()
 
+#A jelen év és jövő év minden napjára lekérjük az adatokat
 breviarData = loadBreviarData()
-
+#Összeszedjük az elérhető olvasmány adatokat
 katolikusData = loadKatolikusData()
 
 lelkiBatyuk = {}
@@ -639,7 +643,7 @@ for calendarDay in breviarData['LHData']['CalendarDay']:
         )
     lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
 
-exit
+
 with open("batyuk/2024_simple.json", "w", encoding='utf8') as breviarDataFile:
         # magic happens here to make it pretty-printed
         breviarDataFile.write(
@@ -689,6 +693,14 @@ def save_filtered_lelkiBatyukComplex(year):
             simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
         )
 
+with open("igenaptar.json", "w", encoding='utf8') as breviarDataFile:
+    today = datetime.now()
+    start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
+    end_date = (today + timedelta(days=365)).strftime('%Y-%m-%d')
+    filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if start_date <= k <= end_date}
+    breviarDataFile.write(
+        simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
+    )
 save_filtered_lelkiBatyukComplex(datetime.now().year)
 save_filtered_lelkiBatyukComplex(datetime.now().year + 1)
 
