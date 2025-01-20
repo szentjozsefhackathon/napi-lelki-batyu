@@ -273,6 +273,30 @@ var valami = `                                ["name", "elsoolvhely","zsoltarhel
 
             return [year, month, day].join('-');
         }
+
+
+        // Swipe detection
+        let touchstartX = 0;
+        let touchendX = 0;
+
+        function handleGesture() {
+            if (touchendX < touchstartX) {
+          // Swiped left
+          var nextDate = new Date(dateString);
+          nextDate.setDate(nextDate.getDate() + 1);
+          var nextDateString = nextDate.toISOString().split('T')[0];
+          window.location.href = '?date=' + nextDateString;
+            }
+        }
+
+        document.addEventListener('touchstart', function(event) {
+            touchstartX = event.changedTouches[0].screenX;
+        }, false);
+
+        document.addEventListener('touchend', function(event) {
+            touchendX = event.changedTouches[0].screenX;
+            handleGesture();
+        }, false);
     </script>
 
 </body>
