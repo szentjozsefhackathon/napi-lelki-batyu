@@ -230,7 +230,7 @@
 
 
             // Dátum: Máj 20.
-              $("#row_" + date ).append("<td class=\"bg-grey\" id=\"" + date + "\"><strong><a href=\"index.html?date=" + date + "\">" + formatHungarianDate(date) + "</a></strong></td>")
+              $("#row_" + date ).append("<td class=\"bg-grey\" id=\"" + date + "\"><strong><a href=\"nap.html?date=" + date + "\">" + formatHungarianDate(date) + "</a></strong></td>")
 
             // Nap: + Vas.
               day = getHungarianDayAbbreviation(date)
@@ -303,6 +303,11 @@
 
 
         });
+        console.log("done");
+        // Scroll to the row with id="row_2025-01-04"
+        $('html, body').animate({
+            scrollTop: $("#row_" + new Date().toISOString().split('T')[0]).offset().top
+        }, 1000);
     });
   });
 
