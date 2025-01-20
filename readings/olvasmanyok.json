@@ -3,14 +3,25 @@
         "igenaptarId": "ADV011Hetfo",
         "name": "1. adventi hét hétfő",
         "parts": [
-            {
-                "short_title": "olvasmány",
-                "ref": "Iz 2,1-5 <!--v. Iz 4,2-6-->",
-                "teaser": "Eljövendő országába minden népet összegyűjt az Úr.Hegyen álló temploma – az Egyház – az egész világ fényessége és menedéke lesz. ",
-                "title": "OLVASMÁNY Izajás próféta könyvéből",
-                "text": "Izajásnak, Ámosz fiának látomása Júdáról és Jeruzsálemről:<br>\nAz utolsó időkben az Úr házának hegye szilárdan áll majd a hegyek tetején, és magasabb lesz a halmoknál. Odaözönlenek mind a nemzetek, feléje tart számos nép, és így szól:<br>\n„Rajta, menjünk fel az Úr hegyére, Jákob Istenének házához, hogy tanítson meg útjaira, és így ösvényein járhassunk. Mert a Sionról jön a törvény, és Jeruzsálemből az Úr tanítása.”<br>\nŐ ítéletet tart majd a nemzetek fölött, és igazságot szolgáltat számtalan népnek. Ők meg beolvasztják ekevasnak kardjukat és sarlóknak lándzsáikat. Nemzet nem emel kardot nemzet ellen, és nem tanul többé hadviselést.<br>\nJákob háza, gyertek, járjunk az Úr világosságában!<br>\nEz az Isten igéje.\n<!--\n<br><br>\n<i>„A” évben a következőt olvashatjuk az előbbi Olvasmány helyett</i>\n<br>\n\nOLVASMÁNY Izajás próféta könyvéből<br>\n<i>Megtisztulnak és örvendeznek mindazok, akik Isten védőszárnyai alatt élnek. A nagy ítélet nem árthat nekik. </i><br>\nAzon a napon az Úr sarjadéka ékes lesz és dicsőséges, és a föld gyümölcse díszére és dicsőségére lesz azoknak, akik Izraelből megmaradnak. Aki Sionból megmenekül és Jeruzsálemből életben marad, azt mind szentnek hívják majd, és följegyzik Jeruzsálemben az élők közé.<br>\nAmikor majd az Úr lemossa Sión leányáról a szennyet, és megtisztítja Jeruzsálemet a vérbűntől az ítélet lelkével és a tűz lelkével, akkor az Úr majd felhőt teremt nappal és füstöt meg lobogó tüzet éjszaka Sión hegyének egész vidéke fölött, és azok fölött, akik oda gyülekeztek. Mert az Úr dicsősége lesz mindenek felett mint tető és sátor a nappali forróság ellen, és mint védelem és menedék a vihar és az eső ellen.<br>\nEz az Isten igéje.-->",
-                "ending": "Ez az Isten igéje.-->"
-            },
+            [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Iz 2,1-5",
+                    "teaser": "Eljövendő országába minden népet összegyűjt az Úr.Hegyen álló temploma – az Egyház – az egész világ fényessége és menedéke lesz. ",
+                    "title": "OLVASMÁNY Izajás próféta könyvéből",
+                    "text": "Izajásnak, Ámosz fiának látomása Júdáról és Jeruzsálemről:<br>\nAz utolsó időkben az Úr házának hegye szilárdan áll majd a hegyek tetején, és magasabb lesz a halmoknál. Odaözönlenek mind a nemzetek, feléje tart számos nép, és így szól:<br>\n„Rajta, menjünk fel az Úr hegyére, Jákob Istenének házához, hogy tanítson meg útjaira, és így ösvényein járhassunk. Mert a Sionról jön a törvény, és Jeruzsálemből az Úr tanítása.”<br>\nŐ ítéletet tart majd a nemzetek fölött, és igazságot szolgáltat számtalan népnek. Ők meg beolvasztják ekevasnak kardjukat és sarlóknak lándzsáikat. Nemzet nem emel kardot nemzet ellen, és nem tanul többé hadviselést.<br>\nJákob háza, gyertek, járjunk az Úr világosságában!",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "olvasmány",
+                    "cause" : "„A” évben a következőt olvashatjuk az előbbi Olvasmány helyett",
+                    "ref": "Iz 4,2-6",
+                    "teaser": "Megtisztulnak és örvendeznek mindazok, akik Isten védőszárnyai alatt élnek. A nagy ítélet nem árthat nekik.",
+                    "title": "OLVASMÁNY Izajás próféta könyvéből",
+                    "text": "Azon a napon az Úr sarjadéka ékes lesz és dicsőséges, és a föld gyümölcse díszére és dicsőségére lesz azoknak, akik Izraelből megmaradnak. Aki Sionból megmenekül és Jeruzsálemből életben marad, azt mind szentnek hívják majd, és följegyzik Jeruzsálemben az élők közé.<br>\nAmikor majd az Úr lemossa Sión leányáról a szennyet, és megtisztítja Jeruzsálemet a vérbűntől az ítélet lelkével és a tűz lelkével, akkor az Úr majd felhőt teremt nappal és füstöt meg lobogó tüzet éjszaka Sión hegyének egész vidéke fölött, és azok fölött, akik oda gyülekeztek. Mert az Úr dicsősége lesz mindenek felett mint tető és sátor a nappali forróság ellen, és mint védelem és menedék a vihar és az eső ellen.",
+                    "ending": "Ez az Isten igéje."
+                }
+            ],
             {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 121,1-2.3-4a.(4b-5. 6-7.)8-9",
@@ -6335,14 +6346,25 @@
                 "teaser": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten ajkáról való. Mt 4,4b – 2. tónus.",
                 "text": "Nemcsak kenyérrel él az ember, * hanem minden igével is, mely Isten ajkáról való. Mt 4,4b – 2. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 14,13-21 vagy Mt 14,22-36",
-                "teaser": "Jézust könyörületre indítja az emberek lelki és testi ínsége.",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből ",
-                "text": "Amikor Jézus tudomást szerzett Keresztelő János haláláról, csónakba szállt, és elment onnan egy kietlen helyre, egyedül. De az emberek megtudták, és a városokból gyalogszerrel utána indultak.<br>\nAmikor kiszállt a hajóból, már nagy tömeget látott ott. Megesett rajtuk a szíve, és meggyógyította betegeiket.<br>\nAmint beesteledett, tanítványai odamentek hozzá, és figyelmeztették: „Elhagyatott ez a hely, és az idő is már későre jár. Bocsásd el a tömeget, hadd menjenek a falvakba, hogy élelmiszert szerezzenek maguknak.” Jézus azonban ezt mondta nekik: „Nem kell elmenniük, ti adjatok nekik enni!” Ők ezt felelték: „Nincs másunk itt, csak öt kenyerünk és két halunk.” Mire ő ezt mondta: „Hozzátok ide!”<br>\nMiután megparancsolta, hogy a tömeget telepítsék le a fűre, fogta az öt kenyeret és a két halat, szemét az égre emelve áldást mondott, azután megtörte a kenyereket, és odaadta tanítványainak, a tanítványok pedig az embereknek.<br>\nMindannyian ettek, és jól is laktak. Végül tizenkét kosár lett tele a kenyérmaradékokkal. Pedig mintegy ötezer férfi evett, nem számítva a nőket és a gyermekeket.<br>\nEzek az evangélium igéi.\n<br><br>\n<i>(Az előző evangéliumot „A” évben már vasárnap olvastuk. Ma ezért Mt 14,22-36-ot olvassuk helyette).</i><br>\n† EVANGÉLIUM Szent Máté könyvéből<br>\n<i>Jézus a vízen járva tanúságot tesz isteni hatalmáról.</i><br>\nAmikor (a kenyérszaporítás után) mindnyájan ettek és jóllaktak, Jézus mindjárt megparancsolta tanítványainak, hogy szálljanak csónakba, menjenek át előtte a túlsó partra, miközben ő elbocsátja a tömeget. Amint elbocsátotta az embereket, fölment a hegyre, hogy egyedül imádkozzék. Közben beesteledett, és ő ott volt egymagában. A csónak pedig már jó pár stádiumnyira eltávolodott a parttól. Hányták-vetették a hullámok, mert ellenszél fújt. Éjszaka a negyedik őrváltás idején Jézus elindult feléjük a víz színén járva. Amikor észrevették, azt hitték, hogy kísértet, és rémületükben felkiáltottak. De Jézus azonnal megszólította őket: „Bátorság! Én vagyok! Ne féljetek!” Erre Péter odaszólt neki: „Uram, ha te vagy az, parancsold meg, hogy hozzád menjek a vízen!” Ő azt mondta: „Jöjj!” Péter ki is szállt a csónakból, elindult a vízen, és ment Jézus felé. De az erős szél láttán megijedt, és merülni kezdett. Felkiáltott: „Ments meg, Uram!” Jézus nyomban kinyújtotta kezét, megfogta őt, és így szólt hozzá: „Te kicsinyhitű, miért kételkedtél?”<br>\nAmikor beszálltak a bárkába, a szél elállt. A csónakban levők pedig leborultak előtte, és így szóltak: „Te valóban az Isten Fia vagy!” Akkor átkeltek a tavon, és Genezáret földjénél értek partot. Annak a helynek a lakói felismerték Jézust, hírét vitték az egész környéken. Eléje hoztak minden beteget, és kérték, hogy legalább ruhája szegélyét érinthessék. És akik csak hozzáértek, mind meggyógyultak.<br>\nEzek az evangélium igéi.",
-                "ending": ""
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Mt 14,13-21",
+                    "teaser": "Jézust könyörületre indítja az emberek lelki és testi ínsége.",
+                    "title": "† EVANGÉLIUM Szent Máté könyvéből ",
+                    "text": "Amikor Jézus tudomást szerzett Keresztelő János haláláról, csónakba szállt, és elment onnan egy kietlen helyre, egyedül. De az emberek megtudták, és a városokból gyalogszerrel utána indultak.<br>\nAmikor kiszállt a hajóból, már nagy tömeget látott ott. Megesett rajtuk a szíve, és meggyógyította betegeiket.<br>\nAmint beesteledett, tanítványai odamentek hozzá, és figyelmeztették: „Elhagyatott ez a hely, és az idő is már későre jár. Bocsásd el a tömeget, hadd menjenek a falvakba, hogy élelmiszert szerezzenek maguknak.” Jézus azonban ezt mondta nekik: „Nem kell elmenniük, ti adjatok nekik enni!” Ők ezt felelték: „Nincs másunk itt, csak öt kenyerünk és két halunk.” Mire ő ezt mondta: „Hozzátok ide!”<br>\nMiután megparancsolta, hogy a tömeget telepítsék le a fűre, fogta az öt kenyeret és a két halat, szemét az égre emelve áldást mondott, azután megtörte a kenyereket, és odaadta tanítványainak, a tanítványok pedig az embereknek.<br>\nMindannyian ettek, és jól is laktak. Végül tizenkét kosár lett tele a kenyérmaradékokkal. Pedig mintegy ötezer férfi evett, nem számítva a nőket és a gyermekeket.",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "cause" : "(Az előző evangéliumot „A” évben már vasárnap olvastuk. Ma ezért Mt 14,22-36-ot olvassuk helyette)",
+                    "ref": "Mt 14,22-36",
+                    "teaser": "Jézus a vízen járva tanúságot tesz isteni hatalmáról.",
+                    "title": "† EVANGÉLIUM Szent Máté könyvéből ",
+                    "text": "Amikor (a kenyérszaporítás után) mindnyájan ettek és jóllaktak, Jézus mindjárt megparancsolta tanítványainak, hogy szálljanak csónakba, menjenek át előtte a túlsó partra, miközben ő elbocsátja a tömeget. Amint elbocsátotta az embereket, fölment a hegyre, hogy egyedül imádkozzék. Közben beesteledett, és ő ott volt egymagában. A csónak pedig már jó pár stádiumnyira eltávolodott a parttól. Hányták-vetették a hullámok, mert ellenszél fújt. Éjszaka a negyedik őrváltás idején Jézus elindult feléjük a víz színén járva. Amikor észrevették, azt hitték, hogy kísértet, és rémületükben felkiáltottak. De Jézus azonnal megszólította őket: „Bátorság! Én vagyok! Ne féljetek!” Erre Péter odaszólt neki: „Uram, ha te vagy az, parancsold meg, hogy hozzád menjek a vízen!” Ő azt mondta: „Jöjj!” Péter ki is szállt a csónakból, elindult a vízen, és ment Jézus felé. De az erős szél láttán megijedt, és merülni kezdett. Felkiáltott: „Ments meg, Uram!” Jézus nyomban kinyújtotta kezét, megfogta őt, és így szólt hozzá: „Te kicsinyhitű, miért kételkedtél?”<br>\nAmikor beszálltak a bárkába, a szél elállt. A csónakban levők pedig leborultak előtte, és így szóltak: „Te valóban az Isten Fia vagy!” Akkor átkeltek a tavon, és Genezáret földjénél értek partot. Annak a helynek a lakói felismerték Jézust, hírét vitték az egész környéken. Eléje hoztak minden beteget, és kérték, hogy legalább ruhája szegélyét érinthessék. És akik csak hozzáértek, mind meggyógyultak.",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
         ]
     },
     "EVK182Kedd": {
@@ -6391,14 +6413,25 @@
                 "teaser": "Mester, te vagy az Isten Fia, * te vagy Izrael királya. Jn 1,49b – 7 b. tónus.",
                 "text": "Mester, te vagy az Isten Fia, * te vagy Izrael királya. Jn 1,49b – 7 b. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 14,22-36 vagy Mt 15,1-2.10-14",
-                "teaser": "Jézus a vízen járva tanúságot tesz isteni hatalmáról. ",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "Amikor (a kenyérszaporítás után) mindnyájan ettek és jóllaktak, Jézus mindjárt megparancsolta tanítványainak, hogy szálljanak csónakba, menjenek át előtte a túlsó partra, miközben ő elbocsátja a tömeget. Amint elbocsátotta az embereket, fölment a hegyre, hogy egyedül imádkozzék. Közben beesteledett, és ő ott volt egymagában. A csónak pedig már jó pár stádiumnyira eltávolodott a parttól. Hányták-vetették a hullámok, mert ellenszél fújt. Éjszaka a negyedik őrváltás idején Jézus elindult feléjük a víz színén járva. Amikor észrevették, azt hitték, hogy kísértet, és rémületükben felkiáltottak. De Jézus azonnal megszólította őket: „Bátorság! Én vagyok! Ne féljetek!” Erre Péter odaszólt neki: „Uram, ha te vagy az, parancsold meg, hogy hozzád menjek a vízen!” Ő azt mondta: „Jöjj!” Péter ki is szállt a csónakból, elindult a vízen, és ment Jézus felé. De az erős szél láttán megijedt, és merülni kezdett. Felkiáltott: „Ments meg, Uram!” Jézus nyomban kinyújtotta kezét, megfogta őt, és így szólt hozzá: „Te kicsinyhitű, miért kételkedtél?”<br>\nAmikor beszálltak a bárkába, a szél elállt. A csónakban levők pedig leborultak előtte, és így szóltak: „Te valóban az Isten Fia vagy!” Akkor átkeltek a tavon, és Genezáret földjénél értek partot. Annak a helynek a lakói felismerték Jézust, hírét vitték az egész környéken. Eléje hoztak minden beteget, és kérték, hogy legalább ruhája szegélyét érinthessék. És akik csak hozzáértek, mind meggyógyultak.<br>\nEzek az evangélium igéi.<br><br>\n\n<i>Vagy tetszés szerint – különösen az „A” évben, amikor az előbbi evangéliumot hétfőn olvastuk:</i>\n<br><br>\n† EVANGÉLIUM Szent Máté könyvéből\n<br>\n<i>Jézus szemében egyedül a belső, az erkölcsi tisztaság számít. </i><br>\nEgy alkalommal Jeruzsálemből farizeusok és írástudók jöttek Jézushoz. Megkérdezték tőle: „Miért szegik meg tanítványaid az ősök hagyományát? Evés előtt ugyanis nem mosnak kezet.”\nJézus erre magához hívta a népet, és így szólt: „Halljátok és értsétek meg: Nem az teszi az embert tisztátalanná, ami a szájába kerül, hanem ami a szájából kijön, az teszi tisztátalanná.”<br>\nEkkor hozzáléptek tanítványai, és így szóltak: „Tudod, hogy a farizeusok megütköztek szavaidon?” Jézus ezt válaszolta: „Tövestől kitépik mindazt a növényt, amelyet nem mennyei Atyám ültetett. Hagyjátok őket! Vak létükre vakok vezetői ők. Ha pedig vak vezet világtalant, mind a kettő gödörbe esik.”",
-                "ending": "Ezek az evangélium igéi."
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Mt 14,22-36",
+                    "teaser": "Jézus a vízen járva tanúságot tesz isteni hatalmáról. ",
+                    "title": "† EVANGÉLIUM Szent Máté könyvéből",
+                    "text": "Amikor (a kenyérszaporítás után) mindnyájan ettek és jóllaktak, Jézus mindjárt megparancsolta tanítványainak, hogy szálljanak csónakba, menjenek át előtte a túlsó partra, miközben ő elbocsátja a tömeget. Amint elbocsátotta az embereket, fölment a hegyre, hogy egyedül imádkozzék. Közben beesteledett, és ő ott volt egymagában. A csónak pedig már jó pár stádiumnyira eltávolodott a parttól. Hányták-vetették a hullámok, mert ellenszél fújt. Éjszaka a negyedik őrváltás idején Jézus elindult feléjük a víz színén járva. Amikor észrevették, azt hitték, hogy kísértet, és rémületükben felkiáltottak. De Jézus azonnal megszólította őket: „Bátorság! Én vagyok! Ne féljetek!” Erre Péter odaszólt neki: „Uram, ha te vagy az, parancsold meg, hogy hozzád menjek a vízen!” Ő azt mondta: „Jöjj!” Péter ki is szállt a csónakból, elindult a vízen, és ment Jézus felé. De az erős szél láttán megijedt, és merülni kezdett. Felkiáltott: „Ments meg, Uram!” Jézus nyomban kinyújtotta kezét, megfogta őt, és így szólt hozzá: „Te kicsinyhitű, miért kételkedtél?”<br>\nAmikor beszálltak a bárkába, a szél elállt. A csónakban levők pedig leborultak előtte, és így szóltak: „Te valóban az Isten Fia vagy!” Akkor átkeltek a tavon, és Genezáret földjénél értek partot. Annak a helynek a lakói felismerték Jézust, hírét vitték az egész környéken. Eléje hoztak minden beteget, és kérték, hogy legalább ruhája szegélyét érinthessék. És akik csak hozzáértek, mind meggyógyultak.",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "cause" : "Vagy tetszés szerint – különösen az „A” évben, amikor az előbbi evangéliumot hétfőn olvastuk:",
+                    "ref": "Mt 15,1-2.10-14",
+                    "teaser": "Jézus szemében egyedül a belső, az erkölcsi tisztaság számít.",
+                    "title": "† EVANGÉLIUM Szent Máté könyvéből",
+                    "text": "Egy alkalommal Jeruzsálemből farizeusok és írástudók jöttek Jézushoz. Megkérdezték tőle: „Miért szegik meg tanítványaid az ősök hagyományát? Evés előtt ugyanis nem mosnak kezet.”\nJézus erre magához hívta a népet, és így szólt: „Halljátok és értsétek meg: Nem az teszi az embert tisztátalanná, ami a szájába kerül, hanem ami a szájából kijön, az teszi tisztátalanná.”<br>\nEkkor hozzáléptek tanítványai, és így szóltak: „Tudod, hogy a farizeusok megütköztek szavaidon?” Jézus ezt válaszolta: „Tövestől kitépik mindazt a növényt, amelyet nem mennyei Atyám ültetett. Hagyjátok őket! Vak létükre vakok vezetői ők. Ha pedig vak vezet világtalant, mind a kettő gödörbe esik.”",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
         ]
     },
     "EVK183Szerda": {
@@ -12729,14 +12762,25 @@
                 "teaser": "Jézus mondja: † „Én vagyok a jó Pásztor. * Ismerem enyéimet, és ők ismernek engem.” \nJn 10,14 – 8 G. tónus.",
                 "text": "Jézus mondja: † „Én vagyok a jó Pásztor. * Ismerem enyéimet, és ők ismernek engem.” \nJn 10,14 – 8 G. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Jn 10,1-10 \"A\" évben: Jn 10,11-18",
-                "teaser": "Jézus övéinek jó pásztora és üdvözítője. ",
-                "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "Abban az időben így szólt Jézus:<br>\n„Bizony, bizony, mondom nektek: Aki nem a kapun megy be a juhok aklába, hanem máshol, az tolvaj és rabló. Aki viszont az ajtón megy be, az a juhok pásztora. Az őr ajtót nyit neki, a juhok pedig hallgatnak szavára. Nevükön szólítja juhait, és kivezeti őket. Miután mind kivezette, előttük halad, és a juhok követik, mert ismerik a hangját. Az idegent nem követik, sőt elfutnak tőle, mert az idegen hangját nem ismerik.”<br>\nJézus ezt a hasonlatot mondta nekik, de ők nem értették meg, hogy miről beszél.\nJézus ezért így folytatta: „Bizony, bizony, mondom nektek: Én vagyok az ajtó a juhok számára. Akik előttem jöttek, azok tolvajok és rablók. Nem is hallgattak rájuk a juhok. Én vagyok az ajtó: aki rajtam keresztül megy be, az üdvözül, ki- és bejár, s legelőre talál. A tolvaj csak azért jön, hogy lopjon, öljön és pusztítson. Én azért jöttem, hogy életük legyen, és bőségben legyen.”<br>\n\nEzek az evangélium igéi.\n<br><br>\n<i>„A” évben ezt az Evangéliumot az előző vasárnap olvastuk. Ezért ma a következőt olvassuk helyette:</i>\n<br>\n† EVANGÉLIUM Szent János könyvéből <br>\n<i>Jézus a jó Pásztor, aki életét adja juhaiért.</i><br>\nAbban az időben Jézus így szólt:<br>\n„Én vagyok a jó pásztor. A jó pásztor életét adja a juhokért. A béres azonban, aki nem pásztor, akinek a juhok nem a sajátjai, otthagyja a juhokat, és elfut, amikor látja, hogy jön a farkas. A farkas aztán elra­gadja és szétkergeti őket. A béres azért fut el, mert béres, és nem törődik a juhokkal.<br>\nÉn vagyok a jó pásztor. Ismerem enyéimet, és enyéim is ismernek engem, - mint ahogy az Atya ismer engem, és én ismerem az Atyát. Életemet adom a juhokért. De más juhaim is vannak, amelyek nem ebből az akolból valók. Ezeket is vezetnem kell. Hallgatni fognak szavamra, és egy nyáj lesz és egy pásztor.<br>\nAzért szeret engem az Atya, mert odaadom az életemet, hogy majd ismét visszavegyem. Nem veszi el tőlem senki, magam adom oda, mert van rá hatalmam, hogy odaadjam, és van rá hatalmam, hogy visszavegyem. Ezt a parancsot kaptam Atyámtól.”",
-                "ending": "Ezek az evangélium igéi."
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Jn 10,1-10",
+                    "teaser": "Jézus övéinek jó pásztora és üdvözítője. ",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Abban az időben így szólt Jézus:<br>\n„Bizony, bizony, mondom nektek: Aki nem a kapun megy be a juhok aklába, hanem máshol, az tolvaj és rabló. Aki viszont az ajtón megy be, az a juhok pásztora. Az őr ajtót nyit neki, a juhok pedig hallgatnak szavára. Nevükön szólítja juhait, és kivezeti őket. Miután mind kivezette, előttük halad, és a juhok követik, mert ismerik a hangját. Az idegent nem követik, sőt elfutnak tőle, mert az idegen hangját nem ismerik.”<br>\nJézus ezt a hasonlatot mondta nekik, de ők nem értették meg, hogy miről beszél.\nJézus ezért így folytatta: „Bizony, bizony, mondom nektek: Én vagyok az ajtó a juhok számára. Akik előttem jöttek, azok tolvajok és rablók. Nem is hallgattak rájuk a juhok. Én vagyok az ajtó: aki rajtam keresztül megy be, az üdvözül, ki- és bejár, s legelőre talál. A tolvaj csak azért jön, hogy lopjon, öljön és pusztítson. Én azért jöttem, hogy életük legyen, és bőségben legyen.”",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Jn 10,11-18",
+                    "cause" : "„A” évben ezt az Evangéliumot az előző vasárnap olvastuk. Ezért ma a következőt olvassuk helyette", 
+                    "teaser": "Jézus a jó Pásztor, aki életét adja juhaiért.",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Abban az időben Jézus így szólt:<br>\n„Én vagyok a jó pásztor. A jó pásztor életét adja a juhokért. A béres azonban, aki nem pásztor, akinek a juhok nem a sajátjai, otthagyja a juhokat, és elfut, amikor látja, hogy jön a farkas. A farkas aztán elra­gadja és szétkergeti őket. A béres azért fut el, mert béres, és nem törődik a juhokkal.<br>\nÉn vagyok a jó pásztor. Ismerem enyéimet, és enyéim is ismernek engem, - mint ahogy az Atya ismer engem, és én ismerem az Atyát. Életemet adom a juhokért. De más juhaim is vannak, amelyek nem ebből az akolból valók. Ezeket is vezetnem kell. Hallgatni fognak szavamra, és egy nyáj lesz és egy pásztor.<br>\nAzért szeret engem az Atya, mert odaadom az életemet, hogy majd ismét visszavegyem. Nem veszi el tőlem senki, magam adom oda, mert van rá hatalmam, hogy odaadjam, és van rá hatalmam, hogy visszavegyem. Ezt a parancsot kaptam Atyámtól.”",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
         ]
     },
     "HUS042Kedd": {
@@ -14781,14 +14825,26 @@
                 "teaser": "Én nem kívánom a bűnös halálát, † mondja a mi Urunk, Istenünk, * hanem hogy a bűnös éljen, és hozzám térjen. Ez 33,11 – 3 a. tónus.",
                 "text": "Én nem kívánom a bűnös halálát, † mondja a mi Urunk, Istenünk, * hanem hogy a bűnös éljen, és hozzám térjen. Ez 33,11 – 3 a. tónus."
             },
-            {
-                "short_title": null,
-                "ref": "„A” és „B” évben Jn 8,1-11<br>\n„C” évben Jn 8,12-20",
-                "teaser": null,
-                "title": "<i>„A” és „B” évben: </i>",
-                "text": "<i>Az vesse rá az első követ, aki bűntelen közületek! </i><br>\nAbban az időben Jézus kiment az Olajfák-hegyére. Kora reggel pedig újra megjelent a templomban. A nép köréje sereglett, ő pedig leült, és tanította őket.<br>\nAz írástudók és a farizeusok egy házasságtörésen ért asszonyt vittek eléje. Odaállították középre, és így szóltak hozzá: „Mester, ezt az asszonyt házasságtörésen érték. Mózes azt parancsolta a törvényben, hogy az ilyet meg kell kövezni. Hát te mit mondasz?” Ezt azért kérdezték, hogy próbára tegyék, és vádolhassák.<br>\nJézus lehajolt, és az ujjával írni kezdett a földön. Ők azonban tovább faggatták. Erre fölegyenesedett, és azt mondta nekik: „Az vesse rá az első követ, aki közületek bűn nélkül van!” Aztán újra lehajolt, s tovább írt a földön. Azok meg ennek hallatára egymás után eloldalogtak, kezdve a véneken, s csak Jézus maradt ott a középen álló asszonnyal.\nJézus fölegyenesedett és megszólította; „Asszony, hol vannak, akik vádoltak téged? Senki sem ítélt el?”<br>\n„Senki, Uram” – felelte az asszony.<br>\nErre Jézus azt mondta neki: „Én sem ítéllek el. Menj, de többé ne vétkezzél.”<br>\nEzek az evangélium igéi.\n<br><br>\n<i>„C” évben, amikor a fenti Evangéliumot nagyböjt 5. vasárnapján olvastuk, a következő Evangéliumot olvassuk ma helyette:</i><br><br>\n† EVANGÉLIUM Szent János könyvéből\n<br>\n<i>Jézus a világ világossága. </i><br>\nEgy alkalommal Jézus így beszélt a templomban egybegyűlt zsidókhoz:<br>\n„Én vagyok a világ világossága. Aki engem követ, nem jár sötétségben, hanem övé lesz az élet világossága.”<br>\nA farizeusok erre azt mondták: „Te önmagadról tanúskodsz. Tanúbizonyságod nem érvényes.”<br>\nJézus így válaszolt: „Igaz, hogy én önmagamról tanúskodom, mégis érvényes a tanúságtételem, mert tudom, honnét jöttem és hová megyek. Ti ellenben nem tudjátok, honnét jöttem és hová megyek. Ti a test szerint ítéltek. Én nem mondok senkiről ítéletet, de ha kijelentek valamit, igaz az én állításom, mert nem vagyok egyedül, hanem én és az Atya, aki küldött engem. Márpedig a ti törvényetek azt írja, hogy két személy együttes bizonyságtétele hitelt érdemel. Bizonyságot teszek tehát magamról én, és bizonyságot tesz rólam, aki engem küldött: az Atya.”<br>\nErre megkérdezték tőle: „Hol a te Atyád?” Jézus azt felelte: „Sem engem nem ismertek, sem Atyámat. Ha ismernétek engem, Atyámat is ismernétek,”<br>\nEzeket mondta Jézus a templomkincstár mellett, amikor tanított a templomban. De senki sem fogta el, mert még nem jött el az ő órája.<br>\n\nEzek az evangélium igéi.",
-                "ending": ""
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "cause" : "„A” és „B” évben",
+                    "ref": "Jn 8,1-11",
+                    "teaser": "Az vesse rá az első követ, aki bűntelen közületek!",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Abban az időben Jézus kiment az Olajfák-hegyére. Kora reggel pedig újra megjelent a templomban. A nép köréje sereglett, ő pedig leült, és tanította őket.<br>\nAz írástudók és a farizeusok egy házasságtörésen ért asszonyt vittek eléje. Odaállították középre, és így szóltak hozzá: „Mester, ezt az asszonyt házasságtörésen érték. Mózes azt parancsolta a törvényben, hogy az ilyet meg kell kövezni. Hát te mit mondasz?” Ezt azért kérdezték, hogy próbára tegyék, és vádolhassák.<br>\nJézus lehajolt, és az ujjával írni kezdett a földön. Ők azonban tovább faggatták. Erre fölegyenesedett, és azt mondta nekik: „Az vesse rá az első követ, aki közületek bűn nélkül van!” Aztán újra lehajolt, s tovább írt a földön. Azok meg ennek hallatára egymás után eloldalogtak, kezdve a véneken, s csak Jézus maradt ott a középen álló asszonnyal.\nJézus fölegyenesedett és megszólította; „Asszony, hol vannak, akik vádoltak téged? Senki sem ítélt el?”<br>\n„Senki, Uram” – felelte az asszony.<br>\nErre Jézus azt mondta neki: „Én sem ítéllek el. Menj, de többé ne vétkezzél.”",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "cause" :"„C” évben, amikor a fenti Evangéliumot nagyböjt 5. vasárnapján olvastuk, a következő Evangéliumot olvassuk ma helyette",
+                    "ref": "Jn 8,12-20",
+                    "teaser": "Jézus a világ világossága.",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Egy alkalommal Jézus így beszélt a templomban egybegyűlt zsidókhoz:<br>\n„Én vagyok a világ világossága. Aki engem követ, nem jár sötétségben, hanem övé lesz az élet világossága.”<br>\nA farizeusok erre azt mondták: „Te önmagadról tanúskodsz. Tanúbizonyságod nem érvényes.”<br>\nJézus így válaszolt: „Igaz, hogy én önmagamról tanúskodom, mégis érvényes a tanúságtételem, mert tudom, honnét jöttem és hová megyek. Ti ellenben nem tudjátok, honnét jöttem és hová megyek. Ti a test szerint ítéltek. Én nem mondok senkiről ítéletet, de ha kijelentek valamit, igaz az én állításom, mert nem vagyok egyedül, hanem én és az Atya, aki küldött engem. Márpedig a ti törvényetek azt írja, hogy két személy együttes bizonyságtétele hitelt érdemel. Bizonyságot teszek tehát magamról én, és bizonyságot tesz rólam, aki engem küldött: az Atya.”<br>\nErre megkérdezték tőle: „Hol a te Atyád?” Jézus azt felelte: „Sem engem nem ismertek, sem Atyámat. Ha ismernétek engem, Atyámat is ismernétek,”<br>\nEzeket mondta Jézus a templomkincstár mellett, amikor tanított a templomban. De senki sem fogta el, mert még nem jött el az ő órája.",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
         ]
     },
     "NAB052Kedd": {
