@@ -389,6 +389,17 @@ def findReadings(celebration: dict):
                 celebration['title'] = celebration['name']
 
         celebration['parts'] = possibility['parts']
+        hasMultipleParts = False
+        for part in celebration['parts']:
+            if 'parts' in part:
+                hasMultipleParts = True
+                break
+        if hasMultipleParts:
+            celebration['parts'] = possibility['parts'][0]['parts']
+            celebration['parts2'] = possibility['parts'][1]['parts']
+            if 'cause' in possibility['parts'][1]:
+                celebration['parts2cause'] = possibility['parts'][1]['cause']
+
 
         if 'excerpt' in possibility:
             celebration['teaser'] = possibility['excerpt']
