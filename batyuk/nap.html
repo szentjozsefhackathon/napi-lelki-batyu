@@ -169,7 +169,16 @@
 
                                 $('#json_' + ( key + 1 ) + ' ._name').html(data.celebration[key].name);
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
-
+                                if(value['parts2']) {
+                                  value.parts2 = value.parts2.map(function (part) {
+                                    let ret = {...part};
+                                    if (part.short_title) {
+                                      ret.short_title = "Saját: " + part.short_title;
+                                    }
+                                    return ret
+                                  })
+                                  value.parts = value.parts.concat(value.parts2)
+                                }
                                 $.each(value.parts, function (partkey, part) {
                                     // Refs 
                                     if (!Array.isArray(part)) {
