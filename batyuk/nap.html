@@ -171,9 +171,18 @@
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
                                 if(value['parts2']) {
                                   value.parts2 = value.parts2.map(function (part) {
-                                    let ret = {...part};
-                                    if (part.short_title) {
-                                      ret.short_title = "Saját: " + part.short_title;
+                                    let ret = Array.isArray(part) ? [...part] : { ...part };
+                                    if (Array.isArray(ret)) {
+                                      ret = ret.map(p => {
+                                        if (p.short_title) {
+                                          p.short_title = "Saját: " + p.short_title;
+                                        }
+                                        return p;
+                                      });
+                                    } else {
+                                      if (ret.short_title) {
+                                        ret.short_title = "Saját: " + ret.short_title;
+                                      }
                                     }
                                     return ret
                                   })
