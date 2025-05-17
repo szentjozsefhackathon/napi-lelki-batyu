@@ -2762,14 +2762,23 @@
         "igenaptarId": "05-22",
         "name": "Casciai Szent Rita szerzetesnő",
         "parts": [
-            {
+            [{
                 "short_title": "szentlecke",
-                "ref": "Fil 3,8-14 vagy Fil 4,4-9",
+                "ref": "Fil 3,8-14",
                 "teaser": null,
                 "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből ",
-                "text": "Testvéreim! <br>\nKrisztus Jézusnak fönséges ismeretéhez mérten mindent hátránynak tartok. Érte mindent elvetettem, sőt szemétnek tekintek, csakhogy Krisztust elnyerhessem és hozzá tartozzam. Hiszen nem a törvény útján váltam igazzá, hanem a Jézus Krisztusba vetett hit révén. Isten ugyanis a hit által tett igazzá, hogy megismerjem őt és feltámadásának erejét, de a szenvedésben is vállaljam vele a közösséget. így hasonló akarok lenni hozzá halálában, hogy ezáltal eljussak a halálból a feltámadásra is.<br>\nNem mintha már elértem volna, vagy már a célban lennék, de futok utána, hogy magamhoz ragadjam, ahogy Krisztus is megragadott engem. Testvéreim, nem gondolom, hogy máris magamhoz ragadtam, de azt igen, hogy elfelejtem, ami mögöttem van, és nekilendülök annak, ami előttem van. Futok a kitűzött cél felé, az égi hivatás jutalmáért, amelyre Isten meghívott Krisztusban.<br>\nEz az Isten igéje.<br>\n<br>\n<i>Vagy</i><br>\n<br>\nSZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből\n<br>\n<i>Arra irányuljanak gondolataitok, ami szent!</i><br>\nTestvéreim! <br>\nÖrüljetek az Úrban szüntelenül! Újra csak azt mondom, örüljetek. Emberszerető jóságotokat ismerje meg mindenki! Az Úr közel van. Ne aggódjatok semmiért, hanem minden imádságotokban és könyörgésetekben terjesszétek kéréseteket hálaadással az Úr elé.<br>\nAkkor Isten békéje, amely minden értelmet meghalad, megőrzi szíveteket és értelmeteket Krisztus Jézusban.<br>\nEgyébként, testvéreim, arra irányuljanak gondolataitok, ami igaz, tisztességes és igazságos, arra, ami ártatlan, kedves, dicséretre méltó, ami erényes és magasztos. Amit tanultatok és elfogadtatok, amit hallottatok és példámon láttatok, azt váltsátok is tettekre, és veletek lesz a béke Istene!",
+                "text": "Testvéreim! <br>\nKrisztus Jézusnak fönséges ismeretéhez mérten mindent hátránynak tartok. Érte mindent elvetettem, sőt szemétnek tekintek, csakhogy Krisztust elnyerhessem és hozzá tartozzam. Hiszen nem a törvény útján váltam igazzá, hanem a Jézus Krisztusba vetett hit révén. Isten ugyanis a hit által tett igazzá, hogy megismerjem őt és feltámadásának erejét, de a szenvedésben is vállaljam vele a közösséget. így hasonló akarok lenni hozzá halálában, hogy ezáltal eljussak a halálból a feltámadásra is.<br>\nNem mintha már elértem volna, vagy már a célban lennék, de futok utána, hogy magamhoz ragadjam, ahogy Krisztus is megragadott engem. Testvéreim, nem gondolom, hogy máris magamhoz ragadtam, de azt igen, hogy elfelejtem, ami mögöttem van, és nekilendülök annak, ami előttem van. Futok a kitűzött cél felé, az égi hivatás jutalmáért, amelyre Isten meghívott Krisztusban.",
                 "ending": "Ez az Isten igéje."
-            },
+            }
+		,
+		{
+                "short_title": "szentlecke",
+                "ref": "Fil 4,4-9",
+                "teaser": "Arra irányuljanak gondolataitok, ami szent!",
+                "title": "SZENTLECKE Szent Pál apostolnak a filippiekhez írt leveléből ",
+                "text": "\nTestvéreim! <br>\nÖrüljetek az Úrban szüntelenül! Újra csak azt mondom, örüljetek. Emberszerető jóságotokat ismerje meg mindenki! Az Úr közel van. Ne aggódjatok semmiért, hanem minden imádságotokban és könyörgésetekben terjesszétek kéréseteket hálaadással az Úr elé.<br>\nAkkor Isten békéje, amely minden értelmet meghalad, megőrzi szíveteket és értelmeteket Krisztus Jézusban.<br>\nEgyébként, testvéreim, arra irányuljanak gondolataitok, ami igaz, tisztességes és igazságos, arra, ami ártatlan, kedves, dicséretre méltó, ami erényes és magasztos. Amit tanultatok és elfogadtatok, amit hallottatok és példámon láttatok, azt váltsátok is tettekre, és veletek lesz a béke Istene!",
+                "ending": "Ez az Isten igéje."
+            }],
             {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 1,1-2.3.4 és 6",
