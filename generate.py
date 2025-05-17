@@ -2,6 +2,7 @@
 
 import argparse
 from datetime import datetime, timedelta
+import json
 import os
 import re
 import sys
@@ -9,7 +10,6 @@ import time
 
 import requests
 import xmltodict
-import simplejson
 import Levenshtein
 
 def writeDataFormattedJSONfile(data, filename, sort_keys=False, ensure_ascii=True):
@@ -18,7 +18,7 @@ def writeDataFormattedJSONfile(data, filename, sort_keys=False, ensure_ascii=Tru
         sys.stdout.flush()
         # magic happens here to make it pretty-printed
         dataFile.write(
-            simplejson.dumps(data, indent=4, sort_keys=sort_keys, ensure_ascii=ensure_ascii)
+            json.dumps(data, indent=4, sort_keys=sort_keys, ensure_ascii=ensure_ascii)
         )
     print(" OK")
 
@@ -46,7 +46,7 @@ def loadBreviarData(year):
     print(f"Loading breviarData_{year}.json...", end='')
     sys.stdout.flush()
     with open(f"breviarData_{year}.json", encoding='utf8') as f:
-        data = simplejson.load(f)
+        data = json.load(f)
         print(" OK")
         return data
 
@@ -64,7 +64,7 @@ def loadKatolikusData():
         sys.stdout.flush()
         data = {}
         with open(f'readings/{name}.json', 'r', encoding="utf8") as file:
-            data = simplejson.load(file)
+            data = json.load(file)
 
         if name in ["vasA", "vasB", "vasC"]:
             _tmp = {}
@@ -92,7 +92,7 @@ def loadKatolikusData():
     # commentaries
     name = 'commentaries'
     with open(f'readings/{name}.json', 'r', encoding="utf8") as file:
-        data = simplejson.load(file)
+        data = json.load(file)
     katolikusData['commentaries'] = data
 
     print(" OK")

@@ -1,18 +1,18 @@
-import simplejson
+import json
 
 def loadKatolikusData():
     katolikusData = {}
     sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","commentaries"]
     for name in sources:
         with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
-            katolikusData[name] = simplejson.load(file)
+            katolikusData[name] = json.load(file)
     return katolikusData
 
 def saveKatolikusData(katolikusData):
     for key, name in enumerate(katolikusData):
         with open("readings/" + name + ".json", "w", encoding='utf8') as katolikusDataFile:        
             katolikusDataFile.write(
-                simplejson.dumps(katolikusData[name], indent=4, sort_keys=False, ensure_ascii=False)
+                json.dumps(katolikusData[name], indent=4, sort_keys=False, ensure_ascii=False)
             )
 
 def recursive(data, function):    

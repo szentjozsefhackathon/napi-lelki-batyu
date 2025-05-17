@@ -1,6 +1,6 @@
 import requests
 import xmltodict
-import simplejson
+import json
 import csv
 import re
 import Levenshtein
@@ -304,7 +304,7 @@ for name in sources:
     with open("readings/" + name + ".json", "w", encoding='utf8') as breviarDataFile:
             # magic happens here to make it pretty-printed
             breviarDataFile.write(
-                simplejson.dumps(datas, indent=4, sort_keys=False, ensure_ascii=False)
+                json.dumps(datas, indent=4, sort_keys=False, ensure_ascii=False)
             )
 
 
