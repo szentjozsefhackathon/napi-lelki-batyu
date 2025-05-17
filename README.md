@@ -32,7 +32,7 @@ Egy-egy konkrét napra állítja össze a nagy json fájl alapján a napi liturg
 ## Fejlesztés
 - A [sources](sources/) mappában vannak külfönéle csv fájlokban mindenféle alapanyagok az igenaptar.katolikus.hu adatbázisából
 - A ```python generateparts.py``` a fenti alapanyagokból megpróbálja elkészíteni a readings/ mappába lévő .json fájlokat és jól felül is írja azokat - pedig azokban már rengeteg a kézi tisztítás. Ezt használata csak bajt okoz.
-- Ha nem tud valamivel mit kezdnei akkor a readings/errors.txt -be beleírja hogy érzése szerint van valami gond, és akkor kézzel javítani kell.
+- Ha nem tud valamivel mit kezdeni akkor a readings/errors.txt -be beleírja hogy érzése szerint van valami gond, és akkor kézzel javítani kell.
 - push vagy pull_request esetén lefut a json validátor és elvérzik, ha valami nem stimmel. éljen.
 - push esetén, akár a validátor eredményes volt akár nem, deploy-t kap a honlap: feltölti a /batyuk tartalmát (zip, index.html, sok json) és mindenki boldok
 - cél, hogy a frontend már ne gondolkodjon igazán, minél inkább a json tartalmazzon mindent ami fontos!
@@ -55,7 +55,7 @@ Egy nagy json objectünk van, amiben sok-sok elem van. A kulcs mindig "éééé-
 ```
 
 #### egy naptári nap
-Minden "éééé-hh-nn" formátumú kulcshoz tarozó elem egy olyan object aminek pontosan két eleme van amik kulcsa: "date" és "celebration"
+Minden "éééé-hh-nn" formátumú kulcshoz tartozó elem egy olyan object aminek pontosan két eleme van amik kulcsa: "date" és "celebration"
 
 ```
 {
@@ -77,7 +77,7 @@ Ez object amiben a naptári naphoz tartozó olyan információk tartoznak, amik 
 ```
 
 #### celebration object
-Minden naptári naphoz tartozik egy "celebration" lista, aminek mindig van leglaább egy eleme. Nagyon gyakran néhány eleme van. Például, ha választani lehet szentek közül, vagy ha karácsonykor külön ünneplés az éjféli mise és a pásztorok miséje, stb. Egy, egy celebration jó sok adatot tartalmaz.
+Minden naptári naphoz tartozik egy "celebration" lista, aminek mindig van legalább egy eleme. Nagyon gyakran néhány eleme van. Például, ha választani lehet szentek közül, vagy ha karácsonykor külön ünneplés az éjféli mise és a pásztorok miséje, stb. Egy, egy celebration jó sok adatot tartalmaz.
 
 ```
 [{
