@@ -231,6 +231,8 @@ def createReadingIds(celebration: dict, day: dict):
     #  Egy két egyedink mert az jól
     if celebration['name'] == "Szűz Mária az Egyház Anyja":
         katolikusDataKod = "PUNK01"
+    if celebration['name'] == "Votív mise a Szentlélekről":
+        katolikusDataKod = "PUNKOSDHetfo"
     if celebration['name'] == "A mi Urunk, Jézus Krisztus, az Örök Főpap":
         katolikusDataKod = "OrokFopap"
     if celebration['name'] == "Krisztus Szent Teste és Vére":
@@ -512,6 +514,8 @@ def addCustomCelebrationstoBreviarData(data):
 
         if celebration['name'] == "Pünkösd":
             toAdd = [ {"name": "Pünkösd, vigília mise" }, {"name" : "Pünkösdvasárnap" } ]
+        if celebration['name'] == "Szűz Mária az Egyház Anyja": # Pünkösdhétfő
+            toAdd = [ {"name": "Szűz Mária az Egyház Anyja"}, {"name": "Votív mise a Szentlélekről", "title": "Votív mise a Szentlélekről" } ]
 
         if celebration['name'] == "Keresztelő Szent János születése": # 06-24
             toAdd = [ {"name": "Vigília - Keresztelő Szent János születése" }, {"name" : "Keresztelő Szent János születése"}]
