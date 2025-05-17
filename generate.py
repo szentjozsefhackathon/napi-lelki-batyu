@@ -695,6 +695,8 @@ def generateLelkiBatyuk(year):
                 simplejson.dumps(lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
             )
 
+    return lelkiBatyukComplex
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -706,7 +708,18 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    generateLelkiBatyuk(args.year)
+    allLelkiBatyuk = generateLelkiBatyuk(args.year)
+
     if args.next_year:
-        generateLelkiBatyuk(args.year + 1)
+        allLelkiBatyuk = allLelkiBatyuk | generateLelkiBatyuk(args.year + 1)
+
+    with open("batyuk/igenaptar.json", "w", encoding='utf8') as f:
+        today = datetime.now()
+        start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
+        end_date = (today + timedelta(days=365)).strftime('%Y-%m-%d')
+        filtered_allLelkiBatyuk = {k: v for k, v in allLelkiBatyuk.items() if start_date <= k <= end_date}
+        f.write(
+            simplejson.dumps(filtered_allLelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
+        )
+
     print("Done!")
