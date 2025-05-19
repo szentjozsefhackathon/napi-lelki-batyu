@@ -1,110 +1,111 @@
+"""Az input XML és JSON adatokból generálja a batyu JSON fájlokat a batyuk/ mappában."""
+
+import argparse
+from datetime import datetime, timedelta
+import json
+import os
+import re
+import sys
+import time
+
 import requests
 import xmltodict
-import simplejson
-import csv
-import re
 import Levenshtein
-import sys
-import os
-import time
-from datetime import datetime
-from datetime import timedelta
 
+def writeDataFormattedJSONfile(data, filename, sort_keys=False, ensure_ascii=True):
+    with open(filename, "w", encoding='utf8') as dataFile:
+        print(f"Write {filename}...", end='')
+        sys.stdout.flush()
+        # magic happens here to make it pretty-printed
+        dataFile.write(
+            json.dumps(data, indent=4, sort_keys=sort_keys, ensure_ascii=ensure_ascii)
+        )
+    print(" OK")
 
-def downloadBreviarData():
+def downloadBreviarData(year):
+    """
+    Letölti az adatokat adott évre a breviar.kbs.sk helyről.
+
+    Kimenet: breviarData_yyyy.json
+    """
 
     print("Downloading data from breviar.kbs.sk", end='')
     sys.stdout.flush()
     # get breviarData from url
-    current_year = datetime.now().year
-    url = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={current_year}&j=hu"
+    url = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={year}&j=hu"
     response = requests.get(url)
     breviarData = xmltodict.parse(response.content)
-    next_year = current_year + 1
-    url_next_year = f"https://breviar.kbs.sk/cgi-bin/l.cgi?qt=pxml&d=*&m=*&r={next_year}&j=hu"
-    response_next_year = requests.get(url_next_year)
-    breviarData_next_year = xmltodict.parse(response_next_year.content)
-
-    # Merge the two datasets
-    breviarData['LHData']['CalendarDay'].extend(breviarData_next_year['LHData']['CalendarDay'])
 
     # now write output to a file
-    with open("breviarData.json", "w") as breviarDataFile:
-        print("...", end='')
-        sys.stdout.flush()
-        # magic happens here to make it pretty-printed
-        breviarDataFile.write(
-            simplejson.dumps(breviarData, indent=4, sort_keys=True)
-        )
-    print(" OK")
+    writeDataFormattedJSONfile(breviarData, f"breviarData_{year}.json", sort_keys=True)
 
-def loadBreviarData():
-    print("Loading breviarData.json...", end='')
+def loadBreviarData(year):
+    """
+    Betölti az adott évi adatokat a breviarData_yyyy.json fájlból és Python dict objektumként adja vissza.
+    """
+    print(f"Loading breviarData_{year}.json...", end='')
     sys.stdout.flush()
-    f = open("breviarData.json")
-    data = simplejson.load(f)
-    print(" OK")
-    return data
+    with open(f"breviarData_{year}.json", encoding='utf8') as f:
+        data = json.load(f)
+        print(" OK")
+        return data
 
 def loadKatolikusData():
+    """
+    Betölti az adatokat a readings/.*json fájlokból és Python dict  objektumként adja.
+    """
+
     print("Loading katolikusData from jsons: ", end='')
     sys.stdout.flush()
     katolikusData = {}
-    sources = [ "vasA", "vasB", "vasC","olvasmanyok", "szentek","custom"]
+    sources = [ "vasA", "vasB", "vasC", "olvasmanyok", "szentek", "custom"]
     for name in sources:
         print("." + name + ".", end='')
         sys.stdout.flush()
         data = {}
-        with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
-            data = simplejson.load(file)
+        with open(f'readings/{name}.json', 'r', encoding="utf8") as file:
+            data = json.load(file)
 
+        if name in ["vasA", "vasB", "vasC"]:
+            _tmp = {}
+            evKod = name[3:4] # A, B vagy C
+            for key, value in data.items():
+                evKodKey = evKod + key
+                _tmp[evKodKey] = value
+                _tmp[evKodKey]['igenaptarId'] = evKodKey
+            data = _tmp
 
-        if name == "vasA" or name == "vasB" or name == "vasC":
-            tmp = {}
-            for keyId, key in enumerate(data):
-                if name == "vasA":
-                    data[key]['igenaptarId'] = "A" + key
-                    tmp["A" + key] = data[key]
-                if name == "vasB":
-                    data[key]['igenaptarId'] = "B" + key
-                    tmp["B" + key] = data[key]
-                if name == "vasC":
-                    data[key]['igenaptarId'] = "C" + key
-                    tmp["C" + key] = data[key]
-            data = tmp
-
-        for key in data:
+        for key, dataValue in data.items():
             if key in katolikusData:
-                if isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
-                    katolikusData[key] = [ katolikusData[key] , data[key] ]
-                elif isinstance(katolikusData[key],dict) and not isinstance(data[key],dict):
-                    katolikusData[key] = data[key].append(katolikusData[key])
-                elif not isinstance(katolikusData[key],dict) and isinstance(data[key],dict):
-                    katolikusData[key] = katolikusData[key].append(data[key])
-                elif not isinstance(katolikusData[key],dict) and not isinstance(data[key],dict):
-                    katolikusData[key] = katolikusData[key] | data[key]
+                if isinstance(katolikusData[key],dict) and isinstance(dataValue,dict):
+                    katolikusData[key] = [ katolikusData[key] , dataValue ]
+                elif isinstance(katolikusData[key],dict) and isinstance(dataValue,list):
+                    katolikusData[key] = dataValue.append(katolikusData[key])
+                elif isinstance(katolikusData[key],list) and isinstance(dataValue,dict):
+                    katolikusData[key] = katolikusData[key].append(dataValue)
+                elif isinstance(katolikusData[key],list) and isinstance(dataValue,list):
+                    katolikusData[key] = katolikusData[key] | dataValue
             else:
                 katolikusData[key] = data[key]
 
 
     # commentaries
     name = 'commentaries'
-    with open('readings/' + name + '.json', 'r',encoding="utf8") as file:
-            data = simplejson.load(file)
+    with open(f'readings/{name}.json', 'r', encoding="utf8") as file:
+        data = json.load(file)
     katolikusData['commentaries'] = data
 
     print(" OK")
     return katolikusData
 
-def transformCelebration(celebration: dict):
-
+def transformCelebration(celebration: dict, day: dict):
 
     transformedCelebration = {
-        'dateISO' : calendarDay['DateISO'],
+        'dateISO' : day['DateISO'],
         'yearLetter': celebration['LiturgicalYearLetter'],
-        'yearParity': yearIorII(celebration['LiturgicalYearLetter'], calendarDay['DateYear']),
+        'yearParity': yearIorII(celebration['LiturgicalYearLetter'], day['DateYear']),
         'week': celebration['LiturgicalWeek'],
-        'dayofWeek': int(calendarDay["DayOfWeek"]['@Id']),
+        'dayofWeek': int(day["DayOfWeek"]['@Id']),
         'weekOfPsalter': celebration['LiturgicalWeekOfPsalter'],
         'season': celebration['LiturgicalSeason']['@Id'],
         'seasonText': celebration['LiturgicalSeason']['#text'],
@@ -131,14 +132,14 @@ def transformCelebration(celebration: dict):
         transformedCelebration['name'] = celebration['LiturgicalCelebrationName']['#text']
 
     # Create name if it is necessary
-    if transformedCelebration['name'] == None:
+    if transformedCelebration['name'] is None:
         napok = { 0: "vasárnap", 1: "hétfő", 2: "kedd", 3: "szerda", 4: "csütörtök", 5: "péntek", 6: "szombat"}
-        transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'] + " " + celebration['LiturgicalWeek'] + ". hét, " + napok[int(calendarDay["DayOfWeek"]['@Id'])]
-        if int(calendarDay["DayOfWeek"]['@Id']) == 0:
+        transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'] + " " + celebration['LiturgicalWeek'] + ". hét, " + napok[int(day["DayOfWeek"]['@Id'])]
+        if int(day["DayOfWeek"]['@Id']) == 0:
             if celebration['LiturgicalSeason']['#text'] == "évközi idő":
                 transformedCelebration['name'] = "évközi " + celebration['LiturgicalWeek'] + ". vasárnap"
             else:
-                transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'][:-5] + " " + celebration['LiturgicalWeek'] + ". vasárnapja"                
+                transformedCelebration['name'] = celebration['LiturgicalSeason']['#text'][:-5] + " " + celebration['LiturgicalWeek'] + ". vasárnapja"
 
     #print(transformedCelebration['name'])
 
@@ -170,9 +171,7 @@ def transformCelebration(celebration: dict):
     return transformedCelebration
 
 
-def findCommentaries(celebration: dict):
-
-    commentaryHasFound = False
+def findCommentaries(celebration: dict, katolikusData: dict):
 
     for commentary in katolikusData['commentaries']:
         if 'readingsBreviarId' in katolikusData['commentaries'][commentary]:
@@ -185,11 +184,11 @@ def findCommentaries(celebration: dict):
                         "short_title" : "Gondolatok a mai napról",
                         "text" : katolikusData['commentaries'][commentary]['commentary']['text']
                     }
-                commentaryHasFound = True
-                return True
+
+                break
 
 
-def createReadingIds(celebration: dict):
+def createReadingIds(celebration: dict, day: dict):
 
     seasons = { '0' :"ADV", '1' : "ADV", '2': "KAR", '3': "KAR", '4': "KAR", '5' : "EVK", "6": "NAB", "10" : "HUS", "11" : "HUS" }
 
@@ -205,10 +204,10 @@ def createReadingIds(celebration: dict):
     katolikusDataKod = "False"
 
     if celebration['readingsBreviarId'] is None:
-        celebration['readingsBreviarId'] = calendarDay['DateDay'] + '.' + calendarDay['DateMonth'] + '.'
+        celebration['readingsBreviarId'] = day['DateDay'] + '.' + day['DateMonth'] + '.'
 
     # Évközi (C), húsvéti (V), nagyböjti (P), adventi (A), idő vasárnapjai ill. köznapjai
-    result = re.search("^(\d{1,2})([ACVPK]{1})(\d{0,1})$", celebration['readingsBreviarId'])
+    result = re.search(r"^(\d{1,2})([ACVPK]{1})(\d{0,1})$", celebration['readingsBreviarId'])
     if result:
         # mi a 'kod' azaz az adott nap rövidítése
         kodok = { "A" : "ADV", "C" : "EVK", "P": "NAB", "V" : "HUS", "K" : "KAR" }
@@ -220,7 +219,7 @@ def createReadingIds(celebration: dict):
     # Egyes dátumokhoz tartozó ünnepek olvasmányainak kikeresése, figyelve arra, hogy egy napra több minden is juthat. Uuuupsz.
     # Dec 25 extra :D
     #
-    result = re.search("^(\d{1,2})\.(\d{1,2})\.$", celebration['readingsBreviarId'])
+    result = re.search(r"^(\d{1,2})\.(\d{1,2})\.$", celebration['readingsBreviarId'])
     if result:
         katolikusDataKod = result.group(2).zfill(2) + "-" + result.group(1).zfill(2)
 
@@ -258,8 +257,8 @@ def createReadingIds(celebration: dict):
         #általában
         ferialReadingsId = seasons[celebration['season']] + str(celebration['week']).zfill(2) + str(celebration['dayofWeek']) + days[celebration['dayofWeek']]
         # Karácsony után másképp jön létre a kód!
-        if ( int(calendarDay['DateMonth']) == 1 and int(calendarDay['DateDay']) <= 12 ) or int(calendarDay['DateMonth']) == 12 and int(calendarDay['DateDay']) >= 25 :
-            ferialReadingsId = calendarDay['DateMonth'].zfill(2) + "-" + calendarDay['DateDay'].zfill(2)
+        if ( int(day['DateMonth']) == 1 and int(day['DateDay']) <= 12 ) or int(day['DateMonth']) == 12 and int(day['DateDay']) >= 25 :
+            ferialReadingsId = day['DateMonth'].zfill(2) + "-" + day['DateDay'].zfill(2)
 
         #Ha ő már eleve köznap, akkor minek legyenek duplán köznapi olvasmányok
         if ferialReadingsId != katolikusDataKod:
@@ -283,13 +282,13 @@ def error(text):
     print("  ERROR: " + text.ljust(80))
     # exit()
 
-def findReadings(celebration: dict):
+def findReadings(celebration: dict, katolikusData: dict, lelkiBatyu: dict):
 
     readingHasFound = False
 
-    if not celebration['readingsId'] in katolikusData:
+    if celebration['readingsId'] not in katolikusData:
 
-        if not ( celebration['yearLetter'] + celebration['readingsId'] ) in katolikusData:
+        if celebration['yearLetter'] + celebration['readingsId'] not in katolikusData:
 
             if re.search("székesegyház felszentelése", celebration['name']) or re.search("bazilika felszentelése", celebration['name']):
                 celebration['readingsId'] = "SzekesegyhazFelszentelése"
@@ -348,18 +347,18 @@ def findReadings(celebration: dict):
             pairs = [
                 ["^A Szent Család", "^Szent Család"],
                 [ "^adventi idő", "^Adventi köznapok - december", ],
-                [ "^adventi idő ([0-9]{1})\. hét, vasárnap$", "^Advent ([0-9]{1})\. vasárnapja" ],
-                [ "^nagyböjti idő ([0-9]{1})\. hét, vasárnap$", "^Nagyböjt ([0-9]{1})\. vasárnapja" ],
+                [ r"^adventi idő ([0-9]{1})\. hét, vasárnap$", r"^Advent ([0-9]{1})\. vasárnapja" ],
+                [ r"^nagyböjti idő ([0-9]{1})\. hét, vasárnap$", r"^Nagyböjt ([0-9]{1})\. vasárnapja" ],
                 [ "Rózsafüzér Királynője", "Rózsafüzér Királynője" ],
                 [ "Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony" ],
                 [ "Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
                 [ "karácsony nyolcada 1. hét","Karácsonyi idő - december"],
                 [ "karácsonyi idő 1. hét", "Karácsonyi idő - január"],
-                [ "^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", "^(Évközi ([0-9]{1,2})\. vasárnap)"],
+                [ r"^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", r"^(Évközi ([0-9]{1,2})\. vasárnap)"],
                 ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
                 ["Virágvasárnap", "Virágvasárnap"],
                 ["\nKrisztus feltámadása$", "Húsvétvasárnap"],
-                ["nagyböjti idő 0\. hét", "hamvazószerda után"],
+                [r"nagyböjti idő 0\. hét", "hamvazószerda után"],
                 ["a bazilika felszentelése", "Székesegyház felszentelése"],
                 ["főszékesegyház felszentelése", "Székesegyház felszentelése"]
             ]
@@ -417,7 +416,7 @@ def findReadings(celebration: dict):
 
 
 # Kötelező emléknapokon (level 10 és 11) köznapi olvasmányok a default érték!
-def addreadingstolevel10(celebration: dict):
+def addreadingstolevel10(celebration: dict, katolikusData: dict):
     if celebration['level'] == '10' or celebration['level'] == '11'  or celebration['level'] == '12':
 
         ferialReadings = False
@@ -446,7 +445,7 @@ def addreadingstolevel10(celebration: dict):
 
         # Tehát a fakultatív saját olvasmányok mennek a parts2-ben. Persze ha vannak...
         if 'parts' in celebration:
-            celebration['parts2'] = celebration['parts'];
+            celebration['parts2'] = celebration['parts']
         else:
             celebration['parts2'] = [{
                 "teaser" : "Saját olvasmányokat nem találtunk. Elnézést.",
@@ -454,8 +453,8 @@ def addreadingstolevel10(celebration: dict):
             }]
             error("Kéne legyen saját olvasmánya is, de csak a közös olvasmányoakt találtunk meg.")
 
-        celebration['parts2cause'] = "(Vagy) saját olvasmányok";
-        celebration['parts'] = ferialReadings["parts"];
+        celebration['parts2cause'] = "(Vagy) saját olvasmányok"
+        celebration['parts'] = ferialReadings["parts"]
 
         return
 
@@ -466,7 +465,7 @@ def clearYearIorII(celebration: dict):
     if 'parts' in celebration:
         for kid, k in enumerate(celebration['parts']):
 
-            if type(k) != dict:
+            if not isinstance(k, dict):
                 for possibility in k:
                     if "cause" in possibility and ( (  possibility["cause"] == 'II. évben' and celebration['yearParity'] == 'I' ) or  ( possibility["cause"] == 'I. évben' and celebration['yearParity'] == 'II' ) ) :
                         k.remove(possibility)
@@ -495,7 +494,7 @@ def yearIorII(ABC, year):
     #print(ABC)
     #print(year)
     print("Hát ezt bizony meg kéne csinálni még...")
-    exit()
+    sys.exit()
 
 # Van pár alkalom amikor egy az ünnep de több az ünneplés: karácsony, pünkösd, húsvét, nagycsütörtök
 def addCustomCelebrationstoBreviarData(data):
@@ -510,7 +509,6 @@ def addCustomCelebrationstoBreviarData(data):
         if celebration['name'] == "Urunk születése (Karácsony)":
             toAdd = [ {"name": " Urunk születése: Karácsony – Vigília mise" }, {"name" : "Karácsony – Éjféli mise" }, {"name" : "Urunk születése: Karácsony – Pásztorok miséje" }, {"name" : "Urunk születése: Karácsony – Ünnepi mise" } ]
 
-        #print(celebration['name'])
 
         if celebration['name'] == "Pünkösd":
             toAdd = [ {"name": "Pünkösd, vigília mise" }, {"name" : "Pünkösdvasárnap" } ]
@@ -534,186 +532,156 @@ def addCustomCelebrationstoBreviarData(data):
         del data['celebration2']
 
 
-    return
-
 # Bűnbánati napok
-def day_of_penance(celebration):
-    day_of_penance = 0
+def dayOfPenance(celebration):
+    dayOfPenance = 0
 
     # minden péntek
-    date_obj = datetime.strptime(celebration['dateISO'], '%Y-%m-%d')
-    if date_obj.weekday() == 4:
+    dateObj = datetime.strptime(celebration['dateISO'], '%Y-%m-%d')
+    if dateObj.weekday() == 4:
         # kivételek a kötelező ünnepek ÉS az alábbiak:
         exceptions = ["02-02", "03-25", "05-01", "08-20", "09-08", "12-24", "12-31", "10-23"]
-        month_day = date_obj.strftime('%m-%d')
-        if month_day in exceptions or int(celebration['level']) < 10:
-            day_of_penance = 0
+        monthDay = dateObj.strftime('%m-%d')
+        if monthDay in exceptions or int(celebration['level']) < 10:
+            dayOfPenance = 0
         else:
-            day_of_penance = 1
+            dayOfPenance = 1
 
         # nagyböjt péntekjei
         if celebration['season'] == "6":
-            day_of_penance = 2
+            dayOfPenance = 2
 
     #print(celebration)
     #nagypéntek és hamvazószerda
     if celebration['readingsId'] == "NAB065Pentek" or celebration['readingsId'] == "NAB003Szerda":
-        day_of_penance = 3
+        dayOfPenance = 3
 
-    return day_of_penance
-
-
+    return dayOfPenance
 
 
-def is_file_old_or_missing(file_path):
-    if not os.path.exists(file_path):
+
+
+def isFileOldOrMissing(filePath):
+    if not os.path.exists(filePath):
         return True
-    file_mod_time = os.path.getmtime(file_path)
-    current_time = time.time()
+    fileModTime = os.path.getmtime(filePath)
+    currentTime = time.time()
     # Check if file is older than 1 hour (3600 seconds)
-    if (current_time - file_mod_time) > 3600:
+    if (currentTime - fileModTime) > 3600:
         return True
     return False
 
 
-#Itt kezdődik a program menete
-
-if is_file_old_or_missing("breviarData.json"):
-    downloadBreviarData()
-
-#A jelen év és jövő év minden napjára lekérjük az adatokat
-breviarData = loadBreviarData()
-#Összeszedjük az elérhető olvasmány adatokat
-katolikusData = loadKatolikusData()
-
-lelkiBatyuk = {}
-for calendarDay in breviarData['LHData']['CalendarDay']:
-    print(calendarDay['DateISO'] + ": ")
 
 
-    lelkiBatyu = {}
-    lelkiBatyu['date'] = {
-        'ISO': calendarDay['DateISO'],
-        'dayOfYear' : calendarDay['DayOfYear'],
-        'dayofWeek' : calendarDay['DayOfWeek']['@Id'],
-        'dayofWeekText' : calendarDay['DayOfWeek']['#text']
-    }
+def generateLelkiBatyuk(year):
+    if isFileOldOrMissing(f"breviarData_{year}.json"):
+        downloadBreviarData(year)
 
-    #for celebration in calendarDay
-    lelkiBatyu['celebration'] = []
-    if not isinstance(calendarDay['Celebration'], dict):
-        for celebration in calendarDay['Celebration']:
-            lelkiBatyu['celebration'].append(transformCelebration(celebration))
-    else:
-        lelkiBatyu['celebration'].append(transformCelebration(calendarDay['Celebration']))
+    breviarData = loadBreviarData(year)
 
-    addCustomCelebrationstoBreviarData(lelkiBatyu)
+    katolikusData = loadKatolikusData()
+
+    lelkiBatyuk = {}
+    for calendarDay in breviarData['LHData']['CalendarDay']:
+        print(calendarDay['DateISO'] + ": ")
 
 
-    #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
-    for key in range(len(lelkiBatyu['celebration'])):
-        celebration = lelkiBatyu['celebration'][key]
-        celebration['celebrationKey'] = key
-        print("", end='\r', flush=True)
-        sys.stdout.flush()
+        lelkiBatyu = {}
+        lelkiBatyu['date'] = {
+            'ISO': calendarDay['DateISO'],
+            'dayOfYear' : calendarDay['DayOfYear'],
+            'dayofWeek' : calendarDay['DayOfWeek']['@Id'],
+            'dayofWeekText' : calendarDay['DayOfWeek']['#text']
+        }
 
-        createReadingIds(celebration)
+        #for celebration in calendarDay
+        lelkiBatyu['celebration'] = []
+        if not isinstance(calendarDay['Celebration'], dict):
+            for celebration in calendarDay['Celebration']:
+                lelkiBatyu['celebration'].append(transformCelebration(celebration, calendarDay))
+        else:
+            lelkiBatyu['celebration'].append(transformCelebration(calendarDay['Celebration'], calendarDay))
 
-
-        findReadings(celebration)
-
-
-        addreadingstolevel10(celebration)
-        clearYearIorII(celebration)
-
-
-
-
-
-    #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
-   # for celebration in lelkiBatyu['celebration']:
-        findCommentaries(celebration)
+        addCustomCelebrationstoBreviarData(lelkiBatyu)
 
 
-        # egyéb dolgok
-        celebration['dayOfPenance'] = day_of_penance(celebration)
+        #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
+        for key in range(len(lelkiBatyu['celebration'])):
+            celebration = lelkiBatyu['celebration'][key]
+            celebration['celebrationKey'] = key
+            print("", end='\r', flush=True)
+            sys.stdout.flush()
 
-        print("  OK                                  ", end="\r",flush=True)
+            createReadingIds(celebration, calendarDay)
 
-        #sys.stdout.flush()
+            findReadings(celebration, katolikusData, lelkiBatyu)
+
+            addreadingstolevel10(celebration, katolikusData)
+            clearYearIorII(celebration)
+
+            # find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
+            findCommentaries(celebration, katolikusData)
+
+            # egyéb dolgok
+            celebration['dayOfPenance'] = dayOfPenance(celebration)
+
+            print("  OK                                  ", end="\r",flush=True)
+
+        #if calendarDay['DateISO'] == "2024-05-19":
+        #    exit()
+
+        # now write output to a file
+        writeDataFormattedJSONfile(lelkiBatyu, f"batyuk/{calendarDay['DateISO']}.json", ensure_ascii=False)
+
+        lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
+
+    writeDataFormattedJSONfile(lelkiBatyuk, f"batyuk/{year}_simple.json", ensure_ascii=False)
+
+    lelkiBatyukComplex = lelkiBatyuk
+
+    for dayValue in lelkiBatyukComplex.values():
+        for cid, celebration in enumerate(dayValue['celebration']):
+            for partsKey in ['parts', 'parts2']:
+                if partsKey in dayValue['celebration'][cid]:
+                    for pid, part in enumerate(dayValue['celebration'][cid][partsKey]):
+                        # lista
+                        if isinstance(part, dict):
+                            dayValue['celebration'][cid][partsKey][pid]['type'] = 'object'
+                        else:
+                            tmp = {}
+                            tmp['type'] = 'array'
+                            tmp['content'] = part
+
+                            for content in tmp['content']:
+                                content['type'] = 'object'
+
+                            dayValue['celebration'][cid][partsKey][pid] = tmp
+
+    writeDataFormattedJSONfile(lelkiBatyukComplex, f"batyuk/{year}.json", ensure_ascii=False)
+
+    return lelkiBatyukComplex
 
 
-    #if calendarDay['DateISO'] == "2024-05-19":
-    #    exit()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='Napi lelki batyuk generalasa')
+    parser.add_argument(
+        '--year', default=datetime.now().year, type=int, help='the year to generate')
+    parser.add_argument('--no-next-year', action='store_false', help='do not generate next year', default=True, dest='next_year')
 
-    # now write output to a file
-    with open("batyuk/" + calendarDay['DateISO'] + ".json", "w", encoding='utf8') as breviarDataFile:
-        # magic happens here to make it pretty-printed
-        breviarDataFile.write(
-            simplejson.dumps(lelkiBatyu, indent=4, sort_keys=False, ensure_ascii=False)
-        )
-    lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
+    args = parser.parse_args()
 
+    allLelkiBatyuk = generateLelkiBatyuk(args.year)
 
-with open("batyuk/2024_simple.json", "w", encoding='utf8') as breviarDataFile:
-        # magic happens here to make it pretty-printed
-        breviarDataFile.write(
-            simplejson.dumps(lelkiBatyuk, indent=4, sort_keys=False, ensure_ascii=False)
-        )
+    if args.next_year:
+        allLelkiBatyuk = allLelkiBatyuk | generateLelkiBatyuk(args.year + 1)
 
-
-lelkiBatyukComplex = lelkiBatyuk
-# print(lelkiBatyuk['2024-03-31'])
-
-for day in lelkiBatyukComplex:
-    for cid, celebration in enumerate(lelkiBatyukComplex[day]['celebration']):
-        if 'parts' in lelkiBatyukComplex[day]['celebration'][cid]:
-            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts']):
-                # lista
-                if type(part) == dict:
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid]['type'] = 'object'
-                else:
-                    tmp = {}
-                    tmp['type'] = 'array'
-                    tmp['content'] = part
-
-                    for contentid, cont in enumerate(tmp['content']):
-                        tmp['content'][contentid]['type'] = 'object'
-
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts'][pid] = tmp
-
-        if 'parts2' in lelkiBatyukComplex[day]['celebration'][cid]:
-            for pid, part in enumerate(lelkiBatyukComplex[day]['celebration'][cid]['parts2']):
-                # lista
-                if type(part) == dict:
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid]['type'] = 'object'
-                else:
-                    tmp = {}
-                    tmp['type'] = 'array'
-                    tmp['content'] = part
-
-                    for contentid, cont in enumerate(tmp['content']):
-                        tmp['content'][contentid]['type'] = 'object'
-
-                    lelkiBatyukComplex[day]['celebration'][cid]['parts2'][pid] = tmp
-
-def save_filtered_lelkiBatyukComplex(year):
-    with open(f"batyuk/{year}.json", "w", encoding='utf8') as breviarDataFile:
-        filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if k.startswith(str(year))}
-        breviarDataFile.write(
-            simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
-        )
-
-with open("batyuk/igenaptar.json", "w", encoding='utf8') as breviarDataFile:
     today = datetime.now()
     start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
     end_date = (today + timedelta(days=365)).strftime('%Y-%m-%d')
-    filtered_lelkiBatyukComplex = {k: v for k, v in lelkiBatyukComplex.items() if start_date <= k <= end_date}
-    breviarDataFile.write(
-        simplejson.dumps(filtered_lelkiBatyukComplex, indent=4, sort_keys=False, ensure_ascii=False)
-    )
-save_filtered_lelkiBatyukComplex(datetime.now().year)
-save_filtered_lelkiBatyukComplex(datetime.now().year + 1)
+    filtered_allLelkiBatyuk = {k: v for k, v in allLelkiBatyuk.items() if start_date <= k <= end_date}
 
+    writeDataFormattedJSONfile(filtered_allLelkiBatyuk, "batyuk/igenaptar.json", ensure_ascii=False)
 
-print("készen vagyunk")
+    print("Done!")
