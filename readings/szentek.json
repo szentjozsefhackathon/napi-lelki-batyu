@@ -690,7 +690,7 @@
             [{
                 "short_title": "Infó",
                 "teaser": "Ennek az emléknapnak saját olvasmányai vannak.",
-                "text": "Ennek az emléknapnak saját olvasmányai vannak.",
+                "text": "Ennek az emléknapnak saját olvasmányai vannak."
             },
 			{
                 "short_title": "szentlecke",
@@ -2423,7 +2423,7 @@
                     "ref": "Jn 15,18-21",
                     "teaser": "Ha engem üldöztek, titeket is üldözni fognak.",
                     "title": "† EVANGÉLIUM Szent János könyvéből\t",
-                    "text": "Búcsúbeszédében Jézus így szólt övéihez:<br>\n„Ha a világ gyűlöl titeket, tudjátok meg: engem előbb gyűlölt. Ha a világból volnátok, szeretne titeket a világ, mint övéit. De ti nem vagytok a világból, mert kiválasztottalak titeket a világból; ezért gyűlöl benneteket a világ.<br>\nEmlékezzetek vissza tanításomra: nem nagyobb a szolga uránál! Ha engem üldöztek, titeket is üldözni fognak. Ha az én tanításomat megtartották, a tiéteket is megtartják.<br>\nMindezt miattam teszik veletek, mert nem ismerik azt, aki küldött engem."",
+                    "text": "Búcsúbeszédében Jézus így szólt övéihez:<br>\n„Ha a világ gyűlöl titeket, tudjátok meg: engem előbb gyűlölt. Ha a világból volnátok, szeretne titeket a világ, mint övéit. De ti nem vagytok a világból, mert kiválasztottalak titeket a világból; ezért gyűlöl benneteket a világ.<br>\nEmlékezzetek vissza tanításomra: nem nagyobb a szolga uránál! Ha engem üldöztek, titeket is üldözni fognak. Ha az én tanításomat megtartották, a tiéteket is megtartják.<br>\nMindezt miattam teszik veletek, mert nem ismerik azt, aki küldött engem.",
                     "ending": "Ezek az evangélium igéi."
                 }
             ]
@@ -3184,6 +3184,7 @@
                 "teaser": "Ha jót cselekszel, felragyog világosságod, mint a hajnal, * és sorsod hamarosan jobbra fordul. Vö. Iz 58,8 – 8. tónus. ",
                 "text": "Ha jót cselekszel, felragyog világosságod, mint a hajnal, * és sorsod hamarosan jobbra fordul. Vö. Iz 58,8 – 8. tónus. "
             },
+            [
             {
                 "short_title": "evangélium",
                 "ref": "Lk 12,32-34",
@@ -3191,11 +3192,12 @@
                 "title": "† EVANGÉLIUM Szent Lukács könyvéből\t",
                 "text": "Abban az időben Jézus így szólt tanítványaihoz:<br>\n„Ne félj, te kisded nyáj, hisz Atyátok úgy látta jónak, hogy nektek adja az Országot.<br>\nAdjátok el, amitek van, és osszátok ki a rászorulóknak. Készítsetek magatoknak kimeríthetetlen erszényt, kifogyhatatlan kincset a mennyben, ahol tolvaj nem fér hozzá, és a moly nem rágja szét. Ahol a kincsetek, ott a szívetek is.”<br>\n\n<br>",
                 "ending": "Ezek az evangélium igéi."
+            },
 			{
 				"short_title": "evangélium",
-				"title": "EVANGÉLIUM Szent István király ünnepéről, augusztus 20-áról.",
-			},
-            }
+				"title": "EVANGÉLIUM Szent István király ünnepéről, augusztus 20-áról."
+			}
+            ]            
         ]
     },
     "06-01": {
@@ -3576,7 +3578,7 @@
                 "teaser": "Szeretett és kiválasztott benneteket az Úr.",
                 "title": "OLVASMÁNY Mózes ötödik könyvéből",
                 "text": "A negyvenéves pusztai vándorlás után Mózes így beszélt a néphez: „Te\naz Úr, a te Istened szent népe vagy, téged választott ki az Úr, a te\nIstened a föld népei közül a maga népének.<br>\nNem azért hajolt le hozzátok és választott ki benneteket az Úr, mert\nszámban fölötte álltok az összes népnek, hiszen a legkisebbek vagytok\nminden nép között, hanem mert szeretett benneteket az Úr, és megtartja\nesküjét, amelyet atyáitoknak tett, azért vezetett ki erős kézzel és\nszabadított ki a szolgaság házából, a fáraónak, Egyiptom királyának\nkezéből. Ismerd föl hát, hogy az Úr, a te Istened az igaz Isten, a\nhűséges Isten, aki szövetségét és szeretetét az ezredik nemzedékig\nmegőrzi azok iránt, akik szeretik és megőrzik parancsait. Azt ellenben,\naki gyűlöli őt, megbünteti; nem késlekedik, elpusztítja azt, aki\ngyűlöli őt.<br>\nEzért tartsd meg a parancsokat, rendelkezéseket és törvényeket,\namelyet ma szabok neked, hogy kövesd őket.”",
-                "ending": "Ez az Isten igéje."
+                "ending": "Ez az Isten igéje.",
 				"cause": "\"A\" évben"
             },
             {
@@ -3799,7 +3801,7 @@
                 "teaser": "Az Úr gondot visel híveire: mint igazi jó pásztornak szívügye a nyáj és minden bárány.",
                 "title": "OLVASMÁNY Ezekiel próféta könyvéből",
                 "text": "Ezt mondja az Úr, az Isten:<br>\n  „Íme, én magam keresem meg juhaimat, és magam gondoskodom róluk.<br>\nAmint a pásztor számba veszi nyáját azon a napon, amikor megáll\nszétszéledt juhai között, íme, én is gondjaimba veszem juhaimat,\namelyek szétszóródtak. Visszahozom őket mindenünnen, ahová a sötét\nfellegek napján szétszóródtak. Kivezetem őket a népek közül,\nösszegyűjtöm őket az országokból, és visszaviszem őket saját hazájukba.\nIzrael hegyein legeltetem őket, a völgyekben és az ország lakott\ntájain. Jó legelőre terelem majd őket, és Izrael magaslatain lesz a\nlegelőjük. Jó legelőn pihennek majd, kövér legelőn, Izrael hegyein.<br>\n  Magam terelgetem majd juhaimat, és magam telepítem le pihenőre őket – mondja az Úr, az Isten. Megkeresem az elveszettet, visszaterelem az\nelszéledtet, bekötözöm a sérültet, ápolom a beteget, és gondozom a\nkövéret és egészségeset. Az igazság szerint legeltetem őket.”",
-                "ending": "Ez az Isten igéje."
+                "ending": "Ez az Isten igéje.",
 				"cause": "C évben"
             },
             {
@@ -5725,7 +5727,7 @@
                 "ref": "Iz 9,1-6",
                 "teaser": "Gyermek születik és Fiú adatik nekünk.",
                 "title": "OLVASMÁNY Izajás próféta könyvéből",
-                "text": "\A nép, amely sötétségben jár, nagy fényességet lát. Akik a halál árnyékának országában laknak, azoknak nagy világosság támad. Nagy ujjongással töltöd el őket, kitörő örömet adsz nekik. Úgy örülnek majd színed előtt, ahogy aratáskor szoktak örülni, s ahogy akkor örülnek, amikor a zsákmányt osztják. Mert terhes igáját, a vállára nehezedő rudat, sanyargatója botját összetörted, mint Midián idejében.<br>\nMert gyermek születik nékünk, fiú adatik nékünk, s az ő vállára kerül az uralom. Így fogják hívni: Csodálatos Tanácsadó, Erős Isten, Örök Atya, Béke Fejedelme. Messzire kiterjed majd uralma, és a békének nem lesz vége Dávid trónján és királyságában, amelyet a jog és az igazság által megerősít és megszilárdít mostantól fogva mindörökké. Ezt teszi a Seregek Urának féltő szeretete.",
+                "text": "A nép, amely sötétségben jár, nagy fényességet lát. Akik a halál árnyékának országában laknak, azoknak nagy világosság támad. Nagy ujjongással töltöd el őket, kitörő örömet adsz nekik. Úgy örülnek majd színed előtt, ahogy aratáskor szoktak örülni, s ahogy akkor örülnek, amikor a zsákmányt osztják. Mert terhes igáját, a vállára nehezedő rudat, sanyargatója botját összetörted, mint Midián idejében.<br>\nMert gyermek születik nékünk, fiú adatik nékünk, s az ő vállára kerül az uralom. Így fogják hívni: Csodálatos Tanácsadó, Erős Isten, Örök Atya, Béke Fejedelme. Messzire kiterjed majd uralma, és a békének nem lesz vége Dávid trónján és királyságában, amelyet a jog és az igazság által megerősít és megszilárdít mostantól fogva mindörökké. Ezt teszi a Seregek Urának féltő szeretete.",
                 "ending": "Ez az Isten igéje."
             },
             {
@@ -7739,7 +7741,7 @@
                 "teaser": "Tanítványai közül Jézus kiválasztott tizenkettőt, s elnevezte őket apostoloknak. ",
                 "title": "† EVANGÉLIUM Szent Lukács könyvéből\t",
                 "text": "Jézus egyszer fölment egy hegyre imádkozni. Az egész éjszakát Isten imádásában töltötte.<br>\nMásnap magához hívta tanítványait, és kiválasztott közülük tizenkettőt, akiket apostoloknak nevezett: Simont, akit Péternek is hívott, és testvérét, Andrást; Jakabot és Jánost, Fülöpöt és Bertalant, Mátét és Tamást; Jakabot, Alfeus fiát és a buzgó Simont; Júdást, Jakab fiát, továbbá karióti Júdást, aki később elárulta őt.<br>\nAzután lement velük, és egy sík mezőn megállt. Ott nagy csoport tanítvány sereglett köréje, és hatalmas tömeg vette körül Júdeából, Jeruzsálemből, Tirusz és Szidon tengerparti vidékéről. Ezek azért gyűltek össze, hogy hallgassák őt, és gyógyulást nyerjenek betegségükből. Meggyógyultak azok is, akiket tisztátalan lelkek gyötörtek. Az egész tömeg érinteni akarta őt, mert erő áradt ki belőle, és mindenkit meggyógyított.",
-                "ending": "Ezek az evangélium igéi."
+                "ending": "Ezek az evangélium igéi.",
 				"cause": "A szent apostolokról mondott votív misében is a fenti olvasmányokat vesszük."
             }
         ]
@@ -8663,6 +8665,7 @@
                     "teaser": "Jézus mondja: † Aki szeret engem, megfogadja szavamat. * Atyám is szeretni fogja, és hozzá költözünk. Jn 14,23 – 8 G. tónus.",
                     "text": "Jézus mondja: † Aki szeret engem, megfogadja szavamat. * Atyám is szeretni fogja, és hozzá költözünk. Jn 14,23 – 8 G. tónus."
                 },
+                [
                 {
                     "short_title": "evangélium",
                     "ref": "Mt 25,14-30",
@@ -8670,7 +8673,7 @@
                     "title": "† EVANGÉLIUM Szent Máté könyvéből\t",
                     "text": "Abban az időben Jézus a következő példabeszédet mondta tanítványainak:\nEgy ember egyszer idegenbe készült, ezért összehívta szolgáit, és rájuk bízta vagyonát. Az egyiknek öt talentumot adott, a másiknak kettőt, a harmadiknak pedig egyet, kinek-kinek rátermettsége szerint, aztán útra kelt. Aki öt talentumot kapott, menten elkezdett vele kereskedni, és másik ötöt nyert rajta. Ugyanígy az is, aki kettőt kapott: másik kettőt szerzett. Az pedig, aki csak egyet kapott, elment, ásott egy gödröt, és elrejtette a földbe urának ezüstjét.<br>\nHosszú idő elteltével megjött a szolgák ura, és számadást tartott velük. Jött az, aki öt talentumot kapott: hozott másik ötöt is, és így szólt: „Uram, öt talentumot adtál nekem, nézd, másik ötöt nyertem rajta.” Az úr így válaszolt: „Jól van, te derék és hűséges szolgai A kevésben hű voltál, sokat bízok rád: Menj be urad örömébe! Jött az is, aki két talentumot kapott, és így szólt: „Uram, két talentumot adtál nekem, nézd, másik kettőt nyertem rajta.” Az úr így válaszolt: „Jól van, te derék és hűséges szolgai A kevésben hű voltál, sokat bízok rád: Menj be urad örömébe!”<br>\n*<br>\nVégül jött az is, aki csak egy talentumot kapott. Így szólt: „Uram! Tudtam, hogy kemény ember vagy, ott is aratsz, ahová nem vetettél, és onnan is szüretelsz, ahová nem ültettél. Félelmemben elmentem hát és elástam a földbe a talentumodat. Nézd, ami a tied, visszaadom neked!” Válaszul az úr ezt mondta neki: „Te gonosz és lusta szolga! Ha tudtad, hogy aratok ott is, ahová nem vetettem, és szüretelek onnan is, ahová nem ültettem, ezüstjeimet a pénzváltóknak kellett volna adnod, hogy ha megjövök, kamatostul kapjam vissza! Vegyétek csak el tőle a talentumot és adjátok oda annak, akinek tíz talentuma van! Mert akinek van, annak még adnak, hogy bővelkedjék; és akinek nincs, attól még azt is elveszik, amije van! Ezt a hasznavehetetlen szolgát pedig vessétek ki a külső sötétségre! Ott sírás lesz és fogcsikorgatás!”",
                     "ending": "Ezek az evangélium igéi."
-                }
+                },
 				{
                     "short_title": "evangélium",
                     "ref": "Mt 25,14-30",
@@ -8679,6 +8682,7 @@
                     "text": "Abban az időben Jézus a következő példabeszédet mondta tanítványainak:\nEgy ember egyszer idegenbe készült, ezért összehívta szolgáit, és rájuk bízta vagyonát. Az egyiknek öt talentumot adott, a másiknak kettőt, a harmadiknak pedig egyet, kinek-kinek rátermettsége szerint, aztán útra kelt. Aki öt talentumot kapott, menten elkezdett vele kereskedni, és másik ötöt nyert rajta. Ugyanígy az is, aki kettőt kapott: másik kettőt szerzett. Az pedig, aki csak egyet kapott, elment, ásott egy gödröt, és elrejtette a földbe urának ezüstjét.<br>\nHosszú idő elteltével megjött a szolgák ura, és számadást tartott velük. Jött az, aki öt talentumot kapott: hozott másik ötöt is, és így szólt: „Uram, öt talentumot adtál nekem, nézd, másik ötöt nyertem rajta.” Az úr így válaszolt: „Jól van, te derék és hűséges szolgai A kevésben hű voltál, sokat bízok rád: Menj be urad örömébe! Jött az is, aki két talentumot kapott, és így szólt: „Uram, két talentumot adtál nekem, nézd, másik kettőt nyertem rajta.” Az úr így válaszolt: „Jól van, te derék és hűséges szolgai A kevésben hű voltál, sokat bízok rád: Menj be urad örömébe!”",
                     "ending": "Ezek az evangélium igéi."
                 }
+                ]
             ]
         },
         {
@@ -9376,8 +9380,8 @@
                 "teaser": "Isten megígéri prófétája által, hogy Dávid trónja mindörökre fennmarad. Ez csak Krisztus királyságában valósulhat meg.",
                 "title": "OLVASMÁNY Sámuel második könyvéből",
                 "text": "Amikor Dávid király már a házában lakott, és az Úr nyugalmat adott neki körös-körül minden ellenségétől, a király így szólt Nátán prófétához: „Nézd, magam cédrusfából készült házban lakom, az Úr ládája meg sátorban lakik.” <br>\nErre Nátán ezt mondta a királynak: „Tedd meg mindazt, amit szándékozol, mert veled van az Úr.”<br>\nMég azon az éjszakán történt, hogy az Úr szózatot intézett Nátánhoz: „Menj és mondd meg szolgámnak, Dávidnak: »Ezt mondja az Úr: Te akarsz nekem házat építeni lakóhelyül? Elhoztalak a legelőről, a juhok mellől, hogy népem, Izrael fejedelme légy. Veled voltam minden vállalkozásodban, és minden ellenségedet megsemmisítettem előtted. Nagy nevet szereztem neked, olyat, mint a föld nagyjaié. Népemnek, Izraelnek is meghatároztam egy helyet, és oda telepítettem. Ezen a helyen lakik majd, és nem fogják többé háborgatni. A gonoszok sem szorongatják, mint kezdetben, attól a naptól fogva, hogy bírákat rendeltem népem, Izrael fölé. Megszabadítalak minden ellenségedtől. Azt is közli veled az Úr, hogy fölépíti (uralkodó)-házadat. Házad és királyságod örökre fennmarad színem előtt, és trónod mindörökké szilárd marad.«",
-                "ending": "Ez az Isten igéje."
-				"cause": "<i>A délelőtti misében</i>"
+                "ending": "Ez az Isten igéje.",
+				"cause": "A délelőtti misében"
             },
             {
                 "short_title": "zsoltár",
@@ -9449,7 +9453,7 @@
                     "title": "† EVANGÉLIUM Szent Máté könyvéből",
                     "text": "Jézus Krisztusnak, Dávid és Ábrahám fiának családfája. Ábrahámnak Izsák volt a fia, Izsáknak Jákob, Jákobnak Juda és testvérei, Dudának Fáresz és Zára Támártól, Fáresznek Eszróm, Eszrómnak Árám, Árámnak Aminadáb, Aminadábnak Náásszón, Náásszónnak Szalmon, Szalmonnak Bóász Ráhábtól, Bóásznak Jóbéd Ruttól, Jóbédnek Izáj, Izájnak pedig Dávid király.<br>\nDávidnak Salamon volt a fia Uriás feleségétől, Salamonnak Roboám, Roboámnak Abija, Abijának Ászáf, Ászáfnak Jozafát, Jozafátnak Dórám; Dórámnak Ozijás, Ozijásnak Joatám, Joatámnak Acház, Acháznak Ezekiás, Ezekiásnak Manasszesz, Manasszesznek Ámósz, Ámósznak Joziás, Joziásnak pedig Jekoniás és testvérei a babiloni fogság idején.<br>\nA babiloni fogság után: Jekoniásnak Szálátiél volt a fia, Szálátiélnek Zorobábel, Zorobábelnek Ábiud, Ábiudnak Elijakim, Elijakimnak Ázór, Ázórnak Szádok, Szádoknak Áhim, Áhimnak Eliud, Eliudnak Eleazár, Eleazámak Mattán, Mattánnak Jákob, Jákobnak pedig József. Ő volt a férje Máriának, akitől a Krisztusnak nevezett Jézus született.<br>\nÖsszesen tehát: Ábrahámtól Dávidig tizennégy nemzedék, Dávidtól a babiloni fogságig tizennégy nemzedék, és a babiloni fogságtól Krisztusig is tizennégy nemzedék.",
                     "ending": "Ezek az evangélium igéi."
-                },
+                }
             ]
         },
         {
@@ -9587,7 +9591,7 @@
                     "teaser": "Az Ige testté lett, és közöttünk lakott. ",
                     "title": "† EVANGÉLIUM Szent János könyvéből",
                     "text": "Kezdetben volt az Ige. Az Ige Istennél volt, és Isten volt az Ige. Ő\nvolt kezdetben Istennél. Minden őáltala lett, és nélküle semmi sem\nlett, ami lett. Őbenne élet volt, és ez az élet volt az emberek\nvilágossága. A világosság a sötétségben világít, de a sötétség nem\nfogadta be.<br>\nAz Ige az igazi világosság volt, amely a világba jött, hogy\nmegvilágítson minden embert. A világban volt, és a világ őáltala lett,\nde a világ nem ismerte fel őt. A tulajdonába jött, de övéi nem fogadták\nbe. Mindazoknak azonban, akik befogadták, hatalmat adott, hogy Isten\ngyermekei legyenek; azoknak, akik hisznek benne, akik nem vér szerint,\nnem a test kívánságából, és nem is a férfi akaratából, hanem Istentől\nszülettek.<br>\nÉs az Ige testté lett, és közöttünk lakott. Mi pedig láttuk az ő\ndicsőségét, mely az Atya Egyszülöttjének dicsősége, telve kegyelemmel\nés igazsággal.",
-                    "ending": "Ezek az evangélium igéi.",
+                    "ending": "Ezek az evangélium igéi."
                 }
                 ]
             ]
@@ -9821,7 +9825,6 @@
                     "ref": "1Jn 2,18-21",
                     "teaser": "A keresztség és a bérmálás által a Szentlélek kegyelmében részesülünk; ő megtanít mindarra, ami az üdvösségre szükséges.",
                     "title": "SZENTLECKE Szent János apostol első leveléből",
-                    "text": "Gyermekeim! <br>Itt az utolsó óra! Amint hallottátok, eljön az antikrisztus.\nMár eddig is sok antikrisztus lépett föl. Ebből tudjuk, hogy itt az utolsó óra. Közülünk kerültek ki, de nem tartoztak közénk. Ha közénk tartoztak volna, velünk maradtak volna. De rajtuk kellett nyilvánvalóvá lennie, hogy nem mindenki tartozik közénk.<br>\nTi azonban a Szent(lélek) kenetében részesültetek, és ezt mindannyian tudjátok. Nem azért írtam nektek, mintha nem ismernétek az igazságot, hanem azért, mert ismeritek; és azt is tudjátok, hogy semmiféle hazugság nem származik az igazságból.<br>\n\nEz a Isten igéje.",
                     "text": "Gyermekeim! <br>Itt az utolsó óra! Amint hallottátok, eljön az antikrisztus.\nMár eddig is sok antikrisztus lépett föl. Ebből tudjuk, hogy itt az utolsó óra. Közülünk kerültek ki, de nem tartoztak közénk. Ha közénk tartoztak volna, velünk maradtak volna. De rajtuk kellett nyilvánvalóvá lennie, hogy nem mindenki tartozik közénk.<br>\nTi azonban a Szent(lélek) kenetében részesültetek, és ezt mindannyian tudjátok. Nem azért írtam nektek, mintha nem ismernétek az igazságot, hanem azért, mert ismeritek; és azt is tudjátok, hogy semmiféle hazugság nem származik az igazságból.<br>\n\nEz a Isten igéje.",
                     "ending": "Ez a Isten igéje."
                 },
