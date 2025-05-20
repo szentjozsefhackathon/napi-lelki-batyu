@@ -2053,28 +2053,48 @@
                 "teaser": "Válasz: <b>Áraszd ránk Lelkedet, Istenünk: * újítsd meg a föld színét.</b> Vö.",
                 "text": "Válasz: <b>Áraszd ránk Lelkedet, Istenünk: * újítsd meg a föld színét.</b> Vö.\n30. vers. (8. G tónus)<br>\nVagy: <b>Alleluja.</b> 8. szám.<br>\n\nElőénekes: Mondj áldást, lelkem, az Úrnak! * Nagy vagy nagyon, én Uram,\nIstenem.<br>\nMily sokrétű a te műved, Uram! * teremtményeid betöltik a földet.<br>\nHívek: Áraszd ránk Lelkedet, Istenünk: * újítsd meg a föld színét.<br>\nVagy: Alleluja.<br>\n\nE: Ha megvonod éltető erődet, * elpusztulnak és a porba térnek.<br>\nÁm, ha újra kiárasztod lelkedet, életre kelnek, * és a föld színét\nmegújítod.<br>\nH: Áraszd ránk Lelkedet, Istenünk: * újítsd meg a föld színét.<br>\nVagy: Alleluja.<br>\n\nE: Dicsőség legyen az Úrnak örökkön örökké, * örül az Úr minden\nművének.<br>\nLegyen előtte kedves az énekem, * gyönyörűségemet őbenne találom.<br>\nH: Áraszd ránk Lelkedet, Istenünk: * újítsd meg a föld színét.<br>\nVagy: Alleluja."
             },
-            {
-                "short_title": "szentlecke",
-                "ref": "1Kor 12,3b-7.12-13 vagy Róm 8,8-17",
-                "teaser": "Mi mindannyian egy Lélekben egy testté lettünk keresztségünk által. ",
-                "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
-                "text": "Testvéreim! <br>\nSenki sem mondhatja magától: „Jézus az Úr!”, csak a\nSzentlélek által.<br>\n  A lelki adományok ugyan különfélék, a Lélek azonban ugyanaz. A\nszolgálatok is különfélék, de az Úr ugyanaz. Sokfélék a csodajelek is,\nde Isten, aki mindenben mindent véghezvisz, ugyanaz. A Lélek ajándékait\nmindenki azért kapja, hogy használjon vele.<br>\n  A test ugyan egy, de sok tagja van. A testnek ez a sok tagja mégis\negy test. Így van ez Krisztussal is. Mi ugyanis mindnyájan egy Lélekben\negy testté lettünk keresztségünk által: akár zsidók, akár pogányok,\nakár rabszolgák, akár szabadok vagyunk. Valamennyiünket ugyanaz a Lélek\ntöltött el.<br>\n\n  Ez az Isten igéje.\n<br><br>\n<i>Vagy:</i>\n<br>\nSZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből\n<br>\n<i>Akiket Isten Lelke vezérel, azok Isten, fiai.</i><br>\n  Testvéreim! <br>\nAki test szerint él, nem nyerheti el Isten tetszését. De\nti nem test, hanem lélek szerint éltek, ha valóban Isten Lelke lakik\nbennetek. Akikben nem lakik Krisztus Lelke, az nem az övé.\nHa Krisztus bennetek van, jóllehet a test a bűn miatt halott, a lélek a\nmegigazulás következtében él.<br>\nHa pedig bennetek lakik annak Lelke, aki feltámasztotta Jézust a\nhalálból, ő, aki Krisztus (Jézust) feltámasztotta a halottak közül,\nbennetek lakó Lelke által halandó testeteket is életre kelti.<br>\n  Így tehát, testvérek, nem vagyunk a testnek lekötelezve, hogy a test\nszerint éljünk. Mert ha test szerint éltek, biztosan meghaltok, de ha\nlélekkel elfojtjátok a test szerinti tetteket, élni fogtok.<br>\nAkiket Isten Lelke vezérel, azok Isten fiai. Nem a szolgaság lelkét\nkaptátok ugyanis, hogy ismét félelemben éljetek, hanem a fogadott\nfiúság Lelkét nyertétek el, általa szólítjuk őt így: Abba, Atya!<br>\nA Lélek maga tesz tanúságot lelkünkben, hogy Isten gyermekei vagyunk.\nHa pedig gyermekei, akkor örökösei is: örökösei Istennek, Krisztusnak\npedig társörökösei. Előbb azonban szenvednünk kell vele együtt, hogy\nvele együtt meg is dicsőüljünk.",
-                "ending": "Ez az Isten igéje."
-            },
+            [
+                {
+                    "short_title": "szentlecke",
+                    "ref": "1Kor 12,3b-7.12-13",
+                    "teaser": "Mi mindannyian egy Lélekben egy testté lettünk keresztségünk által. ",
+                    "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
+                    "text": "Testvéreim! <br>\nSenki sem mondhatja magától: „Jézus az Úr!”, csak a\nSzentlélek által.<br>\n  A lelki adományok ugyan különfélék, a Lélek azonban ugyanaz. A\nszolgálatok is különfélék, de az Úr ugyanaz. Sokfélék a csodajelek is,\nde Isten, aki mindenben mindent véghezvisz, ugyanaz. A Lélek ajándékait\nmindenki azért kapja, hogy használjon vele.<br>\n  A test ugyan egy, de sok tagja van. A testnek ez a sok tagja mégis\negy test. Így van ez Krisztussal is. Mi ugyanis mindnyájan egy Lélekben\negy testté lettünk keresztségünk által: akár zsidók, akár pogányok,\nakár rabszolgák, akár szabadok vagyunk. Valamennyiünket ugyanaz a Lélek\ntöltött el.",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Róm 8,8-17",
+                    "teaser": "Akiket Isten Lelke vezérel, azok Isten, fiai.",
+                    "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
+                    "text": "Testvéreim! <br>\nAki test szerint él, nem nyerheti el Isten tetszését. De\nti nem test, hanem lélek szerint éltek, ha valóban Isten Lelke lakik\nbennetek. Akikben nem lakik Krisztus Lelke, az nem az övé.\nHa Krisztus bennetek van, jóllehet a test a bűn miatt halott, a lélek a\nmegigazulás következtében él.<br>\nHa pedig bennetek lakik annak Lelke, aki feltámasztotta Jézust a\nhalálból, ő, aki Krisztus (Jézust) feltámasztotta a halottak közül,\nbennetek lakó Lelke által halandó testeteket is életre kelti.<br>\n  Így tehát, testvérek, nem vagyunk a testnek lekötelezve, hogy a test\nszerint éljünk. Mert ha test szerint éltek, biztosan meghaltok, de ha\nlélekkel elfojtjátok a test szerinti tetteket, élni fogtok.<br>\nAkiket Isten Lelke vezérel, azok Isten fiai. Nem a szolgaság lelkét\nkaptátok ugyanis, hogy ismét félelemben éljetek, hanem a fogadott\nfiúság Lelkét nyertétek el, általa szólítjuk őt így: Abba, Atya!<br>\nA Lélek maga tesz tanúságot lelkünkben, hogy Isten gyermekei vagyunk.\nHa pedig gyermekei, akkor örökösei is: örökösei Istennek, Krisztusnak\npedig társörökösei. Előbb azonban szenvednünk kell vele együtt, hogy\nvele együtt meg is dicsőüljünk.",
+                    "ending": "Ez az Isten igéje."
+                }                
+            ],
             {
                 "short_title": "alleluja",
                 "ref": null,
                 "teaser": "Jöjj el, Szentlélek Isten, † töltsd el híveid szívét, * és szereteted\ntüzét gyullaszd föl bennünk! –  8 G. tónus.",
                 "text": "Jöjj el, Szentlélek Isten, † töltsd el híveid szívét, * és szereteted\ntüzét gyullaszd föl bennünk! –  8 G. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Jn 20,19-23 vagy Jn 14,15-16.23b-26",
-                "teaser": "Amint engem küldött az Atya, úgy küldelek én is titeket.  Vegyétek a Szentlelket ",
-                "title": "† EVANGÉLIUM Szent János könyvéből",
-                "text": "Amikor a hét első napján (húsvétvasárnap) beesteledett, Jézus\nmegjelent a tanítványoknak ott, ahol együtt voltak, pedig a zsidóktól\nvaló félelmükben zárva tartották az ajtót. Belépett, és így szólt\nhozzájuk: „Békesség nektek!” Miután ezt mondta, megmutatta nekik a\nkezét és az oldalát. Az Úr láttára öröm töltötte el a tanítványokat.<br>\n  Jézus megismételte: „Békesség nektek! Amint engem küldött az Atya,\núgy küldelek én is titeket.” E szavak után rájuk lehelt, és így\nfolytatta: „Vegyétek a Szentlelket! Akinek megbocsátjátok bűneit, az\nbocsánatot nyer, s akinek nem bocsátjátok meg, az nem nyer\nbocsánatot.”<br>\n\n  Ezek az evangélium igéi.\n<br><br>\n<i>Vagy:</i>\n<br>\n† EVANGÉLIUM Szent János könyvéből\n<br>\n<i>A Szentlélek megtanít titeket mindenre,\n  amit mondtam nektek.</i><br>\n  Abban az időben Jézus így szólt tanítványaihoz:\n  Ha szerettek engem, tartsátok meg parancsaimat. Én pedig kérni fogom\naz Atyát, és ő más Vigasztalót ad majd nektek: az Igazság Lelkét, aki\nörökre veletek marad.<br>\n  Aki szeret engem, megtartja tanításomat, Atyám is szeretni fogja őt,\nhozzá megyünk, és lakóhelyet veszünk nála.<br>\n  Aki nem szeret, az nem tartja meg tanításomat. A tanítás pedig,\namelyet hallotok, nem az enyém, hanem az Atyáé, aki engem küldött.<br>\n  Ezeket akartam nektek elmondani, amíg veletek vagyok. S a Vigasztaló,\na Szentlélek, akit majd a nevemben küld az Atya, megtanít titeket\nmindenre, és eszetekbe juttat mindent, amit mondtam nektek.",
-                "ending": "Ezek az evangélium igéi."
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Jn 20,19-23",
+                    "teaser": "Amint engem küldött az Atya, úgy küldelek én is titeket.  Vegyétek a Szentlelket ",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Amikor a hét első napján (húsvétvasárnap) beesteledett, Jézus\nmegjelent a tanítványoknak ott, ahol együtt voltak, pedig a zsidóktól\nvaló félelmükben zárva tartották az ajtót. Belépett, és így szólt\nhozzájuk: „Békesség nektek!” Miután ezt mondta, megmutatta nekik a\nkezét és az oldalát. Az Úr láttára öröm töltötte el a tanítványokat.<br>\n  Jézus megismételte: „Békesség nektek! Amint engem küldött az Atya,\núgy küldelek én is titeket.” E szavak után rájuk lehelt, és így\nfolytatta: „Vegyétek a Szentlelket! Akinek megbocsátjátok bűneit, az\nbocsánatot nyer, s akinek nem bocsátjátok meg, az nem nyer\nbocsánatot.”",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Jn 14,15-16.23b-26",
+                    "teaser": "A Szentlélek megtanít titeket mindenre,\n  amit mondtam nektek.",
+                    "title": "† EVANGÉLIUM Szent János könyvéből",
+                    "text": "Abban az időben Jézus így szólt tanítványaihoz:\n  Ha szerettek engem, tartsátok meg parancsaimat. Én pedig kérni fogom\naz Atyát, és ő más Vigasztalót ad majd nektek: az Igazság Lelkét, aki\nörökre veletek marad.<br>\n  Aki szeret engem, megtartja tanításomat, Atyám is szeretni fogja őt,\nhozzá megyünk, és lakóhelyet veszünk nála.<br>\n  Aki nem szeret, az nem tartja meg tanításomat. A tanítás pedig,\namelyet hallotok, nem az enyém, hanem az Atyáé, aki engem küldött.<br>\n  Ezeket akartam nektek elmondani, amíg veletek vagyok. S a Vigasztaló,\na Szentlélek, akit majd a nevemben küld az Atya, megtanít titeket\nmindenre, és eszetekbe juttat mindent, amit mondtam nektek.",
+                    "ending": "Ezek az evangélium igéi."
+                }                
+            ]
         ]
     },
     "HUS09": {
