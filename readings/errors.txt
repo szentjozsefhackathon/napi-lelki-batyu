@@ -6,34 +6,8 @@ vasB - HUS01: !!! Két evangélium van egyben, amit ketté kéne választani.
 vasC - HUS02: !!! Ide nem tettem be az alternatív szekvenciákat, mert a misekönyv nem jelzi, hogy lehetne venni őket. De gyanús, hogy ez hiba, mert az A és a B évben is szerepel ezen a vasárnapon. :-/
 vasA - HUS01: !!! Két evangélium van egyben, amit ketté kéne választani.
 
-olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - EVK026Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - EVK031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
-olvasmanyok - EVK031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
-olvasmanyok - EVK031Hetfo: !!! Az evangéliumot kézzel át kell nézni! Ez az Isten igéje.
-olvasmanyok - NAB013Szerda: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB013Szerda: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB031Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB032Kedd: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB032Kedd: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB051Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB051Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB051Hetfo: !!! Ez vajon mi lehet? <i>„A” és „B” évben: </i><br>
-olvasmanyok - NAB055Pentek: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB055Pentek: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez a Isten igéje.
-olvasmanyok - NAB064Csutortok: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB064Csutortok: !!! Az olvasmányt/szentleckét kézzel át kell nézni! 
-olvasmanyok - NAB065Pentek: !!! A teasert jól átkéne nézni, mert gond van itt majmócák! <i>Elfogták Jézust és megkötözték. </i><br><br>
-olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? (1.) OLVASMÁNY Mózes első könyvéből 
-olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? (1.) OLVASMÁNY Mózes első könyvéből 
-olvasmanyok - HUS006Szombat: !!! Ez vajon mi lehet? <!---<i>A évben</i><br>
-olvasmanyok - EVK156Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
-olvasmanyok - EVK156Szombat: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje
-olvasmanyok - EVK181Hetfo: !!! Az evangéliumot kézzel át kell nézni! 
-olvasmanyok - EVK241Hetfo: !!! Az evangéliumot kézzel át kell nézni! 
-olvasmanyok - ADV011Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje.-->
-olvasmanyok - ADV011Hetfo: !!! Az olvasmányt/szentleckét kézzel át kell nézni! Ez az Isten igéje.-->
+
+
 szentek - 01-22: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
 szentek - 07-02: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
 szentek - 07-02: !!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni
