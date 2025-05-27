@@ -109,6 +109,15 @@
             "text" : "De igazán semmi de semmi, amit ide leírhatunk"
         }]
 	},
+	"PUNKOSDHetfo": {
+        "igenaptarId": "PUNKOSDHetfo",
+        "name": "Votív mise a Szentlélekről",
+        "parts" : [{
+			"short_title": "info",
+            "teaser" : "Itt semmi nincs",
+            "text" : "De igazán semmi de semmi, amit ide leírhatunk"
+        }]
+	},
 	"BHUS01": {
         "igenaptarId": "HUS01",
         "name": "Húsvétvasárnap, Urunk feltámadásának ünnepe - Húsvéti vigília",
