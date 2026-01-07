@@ -193,8 +193,9 @@
 
   $(document).ready(function () {
 
+    var year = new Date().getFullYear();
 
-    $.getJSON("2025.json", function (data) {
+    $.getJSON(year + ".json", function (data) {
         lastWeekOfPsalter = false
         lastVolumeOfBreviary = false
         $.each(data, function (date, data) {
