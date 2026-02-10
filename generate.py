@@ -587,9 +587,12 @@ def generateLelkiBatyuk(year):
     katolikusData = loadKatolikusData()
 
     lelkiBatyuk = {}
+    # Index structures
+    index_dayOfWeek = {}
+    index_readingsId = {}
+    index_name = {}
     for calendarDay in breviarData['LHData']['CalendarDay']:
         print(calendarDay['DateISO'] + ": ")
-
 
         lelkiBatyu = {}
         lelkiBatyu['date'] = {
@@ -601,14 +604,11 @@ def generateLelkiBatyuk(year):
 
         #for celebration in calendarDay
         lelkiBatyu['celebration'] = []
-        if not isinstance(calendarDay['Celebration'], dict):
-            for celebration in calendarDay['Celebration']:
-                lelkiBatyu['celebration'].append(transformCelebration(celebration, calendarDay))
-        else:
-            lelkiBatyu['celebration'].append(transformCelebration(calendarDay['Celebration'], calendarDay))
-
+        celebrations = calendarDay['Celebration'] if isinstance(calendarDay['Celebration'], list) else [calendarDay['Celebration']]
+        for celebration in celebrations:
+            transformed = transformCelebration(celebration, calendarDay)
+            lelkiBatyu['celebration'].append(transformed)
         addCustomCelebrationstoBreviarData(lelkiBatyu)
-
 
         #find LiturgicalReadings by readingsBreviarId/LiturgicalReadingsId
         for key in range(len(lelkiBatyu['celebration'])):
@@ -639,8 +639,17 @@ def generateLelkiBatyuk(year):
         writeDataFormattedJSONfile(lelkiBatyu, f"batyuk/{calendarDay['DateISO']}.json", ensure_ascii=False)
 
         lelkiBatyuk[calendarDay['DateISO']] = lelkiBatyu
+        index_celebration_data(index_dayOfWeek, index_readingsId, index_name, calendarDay, lelkiBatyu)       
 
     writeDataFormattedJSONfile(lelkiBatyuk, f"batyuk/{year}_simple.json", ensure_ascii=False)
+
+    # Write index file
+    index = {
+        "seasonWeekDayofWeek": index_dayOfWeek,
+        "readingsId": index_readingsId,
+        "name": index_name
+    }
+    writeDataFormattedJSONfile(index, f"batyuk/{year}_index.json", ensure_ascii=False)
 
     lelkiBatyukComplex = lelkiBatyuk
 
@@ -665,6 +674,31 @@ def generateLelkiBatyuk(year):
     writeDataFormattedJSONfile(lelkiBatyukComplex, f"batyuk/{year}.json", ensure_ascii=False)
 
     return lelkiBatyukComplex
+
+def index_celebration_data(index_dayOfWeek, index_readingsId, index_name, calendarDay, lelkiBatyu):
+    celebrations = lelkiBatyu['celebration'] if isinstance(lelkiBatyu['celebration'], list) else [lelkiBatyu['celebration']]
+    for celebration in celebrations:
+        season = celebration.get("season")
+        week = celebration.get('week')
+        dayofweek = celebration.get('dayofWeek')
+        if week is not None and dayofweek is not None:
+            key = f"{season}-{week}-{dayofweek}"
+            if key not in index_dayOfWeek:
+                index_dayOfWeek[key] = []
+            if calendarDay['DateISO'] not in index_dayOfWeek[key]:
+                index_dayOfWeek[key].append(calendarDay['DateISO'])
+        if 'readingsId' in celebration and celebration['readingsId']:
+            rid = celebration['readingsId']
+            if rid not in index_readingsId:
+                index_readingsId[rid] = []
+            if calendarDay['DateISO'] not in index_readingsId[rid]:
+                index_readingsId[rid].append(calendarDay['DateISO'])
+        if 'name' in celebration and celebration['name']:
+            n = celebration['name']
+            if n not in index_name:
+                index_name[n] = []
+            if calendarDay['DateISO'] not in index_name[n]:
+                index_name[n].append(calendarDay['DateISO'])
 
 
 if __name__ == "__main__":
