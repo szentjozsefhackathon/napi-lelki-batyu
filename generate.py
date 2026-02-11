@@ -241,8 +241,6 @@ def createReadingIds(celebration: dict, day: dict):
         katolikusDataKod = "HUS105Pentek"
     if celebration['name'] == "A Boldogságos Szűz Mária Szeplőtelen Szíve":
         katolikusDataKod = "HUS106Szombat"
-    if celebration['name'] == "A Boldogságos Szűz Mária Szeplőtelen Szíve":
-        katolikusDataKod = "HUS106Szombat"
     if celebration['name'] == "Pannonhalma: a bazilika felszentelése":
         katolikusDataKod = "SzekesegyhazFelszentelése"
     if celebration['name'] == "A Boldogságos Szűz Mária szeplőtelen fogantatása":
