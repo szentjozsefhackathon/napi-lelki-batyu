@@ -2,3 +2,4 @@ breviarData*.json
 batyuk/*.json
 igenaptar.json
 .venv/
+__pycache__/
