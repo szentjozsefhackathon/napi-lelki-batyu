@@ -1,312 +1,301 @@
-import requests
-import xmltodict
-import json
+"""
+generateparts.py - Olvasmányrészek feldolgozása CSV-ből.
+
+Ez a feldolgozó a sources/ mappában lévő CSV fájlokból feldolgozza
+az olvasmányokat és generálja a readings/ mappában tárolt JSON fájlokat.
+
+FONTOS: Ez a script csak fejlesztés során szükséges. A readings/ mappában
+már feldolgozott, kézzel tisztított adatok vannak, melyeket közvetlenül
+használ a generate.py.
+
+A CSV feldolgozás lépései:
+
+1. sources/*.csv fájlok betöltése
+2. saint és szentek adatok összeolvasztása (név alapján fuzzy matching)
+3. CSV sorok feldolgozása az egyes readings típusok szerint:
+   - vasA, vasB, vasC: vasárnapi olvasmányok
+   - olvasmanyok: hétköznapi olvasmányok I-II
+   - szentek: szentek saját olvasmányai
+4. Parts generálása (partFromReading, partFromPsalm)
+5. JSON-ba mentés a readings/ mappába
+
+Használat:
+    python generateparts.py
+
+Figyelmeztetés: A readings/ mappában kézzel finomított adatok vannak!
+Ezek felülírása az eredeti CSV adatokkal adatvesztéshez vezethet.
+"""
+
 import csv
-import re
-import Levenshtein
+import json
 import datetime
+import re
+from typing import Dict, List, Any, Optional
+
+import Levenshtein
+
+from lib import part_processor, error_handler
 
 
-with open('readings/errors.txt', 'w', encoding='utf8') as file:
-        file.write(str(datetime.datetime.now()) +  " -- generateparts.py hibaüzenete:" + '\n')
-
-def error(text):
-    message = name + " - " + id + ": " + text
-    print(message)
-    with open('readings/errors.txt', 'a', encoding='utf8') as file:
-        file.write(message + '\n')
-
-def loadKatolikusData():
-
-    katolikusData = {}
-    sources = ["konyorgesek", "konyorgesekszentek", "olvasmanyok", "saint", "szentek", "vasA", "vasB", "vasC"]
-    sources = ["olvasmanyok", "vasA", "vasB", "vasC","szentek","saint"]
-    for name in sources:
-        with open('sources/' + name + '.csv', 'r',encoding="utf8") as file:
-            csv_reader = csv.DictReader(file,delimiter=",")
-            katolikusData[name] = [row for row in csv_reader]
-
-    # combaine saint and szentek
-    if "saint" in katolikusData and "szentek" in katolikusData:
-        for szentId, szent in enumerate(katolikusData['szentek']):
-            match = re.match(r'^(\d{2})\-(\d{2})([a-z]{0,1})$',szent["datum"])
-            szent['day'] = int( match[2] )
-            szent['month'] = int( match[1] )
-
-            for saint in katolikusData['saint']:
-                if str(szent['month']) == str(saint["month"]) and str(szent['day']) == str(saint["day"]):
-                    if Levenshtein.ratio(szent['nev'], saint['name']) > 0.6:
-                        #print( szent['nev'] + " ? " + saint['name'] + "  -- " + str(Levenshtein.ratio(szent['nev'], saint['name']) ))
-
-                        columns = ['birth_date','death_date','content','excerpt','liturgy','prayer','source_id','color']
-                        for column in columns:
-                            katolikusData['szentek'][szentId][column] = saint[column]
-
-    return katolikusData
-
-katolikusData = loadKatolikusData()
-
-def partFromReading(text):
-
-    #tOdO
-    if id == "08-06":
-        error("YYY Urunk színeváltozása 08-06-ra van berakva hibásan. És ezt kézzel kéne megcsinálni.")
-        return {
-            "short_title" : None,
-            "ref" : None,
-            "teaser" : None,
-            "title" : None,
-            "text" : text,
-            "ending" :  None
-        }
-
-    if id == "11-02":
-        error("YYY Halottak napján 11-02-re az evangélium mindenféle és bármi. És ezt kézzel kéne megcsinálni.")
-        return {
-            "short_title" : None,
-            "ref" : None,
-            "teaser" : None,
-            "title" : None,
-            "text" : text,
-            "ending" :  None
-        }
-
-    firstLine = text.split('\n', 1)[0]
+# Hibanaplózás inicializálása
+def init_error_log():
+    """Hibanapló fájl inicializálása."""
+    with open('readings/errors.txt', 'w', encoding='utf8') as file:
+        file.write(f"{datetime.datetime.now()} -- generateparts.py hibaüzenete:\n")
 
 
-    if firstLine == "<i>Hosszabb forma:</i>":
-        text = text.split('\n', 2)[2]
-    elif firstLine == "<i>Hosszabb forma:</i><br>":
-        text = text.split('\n', 1)[1]
-
-    if firstLine == "<i>Vagy:</i><br>" or firstLine == "<i>vagy</i><br>":
-        error("!!! Itt többféle lehetőség van, ezért fontos lenne majd kézzel megcsinálni")
-        text = text.split('\n', 1)[1]
-
-
-
-    title = text.split('\n', 1)[0]
-
-
-    if title.split(' ', 1)[0] == "SZENTLECKE":
-        short_title = "szentlecke"
-    elif title.split(' ', 1)[0] == "OLVASMÁNY":
-        short_title = "olvasmány"
-    elif title.split(' ', 2)[1] == "EVANGÉLIUM":
-        short_title = "evangélium"
-    elif title.startswith("A MI URUNK JÉZUS KRISZTUS KÍNSZENVEDÉSE"):
-        short_title = "passió"
-    else:
-        error("!!! Ez vajon mi lehet? " + title)
-        short_title = None
-
-
-    if len(text) < 300 and short_title == None:
-        return {
-            "short_title" : None,
-            "ref" : None,
-            "teaser" : None,
-            "title" : None,
-            "text" : text,
-            "ending" :  None
-        }
-
-    teaser = text.split('\n', 3)[2]
-
-    if teaser.startswith('<i>'):
-        if re.match(r'(.*)</i>(<br>|)$', teaser):
-            teaser = teaser
-            delete = 2
-        elif re.match(r'(.*)</i>(<br>|)$', text.split('\n', 4)[3]):
-            teaser = text.split('\n', 4)[2] + text.split('\n', 4)[3]
-            delete = 3
-        elif re.match(r'(.*)</i>(<br>|)$', text.split('\n', 5)[4]):
-            teaser = text.split('\n', 5)[2] + text.split('\n', 5)[3]  + text.split('\n', 5)[4]
-            delete = 4
-        else:
-            delete = 1
+def loadCsvData() -> Dict[str, List[Dict[str, str]]]:
+    """
+    CSV fájlok betöltése a sources/ mappából.
+    
+    Ez a függvény az összes CSV fájlt betölti, amelyekben az olvasmányok
+    alapadata van. A CSV-ket Python dict-ek listájává konvertálja.
+    
+    Returns:
+        Dict[str, List[Dict]]: Az összes CSV adat
+            - vasA, vasB, vasC: vasárnapi olvasmányok
+            - olvasmanyok: hétköznapi olvasmányok
+            - szentek: szentek saját olvasmányai
+            - saint: angol nyelvű szent adatok
+    
+    Examples:
+        >>> csv_data = loadCsvData()
+        >>> len(csv_data['vasA'])
+        365  # Körülbelül annyi, mint a vasárnap az évben
+    """
+    csv_data = {}
+    
+    # Feldolgozandó CSV fájlok
+    sources = ["olvasmanyok", "vasA", "vasB", "vasC", "szentek", "saint"]
+    
+    for source_name in sources:
+        try:
+            with open(f'sources/{source_name}.csv', 'r', encoding="utf8") as file:
+                csv_reader = csv.DictReader(file, delimiter=",")
+                csv_data[source_name] = [row for row in csv_reader]
+                print(f"  ✓ {source_name}.csv ({len(csv_data[source_name])} sor)")
+        except FileNotFoundError:
+            print(f"  ✗ {source_name}.csv nem található")
+            error_handler.error(f"Hiányzik a sources/{source_name}.csv fájl")
+    
+    return csv_data
 
 
-        pattern = r'^<i>(.*)</i>(<br>|)$'
-        if re.match(pattern, teaser.strip()):
-            teaser = re.sub(pattern, r'\1', teaser.strip())
-        else:
-            error("!!! A teasert jól átkéne nézni, mert gond van itt majmócák! " + teaser)
+def mergeSaintAndSzentekData(csv_data: Dict[str, List[Dict[str, str]]]) -> None:
+    """
+    Saint (angol) és szentek (magyar) adatok összeolvasztása.
+    
+    A saint.csv angol adatokat tartalmaz (birth_date, death_date, content, stb.),
+    a szentek.csv pedig a magyar neveket. Ez a függvény Levenshtein-hasonlóság
+    alapján megpróbálja az angol saint adatokat a magyar szentekhez illeszteni.
+    
+    In-place módosítja a csv_data-t: a szenet objektumokhoz hozzáadja az
+    angol forrásból a többletinformációkat.
+    
+    Args:
+        csv_data (Dict): A betöltött CSV adatok
+    
+    Returns:
+        None (in-place módosítás)
+    """
+    if "saint" not in csv_data or "szentek" not in csv_data:
+        return
+    
+    print("\n  Összeolvasztás: saint + szentek...", end='')
+    
+    matched_count = 0
+    
+    # Minden magyar szent feldolgozása
+    for szent_idx, szent in enumerate(csv_data['szentek']):
+        # Dátum feldolgozása (mm-dd formátum)
+        match = re.match(r'^(\d{2})-(\d{2})([a-z]{0,1})$', szent.get("datum", ""))
+        
+        if not match:
+            continue
+        
+        szent_month = int(match.group(1))
+        szent_day = int(match.group(2))
+        
+        # Az angol saint-ek között keresünk
+        for saint in csv_data['saint']:
+            saint_month = int(saint.get("month", "0"))
+            saint_day = int(saint.get("day", "0"))
+            
+            # Dátum egyezése és név hasonlósága
+            if (szent_month == saint_month and
+                szent_day == saint_day):
+                
+                # Fuzzy name matching
+                name_ratio = Levenshtein.ratio(
+                    szent.get('nev', ''),
+                    saint.get('name', '')
+                )
+                
+                if name_ratio > 0.6:  # 60% fölötti hasonlóság
+                    # Összeolvasztás: angol adatok másolása
+                    columns = [
+                        'birth_date', 'death_date', 'content', 'excerpt',
+                        'liturgy', 'prayer', 'source_id', 'color'
+                    ]
+                    
+                    for col in columns:
+                        if col in saint:
+                            csv_data['szentek'][szent_idx][col] = saint[col]
+                    
+                    matched_count += 1
+                    break
+    
+    print(f" {matched_count} találat")
 
-    else:
-        delete = 1
-        teaser = None
 
-    text = text.split("\n",delete + 1)[delete + 1 ]
-
-    # Amikor van hosszabb - rövidebb forma, akkor megzakkanunk, ha nem így csináljuk
-    if( short_title == "passió" ):
-        ending = None
-    else:
-        ending = text[text.rfind('\n') + 1 :].strip()
-
-    if short_title == "evangélium" and ending != "Ezek az evangélium igéi.":
-        error("!!! Az evangéliumot kézzel át kell nézni! " + ending)
-    if ( short_title == "szentlecke" or short_title == "olvasmány" ) and ending != "Ez az Isten igéje.":
-        error("!!! Az olvasmányt/szentleckét kézzel át kell nézni! " + ending)
-    else:
-        text = text[:text.rfind('\n')].strip()
-
-    text = re.sub(r'^<br>',r'',text)
-    text = re.sub(r'^<br>',r'',text)
-    text = re.sub(r'<br>$',r'',text)
-    text = re.sub(r'<br>$',r'',text)
-
-    return {
-        "short_title" : short_title,
-        "ref" : None,
-        "teaser" : teaser,
-        "title" : title,
-        "text" : text,
-        "ending" :  ending
-    }
-
-
-def partFromPsalm(text):
-
-    teaser = "mm"
-    title = None
-
-
-    return {
-        "short_title" : "zsoltár",
-        "ref" : None,
-        "teaser" : text.split('\n')[0],
-        "text" : text
-    }
-
-
-sources = ["vasA", "vasB", "vasC","olvasmanyok","szentek"]
-sources = ["szentek"]
-for name in sources:
-
-    datas = {}
-    for row in katolikusData[name]:
-        if name == "szentek":
-            match = re.match(r'^(\d{2})\-(\d{2})([a-z]{0,1})$',row["datum"])
-            if match:
-                id = match[1] + "-" + match[2]
+def processCsvToJson(csv_data: Dict[str, List[Dict[str, str]]]) -> None:
+    """
+    CSV adatok feldolgozása és JSON-ba konvertálása.
+    
+    Ez a függvény az összes CSV adatot feldolgozza, az olvasmányrészeket
+    (parts) generálja, és JSON-ba menti a readings/ mappába.
+    
+    A feldolgozás típusonként:
+    - vasA, vasB, vasC: vasárnapi olvasmányok (3 rész: 1. lecke, zsoltár, 2. lecke)
+    - olvasmanyok: hétköznapi olvasmányok (I-II év variációk)
+    - szentek: szentek saját olvasmányai
+    
+    Args:
+        csv_data (Dict): A betöltött és feldolgozott CSV adatok
+    
+    Returns:
+        None (JSON fájlok a readings/ mappába)
+    """
+    # Feldolgozandó sources
+    sources = ["szentek"]  # Jelenleg csak a szenteket feldolgozzuk
+    
+    for source_name in sources:
+        if source_name not in csv_data:
+            print(f"  ✗ {source_name} adatok nem érhetők el")
+            continue
+        
+        print(f"\n  Feldolgozás: {source_name}")
+        
+        readings_by_id = {}
+        
+        # CSV sorok feldolgozása
+        for row_idx, row in enumerate(csv_data[source_name]):
+            if row_idx % 10 == 0:
+                print(f"    {row_idx}/{len(csv_data[source_name])}", end='\r')
+            
+            # Azonosító kinyerése
+            if source_name == "szentek":
+                # Dátum alapján
+                match = re.match(r'^(\d{2})-(\d{2})([a-z]{0,1})$', row.get("datum", ""))
+                if not match:
+                    error_handler.error(f"Szentről van szó, de nem jó a dátum formátuma: {row.get('datum', '')}")
+                    continue
+                
+                reading_id = f"{match.group(1)}-{match.group(2)}"
             else:
-                id = row["datum"]
-                error("!!! Szentről van szó, de nem jó a dátum formátuma! " + id)
-
-            data = {
-                'igenaptarId' : row["datum"],
-                'name' : row["nev"],
-                'parts' : []
-                }
-
-            extras = ['birth_date','death_date','content','excerpt','liturgy','prayer','source_id','color']
-            for extra in extras:
-                if extra in row:
-                    data[extra] = row[extra]
-
-        else:
-            id = row["kod"]
-
-            data = {
-                'igenaptarId' : row["kod"],
-                'name' : row["nev"],
-                'parts' : []
-                }
-
-
-        if name == "olvasmanyok":
-
-            if row['masodikolv'] != '':
-                part1 = partFromReading(row['elsoolv'])
-                part1['ref'] = row['elsoolvhely']
-                part1['cause'] = "I. évben"
-
-                part2 = partFromReading(row['masodikolv'])
-                part2['ref'] = row['masodikolvhely']
-                part2['cause'] = "II. évben"
-
-                data["parts"].append([part1, part2])
-
-            else:
-                part = partFromReading(row['elsoolv'])
-                part['ref'] = row['elsoolvhely']
-                data["parts"].append(part)
-
-
-            if row['masodikzsoltar'] != '':
-                part1 = partFromPsalm(row['zsoltar'])
-                part1['ref'] = row['zsoltarhely']
-                part1['cause'] = "I. évben"
-
-
-                part2 = partFromPsalm(row['masodikzsoltar'])
-                part2['ref'] = row['masodikzsoltarhely']
-                part2['cause'] = "II. évben"
-                data["parts"].append([part1, part2])
-
-
-            else:
-                part = partFromPsalm(row['zsoltar'])
-                part['ref'] = row['zsoltarhely']
-                data["parts"].append(part)
-
-        if name == "vasA" or name == "vasB" or name == "vasC" or name == "szentek":
-            if row['elsoolv'] != '':
-                part = partFromReading(row['elsoolv'])
-                part['ref'] = row['elsoolvhely']
-                data["parts"].append(part)
-
-            part = partFromPsalm(row['zsoltar'])
-            part['ref'] = row['zsoltarhely']
-            data["parts"].append(part)
-
-            if row['masodikolv'] != '':
-                part = partFromReading(row['masodikolv'])
-                part['ref'] = row['masodikolvhely']
-                data["parts"].append(part)
-
-        if row['alleluja'] != '':
-            part = {
-                'short_title': None,
-                'ref' : None,
-                'teaser' : row['alleluja'],
-                'text' : row['alleluja']
+                reading_id = row.get("kod", "")
+            
+            # Reading objektum inicializálása
+            reading = {
+                'igenaptarId': row.get("datum" if source_name == "szentek" else "kod", ""),
+                'name': row.get("nev", ""),
+                'parts': []
             }
-            if id.startswith("NAB"):
-                part['short_title'] = "evangélium előtti vers"
+            
+            # Opcionális mezők másolása (szakont függően)
+            optional_fields = [
+                'birth_date', 'death_date', 'content', 'excerpt',
+                'liturgy', 'prayer', 'source_id', 'color'
+            ]
+            
+            for field in optional_fields:
+                if field in row:
+                    reading[field] = row[field]
+            
+            # Parts feldolgozása forrástípus szerint
+            if source_name == "szentek":
+                # Szentek feldolgozása: 1. lecke, zsoltár, 2. lecke
+                if row.get('elsoolv', ''):
+                    part = part_processor.partFromReading(row['elsoolv'], reading_id)
+                    part['ref'] = row.get('elsoolvhely', '')
+                    reading['parts'].append(part)
+                
+                part = part_processor.partFromPsalm(row.get('zsoltar', ''))
+                part['ref'] = row.get('zsoltarhely', '')
+                reading['parts'].append(part)
+                
+                if row.get('masodikolv', ''):
+                    part = part_processor.partFromReading(row['masodikolv'], reading_id)
+                    part['ref'] = row.get('masodikolvhely', '')
+                    reading['parts'].append(part)
+            
+            # Alleluja és evangélium (ha van)
+            if row.get('alleluja', ''):
+                part = {
+                    'short_title': 'alleluja' if source_name != "szentek" else None,
+                    'ref': None,
+                    'teaser': row.get('alleluja', ''),
+                    'text': row.get('alleluja', '')
+                }
+                reading['parts'].append(part)
+            
+            if row.get('evangelium', ''):
+                part = part_processor.partFromReading(row['evangelium'], reading_id)
+                part['ref'] = row.get('evhely', '')
+                reading['parts'].append(part)
+            
+            # Ha már van ilyen ID, listává konvertálunk
+            if reading_id in readings_by_id:
+                existing = readings_by_id[reading_id]
+                
+                if isinstance(existing, dict):
+                    readings_by_id[reading_id] = [existing, reading]
+                else:
+                    readings_by_id[reading_id].append(reading)
             else:
-                part['short_title'] = "alleluja"
-            data["parts"].append(part)
-
-        if row['evangelium'] != '':
-            part = partFromReading(row['evangelium'])
-            part['ref'] = row['evhely']
-            data["parts"].append(part)
-
-        if id in datas:
-            if(type(datas[id]) is dict):
-                tmp = datas[id]
-                datas[id] = []
-                datas[id].append(tmp)
-                datas[id].append(data)
-            else:
-                datas[id].append(data)
-
-        else:
-            datas[id] = data
+                readings_by_id[reading_id] = reading
+        
+        # Rendezés és JSON mentése
+        readings_by_id = dict(sorted(readings_by_id.items()))
+        
+        try:
+            with open(f"readings/{source_name}.json", "w", encoding='utf8') as f:
+                f.write(json.dumps(readings_by_id, indent=4, sort_keys=False, ensure_ascii=False))
+            print(f"\n  ✓ {source_name}.json mentve ({len(readings_by_id)} elem)")
+        except IOError as e:
+            error_handler.error(f"Nem sikerült írni a readings/{source_name}.json fájlt: {e}")
 
 
-    datas = dict(sorted(datas.items()))
-    #"azonosito","nev","kod","datum","egyetemeskonyorgesek","idezet"
+def main():
+    """
+    Főprogram: CSV betöltés, feldolgozás, JSON generálás.
+    
+    FIGYELMEZTETÉS: Ez az script csak fejlesztési céllal hasznos!
+    A readings/ mappában kézzel finomított adatok vannak, ezek
+    felülírása adatvesztéshez vezethet.
+    """
+    print("\n" + "="*60)
+    print("WARNUNG: Ez az script csak fejlesztéshez szükséges!")
+    print("A readings/ mappában kézzel finomított adatok vannak.")
+    print("="*60 + "\n")
+    
+    # Hibanaplózás inicializálása
+    init_error_log()
+    
+    # CSV adatok betöltése
+    print("1. CSV fájlok betöltése...")
+    csv_data = loadCsvData()
+    
+    # Saint + szentek összeolvasztása
+    print("\n2. Saint és szentek adatok összeolvasztása...")
+    mergeSaintAndSzentekData(csv_data)
+    
+    # CSV feldolgozása és JSON generálása
+    print("\n3. Feldolgozás és JSON generálás...")
+    processCsvToJson(csv_data)
+    
+    print("\nKész!")
 
-    with open("readings/" + name + ".json", "w", encoding='utf8') as breviarDataFile:
-            # magic happens here to make it pretty-printed
-            breviarDataFile.write(
-                json.dumps(datas, indent=4, sort_keys=False, ensure_ascii=False)
-            )
 
-
-
-#print(katolikusData['szentek'])
+if __name__ == "__main__":
+    main()

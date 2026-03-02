@@ -1,113 +1,423 @@
-# napi-lelki-batyu
+# 🙏 Napi Lelki Batyú
 
 https://szentjozsefhackathon.github.io/napi-lelki-batyu/
 
-Minden napra megadja a napi szenteket, olvasmányokat, liturgikus információkat
+Minden napra megadja a napi szenteket, olvasmányokat, liturgikus információkat és imádságokat.
 
-## Backend: [éééé.json](https://szentjozsefhackathon.github.io/napi-lelki-batyu/2024.json)
+---
 
-- A [readings](readings/) mappában vannak json formába rendezve a liturgiákon használt olvasmányos könyvek. Vasárnapi A, B és C, továbbá hétköznapi olvasmányok I-II (egyben), valamint a szentek saját olvasmányai.
-- A ```python generate.py```
-     - beolvassa a digitális zsolozsma XML formátumú igenaptárját a teljes évre (breviarData.json fájlba)
-     - megpróbálja megkeresni minden nap minden ünnepére/emléknapjára/liturgiájára a readings/....json fáljok közül a megfelelőből a megfelelő sorokat
-     - kicsit rendezi az opciókat
-     - és legyártja a kimeneti json fájlokat a batyuk/ mappába ( [éééé-hh-nn].json, [éééé].json, [éééé]_simple.json )
-     - majd a frontendet is: batyuk/index.html, batyuk/naptar.html
+## 🚀 Gyors Indítás
 
-Nyilvános felhasználása javasolt bárki számára (pl. KAPP):
-- https://szentjozsefhackathon.github.io/napi-lelki-batyu/[éééé].json vagy
-- https://szentjozsefhackathon.github.io/napi-lelki-batyu/[éééé-hh-nn].json
-
-## Frontend
-A fent említett [éééé].json-ból táplálkozva összeállít különféle igenaptárat, direktóriumot, liturgikus rendet
-
-### [naptar.html](https://szentjozsefhackathon.github.io/napi-lelki-batyu/naptar.html)
-Egy éves összefoglaló az ünnepekkel, olvasmányokkal, bűnbánati napokkal 
-
-### [index.html?date=2024-06-30](https://szentjozsefhackathon.github.io/napi-lelki-batyu/index.html?date=2024-06-30)
-Béna! 
-Egy-egy konkrét napra állítja össze a nagy json fájl alapján a napi liturgikus olvasmányokat és tudnivalókat. Ha az url-ben nem kap "date" argumentumot, akkor választ egy véletlen napot.
-
-
-## Fejlesztés
-- A [sources](sources/) mappában vannak külfönéle csv fájlokban mindenféle alapanyagok az igenaptar.katolikus.hu adatbázisából
-- A ```python generateparts.py``` a fenti alapanyagokból megpróbálja elkészíteni a readings/ mappába lévő .json fájlokat és jól felül is írja azokat - pedig azokban már rengeteg a kézi tisztítás. Ezt használata csak bajt okoz.
-- Ha nem tud valamivel mit kezdeni akkor a readings/errors.txt -be beleírja hogy érzése szerint van valami gond, és akkor kézzel javítani kell.
-- push vagy pull_request esetén lefut a json validátor és elvérzik, ha valami nem stimmel. éljen.
-- push esetén, akár a validátor eredményes volt akár nem, deploy-t kap a honlap: feltölti a /batyuk tartalmát (zip, index.html, sok json) és mindenki boldok
-- cél, hogy a frontend már ne gondolkodjon igazán, minél inkább a json tartalmazzon mindent ami fontos!
-
-
-## éééé.json specifikáció
-Következik a yyyy.json fájl dokumentációja 
-
-#### A legfelső szint
-Egy nagy json objectünk van, amiben sok-sok elem van. A kulcs mindig "éééé-hh-nn" formátumban egy konkrét dátum. Minden dátumhoz tartozik egy object.
-
+### 1. Függőségek Telepítése
+```bash
+pip install -r requirements.txt
 ```
+
+### 2. Egy Év Feldolgozása
+```bash
+# Mostani év
+python generate.py
+
+# Konkrét év (pl. 2024)
+python generate.py --year 2024
+
+# Jövő év is
+python generate.py --year 2024 --do-next-year
+
+# Előző 3 év is
+python generate.py --year 2024 --previous-years 3
+```
+
+### 3. Várt Kimenet
+Sikeresen feldolgozás után a `batyuk/` mappában találod:
+
+| Fájl | Tartalom | Felhasználás |
+|------|----------|--------------|
+| `2024.json` | Teljes év, parts feldolgozva (típusjelzések) | Backend API-hoz |
+| `2024_simple.json` | Teljes év, egyszerű verzió | Archívumhoz |
+| `2024_index.json` | Indexek (nap, olvasmánykód, név) | Gyors kereséshez |
+| `2024-01-15.json` | Egy nap minden ünnepe | Frontend |
+| `igenaptar.json` | Szűrt verzió (30 nap múlt + 365 jövő) | Frontend (ma + körül) |
+
+---
+
+## 📚 Backend API
+
+### Kimeneti Fájlformátum
+
+A `batyuk/2024.json` vagy `batyuk/2024-01-15.json` fájlok ebben a formátumban adják az adatokat.
+
+#### Legfelső szint - Egyéves adat
+
+```json
 {
-     "2024-01-01": { ... },
-     "2024-01-02": { ... },
-     "2024-01-03": { ... },
-     ...
-     "2024-12-31": { ... },
+  "2024-01-01": { "date": {...}, "celebration": [...] },
+  "2024-01-02": { "date": {...}, "celebration": [...] },
+  ...
+  "2024-12-31": { "date": {...}, "celebration": [...] }
 }
 ```
 
-#### egy naptári nap
-Minden "éééé-hh-nn" formátumú kulcshoz tartozó elem egy olyan object aminek pontosan két eleme van amik kulcsa: "date" és "celebration"
+---
 
-```
+#### 📅 Date Object (Naptári adatok)
+
+Minden naphoz tartozó, liturgiástól független alapinformációk:
+
+```json
 {
-     "date": { ... },
-     "celebration": [ ... ],
+  "ISO": "2024-01-15",          // ISO dátum (éééé-hh-nn)
+  "dayOfYear": "15",             // Az év hányadik napja (január 1 = 1)
+  "dayofWeek": "1",              // A hét napja (vasárnap=0, hétfő=1, ... szombat=6)
+  "dayofWeekText": "hétfő"       // Nap neve betűvel
 }
 ```
 
-#### date object
-Ez object amiben a naptári naphoz tartozó olyan információk tartoznak, amik a liturgikus rendtől függetlenek:
+---
 
-```
+#### ⛪ Celebration Object (Ünnep/Liturgia)
+
+Az adott nap liturgikus információi és olvasmányai:
+
+```json
 {
-     "ISO": "2024-01-03", # éééé-hh-nn formátumban a dátum.
-     "dayOfYear": "3", # Az év hannyadik napjáról van szó. Január 1 = 1
-     "dayofWeek": "3", # A hét hanyadik napjáról van szó. Vasárnap = 0
-     "dayofWeekText": "szerda" # A nap kiírva betűvel
+  "dateISO": "2024-01-15",                      // Naptári dátum
+  "yearLetter": "A",                            // Liturgikus év betűje (A, B, C)
+  "yearParity": "II",                           // Év paritása (I vagy II köznapokhoz)
+  "week": "2",                                  // Heti sorszám az adott időszakban
+  "dayofWeek": 1,                               // A hét napja (szám)
+  "weekOfPsalter": "2",                         // A zsolozsmában használt zsoltáros hét (1-4)
+  
+  "season": "5",                                // Liturgikus időszak azonosítója
+  "seasonText": "évközi idő",                   // Időszak megnevezése
+  "typeLocal": null,                            // Helyi liturgikus megjegyzés (ha van)
+  "level": "13",                                // Az ünnep rangja (1-13, 1=legmagasabb)
+  "required": "1",                              // Kötelezőség (0 vagy 1)
+  
+  "name": "évközi idő 2. hét, hétfő",           // Az ünnep/köznap megnevezése
+  "title": "évközi idő 2. hét, hétfő",          // A kijelzendő cím (name + rang info)
+  "celebrationType": "köznap",                  // Az ünnep típusa (köznap, főünnep, ünnep, emléknap, stb.)
+  
+  "readingsBreviarId": "1A1",                   // Az XML-ből jövő olvasmánykód (belső)
+  "readingsId": "ADV011Hetfo",                  // A readers/...json-ekben keresett kód
+  "ferialReadingsId": "01-01",                  // Az opcionális köznapok olvasmányainak kódja
+  
+  "volumeOfBreviary": "III",                    // A 4 kötetes zsolozsma hanyadik kötete (I, II, III, IV)
+  "colorId": "3",                               // Liturgikus szín azonosítója
+  "colorText": "zöld",                          // Liturgikus szín megnevezése
+  "comunia": null,                              // Közös részek hivatkozása (null vagy lista)
+  
+  "celebrationKey": 0,                          // Ha több ünnep van egy napon, a sorszáma
+  "dayOfPenance": 0,                            // Bűnbánati nap szintje (0=nem, 1=péntek, 2=nagyböjti, 3=nagypéntek/hamvazószerda)
+  
+  "parts": [...],                               // Az ünnep olvasmányai (lent)
+  "parts2": [...],                              // Opcionális: alternatív olvasmányok (opcionális emléknapokon)
+  "parts2cause": "(Vagy) saját olvasmányok",   // A parts2 magyarázata
+  
+  "teaser": "...",                              // Az ünnep rövid bemutatása (opcionális)
+  "commentary": {...},                          // Az ünnepre vonatkozó kommentár (opcionális)
+  "image": "..."                                // Az ünnep képe (opcionális)
 }
 ```
 
-#### celebration object
-Minden naptári naphoz tartozik egy "celebration" lista, aminek mindig van legalább egy eleme. Nagyon gyakran néhány eleme van. Például, ha választani lehet szentek közül, vagy ha karácsonykor külön ünneplés az éjféli mise és a pásztorok miséje, stb. Egy, egy celebration jó sok adatot tartalmaz.
+---
+
+#### 📖 Parts Array (Olvasmányok)
+
+Az ünnephez tartozó olvasmányrészek (evangélium, Szent Lecke, zsoltár, stb.):
+
+```json
+[
+  {
+    "type": "object",                          // Típus: "object" vagy "array"
+    "short_title": "evangélium",               // Rész típusa: evangélium, olvasmány, szentlecke, zsoltár, passió
+    "title": "EVANGÉLIUM Máté 1:1-17",        // Rész címe
+    "ref": "Mt 1:1-17",                       // Bibliográfiai referencia
+    "teaser": "Jézus Krisztus nemzetségtáblázata...",  // Rövid kivonat az elején
+    "text": "Abraham nemzetsége: Abraham atya volt Izsák atyja...",  // A teljes szöveg
+    "ending": "Ezek az evangélium igéi."      // A záró formula
+  },
+  
+  // Ha egy rész több verzióban van (I. és II. év):
+  {
+    "type": "array",                          // Array típus
+    "content": [
+      {
+        "type": "object",
+        "short_title": "olvasmány",
+        "title": "1. OLVASMÁNY – I. ÉVBEN",
+        "ref": "1Kor 2:1-5",
+        "text": "...",
+        "cause": "I. évben"                   // A verzió megjelölése
+      },
+      {
+        "type": "object",
+        "short_title": "olvasmány",
+        "title": "1. OLVASMÁNY – II. ÉVBEN",
+        "ref": "2Kor 1:3-7",
+        "text": "...",
+        "cause": "II. évben"
+      }
+    ]
+  }
+]
+```
+
+---
+
+## 🏗️ Fejlesztői Dokumentáció
+
+### Mappastruktúra
 
 ```
-[{
-     "dateISO": "2024-01-08", #Az adott dátum éééé-hh-nn formátumban
-     "yearLetter": "B", # A liturgikus év betújele. Lehet A, B, vagy C. Advent első vasárnapja előestén vált mindig, vagyis év közben.
-     "yearParity": "II", # A liturgikus év köznapjain az olvasmányok páros és páratlan év szerint váltakoznak. Ezért lehet ez I vagy II. Ez is advent első vasárnapja előestéjén vált.
-     "week": "1", # Az adott liturgikus időszakon belüli hét sorszáma. Például advent 3. hetében ez 3-as. Olykor lehet 0 is, például hamvazószerdától nagyböjt első vasárnapjáig
-     "dayofWeek": 1, # A hét napjának sorszáma. Vasárnap = 0
-     "weekOfPsalter": "1", # A zsolozsmában használt zsoltáros hét sorszáma. 1, 2, 3, vagy 4. Nagy ünnepekkor - amikor minden zsoltár saját - nem releváns ez az információ, de liturgikus időszak alapján akkor is van itt érték.
-     "season": "5", # A litrugikus időszak azonosítója. Van itt mindenféle: advent I, advent II, karácsony, karácsony nyolcada, karácsony II, évközi idő, stb. Kicsit több mint amit fejből mondanál.
-     "seasonText": "évközi idő", # A liturgikus időszak megnevezése. Mindig párban változik az előző azonosítóval
-     "typeLocal": null, # Lehet null vagy string. Ha az adott ünnep csak bizonyos egyházmegyékben ünneplendő, akkor itt van hozzá szöveg. 
-     "level": "13", # Az ünnep rangja. Legmagasabb az 1, legkisebb a 13. A Misekönyv elején van pontos leírás arról, hogy mi milyen rangú. Ezek alapján alakul a naptár.
-     "required": "1", # Nem egészen beazonosított érték. Kb 15 esetben "0", amikor igen nagy már-már kötelező ünnep van. Beazonosításához a zsolozsma naptárra kéne ránézni.
-     "name": "évközi idő 1. hét, hétfő", # Az adott ünneplés megnevezése. 
-     "readingsBreviarId": "1C1", # A zsolozsma naptárja ezen azonosító szerint keresi meg az ünnep olvasmányait. A fejlesztés korábbi fázisában használtuk, ma már nem.
-     "volumeOfBreviary": "III", # A négy kötetes zsolozsma hanyadik kötetében találjuk meg a zsolozsma elemeit: I, II, III, vagy IV
-     "title": "évközi idő 1. hét, hétfő (köznap)", # A 'name' társa vagyis az adott ünnep megnevezése. Itt az ünnep rangjával is. A KAPP például ezt írja ki és nem a 'name' értékét
-     "celebrationType": "köznap", # A 'level' érték alapján az ünneplés ragjának megnevezése (ez kerül a 'title' végére). 0 = köznap, 1= főünnep, ... ünnep, emléknap, tetszés szerinti emléknap, 5 = egyéb saját szöveg...
-     "colorId": "3", # A liturgikus szín azonosítója. 1 = piros, 2 = fehér, ... zöld, lila, rózsaszín, fekete, 9 = rózsaszín|lila
-     "colorText": "zöld", # A liturgikus szín szöveggel kíírva. Figyelj a rózsaszín|lila -val!
-     "comunia": null, # Null vagy lista, hogy a közös részeket a zsolozsmában honnan lehet venni (pl. lelkipásztorok, egyháztanítók, stb.) Formátuma változni fog!
-     "celebrationKey": 0, # Egy szám. Amennyiben több celebration object van a listában, akkor itt egy azonosító, hogy ez épp hányadik a sorban. 
-     "readingsId": "EVK011Hetfo", # Ezen azonosító alapján próbáljuk megtalálni, hogy melyik olvasmány való ide. Leginkább az igenaptár.katolikus.hu azonosítójára hasonlít, de vannak eltérések / kivételek.
-     "ferialReadingsId": "01-08", # Zsolozsmából jövő olvasmány-azonosító. Amennyiben lehet köznapi olvasmányokat választani, akkor azok azonsoítója. Mi nem használjuk. Lehetne?
-     "parts": [ ... ], # A napról való olvasmányok és más információk. Lent külön szétszálazzuk
-     "parts2": [ ... ], # Opcionális. Ha egy emléknapnál lehet választani, hogy a köznapi olvasmányokat vesszük vagy az ünnepieket, akkor a parts tartalmazza az alapértelmezettet (köznapi) és a parts2 a sajátokat (opcionális)
-     "dayOfPenance": 0 # b
-},...]
+napi-lelki-batyu/
+├── lib/                          # Feldolgozási modulok (REFAKTORÁLT)
+│   ├── error_handler.py         # Hibakezelés és naplózás
+│   ├── file_handler.py          # JSON fájlkezelés
+│   ├── data_loader.py           # XML/JSON adatok betöltése
+│   ├── data_transformer.py      # Adattranszformáció és feldolgozás
+│   ├── reading_processor.py     # Olvasmánykereső
+│   └── part_processor.py        # HTML olvasmányrészek feldolgozása
+│
+├── sources/                      # Eredeti CSV adatok
+│   ├── vasA.csv, vasB.csv, vasC.csv        # Vasárnapi olvasmányok (A, B, C év)
+│   ├── olvasmanyok.csv                     # Hétköznapi olvasmányok (I-II év)
+│   ├── szentek.csv                         # Szentek saját olvasmányai
+│   └── saint.csv                           # Angol nyelvű saint adatok
+│
+├── readings/                     # Feldolgozott JSON olvasmányok
+│   ├── vasA.json, vasB.json, vasC.json    # Feldolgozott vasárnapi olvasmányok
+│   ├── olvasmanyok.json                    # Feldolgozott hétköznapi olvasmányok
+│   ├── szentek.json                        # Feldolgozott szentek
+│   ├── commentaries.json                   # Kommentárok
+│   └── errors.txt                          # Feldolgozási hibák napló
+│
+├── batyuk/                       # Generált kimeneti JSON fájlok
+│   ├── 2024.json                           # Teljes év (komplex, types-elhöz)
+│   ├── 2024_simple.json                    # Teljes év (egyszerű)
+│   ├── 2024_index.json                     # Indexek (gyors kereséshez)
+│   ├── 2024-01-15.json                     # Egy nap minden ünnepe
+│   ├── igenaptar.json                      # Szűrt verzió (frontend számára)
+│   └── ... (sok 2024-XX-XX.json fájl)
+│
+├── generate.py                   # Főprogram: napi lelki batyú generálása
+├── generateparts.py              # CSV feldolgozó (fejlesztéshez)
+├── REFACTOR_PLAN.md             # Refaktorálási terv
+├── REFACTOR_SUMMARY.md          # Refaktorálás összefoglalója
+└── README.md                     # Ez a fájl
 ```
 
-#### parts
-folytatjuk...
+### Feldolgozási Folyamat
+
+```
+1. XML LETÖLTÉS
+   breviar.kbs.sk → breviarData_2024.json
+
+2. ADATOK BETÖLTÉSE
+   ├─ breviarData_2024.json → XML → dict
+   └─ readings/*.json → dict
+
+3. NAPI FELDOLGOZÁS (minden napra)
+   ├─ XML celebration → dict (transformCelebration)
+   ├─ Speciális ünnepek szétbontása (karácsony, húsvét)
+   ├─ Olvasmánykódok generálása (regex alapján)
+   ├─ Olvasmányok keresése (fuzzy matching)
+   ├─ Kommentárok keresése
+   ├─ Év-paritás szerinti szűrés
+   └─ Parts feldolgozása (HTML → JSON)
+
+4. FÁJLOK MENTÉSE
+   ├─ batyuk/YYYY-MM-DD.json (minden nap)
+   ├─ batyuk/YYYY.json (teljes év)
+   ├─ batyuk/YYYY_simple.json (egyszerű verzió)
+   ├─ batyuk/YYYY_index.json (indexek)
+   └─ batyuk/igenaptar.json (szűrt verzió)
+
+5. FRONTEND ÁLTAL HASZNÁLT FÁJLOK
+   ├─ batyuk/igenaptar.json (30 nap múlt + 365 nap jövő)
+   └─ batyuk/YYYY-MM-DD.json (konkrét nap)
+```
+
+### API Modulok
+
+#### 📦 `lib.file_handler`
+```python
+from lib import file_handler
+
+# JSON formázott mentése
+file_handler.writeDataFormattedJSONfile(data, "batyuk/2024.json")
+
+# Fájl öregsség ellenőrzése (1 óránál régebbi?)
+if file_handler.isFileOldOrMissing("breviarData_2024.json"):
+    download_new_data()
+```
+
+#### 📦 `lib.data_loader`
+```python
+from lib import data_loader
+
+# Zsolozsma XML letöltése és JSON-ba konvertálása
+data_loader.downloadBreviarData(2024)
+
+# Zsolozsma JSON betöltése
+breviar = data_loader.loadBreviarData(2024)
+
+# Readings JSON betöltése
+readings = data_loader.loadKatolikusData()
+```
+
+#### 📦 `lib.data_transformer`
+```python
+from lib import data_transformer
+
+# Év-paritás (I vagy II)
+parity = data_transformer.yearIorII("C", 2024, "5")  # → "I"
+
+# Bűnbánati nap szintje
+level = data_transformer.dayOfPenance(celebration)  # → 0-3
+
+# XML celebration transzformálása
+cel = data_transformer.transformCelebration(xml_cel, day)
+
+# Indexek építése
+data_transformer.index_celebration_data(...)
+```
+
+#### 📦 `lib.reading_processor`
+```python
+from lib import reading_processor
+
+# Olvasmánykódok generálása
+reading_processor.createReadingIds(celebration, day)
+
+# Olvasmányok keresése
+reading_processor.findReadings(celebration, readings, lelki_batyu)
+
+# Kommentárok keresése
+reading_processor.findCommentaries(celebration, readings)
+
+# Köznapok olvasmányai hozzáadása
+reading_processor.addreadingstolevel10(celebration, readings)
+```
+
+#### 📦 `lib.part_processor`
+```python
+from lib import part_processor
+
+# HTML olvasmány feldolgozása
+part = part_processor.partFromReading(html_text, "01-15")
+
+# HTML zsoltár feldolgozása
+psalm = part_processor.partFromPsalm(html_psalm)
+```
+
+---
+
+## 🔧 Fejlesztés
+
+### CSV → JSON Feldolgozás (generateparts.py)
+
+⚠️ **FIGYELMEZTETÉS:** A `readings/` mappában kézzel finomított adatok vannak! Csak akkor futtasd ezt, ha új CSV adatok érkeztek!
+
+```bash
+python generateparts.py
+```
+
+Ez feldolgozza a `sources/*.csv` fájlokat és generálja a `readings/*.json` fájlokat.
+
+### Hibakeresés
+
+A feldolgozás közben fellépő hibák a `readings/errors.txt` fájlban találhatók:
+
+```
+2024-03-02 21:00:00.123456 -- Ez az olvasmánykód (ABC123) hiányzik a kulcsok között...
+```
+
+---
+
+## 📋 Liturgikus Szezonok
+
+| ID | Megnevezés | Kötet |
+|----|------------|-------|
+| 0-1 | Advent I-II | I |
+| 2-4 | Karácsony, Karácsony nyolcada, Karácsony II | I |
+| 5 | Évközi idő | III |
+| 6 | Nagyböjti idő | II |
+| 7-9 | Húsvét előtti napok, Húsvét nyolcada | II |
+| 10-11 | Húsvéti idő I-II | II |
+
+---
+
+## 📊 Ünnepek Rangja (Level)
+
+| Level | Típus | Olvasmányok |
+|-------|-------|------------|
+| 1-4 | Főünnep | Saját |
+| 5-8 | Ünnep | Saját |
+| 9 | Emléknap | Saját |
+| 10-12 | Kötelező emléknap | Köznapok + saját (választható) |
+| 13 | Köznap | Szezonhoz kötött köznapok |
+
+---
+
+## 🎨 Liturgikus Szín
+
+| ID | Szín |
+|----|------|
+| 1 | Piros (mártírok, adventus) |
+| 2 | Fehér (ünnepek, karácsony) |
+| 3 | Zöld (évközi idő) |
+| 4 | Lila (nagyböjt, advent) |
+| 5 | Rózsaszín (Advent 3. vasárnap, nagyböjt 4. vasárnap) |
+| 6 | Fekete (halottak napja) |
+| 9 | Rózsaszín\|Lila (választható) |
+
+---
+
+## 💾 Adatforrások
+
+- **Breviar:** https://breviar.kbs.sk/ (XML - digitális zsolozsma)
+- **Readings:** `sources/*.csv` (igenaptar.katolikus.hu adatbázis)
+- **Commentaries:** `readings/commentaries.json` (saját és egyházi források)
+
+---
+
+## 🌐 Frontend Felhasználás
+
+### Naptar Nézet
+https://szentjozsefhackathon.github.io/napi-lelki-batyu/naptar.html
+
+Egy éves összefoglaló az összes ünneppel, olvasmánnyal és bűnbánati napokkal.
+
+### Napi Nézet
+https://szentjozsefhackathon.github.io/napi-lelki-batyu/?date=2024-06-30
+
+A konkrét napon lévő összes ünnep, olvasmány és imádság egy helyen.
+
+---
+
+## 📝 Publicálás
+
+Az adatok nyilvánosan használhatók:
+
+```
+https://szentjozsefhackathon.github.io/napi-lelki-batyu/[ÉÉÉÉ].json
+https://szentjozsefhackathon.github.io/napi-lelki-batyu/[ÉÉÉÉ]-HH-NN.json
+```
+
+Javasolt: KAPP, egyéb liturgikus applikációk, egyházi oldalak.
+
+---
+
+## 📞 Technikai Részletek
+
+- **Függőségek:** `requests`, `xmltodict`, `Levenshtein`
+- **Python verzió:** 3.8+
+- **Karakterkódolás:** UTF-8
+- **Típusjelzések:** Type hints az összes függvénynél
+
+Az egész projekt **jól dokumentált, moduláris és könnyűen bővíthető**!
+
+---
+
+**Utolsó frissítés:** 2026-03-02
