@@ -88,7 +88,7 @@ def createReadingIds(celebration: Dict[str, Any], day: Dict[str, Any]) -> bool:
         if match.group(3):
             dayofweek_num = int(match.group(3))
             if dayofweek_num in weekday_codes:
-                readings_code += dayofweek_num + weekday_codes[dayofweek_num]
+                readings_code += str(dayofweek_num) + weekday_codes[dayofweek_num]
     
     # 3. Regex: konkrét dátumon alapuló kód
     # Formátum: "12.25." -> december 25

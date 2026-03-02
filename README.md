@@ -1,4 +1,4 @@
-# 🙏 Napi Lelki Batyú
+# 🙏 Napi Lelki Batyu
 
 https://szentjozsefhackathon.github.io/napi-lelki-batyu/
 

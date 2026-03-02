@@ -196,7 +196,7 @@ def loadKatolikusData() -> Dict[str, Any]:
                 # Ha az egyik már lista
                 elif isinstance(existing, dict) and isinstance(data_value, list):
                     # Az eredeti dict hozzáadása a listához
-                    Catholic_data_value.append(existing)
+                    data_value.append(existing)
                     katolikus_data[key] = data_value
                 elif isinstance(existing, list) and isinstance(data_value, dict):
                     # Lista + új dict
