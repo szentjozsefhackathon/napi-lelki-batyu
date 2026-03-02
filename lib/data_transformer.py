@@ -232,10 +232,15 @@ def transformCelebration(celebration: Dict[str, Any], day: Dict[str, Any]) -> Di
             else:
                 transformed['name'] = f"{season_text[:-5]} {week_num}. vasárnapja"
         else:
-            transformed['name'] = (
-                f"{season_text} {week_num}. hét, "
-                f"{weekday_names[day_of_week]}"
-            )
+            # Nagyböjti idő 0. hét speciális kezelése (hamvazószerda után)
+            if season_text == "nagyböjti idő" and week_num == 0 and day_of_week >= 4:
+                # csütörtök, péntek, szombat hamvazószerda után
+                transformed['name'] = f"{weekday_names[day_of_week]} hamvazószerda után"
+            else:
+                transformed['name'] = (
+                    f"{season_text} {week_num}. hét, "
+                    f"{weekday_names[day_of_week]}"
+                )
     
     # Ünnep típusa (féria -> köznap konverzió)
     celebration_type = celebration['LiturgicalCelebrationType']['#text']
