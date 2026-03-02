@@ -1649,14 +1649,24 @@
                 "teaser": "Boldogok, akik házadban élnek, Istenem! * Mindörökké dicsérnek téged. Zsolt 83,5 – 1 D<sup><small>2</small></sup>. tónus.",
                 "text": "Boldogok, akik házadban élnek, Istenem! * Mindörökké dicsérnek téged. Zsolt 83,5 – 1 D<sup><small>2</small></sup>. tónus."
             },
-            {
-                "short_title": "evangélium",
-                "ref": "Mt 1,16.18-21.24a vagy Lk 2,41-51a",
-                "teaser": "József úgy cselekedett, ahogy az Úr angyala parancsolta neki. ",
-                "title": "† EVANGÉLIUM Szent Máté könyvéből",
-                "text": "Dávid utódai közül Jákobtól született József, aki jegyese volt Máriának, Jézus Krisztus szülőanyjának.<br>\nJézus Krisztus születése pedig így történt: Anyja, Mária jegyese volt Józsefnek. Mielőtt azonban egybekeltek volna, Mária gyermeket fogant méhében a Szentlélektől. Férje, József igaz ember volt, nem akarta őt megszégyeníteni. Ezért úgy határozott, hogy titokban bocsátja el. Míg ezen töprengett, megjelent neki álmában az Úr angyala, és így szólt: „József, Dávid fia, ne félj attól, hogy feleségül vedd Máriát, mert a benne fogant élet a Szentlélektől van. Fiad születik majd, akit Jézusnak nevezel, mert ő váltja meg népét bűneitől!”<br>\nAmikor József felébredt álmából, úgy cselekedett, amint az Úr angyala megparancsolta neki.<br>\nEzek az evangélium igéi.\n<br><br>\n<i>Vagy más evangélium:</i>\n<br><br>\n† EVANGÉLIUM Szent Lukács könyvéből\n<br><i>Nekem Atyám dolgaiban kell lennem.</i><br>\nJézus szülei évről évre fölmentek Jeruzsálembe a húsvét ünnepére. Amikor Jézus tizenkét esztendős lett, az ünnepi szokás szerint szintén fölmentek. Az ünnepek elmúltával hazafelé indultak. A gyermek Jézus azonban ott maradt Jeruzsálemben anélkül, hogy szülei észrevették volna. Azt gondolták, hogy az úti társaságban van.\nMár egy napi járásra voltak, amikor keresni kezdték a rokonok és az ismerősök között. Mivel nem találták, visszatértek Jeruzsálembe, és ott keresték.<br>\nHárom nap múlva találták meg a templomban. A tanítómesterek között ült, hallgatta és kérdezgette őket. Aki csak hallotta, módfelett elcsodálkozott értelmességén és feleletein. Amikor szülei megpillantották, nagyon meglepődtek. Azután anyja így szólt hozzá: „Fiam, miért tetted ezt velünk? Látod, atyád és én bánkódva kerestünk!” Jézus ezt felelte nekik: „Miért kerestetek? Nem tudtátok, hogy nekem Atyám dolgaiban kell lennem?” Ők azonban nem értették, hogy mit akar ezzel mondani.<br>\nAkkor követte őket, lement velük Názáretbe, és engedelmeskedett nekik.",
-                "ending": "Ezek az evangélium igéi."
-            }
+            [
+                {
+                    "short_title": "evangélium",
+                    "ref": "Mt 1,16.18-21.24a",
+                    "teaser": "József úgy cselekedett, ahogy az Úr angyala parancsolta neki. ",
+                    "title": "† EVANGÉLIUM Szent Máté könyvéből",
+                    "text": "Dávid utódai közül Jákobtól született József, aki jegyese volt Máriának, Jézus Krisztus szülőanyjának.<br>\nJézus Krisztus születése pedig így történt: Anyja, Mária jegyese volt Józsefnek. Mielőtt azonban egybekeltek volna, Mária gyermeket fogant méhében a Szentlélektől. Férje, József igaz ember volt, nem akarta őt megszégyeníteni. Ezért úgy határozott, hogy titokban bocsátja el. Míg ezen töprengett, megjelent neki álmában az Úr angyala, és így szólt: „József, Dávid fia, ne félj attól, hogy feleségül vedd Máriát, mert a benne fogant élet a Szentlélektől van. Fiad születik majd, akit Jézusnak nevezel, mert ő váltja meg népét bűneitől!”<br>\nAmikor József felébredt álmából, úgy cselekedett, amint az Úr angyala megparancsolta neki.",
+                    "ending": "Ezek az evangélium igéi."
+                },
+                {
+                    "short_title": "evangélium",
+                    "ref": "Lk 2,41-51a",
+                    "teaser": "Nekem Atyám dolgaiban kell lennem.",
+                    "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+                    "text": "Jézus szülei évről évre fölmentek Jeruzsálembe a húsvét ünnepére. Amikor Jézus tizenkét esztendős lett, az ünnepi szokás szerint szintén fölmentek. Az ünnepek elmúltával hazafelé indultak. A gyermek Jézus azonban ott maradt Jeruzsálemben anélkül, hogy szülei észrevették volna. Azt gondolták, hogy az úti társaságban van.\nMár egy napi járásra voltak, amikor keresni kezdték a rokonok és az ismerősök között. Mivel nem találták, visszatértek Jeruzsálembe, és ott keresték.<br>\nHárom nap múlva találták meg a templomban. A tanítómesterek között ült, hallgatta és kérdezgette őket. Aki csak hallotta, módfelett elcsodálkozott értelmességén és feleletein. Amikor szülei megpillantották, nagyon meglepődtek. Azután anyja így szólt hozzá: „Fiam, miért tetted ezt velünk? Látod, atyád és én bánkódva kerestünk!” Jézus ezt felelte nekik: „Miért kerestetek? Nem tudtátok, hogy nekem Atyám dolgaiban kell lennem?” Ők azonban nem értették, hogy mit akar ezzel mondani.<br>\nAkkor követte őket, lement velük Názáretbe, és engedelmeskedett nekik.",
+                    "ending": "Ezek az evangélium igéi."
+                }
+            ]
         ]
     },
     "03-23": {
