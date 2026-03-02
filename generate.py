@@ -103,7 +103,7 @@ def transformCelebration(celebration: dict, day: dict):
     transformedCelebration = {
         'dateISO' : day['DateISO'],
         'yearLetter': celebration['LiturgicalYearLetter'],
-        'yearParity': yearIorII(celebration['LiturgicalYearLetter'], day['DateYear']),
+        'yearParity': yearIorII(celebration['LiturgicalYearLetter'], day['DateYear'], celebration['LiturgicalSeason']['@Id'], day['DateMonth']),
         'week': celebration['LiturgicalWeek'],
         'dayofWeek': int(day["DayOfWeek"]['@Id']),
         'weekOfPsalter': celebration['LiturgicalWeekOfPsalter'],
@@ -239,8 +239,6 @@ def createReadingIds(celebration: dict, day: dict):
         katolikusDataKod = "HUS10"
     if celebration['name'] == "Jézus Szent Szíve":
         katolikusDataKod = "HUS105Pentek"
-    if celebration['name'] == "A Boldogságos Szűz Mária Szeplőtelen Szíve":
-        katolikusDataKod = "HUS106Szombat"
     if celebration['name'] == "A Boldogságos Szűz Mária Szeplőtelen Szíve":
         katolikusDataKod = "HUS106Szombat"
     if celebration['name'] == "Pannonhalma: a bazilika felszentelése":
@@ -476,27 +474,33 @@ def clearYearIorII(celebration: dict):
                             celebration['parts'][kid].pop("cause")
 
 
-def yearIorII(ABC, year):
-    if year == '2026':
-        if ABC == 'A':
-            return "II"
+def yearIorII(ABC, year, season, month=None):
+    """
+    Determine parity (I or II) for a given liturgical year.
+    ABC: liturgical year letter (A, B, C)
+    year: calendar year as string
+    season: liturgical season ID as string (0=Advent, 1=Advent, etc.)
+    month: optional month as string (1-12)
+    Parity toggles each liturgical year starting with 2024-2025 (C) = I.
+    """
+    # Determine liturgical year start year
+    # If season is Advent (0 or 1), the liturgical year started in this calendar year
+    # Otherwise, it started in the previous calendar year, except for December
+    # (Christmas season) where the liturgical year started in the same calendar year.
+    if season in ('0', '1'):
+        start_year = int(year)
+    else:
+        # Not Advent
+        if month is not None and int(month) == 12 and season in ('2', '3', '4'):
+            # December after Advent start: still same liturgical year start
+            start_year = int(year)
         else:
-            return "I"
-    elif year == '2024':
-        if ABC == 'B':
-            return "II"
-        else:
-            return "I"
-    if year == '2025':
-        if ABC == 'C':
-            return "I"
-        else:
-            return "II"
-
-    #print(ABC)
-    #print(year)
-    print("Hát ezt bizony meg kéne csinálni még...")
-    sys.exit()
+            start_year = int(year) - 1
+    
+    # Reference: liturgical year 2024-2025 (start_year 2024) has parity I
+    # Parity toggles each liturgical year
+    parity_index = (start_year - 2024) % 2  # 0 -> I, 1 -> II
+    return "I" if parity_index == 0 else "II"
 
 # Van pár alkalom amikor egy az ünnep de több az ünneplés: karácsony, pünkösd, húsvét, nagycsütörtök
 def addCustomCelebrationstoBreviarData(data):
@@ -706,14 +710,23 @@ if __name__ == "__main__":
         description='Napi lelki batyuk generalasa')
     parser.add_argument(
         '--year', default=datetime.now().year, type=int, help='the year to generate')
-    parser.add_argument('--no-next-year', action='store_false', help='do not generate next year', default=True, dest='next_year')
+    parser.add_argument('--do-next-year', action='store_false', help='generate next year as well', default=False, dest='next_year')
+    parser.add_argument('--previous-years', type=int, default=0, help='generate previous N years in addition to the given year')
 
     args = parser.parse_args()
 
-    allLelkiBatyuk = generateLelkiBatyuk(args.year)
-
+    # Determine years to generate
+    years = set()
+    years.add(args.year)
+    for i in range(1, args.previous_years + 1):
+        years.add(args.year - i)
     if args.next_year:
-        allLelkiBatyuk = allLelkiBatyuk | generateLelkiBatyuk(args.year + 1)
+        years.add(args.year + 1)
+    
+    # Generate for each year, merging results
+    allLelkiBatyuk = {}
+    for y in sorted(years):
+        allLelkiBatyuk = allLelkiBatyuk | generateLelkiBatyuk(y)
 
     today = datetime.now()
     start_date = (today - timedelta(days=30)).strftime('%Y-%m-%d')
