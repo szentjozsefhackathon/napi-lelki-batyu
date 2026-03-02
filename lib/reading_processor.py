@@ -240,61 +240,66 @@ def findReadings(
         if 'SzekesegyhazFelszentelése' in katolikus_data:
             possibilities.append(katolikus_data['SzekesegyhazFelszentelése'])
     
-    # 6. Levenshtein-alapú fuzzy matching
-    celebration_name = celebration.get('name', '')
-    best_match = None
-    best_ratio = 0.65  # Minimum 65% hasonlóság
     
-    for possibility in possibilities:
-        possibility_name = possibility.get('name', '')
-        ratio = Levenshtein.ratio(celebration_name, possibility_name)
+    if isinstance(readings_data, dict):
+        possibility = readings_data
+    # Van, hogy egyetlen readingsId-hez több szent is tartozik, például amikor egy napon több szentet is ünnepelhetünk. 
+    # Ilyenkor valami alapján ki kell találni, hogy épp melyik szenthez tartozó olvasmányt kell használni. 
+    # Ezért van a possibilities lista, amiben az összes lehetséges olvasmány benne van, és ezek közül kell kiválasztani a megfelelőt.
+    else:
         
-        if ratio > best_ratio:
-            best_ratio = ratio
-            best_match = possibility
-    
-    # 7. Ha nincs fuzzy match, regex-alapú párosítást próbál
-    if not best_match:
-        # Speciális regex párosítások
-        pairs = [
-            ["^A Szent Család", "^Szent Család"],
-            ["^adventi idő", "^Adventi köznapok - december"],
-            [r"^adventi idő ([0-9]{1})\. hét, vasárnap$",
-             r"^Advent ([0-9]{1})\. vasárnapja"],
-            [r"^nagyböjti idő ([0-9]{1})\. hét, vasárnap$",
-             r"^Nagyböjt ([0-9]{1})\. vasárnapja"],
-            ["Rózsafüzér Királynője", "Rózsafüzér Királynője"],
-            ["Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony"],
-            ["Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
-            ["karácsony nyolcada 1. hét", "Karácsonyi idő - december"],
-            ["karácsonyi idő 1. hét", "Karácsonyi idő - január"],
-            [r"^(évközi idő ([0-9]{1,2})\. hét, vasárnap)",
-             r"^(Évközi ([0-9]{1,2})\. vasárnap)"],
-            ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
-            ["Virágvasárnap", "Virágvasárnap"],
-            ["\nKrisztus feltámadása$", "Húsvétvasárnap"],
-            [r"nagyböjti idő 0\. hét", "hamvazószerda után"],
-            ["a bazilika felszentelése", "Székesegyház felszentelése"],
-            ["főszékesegyház felszentelése", "Székesegyház felszentelése"]
-        ]
+
+        # 6. Levenshtein-alapú fuzzy matching
+        celebration_name = celebration.get('name', '')
+        best_match = None
+        best_ratio = 0.65  # Minimum 65% hasonlóság
         
-        for pattern_celebration, pattern_possibility in pairs:
-            if re.search(pattern_celebration, celebration_name):
-                for possibility in possibilities:
-                    if re.search(pattern_possibility, possibility.get('name', '')):
-                        best_match = possibility
+        for possibility in possibilities:
+            possibility_name = possibility.get('name', '')
+            ratio = Levenshtein.ratio(celebration_name, possibility_name)
+            
+            if ratio > best_ratio:
+                best_ratio = ratio
+                best_match = possibility
+        
+        # 7. Ha nincs fuzzy match, regex-alapú párosítást próbál
+        if not best_match:
+            # Speciális regex párosítások
+            pairs = [
+                ["^A Szent Család", "^Szent Család"],
+                ["^adventi idő", "^Adventi köznapok - december"],
+                [r"^adventi idő ([0-9]{1})\. hét, vasárnap$", r"^Advent ([0-9]{1})\. vasárnapja"],
+                [r"^nagyböjti idő ([0-9]{1})\. hét, vasárnap$", r"^Nagyböjt ([0-9]{1})\. vasárnapja"],
+                ["Rózsafüzér Királynője", "Rózsafüzér Királynője"],
+                ["Kármelhegyi Boldogasszony", "Kármelhegyi Boldogasszony"],
+                ["Krisztus Király", "Évközi 34. vasárnap – Krisztus, a Mindenség Királya"],
+                ["karácsony nyolcada 1. hét", "Karácsonyi idő - december"],
+                ["karácsonyi idő 1. hét", "Karácsonyi idő - január"],
+                [r"^(évközi idő ([0-9]{1,2})\. hét, vasárnap)", r"^(Évközi ([0-9]{1,2})\. vasárnap)"],
+                ["Vasárnap Húsvét nyolcadában", "Húsvét 2. vasárnapja"],
+                ["Virágvasárnap", "Virágvasárnap"],
+                ["\nKrisztus feltámadása$", "Húsvétvasárnap"],
+                [r"nagyböjti idő 0\. hét", "hamvazószerda után"],
+                ["a bazilika felszentelése", "Székesegyház felszentelése"],
+                ["főszékesegyház felszentelése", "Székesegyház felszentelése"]
+            ]
+            
+            for pattern_celebration, pattern_possibility in pairs:
+                if re.search(pattern_celebration, celebration_name):
+                    for possibility in possibilities:
+                        if re.search(pattern_possibility, possibility.get('name', '')):
+                            best_match = possibility
+                            break
+                    if best_match:
                         break
-                if best_match:
-                    break
-    
-    # 8. Ha még mindig nincs találat
-    if not best_match:
-        error(f"Nincs eléggé jól passzoló olvasmány. "
-              f"Keresett: '{celebration_name}'")
-        return False
-    
-    # 9. Ünnep adatainak frissítése az olvasmánnyal
-    possibility = best_match
+        
+        # 8. Ha még mindig nincs találat
+        if not best_match:
+                error(f"Nincs eléggé jól passzoló olvasmány. Keresett: '{celebration_name}'")
+                return False
+        
+        # 9. Ünnep adatainak frissítése az olvasmánnyal
+        possibility = best_match
     
     # Title frissítése
     if possibility.get('name'):
