@@ -24,7 +24,7 @@ import xmltodict
 import Levenshtein
 
 from .file_handler import writeDataFormattedJSONfile
-from .error_handler import error
+from .error_handler import error, exit_with_error
 
 
 def downloadBreviarData(year: int) -> None:
@@ -111,11 +111,9 @@ def loadBreviarData(year: int) -> Dict[str, Any]:
         print(" OK")
         return data
     except FileNotFoundError:
-        print(f" HIBA: A fájl nem található: {filename}")
-        raise
+        exit_with_error(f"A fájl nem található: {filename}")
     except json.JSONDecodeError as e:
-        print(f" HIBA: Hibás JSON: {e}")
-        raise
+        exit_with_error(f"Hibás JSON a {filename} fájlban: {e}")
 
 
 def loadKatolikusData() -> Dict[str, Any]:
@@ -162,11 +160,9 @@ def loadKatolikusData() -> Dict[str, Any]:
             with open(f'readings/{name}.json', 'r', encoding="utf8") as file:
                 data = json.load(file)
         except FileNotFoundError:
-            error(f"Hiányzik a readings/{name}.json fájl")
-            continue
+            exit_with_error(f"Hiányzik a readings/{name}.json fájl")
         except json.JSONDecodeError as e:
-            error(f"Hibás JSON a readings/{name}.json-ben: {e}")
-            continue
+            exit_with_error(f"Hibás JSON a readings/{name}.json-ben: {e}")
         
         # vasA, vasB, vasC speciális kezelése: év-betű hozzáadása
         if name in ["vasA", "vasB", "vasC"]:
@@ -215,9 +211,9 @@ def loadKatolikusData() -> Dict[str, Any]:
             commentaries_data = json.load(file)
         katolikus_data['commentaries'] = commentaries_data
     except FileNotFoundError:
-        error("Hiányzik a readings/commentaries.json fájl")
+        exit_with_error("Hiányzik a readings/commentaries.json fájl")
     except json.JSONDecodeError as e:
-        error(f"Hibás JSON a readings/commentaries.json-ben: {e}")
+        exit_with_error(f"Hibás JSON a readings/commentaries.json-ben: {e}")
     
     print(" OK")
     return katolikus_data

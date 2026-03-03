@@ -22,6 +22,8 @@ import sys
 import time
 from typing import Any, Dict, Optional
 
+from .error_handler import exit_with_error
+
 
 def writeDataFormattedJSONfile(
     data: Any,
@@ -56,28 +58,30 @@ def writeDataFormattedJSONfile(
         >>> writeDataFormattedJSONfile(data, 'batyuk/2024-03-02.json', ensure_ascii=False)
         Write batyuk/2024-03-02.json... OK
     """
-    with open(filename, "w", encoding='utf8') as data_file:
-        # Konzol üzenet: "Write filename..." (előbb, mint az írás)
-        print(f"Write {filename}...", end='')
-        sys.stdout.flush()  # Azonnal megjelenítés (nem várakozunk a bufferpolásra)
-        
-        try:
-            # JSON szöveggé alakítás 4-es indentálással
-            json_text = json.dumps(
-                data,
-                indent=4,
-                sort_keys=sort_keys,
-                ensure_ascii=ensure_ascii
-            )
+    try:
+        with open(filename, "w", encoding='utf8') as data_file:
+            # Konzol üzenet: "Write filename..." (előbb, mint az írás)
+            print(f"Write {filename}...", end='')
+            sys.stdout.flush()  # Azonnal megjelenítés (nem várakozunk a bufferpolásra)
             
-            # Fájlba írás
-            data_file.write(json_text)
-            
-            # Sikeres befejezés
-            print(" OK")
-        except (TypeError, ValueError) as e:
-            print(f" HIBA: {e}")
-            raise
+            try:
+                # JSON szöveggé alakítás 4-es indentálással
+                json_text = json.dumps(
+                    data,
+                    indent=4,
+                    sort_keys=sort_keys,
+                    ensure_ascii=ensure_ascii
+                )
+                
+                # Fájlba írás
+                data_file.write(json_text)
+                
+                # Sikeres befejezés
+                print(" OK")
+            except (TypeError, ValueError) as e:
+                exit_with_error(f"Hibás JSON szerializálás a {filename} fájlba: {e}")
+    except IOError as e:
+        exit_with_error(f"Nem sikerült fájlt megnyitni az íráshoz: {filename} - {e}")
 
 
 def isFileOldOrMissing(file_path: str, max_age_seconds: int = 3600) -> bool:

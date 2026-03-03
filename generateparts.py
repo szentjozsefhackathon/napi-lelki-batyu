@@ -35,6 +35,7 @@ from typing import Dict, List, Any, Optional
 import Levenshtein
 
 from lib import part_processor, error_handler
+from lib.error_handler import exit_with_error
 
 
 # Hibanaplózás inicializálása
@@ -262,8 +263,8 @@ def processCsvToJson(csv_data: Dict[str, List[Dict[str, str]]]) -> None:
             with open(f"readings/{source_name}.json", "w", encoding='utf8') as f:
                 f.write(json.dumps(readings_by_id, indent=4, sort_keys=False, ensure_ascii=False))
             print(f"\n  ✓ {source_name}.json mentve ({len(readings_by_id)} elem)")
-        except IOError as e:
-            error_handler.error(f"Nem sikerült írni a readings/{source_name}.json fájlt: {e}")
+        except (IOError, TypeError, ValueError) as e:
+            exit_with_error(f"Nem sikerült írni a readings/{source_name}.json fájlt: {e}")
 
 
 def main():

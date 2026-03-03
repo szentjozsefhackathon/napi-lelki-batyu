@@ -12367,24 +12367,21 @@
         "igenaptarId": "NAB003Szerda",
         "name": "Hamvazószerda",
         "parts": [
-            [{
-                    "short_title": "olvasmány",
-                    "ref": "Joel 2,12-18",
-                    "teaser": "Isten büntető ítélete gyakran buzdítás a hozzá való őszinte visszatérésre. Megtérésünk gyökeres, komoly cselekedet legyen!",
-                    "title": "OLVASMÁNY Joel próféta könyvéből",
-                    "text": "A bűnbánatra így figyelmeztet a próféta: Térjetek meg! Teljes szívetekből hozzám térjetek! Böjtöljetek, hangos szóval sirassátok bűneiteket! A szíveteket szaggassátok meg, és ne a ruhátokat; keressétek Isteneteket, Uratokat! Ő jóságos és irgalmas, türelemmel gyógyítgatja sebeiteket. Ki tudja, hátha visszatér és újra megbocsát, s áldás fakad a nyomában; így az Úr, a ti Istenetek elfogadja majd étel- s italáldozataitokat. Fújjatok meg minden harsonát a szent hegyen! Üdvös böjtöt is hirdessetek! Népemet gyűjtsétek egybe, szent közösséggé legyen! Hívjátok az öregeket, hozzátok a gyermekeket, még a csecsemőket is! Nászházát hagyja el most a vőlegény, és a menyasszony is! A papok, az Úr szolgái, hangos szóval sírjanak, az előcsarnok és az oltár között így kiáltsanak: „Könyörülj, Uram, könyörülj népeden, ne tűrj ilyen gyalázatot örökségeden! Ne uralkodjanak rajtunk pogány nemzetek! Ne mondhassák gúnyolódva: »Hol van hát Istenetek?«” Erre az Úr féltő szeretettel tekintett országára, és népének megkegyelmezett.",
-                    "ending": "Ez az Isten igéje.",
-                    "cause": "I. évben"
-                }, {
-                    "short_title": "szentlecke",
-                    "ref": "2Kor 5,20–6,2",
-                    "teaser": "Itt az alkalmas idő, hogy kiengesztelődjünk Istennel. ",
-                    "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt második leveléből",
-                    "text": "Testvéreim! <br>\nKrisztus követségében járunk. Isten maga buzdít titeket általunk.<br>\nKrisztus nevében kérlek, engesztelődjetek ki az Istennel! Ő a bűn hordozójává tette értünk azt, aki bűnt nem ismert (Jézust), hogy általa Isten igaz voltának részesei legyünk.<br>\nMint az ő munkatársai, figyelmeztetünk titeket, hogy Isten kegyelmét ne vegyétek hiába. Azt mondja ugyanis az Úr: „Amikor az időt alkalmasnak látom, meghallgatlak, és ha eljön az üdvösség napja, segítek rajtad.”\nNézzétek, most van itt az alkalmas idő! Most van itt az üdvösség napja.",
-                    "ending": "Ez az Isten igéje.",
-                    "cause": "II. évben"
-                }
-            ], {
+            {
+                "short_title": "olvasmány",
+                "ref": "Joel 2,12-18",
+                "teaser": "Isten büntető ítélete gyakran buzdítás a hozzá való őszinte visszatérésre. Megtérésünk gyökeres, komoly cselekedet legyen!",
+                "title": "OLVASMÁNY Joel próféta könyvéből",
+                "text": "A bűnbánatra így figyelmeztet a próféta: Térjetek meg! Teljes szívetekből hozzám térjetek! Böjtöljetek, hangos szóval sirassátok bűneiteket! A szíveteket szaggassátok meg, és ne a ruhátokat; keressétek Isteneteket, Uratokat! Ő jóságos és irgalmas, türelemmel gyógyítgatja sebeiteket. Ki tudja, hátha visszatér és újra megbocsát, s áldás fakad a nyomában; így az Úr, a ti Istenetek elfogadja majd étel- s italáldozataitokat. Fújjatok meg minden harsonát a szent hegyen! Üdvös böjtöt is hirdessetek! Népemet gyűjtsétek egybe, szent közösséggé legyen! Hívjátok az öregeket, hozzátok a gyermekeket, még a csecsemőket is! Nászházát hagyja el most a vőlegény, és a menyasszony is! A papok, az Úr szolgái, hangos szóval sírjanak, az előcsarnok és az oltár között így kiáltsanak: „Könyörülj, Uram, könyörülj népeden, ne tűrj ilyen gyalázatot örökségeden! Ne uralkodjanak rajtunk pogány nemzetek! Ne mondhassák gúnyolódva: »Hol van hát Istenetek?«” Erre az Úr féltő szeretettel tekintett országára, és népének megkegyelmezett.",
+                "ending": "Ez az Isten igéje."
+            }, {
+                "short_title": "szentlecke",
+                "ref": "2Kor 5,20–6,2",,
+                "teaser": "Itt az alkalmas idő, hogy kiengesztelődjünk Istennel. ",
+                "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt második leveléből",
+                "text": "Testvéreim! <br>\nKrisztus követségében járunk. Isten maga buzdít titeket általunk.<br>\nKrisztus nevében kérlek, engesztelődjetek ki az Istennel! Ő a bűn hordozójává tette értünk azt, aki bűnt nem ismert (Jézust), hogy általa Isten igaz voltának részesei legyünk.<br>\nMint az ő munkatársai, figyelmeztetünk titeket, hogy Isten kegyelmét ne vegyétek hiába. Azt mondja ugyanis az Úr: „Amikor az időt alkalmasnak látom, meghallgatlak, és ha eljön az üdvösség napja, segítek rajtad.”\nNézzétek, most van itt az alkalmas idő! Most van itt az üdvösség napja.",
+                "ending": "Ez az Isten igéje."
+            }, {
                 "short_title": "zsoltár",
                 "ref": "Zsolt 50,3-4.5-6a.12-13.14 és 17",
                 "teaser": "Válasz: <b>Könyörülj, Urunk, Istenünk, * mert nagy a vétkünk.</b>",
