@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Napi Lelki Batyu - Igenaptar Schema",
+  "description": "Schema az igenaptar.json fájl validálásához. Ez a fájl tartalmazza a litmurgikus naptárat, mely az összes napot és azok ünnepeit, valamint az olvasmányokat tartalmazza.",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/day"
+  },
+  "definitions": {
+    "day": {
+      "type": "object",
+      "required": ["date", "celebration"],
+      "properties": {
+        "date": {
+          "$ref": "#/definitions/date"
+        },
+        "celebration": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/celebration"
+          }
+        }
+      }
+    },
+    "date": {
+      "type": "object",
+      "required": ["ISO", "dayOfYear", "dayofWeek", "dayofWeekText"],
+      "properties": {
+        "ISO": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "A nap ISO 8601 formátumú dátuma"
+        },
+        "dayOfYear": {
+          "type": "string",
+          "pattern": "^\\d+$",
+          "description": "Az év hanyadik napja (1-366)"
+        },
+        "dayofWeek": {
+          "type": "string",
+          "pattern": "^[0-6]$",
+          "description": "A hét napja: 0=vasárnap, 1=hétfő, ..., 6=szombat"
+        },
+        "dayofWeekText": {
+          "type": "string",
+          "description": "A hét napjának szövege magyarul"
+        }
+      }
+    },
+    "celebration": {
+      "type": "object",
+      "required": ["name", "level", "celebrationKey"],
+      "properties": {
+        "dateISO": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "yearLetter": {
+          "type": ["string", "null"],
+          "enum": ["A", "B", "C", null],
+          "description": "Az egyházi év betűje"
+        },
+        "yearParity": {
+          "type": ["string", "null"],
+          "enum": ["I", "II", null]
+        },
+        "week": {
+          "type": ["string", "integer"],
+          "description": "A szezon hete"
+        },
+        "dayofWeek": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 6
+        },
+        "weekOfPsalter": {
+          "type": ["string", "integer", "null"]
+        },
+        "season": {
+          "type": ["string", "integer", "null"],
+          "description": "Liturgikus szezon (pl. 5=évközi)"
+        },
+        "seasonText": {
+          "type": ["string", "null"],
+          "description": "Szezon szöveg magyarul"
+        },
+        "typeLocal": {
+          "type": ["string", "null"]
+        },
+        "level": {
+          "type": "string",
+          "pattern": "^\\d+$",
+          "description": "Az ünnep szintje (1=vasárnap, 4=ünnep, 5=nagy ünnep, stb.)"
+        },
+        "required": {
+          "type": ["string", "integer", "null"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Az ünnep magyar neve"
+        },
+        "readingsBreviarId": {
+          "type": ["string", "null"],
+          "description": "A breviariumból származó olvasmánykód"
+        },
+        "volumeOfBreviary": {
+          "type": ["string", "null"]
+        },
+        "celebrationType": {
+          "type": "string",
+          "description": "Az ünnep típusa (pl. köznap, ünnep, emléknap)"
+        },
+        "title": {
+          "type": "string",
+          "description": "Az ünnep megjelenítendő címe"
+        },
+        "colorId": {
+          "type": ["string", "integer", "null"],
+          "description": "A liturgikus szín azonosítója"
+        },
+        "colorText": {
+          "type": ["string", "null"],
+          "description": "A liturgikus szín neve (piros, fehér, zöld, lila, stb.)"
+        },
+        "comunia": {
+          "type": ["array", "null"],
+          "description": "Közös részek (communia)"
+        },
+        "celebrationKey": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Az ünnep sorszáma aznap"
+        },
+        "readingsId": {
+          "type": ["string", "null"],
+          "description": "Az olvasmányok azonosítója"
+        },
+        "ferialReadingsId": {
+          "type": ["string", "null"],
+          "description": "A fériai (köznapok) olvasmányainak azonosítója"
+        },
+        "parts": {
+          "type": ["array", "null"],
+          "items": {
+            "$ref": "#/definitions/part"
+          },
+          "description": "Az olvasmányok részei (olvasmány, zsoltár, evangélium, stb.)"
+        },
+        "parts2": {
+          "type": ["array", "null"],
+          "items": {
+            "$ref": "#/definitions/part"
+          },
+          "description": "Alternatív olvasmányok (opcionális)"
+        },
+        "parts2cause": {
+          "type": ["string", "null"],
+          "description": "A parts2 oka/magyarázata"
+        },
+        "teaser": {
+          "type": ["string", "null"],
+          "description": "Rövid összefoglalás az ünnepről"
+        },
+        "commentary": {
+          "type": ["object", "null"],
+          "description": "Az ünnepről szóló kommentár"
+        },
+        "image": {
+          "type": ["string", "null"],
+          "description": "Az ünnephez tartozó kép URL-je"
+        },
+        "dayOfPenance": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Böjtöt vagy absztinenciát jelöl"
+        }
+      }
+    },
+    "part": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["object", "array"],
+          "description": "A rész típusa"
+        },
+        "short_title": {
+          "type": ["string", "null"],
+          "description": "Rövid cím (olvasmány, zsoltár, evangélium, stb.)"
+        },
+        "title": {
+          "type": ["string", "null"],
+          "description": "Hosszabb cím"
+        },
+        "ref": {
+          "type": ["string", "null"],
+          "description": "Bibliahely hivatkozás"
+        },
+        "teaser": {
+          "type": ["string", "null"],
+          "description": "A rész elején lévő összefoglalás"
+        },
+        "text": {
+          "type": ["string", "null"],
+          "description": "A rész szövege"
+        },
+        "ending": {
+          "type": ["string", "null"],
+          "description": "A rész végén lévő formula (pl. 'Ez az Isten igéje.')"
+        },
+        "cause": {
+          "type": ["string", "null"],
+          "description": "A rész magyarázata/oka"
+        },
+        "content": {
+          "type": ["array", "null"],
+          "description": "Alrészek (amikor type=array)"
+        }
+      }
+    }
+  }
+}

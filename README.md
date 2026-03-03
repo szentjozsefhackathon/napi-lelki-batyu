@@ -28,7 +28,19 @@ python generate.py --year 2024 --do-next-year
 python generate.py --year 2024 --previous-years 3
 ```
 
-### 3. Várt Kimenet
+### 3. Igenaptar Validálása
+```bash
+# Alapértelmezett elérési utakkal
+python validate_igenaptar.py [ --igenaptar batyuk/igenaptar.json --schema igenaptar-schema.json ]
+```
+
+Ez a script ellenőrzi:
+- ✓ Az `igenaptar.json` fájl léte
+- ✓ Érvényes JSON szintaxis
+- ✓ Megfelel-e az `igenaptar-schema.json` JSON Schema-nak
+- ✓ Tartalom-ellenőrzések (napok száma, ünnepek, olvasmányok)
+
+### 4. Várt Kimenet
 Sikeresen feldolgozás után a `batyuk/` mappában találod:
 
 | Fájl | Tartalom | Felhasználás |
@@ -200,8 +212,10 @@ napi-lelki-batyu/
 │   ├── igenaptar.json                      # Szűrt verzió (frontend számára)
 │   └── ... (sok 2024-XX-XX.json fájl)
 │
-├── generate.py                   # Főprogram: napi lelki batyú generálása
+├── generate.py                   # Főprogram: napi lelki batyu generálása
 ├── generateparts.py              # CSV feldolgozó (fejlesztéshez)
+├── validate_igenaptar.py         # Igenaptar validáló script
+├── igenaptar-schema.json         # JSON Schema az igenaptar.json-hez
 ├── REFACTOR_PLAN.md             # Refaktorálási terv
 ├── REFACTOR_SUMMARY.md          # Refaktorálás összefoglalója
 └── README.md                     # Ez a fájl
@@ -325,13 +339,70 @@ python generateparts.py
 
 Ez feldolgozza a `sources/*.csv` fájlokat és generálja a `readings/*.json` fájlokat.
 
-### Hibakeresés
+### Hibakezelés és Biztonsági Lépések
 
-A feldolgozás közben fellépő hibák a `readings/errors.txt` fájlban találhatók:
+#### 🚨 JSON Validálás
 
+A `generate.py` futtatása után **kötelezően** futtasd a validálást:
+
+```bash
+python validate_igenaptar.py
 ```
-2024-03-02 21:00:00.123456 -- Ez az olvasmánykód (ABC123) hiányzik a kulcsok között...
+
+Ez megvédi az alkalmazást attól, hogy hibás adatok kerüljenek az igenaptar.json-ba.
+
+#### 📋 Validálási Lépések
+
+1. **Fájllétezés**: Ellenőrzi, hogy az `igenaptar.json` fájl megvan-e
+2. **JSON Szintaxis**: Biztosítja, hogy a fájl érvényes JSON
+3. **Schema Validálás**: Ellenőrzi, hogy a JSON megfelel a `igenaptar-schema.json` sémának
+4. **Tartalom-ellenőrzések**:
+   - Napok száma (minimum 300 elvárás)
+   - Minden naphoz van-e ünnep
+   - Ünnepekhez vannak-e olvasmányok
+
+#### ⚠️ Hibakezelés
+
+**JSON Decode Hibák leállítják az alkalmazást:**
+
+Ha a JSON betöltésénél hiba lép fel (szintaxis, típushiba, stb.), az alkalmazás:
+1. Kiír egy **KRITIKUS HIBA** üzenetet
+2. **Naplózza** a hibát az `readings/errors.txt` fájlba
+3. **Leállítódik** `exit(1)` kóddal
+
+Ez biztosítja, hogy hibás adatok ne kerüljenek a rendszerbe.
+
+#### 🤖 GitHub Actions Integráció
+
+A GitHub Actions workflow **automatikus** biztonsági ellenőrzéseket végez:
+
+```yaml
+# .github/workflows/static.yml
+
+- name: Run script
+  run: python generate.py
+  continue-on-error: false        # Ha hiba, workflow leállítódik
+
+- name: Validate igenaptar.json
+  run: python validate_igenaptar.py
+  continue-on-error: false        # Ha validáció fails, workflow leállítódik
 ```
+
+**Ez azt jelenti:**
+- Ha a `generate.py` hiba kóddal kilép, az Actions fails
+- Ha az `igenaptar.json` nem valid, az Actions fails
+- **Hibás adat nem fog publikálódni a GitHub Pages-en**
+
+#### 🔍 Hibakeresés
+
+A feldolgozás közben fellépő hibák több helyen találhatók:
+
+1. **Konzolon** - Valós idejű hibaüzenetek
+2. **`readings/errors.txt`** - Feldolgozási hibák naplója:
+   ```
+   2024-03-02 21:00:00.123456 -- Ez az olvasmánykód (ABC123) hiányzik a kulcsok között...
+   ```
+3. **GitHub Actions** - Actions run sikertelen lesz, ha hiba van
 
 ---
 
@@ -411,7 +482,7 @@ Javasolt: KAPP, egyéb liturgikus applikációk, egyházi oldalak.
 
 ## 📞 Technikai Részletek
 
-- **Függőségek:** `requests`, `xmltodict`, `Levenshtein`
+- **Függőségek:** `requests`, `xmltodict`, `Levenshtein`, `jsonschema`
 - **Python verzió:** 3.8+
 - **Karakterkódolás:** UTF-8
 - **Típusjelzések:** Type hints az összes függvénynél
@@ -420,4 +491,4 @@ Az egész projekt **jól dokumentált, moduláris és könnyűen bővíthető**!
 
 ---
 
-**Utolsó frissítés:** 2026-03-02
+**Utolsó frissítés:** 2026-03-03

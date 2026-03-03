@@ -194,6 +194,11 @@ def transformCelebration(celebration: Dict[str, Any], day: Dict[str, Any]) -> Di
         'readingsBreviarId': celebration['LiturgicalReadingsId']
     }
     
+    # typeLocal feldolgozása (lehet objektum is, nem csak string)
+    if (isinstance(transformed['typeLocal'], dict) and
+        "#text" in transformed['typeLocal']):
+        transformed['typeLocal'] = transformed['typeLocal']['#text']
+    
     # VolumeOfBreviary megállapítása (melyik kötetben van a szöveg)
     season_id = celebration['LiturgicalSeason']['@Id']
     week_num = int(celebration['LiturgicalWeek'])
@@ -283,7 +288,7 @@ def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
     Ezzel a függvénnyel in-place módosítjuk a lelkiBatyu objektumot.
     
     Args:
-        lelki_batyu (Dict[str, Any]): A napi lelki batyú adata (mit modify-olunk)
+        lelki_batyu (Dict[str, Any]): A napi lelki batyu adata (mit modify-olunk)
     
     Returns:
         None (az objektum in-place módosul)
@@ -416,9 +421,9 @@ def index_celebration_data(
     Args:
         index_dayofweek: Index kereséshez season-week-dayofweek alapján
         index_readings_id: Index kereséshez readingsId alapján
-        index_name: Index kereséshez ünnep nama alapján
+        index_name: Index kereséshez ünnep neve alapján
         calendar_day: A nap adatai (DateISO)
-        lelki_batyu: A napi lelki batyú adatai
+        lelki_batyu: A napi lelki batyu adatai
     
     Returns:
         None (in-place módosítás)
