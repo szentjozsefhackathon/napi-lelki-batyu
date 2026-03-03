@@ -1,5 +1,8 @@
 # 🙏 Napi Lelki Batyu
 
+[![Deploy Static Content](https://github.com/szentjozsefhackathon/napi-lelki-batyu/actions/workflows/static.yml/badge.svg)](https://github.com/szentjozsefhackathon/napi-lelki-batyu/actions/workflows/static.yml)
+[![JSON/YAML Validate](https://github.com/szentjozsefhackathon/napi-lelki-batyu/actions/workflows/json-validate.yml/badge.svg)](https://github.com/szentjozsefhackathon/napi-lelki-batyu/actions/workflows/json-validate.yml)
+
 https://szentjozsefhackathon.github.io/napi-lelki-batyu/
 
 Minden napra megadja a napi szenteket, olvasmányokat, liturgikus információkat és imádságokat.
