@@ -2071,6 +2071,51 @@
             }
         ]
     },
+    "OrokFopap" : {
+        "igenaptarId": "OrokFopap",
+        "name": "A mi Urunk, Jézus Krisztus, az Örök Főpap",
+        "parts": [
+            [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Ter 22,9-18",
+                    "teaser": "Ábrahám ősatyánk áldozata",
+                    "title": "OLVASMÁNY a Teremtés könyvéből",
+                    "text": "Abban időben, amikor Ábrahám és Izsák megérkezett a helyre, amelyet Isten mutatott nekik, Ábrahám megépítette az oltárt, rárakta a fát, megkötözte fiát, és az oltárra helyezett fára tette. Akkor Ábrahám kinyújtotta kezét, és vette a kést, hogy feláldozza a fiát.<br/>De az Úr angyala rászólt az égből, és ezt mondta: „Ábrahám, Ábrahám!” „Itt vagyok” — felelte. <br/>Az angyal folytatta: „Ne nyújtsd ki kezedet a fiú felé, és ne árts neki. Most már tudom, hogy féled az Istent, hiszen egyetlen fiadat sem tagadtad meg tőlem.”<br/> Amikor Ábrahám fölemelte szemét, látott egy kost, amely szarvánál fogva fennakadt a bozótban. Odament, megfogta a kost, és feláldozta égőáldozatul fia helyett. Ábrahám így nevezte a helyet: „Az Úr gondoskodik.” Ezért mondják mind a mai napig: „A hegyen majd gondoskodik az Úr.”<br/>Azután az Úr angyala az égből másodszor is szólt Ábrahámhoz, és mondta: „Magamra esküszöm — ez az Úr szava —, hogy mivel ezt tetted és egyetlen fiadat sem tagadtad meg tőlem, megáldalak téged. Utódaidat megsokasítom, mint az ég csillagait és mint a tengerpart fövenyét, utódaid elfoglalják majd az ellenség kapuját. Utódaid által nyer áldást a föld minden népe, mivel hallgattál szavamra.”",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Zsid 10,4-10",
+                    "teaser": "Krisztus azért jött a világba, hogy teljesítse Atyja akaratát.",
+                    "title": "SZENTLECKE a Zsidókhoz írt levélből",
+                    "text": "Testvéreim!<br>\nLehetetlen, hogy bikák és bakok vére bűnöket töröljön el. Ezért\nnyilatkozik így Krisztus, amikor a világba lép: „Áldozatot és ajándékot\nnem kívántál, hanem emberi testet alkottál nekem. Nem kedves előtted az\nengesztelő és az égőáldozat.”<br>\nEzért így szóltam: Íme elmegyek, hogy teljesítsem akaratodat, Istenem,\namint a könyvtekercsben rólam írva van. Először tehát azt mondta:\n„Áldozatot, ajándékot, engesztelő és égőáldozatot nem akartál, nem volt\naz kedves előtted”, jóllehet ezeket a törvény írta elő. Azután így folytatta:\n„Íme, elmegyek, hogy teljesítsem akaratodat.” Tehát az előzőeket eltörli, hogy helyükbe állítsa az utóbbit. Vagyis Isten akarata szerint Jézus Krisztus testének feláldozásával egyszer s mindenkorra megszentel minket.",
+                    "ending": "Ez az Isten igéje."    
+                }
+            ],
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 39, 7-8a. 8b-9. 10. 17",
+                "teaser": "Válasz: <b>Hirdessétek Urunk halálát, * amíg újra el nem jön!</b> (1Kor 11,26b) (7b. tónus)",
+                "text": "Válasz: <b>Hirdessétek Urunk halálát, * amíg újra el nem jön!</b> (1Kor 11,26b) (7b. tónus)\n<br>\nElőénekes: Sem véres, sem ételáldozat nem kellett neked, * fülemet azonban megnyitottad.<br>Nem követeltél égő- és engesztelő áldozatot, * így szóltam akkor: „Íme, eljövök.”<br>Hívek: Hirdessétek Urunk halálát, * amíg újra el nem jön!<br>E: A könyvtekercsben rólam írva áll, * hogy akaratodat teljesítsem. <br>Erre vágyom, Istenem, * törvényed szívemet örömmel tölti el.<br>H: Hirdessétek Urunk halálát, * amíg újra el nem jön!<br>E: Igazságodat hirdetem a nagy közösségben, * ajkam el nem hallgat, Uram, jól tudod.<br>H: Hirdessétek Urunk halálát, * amíg újra el nem jön!<br>E: Ujjongjanak és örvendjenek a téged keresők, † „Hatalmas az Úr!” kiáltsák szüntelen, * akik várják üdvösségedet.<br>H: Hirdessétek Urunk halálát, * amíg újra el nem jön!" 
+            },
+            {
+                "short_title": "alleluja",
+                "ref": "Fil 2,8-9",
+                "teaser": "Krisztus megalázta magát, és engedelmes lett a halálig, mégpedig a\nkereszthalálig. Ezért Isten felmagasztalta őt, és olyan nevet adott neki,\namely felette áll minden névnek.",
+                "text": "Krisztus megalázta magát, és engedelmes lett a halálig, mégpedig a\nkereszthalálig. Ezért Isten felmagasztalta őt, és olyan nevet adott neki,\namely felette áll minden névnek."
+            },
+            {
+                "short_title": "evangélium",
+                "ref": "Mt 26, 36-42",
+                "teaser": "Krisztus azért jött a világba, hogy teljesítse Atyja akaratát.",
+                "title": "† EVANGÉLIUM Szent Máté evangélista könyvéből",
+                "text": "Jézus elment tanítványaival egy majorba, amelyet Getszemáninak hívnak, és azt mondta a tanítványoknak: „Üljetek le itt, amíg én elmegyek és imádkozom.” Maga mellé vette Pétert és Zebedeus két fiát, majd szomorúság és gyötrődés vett erőt rajta. Akkor azt mondta nekik: „Halálosan szomorú az én lelkem. Maradjatok itt, és virrasszatok velem.”<br>Egy kissé előbbre ment, arcra borult és így imádkozott: „Atyám, ha lehetséges, múljék el tőlem ez a kehely. De ne úgy legyen, ahogy én akarom, hanem ahogy te.”<br>Ezután odament a tanítványokhoz, és alva találta őket. Azt mondta Péternek: „Így hát nem tudtatok egy órát sem virrasztani velem? Virrasszatok és imádkozzatok, hogy kísértésbe ne essetek! A lélek ugyan kész, de a test erőtlen.”<br> Aztán elment másodszor is, és így imádkozott: „Atyám, ha nem lehet, hogy elmúljon ez a kehely anélkül, hogy kiigyam, legyen meg a te akaratod.”",
+                "ending": "Ezek az evangélium igéi."
+            }
+
+        ]
+    },
     "HUS09": {
         "igenaptarId": "HUS09",
         "name": "Szentháromság vasárnapja",

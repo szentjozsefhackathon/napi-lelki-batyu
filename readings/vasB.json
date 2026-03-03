@@ -2090,6 +2090,50 @@
             ]
         ]
     },
+    "OrokFopap": {
+        "igenaptarId": "OrokFopap",
+        "name": "A mi Urunk, Jézus Krisztus, az Örök Főpap",
+        "parts": [
+            [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Jer 31,31-34",
+                    "teaser": "Az Úr új szövetséget köt majd népével és vétkeire többé nem emlékezik.",
+                    "title": "OLVASMÁNY Jeremiás próféta könyvéből",
+                    "text": "„Íme, napok jönnek — mondja az Úr —, amikor új szövetséget kötök Izrael házával és Júda házával. De nem olyan szövetséget, mint amilyet atyáikkal kötöttem azon a napon, amikor kézen fogva kivezettem őket Egyiptom földjéről. Azt a szövetségemet ugyanis megszegték, pedig Uruk voltam — mondja az Úr.<br>Ez lesz az a szövetség, amelyet majd Izrael házával kötök, ha elérkeznek azok a napok — mondja az Úr: Bensejükbe adom törvényemet, és a szívükbe írom. Istenük leszek, ők meg az én népem lesznek. Többé nem lesz szükség arra, hogy az egyik ember a másikat, testvér a testvérét így tanítsa: »Ismerd meg az Urat,« mert mindnyájan ismerni fognak a legkisebbtől a legnagyobbig — mondja az Úr —, mivel megbocsátom gonoszságaikat, és vétkeikre többé nem emlékezem.”",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Zsid 10,11-18",
+                    "teaser": "Krisztus egyetlen áldozattal örökre tökéletessé tette a választottakat.",
+                    "title": "SZENTLECKE a Zsidókhoz írt levélből",
+                    "text": "Testvéreim!<br>\nMinden ószövetségi pap naponta elvégzi szolgálatát, és ugyanazt az áldozatot többször is bemutatja. Ezeknek azonban nincs erejük a bűn eltörlésére. Krisztus ellenben csak egy áldozatot mutatott be a bűnökért, és örökre helyet foglalt az Isten jobbján. Már csak arra vár, hogy minden ellensége hódolattal leboruljon lába előtt. Egyetlen áldozattal örökre tökéletessé tette a megszentelteket.<br>\nEzt bizonyítja a Szentlélek is, amikor így szól (Jeremiás próféta által): „Ez az a szövetség, amelyet ama napok után kötök velük. Törvényemet szívükbe írom és elméjükbe vésem, bűneikre és engedetlenségükre nem gondolok többé.”<br>\nAhol pedig ezek a bűnök már bocsánatot nyertek, ott nincs többé szükség a bűnért való áldozatra.",
+                    "ending": "Ez az Isten igéje."
+                }
+            ],
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 109,1. 2. 3. 4.",
+                "teaser": "Válasz: <b>Pap vagy te mindörökké, * Melkizedek rendje szerint.</b> (6. tónus.)",
+                "text": "Válasz: Pap vagy te mindörökké, * Melkizedek rendje szerint. (Vö. 4bc.)<br>Előénekes: Így szólt az Úr az én Uramhoz: † „Jobbom felől foglalj helyet, * míg minden ellenségedet lábad alá vetem zsámolyul.”<br>Hívek: Pap vagy te mindörökké, * Melkizedek rendje szerint.<br>E: Kinyújtja az Úr Sionból hatalmad vesszejét: * „Ellenségeid között uralkodjál.”<br>Hívek: Pap vagy te mindörökké, * Melkizedek rendje szerint.<br>E: „Születésed napjától tied a királyság, * szentséges fényességében a hajnalcsillag előtt szültelek téged.”<br>Hívek: Pap vagy te mindörökké, * Melkizedek rendje szerint.<br>E: Megesküdött az Úr, és meg nem bánja: * „Pap vagy te mindörökké Melkizedek rendje szerint.”<br>Hívek: Pap vagy te mindörökké, * Melkizedek rendje szerint."
+            },
+            {
+                "short_title": "alleluja",
+                "ref": "Zsid 5,8-9",
+                "teaser": "Isten Fia volt, de a szenvedésből engedelmességet tanult. Műve befejeztével pedig örök üdvösséget szerzett.",
+                "text": "Isten Fia volt, de a szenvedésből engedelmességet tanult. Műve befejeztével pedig örök üdvösséget szerzett."
+            },
+            {
+                "short_title": "evangélium",
+                "ref": "Mk 14,22-25",
+                "teaser": "Íme, az én testem. Íme, az én vérem.",
+                "title": "†EVANGÉLIUM Szent Márk evangélista könyvéből",
+                "text": "A kovásztalan kenyerek ünnepének első napján, amikor a húsvéti bárányt feláldozzák, vacsora közben Jézus vette a kenyeret, megáldotta, megtörte, és ezekkel a szavakkal adta nekik: „Vegyétek, ez az én testem.” Majd fogta a kenyeret, hálát adott, odanyújtotta nekik, és mindnyájan ittak belőle. Ő pedig így szólt: Ez az én vérem, a szövetségé, amely sokakért kiontatik. Bizony, mondom nektek: nem iszom többé a szőlő terméséből addig a napig, amíg az újat nem iszom az Isten országában.”",
+                "ending": "Ezek az evangélium igéi."
+            }
+        ]
+    },
     "HUS09": {
         "igenaptarId": "HUS09",
         "name": "Szentháromság vasárnap",

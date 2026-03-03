@@ -2097,6 +2097,50 @@
             ]
         ]
     },
+    "OrokFopap": {
+        "igenaptarId": "OrokFopap",
+        "name": "Urunk, Jézus Krisztus, az Örök Főpap",
+        "parts": [
+            [
+                {
+                    "short_title": "olvasmány",
+                    "ref": "Iz 6,1-4.8",
+                    "teaser": "Szent, szent, szent a Seregek Ura!",
+                    "title": "OLVASMÁNY Izajás próféta könyvéből",
+                    "text": "Abban az esztendőben, amikor meghalt Uzija király, láttam az Urat. Magas és fönséges királyi széken ült, és uszálya betöltötte a templomot. Szeráfok lebegtek fölötte: mindegyiknek hat-hat szárnya volt. Kettővel befödték arcukat, kettővel befödték lábukat, kettővel lebegtek.<br>\nÍgy kiáltott egyik a másiknak: „Szent, szent, szent a Seregek Ura, dicsôsége betölti az egész földet!” A hangos kiáltástól megrendültek a templomküszöbök alapjai is, és a templom megtelt füsttel.<br>\nAzután hallottam az Úr szavát, amint így szólt: „Kit küldjek el? Ki megy el nekünk?” Így válaszoltam: „Íme, itt vagyok, engem küldj el!”",
+                    "ending": "Ez az Isten igéje."
+                },
+                {
+                    "short_title": "szentlecke",
+                    "ref": "Zsid 10,11-18",
+                    "teaser": "Krisztus egyetlen áldozattal örökre tökéletessé tette a választottakat.",
+                    "title": "SZENTLECKE a Zsidókhoz írt levélből",
+                    "text": "Testvéreim!<br>Isten — akiért és aki által a mindenség lett, és aki számtalan fiát elvezette az üdvösségre — Jézust, üdvösségük szerzőjét a szenvedésben megdicsőítse. Mert a megszentelő is, és a megszenteltek is ugyanattól az egy Istentől vannak. Ezért (Jézus) nem szégyenli testvéreinek nevezni azokat, akiket megszentelt, amikor azt mondja (Istennek az ő Atyjának):<br>„Hirdetlek majd téged testvéreimnek,<br>És a hívek közösségében dicsőítelek téged.”<br>És ismét: „Bízni fogok őbenne”.<br>És ismét: „Íme, én és gyermekeim, akiket Isten nekem adott.”<br>Akik egy és ugyanazon atya gyermekei, azoknak közös a testük és a vérük. Ebből Jézus is részt vállalt. Így akarta legyőzni halála által azt, aki a halálon uralkodott, tudniillik a sátánt; és így akarta felszabadítani azokat, akiket egész életükre rabszolgává tett a haláltól való félelem. Hiszen Jézus nem az angyalokat karolta fel, hanem Ábrahám leszármazottait. Ezért minden tekintetben hasonlóvá kellett válnia testvéreihez, hogy irgalmas lehessen és Istenhez hűséges főpap, és így kiengesztelje a nép bűneit. Tud tehát segíteni azokon, akik kísértéssel küzdenek, mivel maga is kísértést szenvedett.",
+                    "ending": "Ez az Isten igéje."
+                }
+            ],
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 22,1-3a. 3b-4. 5. 6",
+                "teaser": "Válasz: <b>Az Úr nékem pásztorom, * ínséget nem kell látnom.</b> (9. tónus.)",
+                "text": "Válasz: <b>Az Úr nékem pásztorom, * ínséget nem kell látnom.</b> (1. vers.)<br>Előénekes: Az Úr nékem pásztorom, * ínséget nem kell látnom. <br>Zöldellő mezőkön terelget engem, * csendes vizekhez vezet, és lelkemet felüdíti.<br>Hívek: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Az igazság ösvényén vezet engem, * ahogyan ő megígérte.A halál sötét<br>völgyében sem félek, mert ott vagy velem, * biztonságot ad vessződ és pásztorbotod.<br>Hívek: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Számomra asztalt terítettél, * hogy üldözôimet szégyen érje.<br>Fejemet megkented olajoddal, * serlegemet csordultig megtöltötted.<br>Hívek: Az Úr nékem pásztorom, * ínséget nem kell látnom.<br>E: Jóságod és irgalmad nyomon követ * életemnek minden napján.<br>Otthonom lesz az Isten háza * mindörökké, szünet nélkül.<br> Hívek: Az Úr nékem pásztorom, * ínséget nem kell látnom."
+            },
+            {
+                "short_title": "alleluja",
+                "ref": "Ez 36,25a. 26a",
+                "teaser": "Tiszta vizet hintek rátok, új szívet adok nektek, és új lelket oltok belétek.",
+                "text": "Tiszta vizet hintek rátok, új szívet adok nektek, és új lelket oltok belétek."
+            },
+        {
+                "short_title": "evangélium",
+                "ref": "Jn 17,1-2.9.14-26",
+                "teaser": "Értük szentelem magamat, hogy ők is megszentelődjenek az igazságban.",
+                "title": "†EVANGÉLIUM Szent János evangélista könyvéből",
+                "text": "Jézus az utolsó vacsorán tekintetét az égre emelte, és így imádkozott:<br>„Atyám, eljött az óra. Dicsőítsd meg Fiadat, hogy Fiad is megdicsőítsen téged! Te hatalmat adtál neki minden ember fölött, hogy mindenkinek, akit neki adtál, örök életet adjon. Értük könyörgök. Nem a világért könyörgök, hanem értük, akiket nekem adtál. Tieid ők.<br>Most tehozzád megyek, ezeket pedig elmondom a világban, hogy az én örömöm teljes legyen bennük. Átadtam nekik tanításodat, de a világ gyűlölte őket, mert nem a világból valók, amint én sem vagyok a világból való. Nem azt kérem tőled, hogy vedd el őket a világból, hanem hogy óvd meg őket a gonosztól. Hiszen nem a világból valók, amint én sem vagyok a világból.<br>Szenteld meg őket az igazságban, mert a te tanításod igazság. Amint te elküldtél engem a világba, úgy küldöm én is őket a világba. És értük szentelem magamat, hogy ők is megszentelődjenek az igazságban. Szent Atyám, nemcsak tanítványaimért könyörgök, hanem azokért is, akik a szavukra hinni fognak bennem.<br>Egyek legyenek mindnyájan! Amint te, Atyám, bennem vagy és én tebenned, úgy legyenek ők is mibennünk, és így elhiggye a világ, hogy te küldtél engem. Megosztottam velük a dicsőséget, amelyet nekem adtál, hogy egyek legyenek, amint mi egyek vagyunk: én őbennük, te énbennem, hogy így ők is teljesen egyek legyenek, s megtudja a világ, hogy te küldtél engem, és szereted őket, amint engem szerettél.<br>Atyám! Azt akarom, hogy akiket nekem adtál, ott legyenek velem, ahol én vagyok s lássák dicsőségemet, amelyet nekem adtál, mivel már a világ teremtése előtt szerettél engem.<br>Én igaz Atyám! A világ nem ismert meg, de én ismerlek, s ők is megismerték, hogy te küldtél engem.<br>Megismertettem velük nevedet, és ezután is megismertetem, hogy a szeretet, amellyel engem szeretsz, bennük legyen, és én is őbennük legyek.",
+                "ending": "Ezek az evangélium igéi."
+            }
+        ]
+    },
     "HUS09": {
         "igenaptarId": "HUS09",
         "name": "Szentháromság vasárnap",
