@@ -121,7 +121,8 @@
             $('#nextSunday').attr('href', '?date=' + nextSundayString);
 
             var prevSunday = new Date(dateString);
-            prevSunday.setDate(prevSunday.getDate() - prevSunday.getDay());
+            var daysBack = prevSunday.getDay() === 0 ? 7 : prevSunday.getDay();
+            prevSunday.setDate(prevSunday.getDate() - daysBack);
             var prevSundayString = prevSunday.toISOString().split('T')[0];
             $('#prevSunday').attr('href', '?date=' + prevSundayString);
             
