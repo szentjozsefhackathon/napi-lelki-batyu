@@ -299,8 +299,8 @@ def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
             {"name": "Nagycsütörtök - Krizmaszentelési mise", "colorId": "2", "colorText": "fehér"},
             {"name": "Nagycsütörtök, az utolsó vacsora emléknapja"}
         ],
-        "Húsvétvasárnap": [
-            {"name": "Húsvétvasárnap, Urunk feltámadásának ünnepe - Húsvéti vigília"},
+        "Húsvétvasárnap, Krisztus feltámadása": [
+            {"name": "Húsvétvasárnap, Urunk feltámadásának ünnepe - Húsvéti vigília", "readingsId": "HUS01v"},
             {"name": "Húsvétvasárnap, Urunk feltámadásának ünnepe"}
         ],
         "Urunk születése (Karácsony)": [
@@ -310,7 +310,7 @@ def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
             {"name": "Urunk születése: Karácsony – Ünnepi mise"}
         ],
         "Pünkösd": [
-            {"name": "Pünkösd, vigília mise"},
+            {"name": "Pünkösd, vigília mise", "readingsId": "HUS083v"},
             {"name": "Pünkösdvasárnap"}
         ],
         "Szűz Mária az Egyház Anyja": [
@@ -330,8 +330,24 @@ def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
     # Ünnepek feldolgozása
     celebrations = lelki_batyu.get('celebration', [])
     for celebration in celebrations:
-        celebration_name = celebration.get('name', '')
-        
+        def sanitize(text) -> str:
+            """
+            Clean a celebration name: extract '#text' if xmltodict-style, remove HTML tags
+            like <br/>, collapse whitespace and trim.
+            """
+            if isinstance(text, dict) and '#text' in text:
+                text = text['#text']
+            if text is None:
+                return ''
+            s = str(text)
+            s = re.sub(r'<[^>]+>', ' ', s)          # strip HTML tags
+            s = re.sub(r'\s+', ' ', s).strip()      # collapse whitespace
+            return s
+
+        # inside the loop in addCustomCelebrationstoBreviarData:
+        celebration_name = sanitize(celebration.get('name', ''))
+        celebration['name'] = celebration_name
+
         if celebration_name in special_celebrations:
             to_add = special_celebrations[celebration_name]
             

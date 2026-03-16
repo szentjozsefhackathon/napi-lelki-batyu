@@ -150,7 +150,22 @@ Az ünnephez tartozó olvasmányrészek (evangélium, Szent Lecke, zsoltár, stb
     "ref": "Mt 1:1-17",                       // Bibliográfiai referencia
     "teaser": "Jézus Krisztus nemzetségtáblázata...",  // Rövid kivonat az elején
     "text": "Abraham nemzetsége: Abraham atya volt Izsák atyja...",  // A teljes szöveg
-    "ending": "Ezek az evangélium igéi."      // A záró formula
+    "ending": "Ezek az evangélium igéi."      // A záró formula (automatikus olvasmánynál, szentleckénél, evangéliumnál)
+  },
+  
+  // Zsoltár: verses szerkezet és opcionális tone
+  {
+    "type": "object",
+    "short_title": "zsoltár",
+    "title": "ZSOLTÁR",
+    "ref": "Zs 23",
+    "verses": [                                // Verses szerkezet (text helyett)
+        "Az <u>Ú</u>r az én pásztorom *<br>Nincs semmib<u>e</u>n hiányom",      
+        "Zöld rétekre vezet engem...",      
+    ],
+    "answer": "Dicsőség legyen az Atyának...",    // Antifóna/feleletes rész
+    "tone": "8 G",                  // Opcionális: a zsoltár tónusa
+    "ending": null                             // Zsoltárnál nincs automatikus ending
   },
   
   // Ha egy rész több verzióban van (I. és II. év):
@@ -163,20 +178,26 @@ Az ünnephez tartozó olvasmányrészek (evangélium, Szent Lecke, zsoltár, stb
         "title": "1. OLVASMÁNY – I. ÉVBEN",
         "ref": "1Kor 2:1-5",
         "text": "...",
-        "cause": "I. évben"                   // A verzió megjelölése
+        "ending": "Ez az Isten igéje.",        // Automatikus olvasmánynál
+        "cause": "I. évben"                   // Az oka, hogy miért van ez a lehetőség. Például rövidebb forma.
       },
       {
         "type": "object",
-        "short_title": "olvasmány",
-        "title": "1. OLVASMÁNY – II. ÉVBEN",
+        "short_title": "szent lecke",
+        "title": "SZENTLECKE – II. ÉVBEN",
         "ref": "2Kor 1:3-7",
         "text": "...",
+        "ending": "Ez az Isten igéje.",  // Automatikus olvasmánynál, szentleckénél, evangéliumnál
         "cause": "II. évben"
       }
     ]
   }
 ]
 ```
+
+**Megjegyzések:**
+- **Olvasmány, szentlecke, evangélium**: Az `ending` mező automatikusan hozzáadódik."
+- **Zsoltár**: A `verses` array helyett használható a `text` mező, valamint van `answer` (antifóna) és opcionális `tone` mező
 
 ---
 

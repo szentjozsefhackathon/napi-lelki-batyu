@@ -14,7 +14,7 @@ Tipikus használat:
 """
 
 import re
-from typing import Dict, Optional, Any
+from typing import Dict, Optional, Any, List
 
 from .error_handler import error
 
@@ -221,3 +221,176 @@ def partFromPsalm(text: str) -> Dict[str, Optional[str]]:
         "teaser": first_line,
         "text": text
     }
+
+
+def generate_psalm_text(part: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Zsoltár szövegét generálja verses és answer mezőkből.
+    
+    Ha egy zsoltár part rendelkezik 'verses' tömbvel és 'answer' mezővel,
+    ez a függvény automatikusan generálja a formázott 'text' mezőt az alábbi
+    sablonnal:
+    
+    Válasz: <b>answer</b><br>
+    Előénekes: verses[0]<br>
+    V: <b>answer</b><br>
+    E: verses[1]<br>
+    V: <b>answer</b><br>
+    E: verses[2]<br>
+    ... (verses tömb végéig alternálva V és E között)
+    
+    Args:
+        part (Dict[str, Any]): Zsoltár part objektum potenciális verses és answer mezőkkel
+    
+    Returns:
+        Dict[str, Any]: Az eredeti part, a generált 'text' mezővel (ha verses és answer van)
+    
+    Examples:
+        >>> part = {
+        ...     'short_title': 'zsoltár',
+        ...     'answer': 'Válasz szövege',
+        ...     'verses': ['Első vers', 'Második vers', 'Harmadik vers']
+        ... }
+        >>> result = generate_psalm_text(part)
+        >>> 'V: <b>Válasz szövege</b><br>' in result['text']
+        True
+    """
+    # Csak zsoltárokra alkalmazzuk
+    if part.get('short_title') != 'zsoltár':
+        return part
+    
+    # Csak akkor generálunk, ha verses tömb és answer mező van
+    verses = part.get('verses')
+    answer = part.get('answer')
+    
+    if not verses or not answer or not isinstance(verses, list):
+        return part
+    
+    # Formázott szöveg generálása
+    text_parts = []
+    
+    # Kezdés: "Válasz: <b>answer</b><br>"
+    text_parts.append(f"Válasz: <b>{answer}</b><br>")
+    
+    # "Előénekes: verses[0]<br>"
+    if len(verses) > 0:
+        text_parts.append(f"Előénekes: {verses[0]}<br>")
+    
+    # Alternáló V és E versíszögek
+    for i in range(1, len(verses)):
+        text_parts.append(f"V: <b>{answer}</b><br>")
+        text_parts.append(f"E: {verses[i]}<br>")
+    
+    # Utolsó verse után az utolsó <br>-t eltávolítjuk
+    if text_parts:
+        text_parts[-1] = text_parts[-1].rstrip('<br>')
+    
+    # A generált szöveg hozzáadása a parthoz
+    part['text'] = ''.join(text_parts)
+    
+    return part
+
+
+def process_psalm_texts(parts: List[Any]) -> List[Any]:
+    """
+    Psalm text generation alkalmazása parts tömbökre.
+    
+    Ez a függvény egy parts tömbön iterál és minden zsoltár partra,
+    amely verses és answer mezőkkel rendelkezik, alkalmazza a
+    generate_psalm_text() függvényt.
+    
+    Rekurzívan kezeli a beágyazott parts tömböket is, valamint
+    kezel olyan eseteket is, ahol a parts tömb elemei lehetnek
+    listák vagy szótárak.
+    
+    Args:
+        parts (List[Any]): Parts tömb feldolgozásra
+    
+    Returns:
+        List[Any]: Az eredeti parts tömb, generált psalm szövegekkel
+    
+    Examples:
+        >>> parts = [
+        ...     {
+        ...         'short_title': 'zsoltár',
+        ...         'answer': 'Válasz',
+        ...         'verses': ['Vers 1', 'Vers 2']
+        ...     }
+        ... ]
+        >>> result = process_psalm_texts(parts)
+        >>> 'V: <b>Válasz</b><br>' in result[0]['text']
+        True
+    """
+    for i, part in enumerate(parts):
+        # Ha a part maga egy lista, rekurzívan feldolgozzuk
+        if isinstance(part, list):
+            parts[i] = process_psalm_texts(part)
+        # Ha a part egy szótár
+        elif isinstance(part, dict):
+            # Ha beágyazott parts van, rekurzívan feldolgozzuk
+            if 'parts' in part and isinstance(part['parts'], list):
+                part['parts'] = process_psalm_texts(part['parts'])
+            
+            # Generáljuk a psalm szöveget, ha szükséges
+            parts[i] = generate_psalm_text(part)
+    
+    return parts
+
+
+def process_missing_endings(parts: List[Any]) -> List[Any]:
+    """
+    Hiányzó "ending" mezők kitöltése.
+    
+    Ha egy part short_title-je "olvasmány" vagy "szentlecke" és nincs "ending" mező,
+    akkor beállítja az ending-et "Ez az Isten igéje"-re.
+    Ha a short_title "evangélium" és nincs "ending" mező, akkor "Ezek az evangélium igéi."-re.
+    
+    Rekurzívan kezeli a beágyazott parts tömböket is.
+    
+    Args:
+        parts (List[Any]): Parts tömb feldolgozásra
+    
+    Returns:
+        List[Any]: Az eredeti parts tömb, kitöltött ending mezőkkel
+    
+    Examples:
+        >>> parts = [
+        ...     {
+        ...         'short_title': 'olvasmány',
+        ...         'text': 'Valami szöveg',
+        ...         'ending': None
+        ...     }
+        ... ]
+        >>> result = process_missing_endings(parts)
+        >>> result[0]['ending']
+        'Ez az Isten igéje'
+        
+        >>> parts = [
+        ...     {
+        ...         'short_title': 'evangélium',
+        ...         'text': 'Valami szöveg',
+        ...         'ending': None
+        ...     }
+        ... ]
+        >>> result = process_missing_endings(parts)
+        >>> result[0]['ending']
+        'Ezek az evangélium igéi.'
+    """
+    for i, part in enumerate(parts):
+        # Ha a part maga egy lista, rekurzívan feldolgozzuk
+        if isinstance(part, list):
+            parts[i] = process_missing_endings(part)
+        # Ha a part egy szótár
+        elif isinstance(part, dict):
+            # Ha beágyazott parts van, rekurzívan feldolgozzuk
+            if 'parts' in part and isinstance(part['parts'], list):
+                part['parts'] = process_missing_endings(part['parts'])
+            
+            # Ha short_title evangélium ÉS nincs ending
+            if part.get('short_title') == 'evangélium' and not part.get('ending'):
+                part['ending'] = 'Ezek az evangélium igéi.'
+            # Ha short_title olvasmány vagy szentlecke ÉS nincs ending
+            elif part.get('short_title') in ['olvasmány', 'szentlecke'] and not part.get('ending'):
+                part['ending'] = 'Ez az Isten igéje'
+    
+    return parts

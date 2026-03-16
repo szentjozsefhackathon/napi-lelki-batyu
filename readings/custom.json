@@ -117,27 +117,7 @@
             "teaser" : "Itt semmi nincs",
             "text" : "De igazán semmi de semmi, amit ide leírhatunk"
         }]
-	},
-	"BHUS01": {
-        "igenaptarId": "HUS01",
-        "name": "Húsvétvasárnap, Urunk feltámadásának ünnepe - Húsvéti vigília",
-        "parts": [	]
-	},
-
-	"AHUS08": {
-        "igenaptarId": "HUS083",
-        "name": "Pünkösdvasárnap, vigília mise",
-        "parts": []
-	},
-	"BHUS08": {
-        "igenaptarId": "HUS083",
-        "name": "Pünkösdvasárnap, vigília mise",
-        "parts": []
-	},
-	"CHUS08": {
-        "igenaptarId": "HUS083",
-        "name": "Pünkösdvasárnap, vigília mise",
-        "parts": []
 	}
-
 }
+
+

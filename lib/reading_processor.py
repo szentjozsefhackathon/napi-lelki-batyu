@@ -25,6 +25,7 @@ from typing import Dict, Any, Optional, List
 import Levenshtein
 
 from .error_handler import error
+from . import part_processor
 
 
 def createReadingIds(celebration: Dict[str, Any], day: Dict[str, Any]) -> bool:
@@ -67,6 +68,10 @@ def createReadingIds(celebration: Dict[str, Any], day: Dict[str, Any]) -> bool:
         1: "Hetfo", 2: "Kedd", 3: "Szerda", 4: "Csutortok", 5: "Pentek", 6: "Szombat"
     }
     
+    # A data_transformer-ben a addCustomCelebrationstoBreviarData()-ban már van egy lépés, ahol a readingsId-ket előre generáljuk bizonyos ünnepekre.
+    if(celebration.get('readingsId')):
+        return True  # Már van readingsId, nem kell újra generálni
+
     # 1. Ha nincs readingsBreviarId, akkor összeállítjuk (dátum alapján)
     if celebration.get('readingsBreviarId') is None:
         celebration['readingsBreviarId'] = f"{day['DateDay']}.{day['DateMonth']}."
@@ -327,6 +332,14 @@ def findReadings(
                 # Oka a parts2-nak
                 if 'cause' in possibility['parts'][1]:
                     celebration['parts2cause'] = possibility['parts'][1]['cause']
+        
+        # Psalm szövegek generálása (verses + answer mezőkből)
+        if 'parts' in celebration:
+            celebration['parts'] = part_processor.process_psalm_texts(celebration['parts'])
+            celebration['parts'] = part_processor.process_missing_endings(celebration['parts'])
+        if 'parts2' in celebration:
+            celebration['parts2'] = part_processor.process_psalm_texts(celebration['parts2'])
+            celebration['parts2'] = part_processor.process_missing_endings(celebration['parts2'])
     
     # Egyéb mezők másolása
     if 'excerpt' in possibility:
@@ -456,5 +469,13 @@ def addreadingstolevel10(
     # Köznapok lesznek az alapértelmezés (parts)
     if 'parts' in ferial_readings:
         celebration['parts'] = ferial_readings["parts"]
+    
+    # Psalm szövegek generálása (verses + answer mezőkből)
+    if 'parts' in celebration:
+        celebration['parts'] = part_processor.process_psalm_texts(celebration['parts'])
+        celebration['parts'] = part_processor.process_missing_endings(celebration['parts'])
+    if 'parts2' in celebration:
+        celebration['parts2'] = part_processor.process_psalm_texts(celebration['parts2'])
+        celebration['parts2'] = part_processor.process_missing_endings(celebration['parts2'])
     
     return None
