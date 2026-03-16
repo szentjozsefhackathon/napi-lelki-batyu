@@ -1729,31 +1729,151 @@
                     "Mily sokrétű a te műved, <u>U</u>ram! * bölcsességgel alk<u>o</u>ttál mindent.<br>Teremtményeid betöltik a f<u>ö</u>ldet, * mondj áldást, lelk<u>e</u>m az Úrnak."
                 ]
             },
-            {
-                "short_title": "alleluja",
-                "ref": null,
-                "teaser": "Krisztus, a mi húsvéti Bárányunk már feláldozta magát. * Üljük meg tehát az Úrral a húsvéti lakomát. 1Kor 5,7b-8a – 2. tónus.",
-                "text": "Krisztus, a mi húsvéti Bárányunk már feláldozta magát. * Üljük meg tehát az Úrral a húsvéti lakomát. 1Kor 5,7b-8a – 2. tónus."
-            },
             [
                 {
-                    "short_title": "evangélium",
-                    "ref": "Jn 20,1-9",
-                    "teaser": "Jézusnak fel kellett támadnia a halálból.",
-                    "title": "† EVANGÉLIUM Szent János könyvéből",
-                    "text": "A hét első napján, kora reggel, amikor még sötét volt, Mária Magdolna\nkiment a sírhoz. Odaérve látta, hogy a követ elmozdították a sírtól.\nErre elfutott Simon Péterhez és a másik tanítványhoz, akit Jézus\nszeretett, és hírül adta nekik: „Elvitték az Urat a sírból, és nem\ntudom, hova tették!”<br>\nPéter és a másik tanítvány elindult, és a sírhoz sietett. Futottak\nmind a ketten, de a másik tanítvány gyorsabban futott, mint Péter, és\nhamarabb ért a sírhoz. Benézett, és látta az otthagyott gyolcsleplet,\nde nem ment be. Közben odaért Simon Péter is. Ő is látta az otthagyott\nlepleket és a kendőt, amely Jézus fejét takarta. Ez nem volt együtt a\nleplekkel, hanem külön feküdt összehajtva egy helyen.<br>\nAkkor bement a másik tanítvány is, aki először ért a sírhoz. Látta\nmindezt és hitt. Addig ugyanis még nem értették meg, hogy Jézusnak fel\nkellett támadnia a halálból.",
-                    "ending": "Ezek az evangélium igéi."
+                    "short_title": "olvasmány",
+                    "ref": "Ter 22,1-18",
+                    "teaser": "Ősatyánknak, Ábrahámnak áldozata.",
+                    "title": "OLVASMÁNY Mózes első könyvéből",
+                    "text": "Isten próbára tette Ábrahámot és így szólt hozzá: „Ábrahám, Ábrahám!” „Itt vagyok” – felelte. Akkor ezt mondta neki: „Vedd egyetlen fiadat, akit szeretsz, Izsákot, menj Morija földjére, s ott mutasd be égő áldozatul azon a helyen, amelyet majd mutatok neked.”<br>Másnap reggel Ábrahám korán fölkelt, fölnyergelte szamarát, magával vitte két szolgáját és a fiát, Izsákot. Miután fát hasogatott az égőáldozathoz, fölkerekedett és elindult a hely felé, amelyet Isten mondott neki. A harmadik napon Ábrahám fölemelte szemét, és messziről meglátta a hegyet. Ábrahám ezt mondta a szolgáknak: „Maradjatok itt a szamárral. Én és a fiam elmegyünk imádkozni és utána visszatérünk hozzátok.”<br>Ábrahám tehát fogta az égőáldozathoz szükséges fát, s fia, Izsák vállára adta, ő pedig kezébe vette a tüzet és a kést. Így mentek egymás mellett. Akkor Izsák megszólította Ábrahámot: „Atyám!” Ő válaszolt: „Igen, fiam!” Erre Izsák azt mondta: „Íme, itt a tűz és a fa, de hol a bárány az égőáldozathoz?” Ábrahám így felelt: „Isten majd gondoskodik a bárányról az égőáldozathoz.” Így mentek tovább egymás mellett.<br>Amikor megérkeztek a helyre, amelyet Isten mondott neki, Ábrahám megépítette az oltárt, rárakta a fát, megkötözte fiát és az oltárra helyezett fára tette. Akkor Ábrahám kinyújtotta kezét, és vette a kést, hogy feláldozza a fiát.<br>De az Úr angyala rászólt az égből, és ezt mondta: „Ábrahám, Ábrahám!” „Itt vagyok” – felelte. Az angyal folytatta: „Ne nyújtsd ki kezedet a fiú felé és ne árts neki. Most már tudom, hogy féled az Istent, és egyetlen fiadat nem tagadtad meg tőlem. Amikor Ábrahám fölemelte szemét, látott egy kost, amely szarvánál fogva fennakadt a bozótban. Ábrahám odament, megfogta a kost és feláldozta égőáldozatul fia helyett. Ábrahám így nevezte a helyet: „az Úr gondoskodik”, ezért mondják mind a mai napig: „a hegyen, ahol az Úr gondoskodik”.<br>Azután az Úr angyala az égből másodszor is szólt Ábrahámhoz, és mondta: „Magamra esküszöm – ez az Úr szava –, hogy mivel ezt tetted és egyetlen fiadat nem tagadtad meg tőlem, gazdagon megáldalak. Utódaidat megsokasítom, mint az ég csillagait és mint a tengerpart fövenyét; utódaid elfoglalják majd az ellenség kapuját. Utódaid által nyer áldást a föld minden népe, mivel hallgattál a szavamra.”"
                 },
                 {
-                    "cause": "este",
-                    "short_title": "evangélium",
-                    "ref": "Lk 24,13-35",
-                    "teaser": "Amikor a kenyeret megtörte, felismerték.",
-                    "title": "† EVANGÉLIUM Szent Lukács könyvéből",
-                    "text": "Húsvétvasárnap ketten a tanítványok közül egy Emmausz nevű faluba\nmentek, amely Jeruzsálemtől hatvan stádiumra (két-három óra járásnyira)\nfekszik. Útközben megbeszélték egymás között mindazt, ami történt. Míg\nbeszélgettek és vitatkoztak, egyszerre maga Jézus közeledett feléjük,\nés hozzájuk szegődött. Ők azonban nem ismerték meg őt, mert látásukban\nakadályozva voltak. Jézus megkérdezte őket: „Milyen dolgokról\nbeszélgettetek egymással útközben?” Erre szomorúan megálltak, és\negyikük, akit Kleofásnak hívtak, ezt válaszolta neki: „Te vagy talán\naz egyetlen idegen Jeruzsálemben, aki nem tudja, mi történt ott ezekben\na napokban?”<br>\nŐ megkérdezte: „Miért, mi történt?” Azok ezt felelték: „A názáreti\nJézus esete, aki szóban és tettben nagyhatású próféta volt Isten és az\negész nép előtt. Főpapjaink és elöljáróink kiszolgáltatták őt, hogy\nhalálra ítéljék, és keresztre feszítsék. Pedig mi azt reméltük, hogy ő\nváltja meg Izraelt. Azóta, hogy ezek történtek, már három nap telt el,\nés néhány hozzánk tartozó asszony is megzavart bennünket. Hajnalban a\nsírnál voltak, de nem találták ott a holttestét. Azzal a hírrel tértek\nvissza, hogy angyalok jelentek meg nekik, akik azt állították, hogy él.\nKözülünk néhányan el is mentek a sírhoz, és úgy találtak mindent,\nahogyan az asszonyok mondták, őt magát azonban nem látták.”<br>\nJézus erre így szólt: „Ó, ti oktalanok, ti késedelmes szívűek!<br>\nKéptelenek vagytok hinni abban, amit a próféták jövendöltek! Hát nem\nezeket kellett elszenvednie a Messiásnak, hogy bemehessen\ndicsőségébe?” Aztán Mózesen kezdve valamennyi prófétából\nmegmagyarázta, ami az Írásokban őróla szól.<br>\nKözben odaértek a faluhoz, ahová tartottak. Úgy tett, mintha tovább\nakarna menni. De azok marasztalták és kérték: „Maradj velünk, mert\nesteledik, és lemenőben már a nap.” Betért tehát, hogy velük maradjon.\nAmikor asztalhoz ültek, kezébe vette a kenyeret, áldást mondott,\nmegtörte, és odanyújtotta nekik. Erre megnyílt a szemük, és\nfelismerték. De ő eltűnt előlük.<br>\nAkkor azt mondták egymásnak: „Ugye lángolt a szívünk, amikor\nútközben beszélt hozzánk, és kifejtette az Írásokat?”<br>\nMég abban az órában útrakeltek és visszatértek Jeruzsálembe. Ott\negybegyűlve találták a tizenegyet és társaikat. Azok ezzel fogadták\nőket: „Valóban feltámadt az Úr, és megjelent Simonnak!” Erre ők is\nelbeszélték, mi történt az úton, és hogyan ismerték fel Jézust a\nkenyértörésben.",
-                    "ending": "Ezek az evangélium igéi."
+                    "cause": "rövidebb forma",
+                    "short_title": "olvasmány",
+                    "ref": "Ter 22,1-2.9a.10-13.15-18",
+                    "teaser": "Ősatyánknak, Ábrahámnak áldozata.",
+                    "title": "OLVASMÁNY Mózes első könyvéből",
+                    "text": "Isten próbára tette Ábrahámot és így szólt hozzá: „Ábrahám, Ábrahám!” „Itt vagyok” – felelte. Akkor ezt mondta neki: „Vedd egyetlen fiadat, akit szeretsz, Izsákot, menj Morija földjére, s ott mutasd be égő áldozatul azon a helyen, amelyet majd mutatok neked.”<br>Amikor megérkeztek a helyre, amelyet Isten mondott neki, Ábrahám megépítette az oltárt, rárakta a fát, és vette a kést, hogy feláldozza a fiát.<br>De az Úr angyala rászólt az égből, és ezt mondta: „Ábrahám, Ábrahám!” „Itt vagyok” – felelte. Az angyal folytatta: „Ne nyújtsd ki kezedet a fiú felé és ne árts neki. Most már tudom, hogy féled az Istent, és egyetlen fiadat nem tagadtad meg tőlem. Amikor Ábrahám fölemelte szemét, látott egy kost, amely szarvánál fogva fennakadt a bozótban. Ábrahám odament, megfogta a kost és feláldozta égőáldozatul fia helyett.<br>Azután az Úr angyala az égből másodszor is szólt Ábrahámhoz, és mondta: „Magamra esküszöm – ez az Úr szava –, hogy mivel ezt tetted és egyetlen fiadat nem tagadtad meg tőlem, gazdagon megáldalak. Utódaidat megsokasítom, mint az ég csillagait és mint a tengerpart fövenyét; utódaid elfoglalják majd az ellenség kapuját. Utódaid által nyer áldást a föld minden népe, mivel hallgattál a szavamra.”"
                 }
-            ]
+            ],
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 15,5 és 9.9-10.11",
+                "tone": "1 D²",
+                "teaser": "Válasz: <b>Védelmezz <u>e</u>ngem, Istenem, * hiszen teb<u>e</u>nned bízom.</b> Vö. 1. vers.",
+                "answer": "Védelmezz <u>e</u>ngem, Istenem, * hiszen t<u>e</u>benned bízom.",
+                "verses": [
+                    "Örökrészem és kelyhem t<u>e</u> vagy, Uram, * te tartod kez<u>e</u>dben sorsomat.<br>Szüntelenül magam előtt l<u>á</u>tom az Urat, * ő áll jobbomon, hogy m<u>e</u>g ne inogjak.",
+                    "Ezért örül a szívem és <u>u</u>jjong a lelkem, * reménységben ny<u>u</u>gszik testem is.<br>Mert nem hagyod lelkemet a holtak <u>o</u>rszágában, * és nem engeded, hogy szented r<u>o</u>mlást lásson.",
+                    "Az élet útját mutatod nek<u>e</u>m, † színed előtt az öröm t<u>e</u>ljessége, * és jobbodon a gyönyörűség m<u>i</u>ndörökké."                    
+                ]
+            },
+            {
+                "short_title": "olvasmány",
+                "ref": "Kiv 14,5-31.15,1",
+                "teaser": "Izrael fiai átvonultak a száraz tengerfenéken.",
+                "title": "OLVASMÁNY Mózes második könyvéből",
+                "text": "Amikor Izrael fiai látták, hogy az egyiptomiak üldözik őket, nagyon megijedtek, és az Úrhoz kiáltottak.<br> Az Úr így szólt Mózeshez: „Miért kiáltasz hozzám? Parancsold meg Izrael fiainak, hogy induljanak. Te pedig emeld fel botodat, nyújtsd ki kezedet a tenger fölé, és válaszd ketté, hogy Izrael fiai száraz lábbal átmehessenek rajta. Én azonban megkeményítem a fáraó szívét, erre utánuk siet, s akkor majd megmutatom dicsőségemet a fáraón, egész seregén, harci szekerein és lovasain. Az egyiptomiak megtudják, hogy én vagyok az Úr, ha majd megmutatom dicsőségemet a fáraón, a szekerein és a lovasain.”<br>Akkor az Isten angyala, aki az izraeliták előtt járt, megváltoztatta helyét, és mögéjük vonult. A felhőoszlop, amely előttük volt, mögöttük ereszkedett le, s az egyiptomiak serege és az izraeliták tábora között helyezkedett el. A felhő sötét maradt, s az éjszaka elmúlt anélkül, hogy a két sereg közeledett volna egymáshoz.<br>Mózes ekkor kinyújtotta kezét a tenger fölé. Az Úr egész éjjel tartó erős keleti széllel visszaszorította a tengert és kiszárította. A víz kettévált, és Izrael fiai a száraz tengerfenéken átvonultak, miközben a víz jobb és bal felől úgy állt, mint a fal. Az egyiptomiak utánuk vetették magukat, s a fáraó minden lova, harci szekere és lovasa utánuk ment a tengerbe.<br>A reggeli őrség idején az Úr a tűz- és felhőoszlopból rátekintett az egyiptomiak seregére, és megzavarta őket. Akadályozta a szekerek kerekét, ezért csak bajjal jutottak előre. Az egyiptomiak kiabálni kezdtek: „Meneküljünk Izrael fiai elől, mivel az Úr harcol értük az egyiptomiak ellen.”<br>Az Úr pedig így szólt Mózeshez: „Nyújtsd ki kezedet a tenger fölé, hogy a víz visszazúduljon az egyiptomiakra, szekereikre és lovasaikra.” Mózes kinyújtotta kezét a tenger fölé. Erre a víz napkeltekor visszaáramlott a régi helyére, amikor az egyiptomiak éppen arra menekültek. Az Úr besodorta őket a habok közepébe. A víz visszaömlött, és ellepte a szekereket, a lovasokat és a fáraó egész népét, amely utánuk nyomult a tengerbe. Senki sem maradt életben közülük. Izrael fiai azonban száraz lábbal mentek át a tengeren, miközben a víz tőlük jobbra és balra úgy állt, mint a fal.<br>Így mentette meg az Úr azon a napon Izrael fiait az egyiptomiak hatalmától. Az izraeliták látták az egyiptomiakat holtan feküdni a tenger partján. Izrael fiai tanúi voltak a nagy tettnek, amelyet az Úr az egyiptomiakon véghezvitt. A népet félelem töltötte el az Úr színe előtt, és hittek az Úrnak és Mózesnek, az ő szolgájának.<br>Akkor Mózes Izrael fiaival együtt ezt az éneket énekelte az Úrnak:",
+                "ending": " "
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "2 Móz 15, 1-2. 3-4. 5-6. 17-18",
+                "tone": "5",
+                "teaser": "Válasz: Énekeljünk az <u>Ú</u>rnak, * mert d<u>i</u>csőség övezi. Vö. 1. vers.",
+                "answer": "Énekeljünk az <u>Ú</u>rnak, * mert d<u>i</u>csőség övezi.",
+                "verses" : [
+                    "Az Úr az én erősségem és p<u>a</u>jzsom, * szabadítóm <u>ő</u> lett nékem.<br>Dicsőítem őt, ő az én <u>I</u>stenem, * magasztalom, mert <u>a</u>tyáim Istene.",
+                    "Olyan az Úr, mint a hős h<u>a</u>rcos, * és „Mindenható” <u>a</u>z ő neve.<br>A fáraó szekereit és seregét a tengerbe v<u>e</u>tette, * válogatott harcosai elmerültek a V<u>ö</u>rös-tengerbe.",
+                    "A hullámok elborították <u>ő</u>ket, * mint a kő, m<u>é</u>lybe merültek.<br>A te jobbod Uram, erejével t<u>ü</u>ndöklik, * Uram, jobbod szétzúzza az <u>e</u>llenséget.",
+                    "Bevezeted népedet, és elülteted örökséged hegy<u>é</u>n, † melyet erős lakhelyeddé és szentélyeddé a te kezed f<u>o</u>rmált. * Az Úr uralkodik <u>ö</u>rökkön-örökké."
+                ]
+            },
+            {
+                "short_title": "olvasmány",
+                "ref": "Iz 54,4a. 5-14",
+                "teaser": "Örökre szóló irgalommal megkönyörült rajtad az Úr, a te Megváltód.",
+                "title": "OLVASMÁNY Izajás próféta könyvéből",
+                "text": "Az Úr így szól Jeruzsálemhez: Ne félj, nem fogsz megszégyenülni, ne pirulj, nem ér gyalázat!<br>Maga a Teremtőd lesz hitvesed, a Seregek Ura az ő neve. Izrael Szentje lesz a Megváltód, akit az egész föld Istenének nevez.<br>Igen, visszahív téged az Úr, mint egy elhagyott és bánkódó lelkű asszonyt, szólt – és mint ifjúkorban eltaszított feleséget – a te Istened mondja ezt. Igaz, elhagytalak egy röpke pillanatra, de most nagy irgalommal visszafogadlak. Amikor haragom fölgerjedt, egy pillanatra elrejtettem előled arcomat. De most örökre szóló irgalommal megkönyörülök rajtad. Az Úr mondja ezt, a te Megváltód.<br>Úgy vagyok most, mint Noé napjaiban, amikor megesküdtem, hogy Noé vízözöne nem borítja el többé a földet. Ugyanígy esküszöm, hogy többé nem haragszom rád, és nem is fenyítelek meg. Mert a hegyek megindulhatnak, és megrendülhetnek a halmok, de az én szeretetem nem hagy el téged, és veled kötött békeszövetségem nem inog meg soha. Az Úr mondja ezt, aki megkönyörült rajtad.<br>Ó, te szegény, akit annyi vihar tépett, s akinek nincs vigasztalása! Íme, drágakövekre helyezem falaidat, és zafírokra rakom le alapodat. Rubinból csinálok neked bástyákat, kristályból kapukat és drágakövekből falakat. Fiaid mindnyájan az Úr tanítványai lesznek, békés jólétet adok gyermekeidnek. Igazságosság lesz az alapod, és elkerül a nyomorúság, nem kell hát semmitől félned. Elkerül a rettegés, hozzád nem is közelíthet senki."
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 29, 2 és 4. 5-6. 11 és 12a és 13b",
+                "tone": "6",
+                "teaser": "Válasz: Dicsőítel<u>e</u>k, Uram, * mivel megm<u>e</u>ntettél engem. Vö. 2. vers.",
+                "answer": "Dicsőítel<u>e</u>k, Uram, * mivel megm<u>e</u>ntettél engem.",
+                "verses": [
+                    "Dicsőítelek, Uram, mivel megmentett<u>é</u>l engem, * nem engedted, hogy ellenségeim ujj<u>o</u>ngjanak rajtam.<br>Uram, lelkemet kihoztad a halál ország<u>á</u>ból, * életben tartottál, neh<u>o</u>gy sírba szálljak.",
+                    "Zsoltárt zengjetek az Úrnak, ti, az <u>ő</u> szentjei, * és dicsérjétek <u>a</u>z ő szent nevét.<br>Mert haragja csak <u>e</u>gy pillanat, * de jósága végigkísér eg<u>é</u>sz életünkön.",
+                    "Ha este meg is látogat <u>a</u> sírás, * reggelre <u>a</u>z öröm visszatér.<br>Meghallgatott az Úr, és megkönyör<u>ü</u>lt rajtam, * az Úr lett az <u>é</u>n segítségem.",
+                    "Sírásomat örömre ford<u>í</u>tottad, * Uram, Istenem, magasztall<u>a</u>k mindörökké."
+                ]
+            },
+            {
+                "short_title": "olvasmány",
+                "ref": "Iz 55, 1-11",
+                "teaser": "Gyertek hozzám, és élni fog lelketek. Örök szövetséget kötök veletek.",
+                "title": "OLVASMÁNY Izajás próféta könyvéből",
+                "text": "Így szól az Úr: Ti szomjazók, gyertek a vízhez mind, és bár nincsen pénzetek, siessetek ide! Vegyetek ingyen gabonát és egyetek, vegyetek pénz nélkül bort és tejet. Miért költitek a pénzt arra, ami nem kenyér, és a keresetet arra, ami nem lakat jól? Hallgassatok ide, figyeljetek rám, akkor jó ételt esztek, és kövér falatokban lesz részetek.<br>Fordítsátok felém fületeket és gyertek ide hozzám; hallgassatok rám, és élni fog lelketek. Örök szövetséget kötök veletek a Dávidnak megígért irgalom jegyében. Íme, tanúvá tettelek a népek előtt, vezérré és parancsolóvá a nemzetek fölött. Olyan nemzeteket hívsz majd meg, amelyeket nem ismertél, és olyanok sietnek hozzád, akik nem ismertek, az Úrért, a te Istenedért, Izrael Szentjéért, aki majd megdicsőít.<br>Keressétek az Urat, amíg megtaláljátok, hívjátok segítségül, amíg közel van! Hagyja el útját a gonosz, és gondolatait a bűnös, térjen vissza az Úrhoz, mert megkönyörül rajta, Istenünkhöz, mert bőkezű a megbocsátásban. Hiszen az én gondolataim nem a ti gondolataitok, az én utaim nem a ti utaitok – mondja az Úr. Igen, amennyivel magasabb az ég a földnél, annyival magasabbak az én utaim a ti utaitoknál, az én gondolataim – a ti gondolataitoknál.<br>Amint az eső és a hó lehull az égből és nem tér oda vissza, hanem megöntözi a földet, és termővé, gyümölcsözővé teszi, hogy magot adjon a magvetőnek és kenyeret az éhezőnek, éppúgy lesz a szavammal is, amely ajkamról fakad. Nem tér vissza hozzám eredménytelenül, hanem végbe viszi akaratomat, és eléri, amiért küldtem."
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Iz 12, 2-3. 4bcd. 5-6",
+                "tone": "4g",
+                "teaser": "Válasz: Örömmel meríts<u>e</u>tek vizet * az üdvösség forrásaib<u>ó</u>l. Vö. 3. vers.",
+                "answer": "Örömmel meríts<u>e</u>tek vizet * az üdvösség forrásaib<u>ó</u>l.",
+                "verses": [
+                    "Íme, Isten az én <u>ü</u>dvösségem, * bízom benne és nem fél<u>e</u>k.<br>Mert az Úr az én erősségem és d<u>i</u>csőségem, * ő lett nékem szabadulás<u>o</u>m.",
+                    "Adjatok hál<u>á</u>t az Úrnak, * magasztaljátok az ő nev<u>é</u>t.<br>A népek közt hirdess<u>é</u>tek tetteit, * emlékezzetek meg arról, hogy Fölséges az ő nev<u>e</u>.",
+                    "Zengjetek dalt az Úrnak, mert csodás dolg<u>o</u>kat művelt: * tudja meg az egész vil<u>á</u>g!<br>Ujjongjatok és dicséretet mondjatok S<u>i</u>on lakói, * mert nagy a ti körötökben Izrael szentj<u>e</u>."
+
+                ]
+            },
+            {
+                "short_title": "olvasmány",
+                "ref": "Bár 3,9-15. 32-4,4",
+                "teaser": "Járj az Úrfényének világosságában!",
+                "title": "OLVASMÁNY Báruk próféta könyvéből",
+                "text": "Halld meg, Izrael, az élet törvényét, figyeljetek, hogy szert tegyetek a tudásra! Izrael, miért vagy ellenséged országában, miért? Miért öregedsz meg idegen földön? Miért szennyezed be magad halottakkal, miért számítanak azok közé, akik leszállnak az alvilágba? Mert elhagytad a bölcsesség forrását! Ha az Úr útján jártál volna, akkor békében laknál mindörökké. Tanuld meg, hol van a tudomány, hol az erő, hol az értelem, s akkor megtudod azt is, hol a maradandóság és az élet, hol a szem ragyogása és a béke. De ki fedezte föl ezek helyét, és ki hatolt el kincseikhez?<br>Mindezt ismerte az, aki mindent tud, ő átvizsgálta értelmével; ő, aki mindörökre megalkotta a földet, és betöltötte élőlényekkel; ő, aki küldi a fényt, és az eljön, de ha visszahívja, az remegve engedelmeskedik. A csillagok vidáman ragyognak helyükön, de ha ő szólítja őket, azt felelik: „Itt vagyunk!” Vidáman csillognak alkotójuk előtt.<br>Ő a mi Istenünk, senki sem hasonlít hozzá! Ő felkutatta a tudás minden útját, s átadta Jákobnak, szolgájának, és Izraelnek, akit szeretett. Így jelent meg a földön és társalgott az emberekkel. Isten parancsainak könyve az, a törvény, amely örökre megmarad. Aki megtartja, élni fog, aki elhagyja, meghal.<br>Térj vissza, Jákob, és öleld magadhoz, járj fényének világosságában! Ne engedd át dicsőségedet másnak, és kiváltságodat más népeknek. Boldogok vagyunk mi, Izrael fiai, mert Isten tudtunkra adta, hogy mi kedves előtte."
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 18, 8. 9. 10. 11",
+                "tone": "2",
+                "teaser": "Válasz: Uram, <u>I</u>stenem, * örök életet adó igé<u>i</u>d vannak. Vö. 8. vers.",
+                "answer": "Uram, <u>I</u>stenem, * örök életet adó igé<u>i</u>d vannak.",
+                "verses": [
+                    "Tökéletes az Úr t<u>ö</u>rvénye, * megújítja <u>a</u> lelket.<br>Az Úr tanúságában b<u>í</u>zhatunk, * bölcsességet ad a kics<u>i</u>nyeknek.",
+                    "Az Úr végzése <u>i</u>gaz, * megvidámítja <u>a</u> szívet.<br>Az Úr parancsa v<u>i</u>lágos, * fényt gyújt <u>a</u> szemnek.",
+                    "Az Úr félelme t<u>i</u>szta: * örökk<u>é</u> megmarad.<br>Az Úr ítéletei <u>i</u>gazak, * és mind egyar<u>á</u>nt jogosak.",
+                    "Értékesebb az <u>a</u>ranynál, * és a legdrágább drág<u>a</u>kőnél.<br>Édesebb a m<u>é</u>znél, * a csorduló lép<u>e</u>sméznél."                    
+                ]   
+
+            },
+            {
+                "short_title": "olvasmány",
+                "ref": "Ez 36, 16-17a. 18-28",
+                "teaser": "Akkor majd tiszta vizet hintek rátok, és új szívet adok nektek.",
+                "title": "OLVASMÁNY Ezekiel próféta könyvéből", 
+                "text": "Az Úr szózatot intézett hozzám: „Emberfia, Izrael háza a saját földjén lakott, de beszennyezte életmódjával és tetteivel. Ekkor rájuk zúdítottam haragomat a vér miatt, amelyet ontottak az országban, és a bálványok miatt, amelyekkel tisztátalanná tették azt. Szétszórtam őket a népek közé, és szétszélesztettem az országokban. Életmódjuk és tetteik szerint ítélkeztem fölöttük. A népek között, ahova kerültek, megszentségtelenítették szent nevemet, hiszen azt mondják róluk: Ez az Úr népe, az ő földjéről jöttek ki. De tekintettel voltam szent nevemre, amelyet Izrael háza megszentségtelenített a népek között, ahová került. Ezért mondd meg Izrael házának: Ezt mondja az Úr, az Isten: Nem miattatok teszem ezt, Izrael háza, hanem szent nevemért, amelyet megszentségtelenítettetek a népek között, amelyek közé kerültetek. Szentté teszem nagy nevemet, amelyet gyalázat ért a népek között, amelyet megszentségtelenítettetek közöttük. Akkor majd megtudják a népek, hogy én vagyok az Úr – mondja az Úr, az Isten – amikor a szemük láttára megmutatom rajtatok, hogy szent vagyok.<br>Kihozlak titeket a népek közül, összegyűjtelek minden országból, és visszaviszlek saját földetekre. Akkor majd tiszta vizet hintek rátok, hogy megtisztuljatok minden tisztátalanságtól, s minden bálványtól megtisztítalak benneteket.<br>Új szívet adok nektek, és új lelket oltok belétek, kiveszem testetekből a kőszívet, és hússzívet adok nektek. Az én lelkemet oltom belétek, és gondoskodom róla, hogy parancsaim szerint éljetek, és szemetek előtt tartsátok törvényeimet, és hozzájuk igazodjatok. Abban az országban laktok majd, amelyet atyáitoknak adtam, s az én népem lesztek, én meg a ti Istenetek leszek.”"
+            },
+            {
+                "short_title": "szentlecke",
+                "ref": "Róm 6, 3-11",
+                "teaser": "Ha Krisztussal meghaltunk, hisszük, hogy vele élünk is.",
+                "title": "SZENTLECKE Szent Pál apostolnak a rómaiakhoz írt leveléből",
+                "text": "Testvéreim! Mi, akik Krisztus Jézusra megkeresztelkedtünk, az ő halálára keresztelkedtünk meg. A keresztségben ugyanis eltemetkeztünk vele együtt a halálba, hogy miként Krisztus az Atya dicsőségére feltámadt a halálból, úgy mi is új életre keljünk. Mert ha halálának hasonlóságában egybenőttünk vele, akkor feltámadásában is egy leszünkvele.<br>Hiszen tudjuk, hogy a régi embert bennünk azért feszítették vele együtt keresztre, hogy a bűnös test elpusztuljon, és ne szolgáljunk többé a bűnnek. Aki így meghalt, megszabadult a bűntől.<br>Ha Krisztussal meghaltunk, hisszük, hogy vele együtt élünk is. Tudjuk ugyanis, hogy Krisztus feltámadt a halálból, és többé nem hal meg: a halál nem uralkodik többé rajta. Halálával egyszer s mindenkorra meghalt a bűnnek, de életével Istennek él.<br>Úgy tekintsétek tehát magatokat, mint akik meghaltatok a bűnnek, és most az Istennek éltek, a mi Urunk, Jézus Krisztusban."
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 117, 1-2. 16ab-17. 22-23",
+                "tone": "6",
+                "teaser": "Válasz: Alleluja, alleluja, alleluja. Vö. 6. szám.",
+                "answer": "Alleluja, alleluja, alleluja.",
+                "verses": [
+                    "Adjatok hálát az Úrn<u>a</u>k, mert jó, * mivel irgalma <u>ö</u>rökké megmarad?<br>Mondja Izrael háza, hogy jó <u>a</u>z Isten, * mivel irgalma <u>ö</u>rökké megmarad.",
+                    "Az Úr jobb keze erősn<u>e</u>k bizonyult: * az Úrnak jobbja f<u>ö</u>lemelt engem.<br>Nem halok meg, han<u>e</u>m élek, * és hirdetem <u>a</u>z Úr nagy tetteit.",
+                    "A kő, amelyet az építők félr<u>e</u>dobtak, * íme, az v<u>á</u>lt szegletkővé.<br>Mindezt az Úr vitt<u>e</u> végbe, * csodálatra mélt<u>ó</u> a mi szemünkben."
+                ]
+
+            },
+            {
+                "short_title": "evangélium",
+                "ref": "Mt 28,1-10",
+                "teaser": "Feltámadt, és előttetek megy Galileába.",
+                "title": "† EVANGÉLIUM Szent Máté könyvéből.",
+                "text": "Szombat elmúltával, a hét első napján pirkadatkor Mária Magdolna és a másik Mária elment, hogy megnézze a sírt. És íme, nagy földrengés támadt: Az Úr angyala leszállt az égből, odament, elhengerítette a követ és ráült. Olyan volt a tekintete, mint a villám, a ruhája pedig fehér, mint a hó. Az őrök reszketni kezdtek félelmükben, és szinte halálra váltak. Ekkor megszólalt az angyal, és ezt mondta az asszonyoknak: „Ne féljetek! Tudom, hogy a megfeszített Jézust keresitek. Ő nincs itt, mert feltámadt, amint megígérte. Jöjjetek, nézzétek meg a helyet, ahol feküdt! És siessetek, mondjátok meg tanítványainak, hogy feltámadt a halottak közül, és előttetek megy Galileába. Ott viszontláthatjátok őt! Íme, én megmondtam nektek!”<br>Erre elsiettek a sírtól. Remegve, de nagy örömmel futottak, hogy megvigyék a hírt a tanítványoknak. És íme, egyszerre csak Jézus jött velük szemben, és megszólította őket: „Üdv nektek!” Ők pedig odasiettek hozzá, leborultak előtte, és átkarolták a lábát. Ekkor Jézus így szólt hozzájuk: „Ne féljetek! Siessetek, vigyétek hírül testvéreimnek, hogy menjenek Galileába, mert ott viszontláthatnak engem.”"
+            }
         ]
     },
     "HUS01": {

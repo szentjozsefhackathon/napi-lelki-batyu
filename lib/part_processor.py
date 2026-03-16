@@ -280,11 +280,10 @@ def generate_psalm_text(part: Dict[str, Any]) -> Dict[str, Any]:
     for i in range(1, len(verses)):
         text_parts.append(f"V: <b>{answer}</b><br>")
         text_parts.append(f"E: {verses[i]}<br>")
-    
-    # Utolsó verse után az utolsó <br>-t eltávolítjuk
-    if text_parts:
-        text_parts[-1] = text_parts[-1].rstrip('<br>')
-    
+            
+    #  Utolsó verse után is van válasz
+    text_parts.append(f"V: <b>{answer}</b>")
+
     # A generált szöveg hozzáadása a parthoz
     part['text'] = ''.join(text_parts)
     
