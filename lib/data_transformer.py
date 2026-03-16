@@ -296,7 +296,7 @@ def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
     # Az ünnepek, amelyeknek több ünneplésük van
     special_celebrations = {
         "Nagycsütörtök": [
-            {"name": "Nagycsütörtök - Krizmaszentelési mise", "colorId": "2", "colorText": "fehér"},
+            {"name": "Nagycsütörtök - Krizmaszentelési mise", "colorId": "2", "colorText": "fehér", "readingsId": "NAB064CsutortokKrizma"},
             {"name": "Nagycsütörtök, az utolsó vacsora emléknapja"}
         ],
         "Húsvétvasárnap, Krisztus feltámadása": [

@@ -13452,6 +13452,55 @@
             }
         ]
     },
+    "NAB064CsutortokKrizma": {
+        "igenaptarId": "NAB064CsutortokKrizma",
+        "name": "Nagycsütörtök - krizmaszentelési mise",
+        "parts": [
+            {
+                "short_title": "olvasmány",
+                "ref": "Iz 61,1-3a.6a.8b-9",
+                "teaser": "Az Úr kent föl engem. Elküldött, hogy örömhírt vigyek a szegényeknek, és az öröm olaját adjam nekik. ",
+                "description": "Már a próféták is tudatában voltak annak, hogy küldetésüket Isten lelke irányítja, ezért tudták a földi életet kapcsolatba hozni Istennel: az ő vigasztalását és figyelmeztetését közvetítették. Kinyilvánították azt is, hogy Isten megjutalmazza a hűséget és az engedelmességet. Összefoglalólap azt mondhatjuk, hogy a próféták Isten lelkének segítségével rányomták a szentség jellegét népük életére. Ebben előképei Krisztusnak, aki az egész emberiség életét megszentelte.",
+                "title": "OLVASMÁNY Izajás próféta könyvéből",
+                "text": "A próféta így beszél:<br>Az Úr Lelke nyugszik rajtam, mert az Úr kent föl engem. Elküldött, hogy örömhírt vigyek a szegényeknek, és meggyógyítsam a megtört szívűeket; hogy hirdessem az Úr kegyelmének esztendejét, és Istenünk bosszújának napját; hogy megvigasztaljam mind a gyászolókat, és koszorút adjak Sion gyászolóinak a hamu helyébe, örömnek olaját a gyászruha helyett, a szomorúság lelke helyett meg ünnepi öröméneket.<br>Benneteket pedig az Úr papjainak hívnak, és így neveznek: Istenünk szolgái.<br>Megjutalmazom őket hűségemben, és örök szövetséget kötök velük. Sarjadékuk híres lesz a nemzetek között, és minden ivadékuk a népek körében. Akik látják őket, elismerik majd, hogy ez az a nemzedék, amelyet megáldott az Úr."
+
+            },
+            {
+                "short_title": "zsoltár",
+                "ref": "Zsolt 88,21-22.25 és 27",
+                "teaser": "Válasz: <b>Hadd énekelj<u>e</u>m örökké * Urunknak <u>i</u>rgalmas jóságát!</b> Vö. 2. vers.",
+                "tone": "6",
+                "answer": "Hadd énekelj<u>e</u>m örökké * Urunknak <u>i</u>rgalmas jóságát!",
+                "verses": [
+                    "Kiválasztottam szolgám<u>a</u>t, Dávidot, * szent <u>o</u>lajommal felkentem.<br>Biztos támasz<u>a</u> kezem lesz, * karom t<u>e</u>szi őt erőssé.",
+                    "Vele lesz hűségem <u>é</u>s kegyelmem, * magasra emelkedik fej<u>e</u> az én nevemben.<br>Így szólít majd <u>e</u>ngem: + „Atyám v<u>a</u>gy, nékem, * Istenem <u>é</u>s üdvöm sziklája.”"
+                ]
+            },
+            {
+                "short_title": "szentlecke",
+                "ref": "Jel 1,5-8",
+                "description": "Akik hisznek Krisztusban, a megváltás gyümölcseiben részesülnek. A mai szöveg ezekre az ajándékokra mutat rá. Kereszthalála és feltámadása által megszerezte Krisztus a királyi hatalmat a világ felett, s bennünket saját népévé tett Úgy emel magához, hogy részt enged uralmában és főpapi küldetésében. Hatalmat ad arra, hogy legyőzzük a bűnt és erényeinkkel Isten országát építsük. Szenvedéseinket, fáradalmainkat és imáinkat pedig vele együtt állandóan felajánlhatjuk áldozatul a világ üdvösségéért.",
+                "title": "SZENTLECKE a Jelenések könyvéből",
+                "teaser": "Az Isten országává és papjaivá tett bennünket Jézus.",
+                "text": "Testvéreim! Kegyelem nektek és békesség Jézus Krisztustól, aki hűséges tanú, elsőszülött a holtak közül, és a föld királyainak fejedelme. Ő szeret minket. Vérével megváltott bűneinktől, s Atyjának, az Istennek országává és papjaivá tett bennünket. Övé a dicsőség és a hatalom örökkön-örökké. Ámen.<br>Nézzétek, közeledik a felhőkön! Látni fogja őt minden szem, még azok is, akik átszúrták. A föld minden népe veri majd a mellét. Igen. Ámen.<br>Én vagyok az Alfa és az Ómega, mondja az Úr, az Isten, aki van, aki volt, és aki eljő: a Mindenható."
+            },
+            {
+                "short_title": "evangélium előtti vers",
+                "text": "Az Úr L<u>e</u>lke van rajtam: * elküldött, hogy a szegényeknek <u>ö</u>römhírt vigyek.",
+                "ref": "Iz 61, 1; idézi Lk 4, 18",
+                "tone": "7b"
+            },
+            {
+                "short_title": "evangélium",
+                "ref": "Lk 4, 16-21",
+                "description": "Krisztus emberi alakja egészen a Szentlélek vezetése alatt állott: A Szentlélek a Szentháromságban Isten erejének, szentségének és szeretetének a kifejezése. Ezért Krisztus küldetésének tartalma Isten irgalmas szeretetének bemutatása: az üdvösség örömhírét hozza, a hit világosságával látást ad, kiment a bűn szolgaságából, és meghozza az Istennel fennálló béke boldogságát. Az Egyház az ő küldetését folytatja. Az olajszentelés annak a kinyilvánítása, hogy Krisztus a szentségeken keresztül részesít a maga királyi, prófétai és főpapi küldetésében. Az olaj a mi fölkenésünk eszköze. A Szentlélek működik bennünk, hogy Isten üzenetét képviseljük a világban.",
+                "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+                "teaser": "Az Úr Lelke van rajtam, mert az Úr fölkent engem. ",
+                "text": "Abban az időben:<br>Jézus elment Názáretbe, ahol nevelkedett. Egyik szombaton szokása szerint elment a zsinagógába, és ott felolvasásra jelentkezett. Izajás próféta tekercsét adták oda neki. Amikor szétbontotta a tekercset, éppen arra a helyre talált, ahol a következők álltak:<br><quote>Az Úr Lelke van rajtam,<br>mert az Úr fölkent engem,<br>hogy örömhírt hozzak a szegényeknek.<br>Azért küldött engem,<br>hogy szabadulást hirdessek a raboknak,<br>és látást a vakoknak,<br>hogy szabadon bocsássam a letiportakat,<br>és hirdessem az Úr kegyelmi esztendejét.<br></quote>Jézus összecsavarta a tekercset, visszaadta a zsinagógaszolgának és leült. A zsinagógában minden szem rászegeződött. Akkor elkezdte kifejteni nekik: „Ma a ti fületek hallatára teljesedett be ez az Írás.”"
+            }
+
+        ]
+	},
     "NAB064Csutortok": {
         "igenaptarId": "NAB064Csutortok",
         "name": "Nagycsütörtök, az utolsó vacsora miséje",
