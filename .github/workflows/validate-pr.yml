@@ -1,4 +1,4 @@
-name: Validate Pull Request
+name: Validate Pull Request - Validation
 
 on:
   pull_request:
@@ -27,21 +27,3 @@ jobs:
         id: validate
         run: python validate_igenaptar.py
         continue-on-error: false
-      
-      - name: Comment PR with validation result
-        if: always()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const result = context.job.status === 'success' ? '✅' : '❌';
-            const message = `## ${result} Validáció eredménye\n\n`;
-            const status = context.job.status === 'success' 
-              ? '✅ A Pull Request-nek van esélye - szépen lement minden!'
-              : '❌ Validálási hiba - kérjük, ellenőrizze a generate és validate lépéseket';
-            
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: message + status
-            });
