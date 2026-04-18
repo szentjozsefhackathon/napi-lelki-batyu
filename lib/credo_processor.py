@@ -11,8 +11,8 @@ credotypes = {
     "nincs": "",
     "terdhajtas": "Hitvallás (térdhajtással)",
     "keneDeNincs": "(nincs Hitvallás)",
-    "szekesegyhaz": "(a székesegyházban van, azon kívül nincs Hitvallás)",
-    "szent": "(az egyházmegyében van, azon kívül nincs Hitvallás)"
+    "szekesegyhaz": "(Hitvallás a székesegyházban van, azon kívül nincs)",
+    "szent": "(Hitvallás az egyházmegyében van, azon kívül nincs)"
 }
 
 def main (celebration: Dict[str, Any]) -> str:
