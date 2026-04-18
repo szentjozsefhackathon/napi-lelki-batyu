@@ -52,6 +52,6 @@ jobs:
         with:
           # Upload entire directory
           path: 'batyuk/'
-      # - name: Deploy to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
