@@ -9,20 +9,43 @@ from lib import (
 credotypes = {
     "van": "Hitvallás van",
     "nincs": "",
-    "keneDeNincs": "Nincs hitvallás"
+    "keneDeNincs": "(nincs Hitvallás)",
+    "szekesegyhaz": "(a székesegyházban van, azon kívül nincs Hitvallás)",
+    "szent": "(az egyházmegyében van, azon kívül nincs Hitvallás)"
 }
 
 def main (celebration: Dict[str, Any]) -> str:
     try:
         dayOfWeek = celebration["dayofWeek"]
+        season = celebration["season"]
+        level = celebration["level"]
+        name = celebration["name"]
+        typeLocal = celebration["typeLocal"]
     except Exception as e:
         error_handler.error(str(e))
         return "default"
     try:
-        if (dayOfWeek == 0):
+        if (
+                dayOfWeek == "0" or
+                level == "6" or
+                (level == "2" and (name != "Hamvazószerda" or season != "7")) or
+                (level == "3" and name != "Halottak napja")
+            ):
             credo = "van"
         else:
-            credo = "nincs"
+            if (
+                season == "9" or
+                season == "3"
+            ):
+                credo = "keneDeNincs"
+            else:
+                if "székes" in str(typeLocal).lower():
+                    credo = "szekesegyhaz"
+                else:
+                    if "védő" in str(typeLocal).lower():
+                        credo = "szent"
+                    else:
+                        credo = "nincs"
     except Exception as e:
         error_handler.error(str(e))
         return "default"
