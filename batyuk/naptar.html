@@ -295,6 +295,13 @@
 
                 unnep += loadReadings(value)
 
+                if(value.gloria != ""){
+                  unnep += ", <b><i>" + value.gloria + "</i></b>"
+                }
+                if(value.credo != ""){
+                  unnep += ", <b><i>" + value.credo + "</i></b>"
+                }
+
                 unnep += "<br>"
               }
 
