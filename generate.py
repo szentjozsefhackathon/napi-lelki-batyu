@@ -242,7 +242,7 @@ def main():
     )
     parser.add_argument(
         '--do-next-year',
-        action='store_false',
+        action='store_true',
         help='generate next year as well',
         default=False,
         dest='next_year'

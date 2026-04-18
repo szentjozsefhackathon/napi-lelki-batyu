@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run script
-        run: python generate.py --previous-years 1
+        run: python generate.py --previous-years 1 --do-next-year
         continue-on-error: false
       - name: Validate igenaptar.json
         run: python validate_igenaptar.py
