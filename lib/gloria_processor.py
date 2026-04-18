@@ -15,6 +15,8 @@ gloriaTypes = {
 def main (celebration: Dict[str, Any]) -> str:
     try:
         dayOfWeek = celebration["dayofWeek"]
+        season = celebration["season"]
+        
     except Exception as e:
         error_handler.error(str(e))
         return "default"
