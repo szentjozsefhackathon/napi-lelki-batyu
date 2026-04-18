@@ -1144,3 +1144,187 @@ szentek - 05-10: !!! Ez vajon mi lehet? Olvasmányok a lelkipásztorok közös o
 2026-04-18 18:29:59.923877 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
 2026-04-18 18:29:59.928415 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
 2026-04-18 18:29:59.942879 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:49:22.791485 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:49:22.794687 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:49:22.795736 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:49:22.796796 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:49:22.797581 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:49:22.871778 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:49:22.872312 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:49:22.872575 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:49:23.492300 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:49:23.561939 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:49:23.562632 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:49:23.575192 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:49:23.575494 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:49:23.576186 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:49:23.576477 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:49:23.813638 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:49:23.814022 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:49:24.168162 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:49:24.171122 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:49:24.172453 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:49:24.208972 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:49:24.213349 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:49:24.227198 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:17.773298 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:50:17.775864 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:50:17.776863 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:50:17.777837 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:50:17.778894 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:50:17.839836 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:50:17.840383 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:50:17.840621 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:50:18.334546 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:50:18.421299 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:50:18.422221 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:18.438170 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:50:18.438419 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:18.438794 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:50:18.438999 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:18.669836 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:50:18.670508 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:18.809074 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:50:18.809775 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:18.810524 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:18.857233 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:50:18.860767 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:50:18.882391 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:58.898524 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:50:58.903966 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:50:58.905053 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:50:58.905937 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:50:58.906921 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:50:58.961153 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:50:58.961690 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:50:58.961934 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:50:59.362169 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:50:59.405312 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:50:59.406166 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:59.418490 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:50:59.418814 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:59.419291 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:50:59.419521 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:59.787101 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:50:59.787494 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:50:59.946983 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:50:59.947499 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:59.947969 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:50:59.998015 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:51:00.001087 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:51:00.023442 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:53:32.552385 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:53:32.555825 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:53:32.557236 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:53:32.558197 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:53:32.559120 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:53:32.624038 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:53:32.629144 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:53:32.630101 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:53:33.219394 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:53:33.251532 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:53:33.251852 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:53:33.292289 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:53:33.292931 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:53:33.293533 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:53:33.293759 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:53:33.657079 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:53:33.657389 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:53:33.834716 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:53:33.835293 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:53:33.835763 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:53:33.882695 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:53:33.885964 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:53:33.900401 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:54:09.674427 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:54:09.680142 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:54:09.682822 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:54:09.684117 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:54:09.685067 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:54:09.738813 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:54:09.739271 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:54:09.740137 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:54:09.918968 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:54:09.966120 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:54:09.966491 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:54:09.981276 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:54:09.981933 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:54:09.983118 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:54:09.983520 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:54:10.193577 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:54:10.193845 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:54:10.347399 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:54:10.348065 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:54:10.350197 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:54:10.391537 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:54:10.394424 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:54:10.414164 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:58:14.492479 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 18:58:14.500500 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 18:58:14.501927 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 18:58:14.503381 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 18:58:14.504487 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 18:58:14.568845 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 18:58:14.570674 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 18:58:14.571252 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:58:15.105358 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 18:58:15.147102 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 18:58:15.147609 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:58:15.181524 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 18:58:15.181861 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:58:15.182615 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 18:58:15.182882 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:58:15.537907 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 18:58:15.538175 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 18:58:15.730861 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 18:58:15.731917 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:58:15.732499 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 18:58:15.772269 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:58:15.776298 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 18:58:15.789377 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:01:20.187395 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 19:01:20.191432 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 19:01:20.192378 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 19:01:20.193921 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 19:01:20.195381 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 19:01:20.259045 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 19:01:20.260455 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 19:01:20.260823 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:01:20.559823 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 19:01:20.600797 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 19:01:20.602067 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:01:20.621399 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 19:01:20.621694 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:01:20.622244 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 19:01:20.622485 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:01:20.839422 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 19:01:20.839699 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:01:21.021807 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 19:01:21.022390 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:01:21.022948 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:01:21.278350 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:01:21.281489 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:01:21.313125 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:05:57.988180 -- Ez az olvasmánykód (False) hiányzik a kulcsok között. Ünnep: 'Karácsony Utáni 2. Vasárnap'
+2026-04-18 19:05:58.002381 -- Köznapi olvasmányoknak is kéne lenniük, de nem találjuk az azonosítójukat.
+2026-04-18 19:05:58.005115 -- Ez az olvasmánykód (01-08) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, csütörtök'
+2026-04-18 19:05:58.006653 -- Ez az olvasmánykód (01-09) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, péntek'
+2026-04-18 19:05:58.009563 -- Ez az olvasmánykód (01-10) hiányzik a kulcsok között. Ünnep: 'karácsonyi idő 2. hét, szombat'
+2026-04-18 19:05:58.078077 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'évközi idő 4. hét, szombat'
+2026-04-18 19:05:58.078505 -- Ez az olvasmánykód (EVK046Szombat) hiányzik a kulcsok között. Ünnep: 'Szűz Mária szombati emléknapja'
+2026-04-18 19:05:58.078952 -- A köznapi olvasmányok (EVK046Szombat) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:05:58.508675 -- Ez az olvasmánykód (HUS083v) hiányzik a kulcsok között. Ünnep: 'Pünkösd, vigília mise'
+2026-04-18 19:05:58.544594 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'Boldog Sándor István'
+2026-04-18 19:05:58.545055 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:05:58.570886 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Márton püspök ereklyéinek átvitele'
+2026-04-18 19:05:58.571198 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:05:58.578519 -- Ez az olvasmánykód (06-16) hiányzik a kulcsok között. Ünnep: 'Szent Neitus vértanú'
+2026-04-18 19:05:58.578971 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:05:58.882683 -- Ez az olvasmánykód (09-22) hiányzik a kulcsok között. Ünnep: 'Szent Emmerám püspök és vértanú'
+2026-04-18 19:05:58.882970 -- Kéne legyen saját olvasmánya is, de csak a közös olvasmányokat találtunk meg.
+2026-04-18 19:05:59.020562 -- Nincs eléggé jól passzoló olvasmány. Keresett: 'évközi idő 34. hét, szombat'
+2026-04-18 19:05:59.021530 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:05:59.022069 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?
+2026-04-18 19:05:59.059641 -- A köznapi olvasmányok (ADV041Hetfo) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:05:59.062983 -- A köznapi olvasmányok (ADV043Szerda) nem találhatók meg az adatbázisunkban.
+2026-04-18 19:05:59.077256 -- Több köznapi olvasmányos csoport van itt, vagy csak nehéz megtalálni?

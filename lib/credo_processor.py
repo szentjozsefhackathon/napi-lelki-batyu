@@ -26,10 +26,16 @@ def main (celebration: Dict[str, Any]) -> str:
         return "default"
     try:
         if (
-                dayOfWeek == "0" or
-                level == "6" or
-                (level == "2" and (name != "Hamvazószerda" or season != "7")) or
-                (level == "3" and name != "Halottak napja")
+                (dayOfWeek == "0") or
+                (level == "6") or
+                (level == "3" and name != "Halottak napja") or
+                (level == "2" and
+                    (
+                        name != "Hamvazószerda" and
+                        not "krizma" in str(name).lower() and
+                        season != "7"
+                    )
+                )
             ):
             credo = "van"
         else:
