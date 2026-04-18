@@ -3,3 +3,4 @@ batyuk/*.json
 igenaptar.json
 .venv/
 __pycache__/
+readings/errors.txt
