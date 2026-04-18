@@ -14,7 +14,7 @@ funkciókat logikus modulokra osztja fel:
 Tipikus használat:
 
     from lib import data_loader, reading_processor
-    
+
     breviar_data = data_loader.loadBreviarData(2024)
     readings = reading_processor.findReadings(celebration, katolikus_data, lelki_batyu)
 """
@@ -29,6 +29,8 @@ from . import data_loader
 from . import part_processor
 from . import data_transformer
 from . import reading_processor
+from . import gloria_processor
+from . import credo_processor
 
 __all__ = [
     'error_handler',
@@ -37,4 +39,6 @@ __all__ = [
     'part_processor',
     'data_transformer',
     'reading_processor',
+    'gloria_processor',
+    'credo_processor'
 ]
