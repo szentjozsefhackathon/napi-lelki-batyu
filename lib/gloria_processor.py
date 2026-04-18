@@ -8,8 +8,8 @@ from lib import (
 
 gloriaTypes = {
     "van": "Dicsőség",
-    "nincs": "--",
-    "keneDeNincs": "Dicsőség nincs"
+    "nincs": "",
+    "keneDeNincs": "(Dicsőség nincs)"
 }
 
 def main (celebration: Dict[str, Any]) -> str:
