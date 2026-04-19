@@ -9,7 +9,8 @@ from lib import (
 gloriaTypes = {
     "van": "Dicsőség",
     "nincs": "",
-    "keneDeNincs": "(Dicsőség nincs)"
+    "keneDeNincs": "(Dicsőség nincs)",
+    "vanDeNemKene": "Dicsőség van"
 }
 
 def main (celebration: Dict[str, Any]) -> str:
@@ -40,10 +41,13 @@ def main (celebration: Dict[str, Any]) -> str:
                      (dayOfWeek == 0 and (season == "10" or season == "11"))
                      or
                      (dayOfWeek == 4 and season == "7")
-                     or
-                     season == "9"
                      ):
                     gloria = "van"
+                elif(season == "9"):
+                    if(dayOfWeek == 0):
+                        gloria = "van"
+                    else:
+                        gloria = "vanDeNemKene"
                 else:
                     gloria = "nincs"
             case "3":
