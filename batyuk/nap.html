@@ -70,6 +70,7 @@
                 <span class="visually-hidden">Rangja az ünnepnek</span>
                   </span>
               </h2>
+              <p class="text-danger fst-italic _typeLocal"></p>
               <p class="lead _eletrajz"></p>
               <div class="parts accordion text-justify" id="accordionExample"></div>
                 </div>
@@ -170,6 +171,9 @@
 
                                 $('#json_' + ( key + 1 ) + ' ._name').html(data.celebration[key].name);
                                 $('#json_' + ( key + 1 ) + ' ._level').html(data.celebration[key].level);
+                                // Helyi rang, pl. "A Pécsi Egyházmegyében: ...; főünnep"
+                                var typeLocal = value.typeLocal;
+                                $('#json_' + ( key + 1 ) + ' ._typeLocal').text(typeLocal ? '(' + typeLocal.replace(/\s*\n\s*/g, ' ') + ')' : '');
                                 if(value['parts2']) {
                                   value.parts2 = value.parts2.map(function (part) {
                                     let ret = Array.isArray(part) ? [...part] : { ...part };

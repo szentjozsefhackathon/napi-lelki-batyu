@@ -71,6 +71,9 @@ def generateLelkiBatyuk(year: int) -> dict:
     # 2. Readings (olvasmányok) betöltése
     katolikus_data = data_loader.loadKatolikusData()
 
+    # Vasárnapra eső helyi főünnepek (a breviar ezeket kihagyja)
+    local_solemnities = data_loader.loadLocalSolemnities(year)
+
     # 3. Adatstruktúrák inicializálása
     lelki_batyuk = {}  # Összes nap
     index_dayofweek = {}  # Nap/hét/szezon szerinti index
@@ -105,6 +108,7 @@ def generateLelkiBatyuk(year: int) -> dict:
             if isinstance(calendar_day['Celebration'], list)
             else [calendar_day['Celebration']]
         )
+        celebrations = data_transformer.addLocalSolemnities(calendar_day, celebrations, local_solemnities)
 
         for celebration in celebrations:
             # Ünnep transzformálása XML-ből

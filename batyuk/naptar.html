@@ -293,6 +293,12 @@
 
                 }
 
+                // Helyi rang, pl. "A Pécsi Egyházmegyében: ...; főünnep"
+                var typeLocal = value.typeLocal
+                if ( typeLocal ) {
+                  unnep += " <small><i><span class=\"red\">(" + typeLocal.replace(/\s*\n\s*/g, ' ') + ")</span></i></small>"
+                }
+
                 unnep += loadReadings(value)
 
                 if(value.gloria != ""){

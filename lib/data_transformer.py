@@ -20,6 +20,12 @@ from datetime import datetime
 from typing import Dict, Any, List, Optional, Tuple
 
 
+# Helyi főünnepek, amelyeket a breviar nem jelöl: "hh-nn" -> ünnepnév -> helyi megjegyzés
+EXTRA_LOCAL_SOLEMNITIES = {
+    "10-04": {"Assisi Szent Ferenc": "A ferences templomokban: a rendalapító ünnepe; főünnep"},
+}
+
+
 def yearIorII(abc: str, year: int, season: str, month: Optional[int] = None) -> str:
     """
     Liturgikus év páritásának megállapítása.
@@ -275,6 +281,56 @@ def transformCelebration(celebration: Dict[str, Any], day: Dict[str, Any]) -> Di
         transformed['comunia'] = None
     
     return transformed
+
+
+def addLocalSolemnities(
+    calendar_day: Dict[str, Any],
+    celebrations: List[Dict[str, Any]],
+    local_solemnities: Dict[str, Dict[str, Any]]
+) -> List[Dict[str, Any]]:
+    """
+    Vasárnapra eső helyi főünnepek visszapótlása.
+
+    A helyi főünnep (4. rang) megelőzi az évközi és karácsonyi idő vasárnapjait
+    és az Úr ünnepeit, ezért ezeken a vasárnapokon második ünneplésként
+    hozzáadjuk, "főünnep" típussal és 4-es ranggal. Advent, nagyböjt és húsvét
+    vasárnapjain, illetve általános főünnepeken nem pótoljuk (ilyenkor át kellene
+    helyezni). Az EXTRA_LOCAL_SOLEMNITIES helyi megjegyzéseit hétköznap is beírjuk.
+
+    Args:
+        calendar_day (Dict[str, Any]): A nap breviar adata
+        celebrations (List[Dict[str, Any]]): A nap breviar ünneplései
+        local_solemnities (Dict[str, Dict[str, Any]]): data_loader.loadLocalSolemnities eredménye
+
+    Returns:
+        List[Dict[str, Any]]: Az ünneplések, szükség esetén a helyi főünneppel bővítve
+    """
+    month_day = calendar_day['DateMonth'].zfill(2) + "-" + calendar_day['DateDay'].zfill(2)
+
+    # Hétköznap is jelezzük a breviarból hiányzó helyi megjegyzést
+    for celebration in celebrations:
+        extra_type_local = EXTRA_LOCAL_SOLEMNITIES.get(month_day, {}).get(str(celebration['LiturgicalCelebrationName']))
+        if extra_type_local and celebration['LiturgicalCelebrationTypeLocal'] is None:
+            celebration['LiturgicalCelebrationTypeLocal'] = extra_type_local
+
+    if calendar_day['DayOfWeek']['@Id'] != '0' or int(celebrations[0]['LiturgicalCelebrationLevel']) <= 4:
+        return celebrations
+
+    existing_names = [str(celebration['LiturgicalCelebrationName']) for celebration in celebrations]
+
+    for name, local_solemnity in local_solemnities.get(month_day, {}).items():
+        if name in existing_names:
+            continue
+
+        celebration = local_solemnity.copy()
+        # A liturgikus idő adatai az adott évből kellenek
+        for key in ['LiturgicalSeason', 'LiturgicalWeek', 'LiturgicalWeekOfPsalter', 'LiturgicalYearLetter']:
+            celebration[key] = celebrations[0][key]
+        celebration['LiturgicalCelebrationType'] = {'#text': 'főünnep', '@Id': '1'}
+        celebration['LiturgicalCelebrationLevel'] = '4'
+        celebrations = celebrations + [celebration]
+
+    return celebrations
 
 
 def addCustomCelebrationstoBreviarData(lelki_batyu: Dict[str, Any]) -> None:
