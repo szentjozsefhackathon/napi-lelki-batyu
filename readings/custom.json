@@ -113,7 +113,113 @@
             "teaser" : "Itt semmi nincs",
             "text" : "De igazán semmi de semmi, amit ide leírhatunk"
         }]
+	},
+	"VIG06-24": {
+	    "igenaptarId": "VIG06-24",
+	    "name": "Vigília - Keresztelő Szent János születése",
+	    "parts": [
+	        {
+	            "short_title": "olvasmány",
+	            "ref": "Jer 1,4-10",
+	            "teaser": "Mielőtt megszülettél, fölszenteltelek.",
+	            "title": "OLVASMÁNY Jeremiás próféta könyvéből",
+	            "text": "Így szólt hozzám az Úr: „Mielőtt megalkottalak anyád méhében, már ismertelek; mielőtt megszülettél volna, fölszenteltelek, és prófétául rendeltelek a nemzetek javára.”<br>\nErre azt mondtam: „Jaj, Uram Isten! Nézd, nem tudok én beszélni, hiszen még ifjú vagyok.”<br>\nDe az Úr így válaszolt: „Ne mondd azt, hogy ifjú vagyok, hanem menj el azokhoz, akikhez küldelek, és mondd el nekik mind, amit parancsolok. Ne félj tőlük, mert veled vagyok, és megoltalmazlak – az Úr mondja ezt neked.”<br>\nAkkor az Úr kinyújtotta kezét, megérintette ajkamat, és így szólt hozzám: „Nézd, ajkadra adom szavaimat, ma nemzetek és országok fölé állítalak, hogy gyomlálj és rombolj, pusztíts és szétszórj, építs és ültess.”",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "zsoltár",
+	            "ref": "Zsolt 70,1-2.3-4a.5-6ab.15ab és 17",
+	            "teaser": "(A zsoltárverseket a Szent István Társulati Bibliából közöljük, a válasz nélkül.)",
+	            "text": "(A zsoltárverseket a Szent István Társulati Bibliából közöljük, a válasz nélkül.)<br>\nUram, hozzád menekülök, ne hagyj soha szégyent vallanom! Igazságodban ments meg, szabadíts meg! Fordítsd felém füled és siess segítségemre!<br>\nLégy megmentő sziklám, erős váram! Valóban te vagy sziklám és váram. Istenem, ments meg engem a gonoszok kezétől!<br>\nMert te vagy, Istenem, bizodalmam, Uram, te vagy reményem ifjúságom óta. Anyám méhétől fogva veled tartottam, anyám ölétől kezdve te voltál osztályrészem.<br>\nSzám hirdeti igazságosságodat, naphosszat segítségedet. Istenem, te tanítottál ifjúkorom óta, még ma is csodáidról emlékezem."
+	        },
+	        {
+	            "short_title": "szentlecke",
+	            "ref": "1Pt 1,8-12",
+	            "teaser": "Ezt az üdvösséget keresték és kutatták a próféták.",
+	            "title": "SZENTLECKE Szent Péter apostol első leveléből",
+	            "text": "Szeretteim! (Jézus Krisztust,) akit noha nem láttatok, mégis szerettek; bár most sem látjátok, mégis hisztek benne. De mivel hisztek, ujjonghattok a megdicsőültek kimondhatatlan örömével, mert eléritek hitetek célját: lelketek üdvösségét.<br>\nEzt az üdvösséget keresték és kutatták a próféták, akik a nektek szánt kegyelemről jövendöltek. Töprengtek rajta, vajon milyen időpontra vagy milyen korra mutat Krisztusnak bennük működő Lelke, előre megmondva a Krisztusra váró szenvedéseket és az azutáni dicsőséget.<br>\nKinyilatkoztatást kaptak, hogy ne maguknak, hanem nektek legyenek szolgálatotokra azzal, amit az evangélium hirdetői most közöltek veletek az égből küldött Szentlélek erejéből. Ezekbe (az igazságokba) maguk az angyalok is csak vágynak bepillantani.",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "evangélium",
+	            "ref": "Lk 1,5-17",
+	            "teaser": "Keresztelő János születésének hírüladása.",
+	            "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+	            "text": "Heródesnek, Júdea királyának korában élt egy Abija osztályából való Zakariás nevű pap. Felesége Áron leányai közé tartozott, s Erzsébetnek hívták. Mindketten igazak voltak az Isten előtt, szentül éltek, az Úr parancsai és rendelkezései szerint. De nem volt gyermekük, mert Erzsébet meddő volt, és már mindketten életük alkonya felé jártak.<br>\nTörtént mégis, hogy amikor Zakariás osztályának sorrendjében papi szolgálatát teljesítette az Isten színe előtt, s a papság körében hagyományos szokás szerint rá esett a sor, hogy illatáldozatot mutasson be, bement az Úr templomának szentélyébe. Az illatáldozat órájában az egész nép kint várta, és közben imádkozott.<br>\nÁm megjelent neki az Úr angyala az illatáldozat oltárának jobb oldalán. Amikor Zakariás meglátta, zavarba jött, és elfogta a félelem. Az angyal azonban így szólt hozzá: „Ne félj, Zakariás, mert imád meghallgatásra talált! Feleséged, Erzsébet, fiút szül neked, s te Jánosnak fogod nevezni. Örömödre lesz, és ujjongani fogsz rajta, és sokan örülnek majd születésén. Mert nagy lesz az Úr előtt, bort és mámorító italt nem fog inni, hanem már anyja méhében a Szentlélek fogja eltölteni. Izrael fiai közül sokat megtérít Urukhoz, Istenükhöz. Ő maga Illés szellemével és erejével előtte fog járni az Úrnak, hogy az apák szívét fiaik felé fordítsa, az engedetleneket az igazak okosságára térítse, s így a népet előkészítse az Úrnak.”",
+	            "ending": "Ezek az evangélium igéi."
+	        }
+	    ]
+	},
+	"VIG06-29": {
+	    "igenaptarId": "VIG06-29",
+	    "name": "Vigília - Szent Péter és Szent Pál apostolok",
+	    "parts": [
+	        {
+	            "short_title": "olvasmány",
+	            "ref": "ApCsel 3,1-10",
+	            "teaser": "Péter apostol Jézus Krisztus nevében gyógyít. ",
+	            "title": "OLVASMÁNY az Apostolok Cselekedeteiből",
+	            "text": "Péter és János apostol egyszer a három órai imádság idején fölmentek a templomba.<br>\nVolt egy születése óta béna ember, akit naponta elhoztak, és letettek a templom úgynevezett Ékes-kapujánál, hogy alamizsnát kéregessen a templomba menőktől. Meglátta Pétert és Jánost, akik éppen belépni készültek a templomba, és alamizsnát kért tőlük.<br>\nPéter Jánossal együtt rátekintett, és megszólította: „Nézz ránk! Erre feléjük fordult abban a reményben, hogy kap tőlük valamit. Péter azonban így folytatta: „Aranyom, ezüstöm nincs. De amim van, azt neked adom: a názáreti Jézus Krisztus nevében kelj fel, és járj!”<br>\nMegfogta a béna kezét, és felsegítette. Azonnal életerő szállt a lábába, felugrott, és járni kezdett. Bement velük a templomba, járt-kelt, örömében ugrándozott, és dicsőítette Istent.<br>\nAz egész nép látta, hogy jár, és Istennek hálálkodik. Ráismertek, hogy ő az a béna koldus, aki a templom Ékes-kapujánál szokott ülni. Megdöbbentek, és nem tudták, hová legyenek a csodálkozástól, hogy ez történt vele.",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "zsoltár",
+	            "ref": "Zsolt 18,2-3.4-5",
+	            "teaser": "Válasz: <b>Minden földre * elhat szózatuk.</b> (2a. vers. - 2. tónus)",
+	            "text": "Válasz: <b>Minden földre * elhat szózatuk.</b> (2a. vers. - 2. tónus)<br>\nElőénekes: Isten dicsőségét az egek hirdetik, * a mennybolt vallja kezének művét.<br>\nEzt harsogja át egyik nap a másiknak, * erre oktatja éj az éjszakát.<br>\nHívek: Minden földre * elhat szózatuk.<br>\nE: Nem olyan hang ez, nem olyan beszéd, * hogy meg ne értenéd szavát.<br>\nMinden földre elhat szózatuk, * a földkerekség végéig eljut igéjük.<br>\nH: Minden földre * elhat szózatuk."
+	        },
+	        {
+	            "short_title": "szentlecke",
+	            "ref": "Gal 1,11-20",
+	            "teaser": "Isten kinyilatkoztatta bennem Fiát, hogy hirdessem a pogányoknak.",
+	            "title": "SZENTLECKE Szent Pál apostolnak a galatákhoz írt leveléből",
+	            "text": "Biztosítalak benneteket, testvérek, hogy az általam hirdetett evangélium nem embertől való. Hiszen nem embertől kaptam vagy tanultam, hanem Jézus Krisztus kinyilatkoztatásából.<br>\nHallhattátok már, hogy azelőtt, még mint zsidó, milyen magatartást tanúsítottam: könyörtelenül üldöztem az Isten egyházát és a romlására törtem. A zsidó vallásosságban számos fajtámbeli kortársamat felülmúltam, mert fölöttébb buzgó követője voltam atyáim hagyományainak.<br>\nDe amikor úgy tetszett annak, aki már születésemtől fogva kiválasztott és kegyelmével meghívott, hogy kinyilatkoztassa bennem Fiát, hogy hirdessem a pogányoknak; nem hallgattam a testre és a vérre, és Jeruzsálembe sem mentem föl apostolelődeimhez, hanem elmentem Arábiába, majd ismét visszatértem Damaszkuszba.<br>\nHárom év múltán azután fölmentem Jeruzsálembe, hogy megismerkedjem Péterrel, s nála maradtam tizenöt napig. Más apostolt nem is láttam, csak Jakabot, az Úr testvérét. Amit itt írok, Isten előtt mondom, nem hazugság.",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "evangélium",
+	            "ref": "Jn 21,15-19",
+	            "teaser": "Legeltesd juhaimat! Legeltesd bárányaimat! ",
+	            "title": "† EVANGÉLIUM Szent János könyvéből",
+	            "text": "Amikor (feltámadása után egy alkalommal) Jézus megjelent tanítványainak és velük étkezett, megkérdezte Simon Pétertől: „Simon, János fia, jobban szeretsz-e engem, mint ezek?” Péter így szólt: „Igen, Uram, te tudod, hogy szeretlek.” Erre Jézus azt mondta neki: „Legeltesd bárányaimat!”<br>\nAztán újra megkérdezte tőle: „Simon, János fia, szeretsz te engem?” Ő azt felelte: „Igen, Uram, tudod, hogy szeretlek!” Erre azt mondta neki: „Legeltesd juhaimat!”<br>\nMajd harmadszor is megkérdezte tőle: „Simon, János fia, szeretsz engem?” Péter elszomorodott, hogy harmadszor is megkérdezte: „Szeretsz engem?”, és ezt válaszolta: „Uram, te mindent tudsz, azt is tudod, hogy szeretlek!” Jézus pedig ismét ezt mondta: „Legeltesd juhaimat!<br>\nBizony, bizony, mondom neked: Amikor még fiatal voltál, felövezted magad, és oda mentél, ahová akartál. De ha megöregszel, kiterjeszted karjaidat. Más fog felövezni téged, és oda visz, ahova nem akarod.” Azt jelezte e szavakkal, hogy (Péter) milyen halállal dicsőíti majd meg az Istent. Azután még hozzátette: „Kövess engem!”",
+	            "ending": "Ezek az evangélium igéi."
+	        }
+	    ]
+	},
+	"VIG08-15": {
+	    "igenaptarId": "VIG08-15",
+	    "name": "Vigília - Szűz Mária mennybevétele (Nagyboldogasszony)",
+	    "parts": [
+	        {
+	            "short_title": "olvasmány",
+	            "ref": "1Krón 15,3-4.15-16;16,1-2",
+	            "teaser": "Bevitték az Isten ládáját, és elhelyezték a sátor közepén.",
+	            "title": "OLVASMÁNY a Krónikák első könyvéből",
+	            "text": "Abban az időben Dávid összehívta Jeruzsálemben egész Izraelt, hogy az Úr ládáját vigyék a helyére, amelyet készített neki. Dávid Áron fiait és a levitákat is odarendelte.<br>\nA leviták a vállukon hozták a ládát rudakon, ahogy Mózes az Úr parancsára elrendelte. Dávid megparancsolta a leviták vezetőinek, hogy állítsák sorba testvéreiket, az énekeseket – hangszerekkel, hárfákkal, citerákkal és cintányérokkal fölszerelve –, és hallassanak örömrivalgást.<br>\nAz Isten ládáját bevitték és elhelyezték a sátor közepén, amelyet Dávid emelt neki. Azután égőáldozatot és közösségi áldozatot mutattak be Istennek. Amikor Dávid befejezte az égő- és közösségi áldozat bemutatását, megáldotta a népet az Úr nevében.",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "zsoltár",
+	            "ref": "Zsolt 131,6-7.9-10.13-14",
+	            "teaser": "(A zsoltárverseket a Szent István Társulati Bibliából közöljük, a válasz nélkül.)",
+	            "text": "(A zsoltárverseket a Szent István Társulati Bibliából közöljük, a válasz nélkül.)<br>\nLám, hallottunk róla Efratában, megtaláltuk Jaar mezején. Most hát vonuljunk hajlékához, boruljunk le lába zsámolya előtt.<br>\nPapjaid öltözzenek igazságba, akik hűek hozzád, örömükben ujjongjanak! Szolgádnak, Dávidnak kedvéért, ne vesd meg fölkented arcát!<br>\nAz Úr kiválasztotta Siont, lakóhelyéül kiszemelte. „Ez nyugalmam helye örökre. Itt fogok lakni, ezt választottam ki.”"
+	        },
+	        {
+	            "short_title": "szentlecke",
+	            "ref": "1Kor 15,54-57",
+	            "teaser": "Isten győzelemre segít minket Jézus Krisztus, a mi Urunk által.",
+	            "title": "SZENTLECKE Szent Pál apostolnak a korintusiakhoz írt első leveléből",
+	            "text": "Testvérek! Amikor a romlandó magára ölti a romlatlanságot, a halandó a halhatatlanságot, akkor teljesedik az Írás szava: A győzelem elnyelte a halált. Halál, hol a te győzelmed? Halál, hol a te fullánkod?<br>\nA halál fullánkja a bűn, a bűn ereje pedig a törvény. De legyen hála Istennek, mert ő győzelemre segít minket, Jézus Krisztus, a mi Urunk által.",
+	            "ending": "Ez az Isten igéje."
+	        },
+	        {
+	            "short_title": "evangélium",
+	            "ref": "Lk 11,27-28",
+	            "teaser": "Jézus arról tanít, hogy ki lehet igazán boldog. ",
+	            "title": "† EVANGÉLIUM Szent Lukács könyvéből",
+	            "text": "Egy alkalommal, amikor Jézus tanított, felkiáltott egy asszony a tömegből: „Boldog a méh, mely hordozott téged, és az emlő, amely táplált!”<br>\nErre ő így válaszolt: „És még milyen boldogok azok, akik Isten szavát hallgatják és meg is tartják!”",
+	            "ending": "Ezek az evangélium igéi."
+	        }
+	    ]
 	}
 }
-
-
