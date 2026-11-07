@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
       
       - name: Run generate script
-        run: python generate.py
+        run: python generate.py --previous-years 1 --do-next-year
         continue-on-error: false
       
       - name: Validate igenaptar.json
