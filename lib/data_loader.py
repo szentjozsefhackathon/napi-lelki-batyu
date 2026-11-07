@@ -16,6 +16,7 @@ Tipikus használat:
 """
 
 import json
+import os
 import sys
 from typing import Any, Dict, List, Optional
 
@@ -25,6 +26,7 @@ import Levenshtein
 
 from .file_handler import writeDataFormattedJSONfile
 from .error_handler import error, exit_with_error
+from .data_transformer import EXTRA_LOCAL_SOLEMNITIES
 
 
 def downloadBreviarData(year: int) -> None:
@@ -114,6 +116,60 @@ def loadBreviarData(year: int) -> Dict[str, Any]:
         exit_with_error(f"A fájl nem található: {filename}")
     except json.JSONDecodeError as e:
         exit_with_error(f"Hibás JSON a {filename} fájlban: {e}")
+
+
+def loadLocalSolemnities(year: int) -> Dict[str, Dict[str, Any]]:
+    """
+    Vasárnapra eső helyi főünnepek összegyűjtése a szomszédos évekből.
+
+    A breviar a vasárnapra eső helyi (egyházmegyei, székesegyházi) főünnepeket
+    kihagyja, pl. Szent Mór (10-25) a Pécsi Egyházmegyében főünnep, de ha
+    vasárnapra esik, nyoma sincs. A szomszédos években ugyanez a dátum nem
+    vasárnap, így onnan kigyűjthetők azok az ünnepek, amelyek helyi
+    megjegyzésében (LiturgicalCelebrationTypeLocal) szerepel a "főünnep".
+    Az EXTRA_LOCAL_SOLEMNITIES-ben felsorolt ünnepek is ide kerülnek.
+
+    Args:
+        year (int): Az év, amelyhez a helyi főünnepeket keressük
+
+    Returns:
+        Dict[str, Dict[str, Any]]: "hh-nn" -> ünnepnév -> breviar celebration
+    """
+    local_solemnities = {}
+
+    for other_year in [year - 1, year + 1]:
+        if not os.path.exists(f"breviarData_{other_year}.json"):
+            downloadBreviarData(other_year)
+        other_data = loadBreviarData(other_year)
+
+        for calendar_day in other_data['LHData']['CalendarDay']:
+            month_day = calendar_day['DateMonth'].zfill(2) + "-" + calendar_day['DateDay'].zfill(2)
+            celebrations = (
+                calendar_day['Celebration']
+                if isinstance(calendar_day['Celebration'], list)
+                else [calendar_day['Celebration']]
+            )
+
+            for celebration in celebrations:
+                name = str(celebration['LiturgicalCelebrationName'])
+
+                extra_type_local = EXTRA_LOCAL_SOLEMNITIES.get(month_day, {}).get(name)
+                if extra_type_local:
+                    celebration = celebration.copy()
+                    celebration['LiturgicalCelebrationTypeLocal'] = extra_type_local
+
+                type_local = celebration['LiturgicalCelebrationTypeLocal']
+                if isinstance(type_local, dict):
+                    type_local = type_local.get('#text')
+
+                # Csak a helyi főünnepek kellenek, az általános főünnepeket a breviar nem hagyja ki
+                if (not type_local or 'főünnep' not in type_local or
+                        celebration['LiturgicalCelebrationType']['#text'] == 'főünnep'):
+                    continue
+
+                local_solemnities.setdefault(month_day, {}).setdefault(name, celebration)
+
+    return local_solemnities
 
 
 def loadKatolikusData() -> Dict[str, Any]:
